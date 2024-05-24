@@ -1,4 +1,4 @@
-name: Update database and deploy to Cloud Run
+name: Update database and deploy to gcloud run
 
 on:
     workflow_dispatch:
