@@ -1,4 +1,4 @@
-name: Scraping Workflow
+name: Upodate database
 
 on:
     workflow_dispatch:
