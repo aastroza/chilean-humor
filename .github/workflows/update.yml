@@ -1,4 +1,4 @@
-name: Upodate database
+name: Update database
 
 on:
     workflow_dispatch:
