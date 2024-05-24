@@ -23,10 +23,15 @@ jobs:
             pip install -r requirements.txt
         - name: Run build_database.py
           run: python src/chilean_humor/build_database.py
-        - name: Commit and push if there are changes
-          run: |
-            git config --local user.email "actions@github.com"
-            git config --local user.name "GitHub Actions"
-            git add data/
-            git commit -m "Automatically update data" -a || echo "No changes to commit"
-            git push
+        - name: Set up Cloud Run
+          uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+          with:
+            version: '275.0.0'
+            service_account_email: ${{ secrets.GCP_SA_EMAIL }}
+            service_account_key: ${{ secrets.GCP_SA_KEY }}
+        - name: Deploy to Cloud Run
+          run: |-
+            gcloud components install beta
+            gcloud config set run/region us-central1
+            gcloud config set project Chilean-Humor
+            datasette publish cloudrun humor.db --service chilean-humor -m metadata.json

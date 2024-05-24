@@ -1,0 +1,11 @@
+{
+    "databases": {
+        "humor": {
+            "tables": {
+                "routines": {
+                    "sort_desc": "DATE"
+                }
+            }
+        }
+    }
+}
