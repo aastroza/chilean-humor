@@ -22,6 +22,8 @@ And here is a cumulative count of how many times a man or woman has performed co
 
 ![gender](/images/gender_line_plot.png)
 
+Code: [Jupyter Notebook](/notebooks/00_explore_ficvn_data.ipynb)
+
 ## Technical explanation
 
 I’m using [GitHub Actions](https://github.com/features/actions) and [Google Cloud Run](https://cloud.google.com/run) to automatically publish data and deploy it as a public website every time the data is updated. The website can be queried using [Datasette](https://datasette.io/).
