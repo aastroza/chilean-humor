@@ -1,4 +1,4 @@
-# chilean-humor [Work In Progress]
+# chilean-humor [Work in progress]
 
 Tracking the history of Chilean humor.
 
@@ -12,13 +12,23 @@ A list of every humor routine in the history of the [Festival de Viña](https://
 A list of [Dino Gordillo](https://es.wikipedia.org/wiki/Dino_Gordillo)'s shows.
 ![routines-dino](/images/website-capture-02.PNG)
 
-## Technical Explanation
+## Quick insights
 
-I’m using [GitHub Actions](https://github.com/features/actions) and [Google Cloud Run](https://cloud.google.com/run) to automatically publish data and deploy it as a public website every time the data changes. The website can be queried using [Datasette](https://datasette.io/).
+A chart showing the age of each comedian when they performed on stage. Notice the trend of younger comedians starting in the 2010s (perhaps the stand-up comedy effect?).
+
+![age](/images/age_line_plot.png)
+
+And here is a cumulative count of how many times a man or woman has performed comedy at Festival de Viña.
+
+![gender](/images/gender_line_plot.png)
+
+## Technical explanation
+
+I’m using [GitHub Actions](https://github.com/features/actions) and [Google Cloud Run](https://cloud.google.com/run) to automatically publish data and deploy it as a public website every time the data is updated. The website can be queried using [Datasette](https://datasette.io/).
 
 This project is inspired by [Simon Willison's example](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/).
 
-### Additional Steps to Make it Work
+### Additional steps to make it work
 
 - First, you must [enable billing](https://stackoverflow.com/questions/68536433/unable-to-submit-build-to-cloud-build-due-to-permissions-error) in your Google Cloud project.
 - Follow Simon's [steps](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/), especially for setting up the Google Cloud Service Account.
