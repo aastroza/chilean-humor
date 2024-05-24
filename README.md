@@ -14,7 +14,7 @@ A list of [Dino Gordillo](https://es.wikipedia.org/wiki/Dino_Gordillo)'s shows.
 
 ## Technical Explanation
 
-I’m using GitHub Actions and Google Cloud Run to publish data and deploy it as a public website that can be queried using Datasette.
+I’m using [GitHub Actions](https://github.com/features/actions) and [Google Cloud Run](https://cloud.google.com/run) to automatically publish data and deploy it as a public website every time the data changes. The website can be queried using [Datasette](https://datasette.io/).
 
 This project is inspired by [Simon Willison's example](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/).
 
