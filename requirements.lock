@@ -55,6 +55,7 @@ click-default-group==1.2.4
 colorama==0.4.6
     # via click
     # via ipython
+    # via loguru
 comm==0.2.2
     # via ipykernel
     # via ipywidgets
@@ -172,6 +173,8 @@ jupyterlab-widgets==3.0.10
     # via ipywidgets
 kiwisolver==1.4.5
     # via matplotlib
+loguru==0.7.2
+    # via chilean-humor
 markupsafe==2.1.5
     # via jinja2
     # via nbconvert
@@ -289,6 +292,7 @@ referencing==0.35.1
     # via jupyter-events
 requests==2.32.2
     # via jupyterlab-server
+    # via youtube-transcript-api
 rfc3339-validator==0.1.4
     # via jsonschema
     # via jupyter-events
@@ -374,3 +378,7 @@ websocket-client==1.8.0
     # via jupyter-server
 widgetsnbextension==4.0.10
     # via ipywidgets
+win32-setctime==1.1.0
+    # via loguru
+youtube-transcript-api==0.6.2
+    # via chilean-humor
