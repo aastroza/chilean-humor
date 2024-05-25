@@ -1,7 +1,17 @@
 import sqlite_utils
 import pandas as pd
 import json
-from chilean_humor.utils import extract_video_id
+import re
+
+def extract_video_id(url: str) -> str:
+    match = re.search(
+        r"^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$",
+        url,
+    )
+    if match:
+        return match.group(1)
+    else:
+        raise ValueError("Invalid youtube url")
 
 # Create a connection to the database
 db = sqlite_utils.Database("humor.db")
