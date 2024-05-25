@@ -12,6 +12,9 @@ A list of every humor routine in the history of the [Festival de Viña](https://
 A list of [Dino Gordillo](https://es.wikipedia.org/wiki/Dino_Gordillo)'s shows.
 ![routines-dino](/images/website-capture-02.PNG)
 
+A transcript of [Luis Slimming](https://es.wikipedia.org/wiki/Luis_Slimming) show.
+![transcript](/images/website-capture-03.PNG)
+
 ## Quick insights
 
 A chart showing the age of each comedian when they performed on stage. Notice the trend of younger comedians starting in the 2010s (perhaps the stand-up comedy effect?).
