@@ -4,9 +4,6 @@
             "tables": {
                 "routines": {
                     "sort_desc": "DATE"
-                },
-                "transcripts": {
-                    "sort_desc": "ID"
                 }
             }
         }
