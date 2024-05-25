@@ -1,18 +1,9 @@
 import pandas as pd
-import re
 from loguru import logger
 from chilean_humor.transcribe import transcribe_youtube
 from chilean_humor.segment import group_speech_segments
+from chilean_humor.utils import extract_video_id
 
-def extract_video_id(url: str) -> str:
-    match = re.search(
-        r"^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$",
-        url,
-    )
-    if match:
-        return match.group(1)
-    else:
-        raise ValueError("Invalid youtube url")
 
 def download_transcript(
         url: str,
