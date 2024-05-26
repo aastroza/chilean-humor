@@ -13,6 +13,10 @@ def extract_video_id(url: str) -> str:
     else:
         raise ValueError("Invalid youtube url")
 
+def convert_to_seconds(time_str):
+    h, m, s = map(int, time_str.split(':'))
+    return h * 3600 + m * 60 + s
+
 # Create a connection to the database
 db = sqlite_utils.Database("humor.db")
 
@@ -20,6 +24,7 @@ db = sqlite_utils.Database("humor.db")
 routines_df = pd.read_csv("data/routines.csv")
 comedians_df = pd.read_csv("data/comedians.csv")
 shows_df = pd.read_csv("data/shows.csv")
+jokes_df = pd.read_csv("data/jokes.csv")
 
 # Youtube transcripts
 
@@ -38,12 +43,21 @@ for routine_id, url in zip(routines_df["ID"], routines_df["VIDEO"]):
 
 transcripts_df = pd.DataFrame(transcripts)
 
+jokes_df['START_TIME'] = jokes_df['start_timestamp'].apply(convert_to_seconds)
+jokes_df['URL'] = jokes_df.apply(lambda row: f"https://www.youtube.com/watch?v={row['video_id']}&start={row['START_TIME']}", axis=1)
+
+jokes_df = jokes_df[['routine_id', 'show_id', 'event_name', 'start_timestamp', 'text', 'URL']]
+jokes_df.columns = ["ROUTINEID", "SHOWID", "EVENTNAME", "TIMESTAMP", "TEXT", "URL"]
+
 db["routines"].insert_all(routines_df.to_dict(orient="records"), alter=True, pk="ID")
 db["comedians"].insert_all(comedians_df.to_dict(orient="records"), alter=True, pk="ID")
 db["shows"].insert_all(shows_df.to_dict(orient="records"), alter=True, pk="ID")
 db["transcripts"].insert_all(transcripts_df.to_dict(orient="records"), alter=True, pk=("ID", "TIMESTAMP"))
+db["jokes"].insert_all(jokes_df.to_dict(orient="records"), alter=True)
 
 # Add foreign keys
 db["comedians"].add_foreign_key("SHOWID", "shows", "ID")
 db["routines"].add_foreign_key("SHOWID", "shows", "ID")
 db["transcripts"].add_foreign_key("ID", "routines", "ID")
+db["jokes"].add_foreign_key("ROUTINEID", "routines", "ID")
+db["jokes"].add_foreign_key("SHOWID", "shows", "ID")
