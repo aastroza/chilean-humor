@@ -53,7 +53,7 @@ db["routines"].insert_all(routines_df.to_dict(orient="records"), alter=True, pk=
 db["comedians"].insert_all(comedians_df.to_dict(orient="records"), alter=True, pk="ID")
 db["shows"].insert_all(shows_df.to_dict(orient="records"), alter=True, pk="ID")
 db["transcripts"].insert_all(transcripts_df.to_dict(orient="records"), alter=True, pk=("ID", "TIMESTAMP"))
-db["jokes"].insert_all(jokes_df.to_dict(orient="records"), alter=True)
+db["jokes"].insert_all(jokes_df.to_dict(orient="records"), alter=True, pk=("ROUTINEID", "TIMESTAMP"))
 
 # Add foreign keys
 db["comedians"].add_foreign_key("SHOWID", "shows", "ID")

@@ -4,6 +4,9 @@
             "tables": {
                 "routines": {
                     "sort_desc": "DATE"
+                },
+                "jokes": {
+                    "sort_desc": "ROUTINEID"
                 }
             }
         }
