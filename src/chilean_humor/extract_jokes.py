@@ -12,26 +12,28 @@ def extract_repertories(
     return repertoires
 
 def main():
-    routine_id = 199
-    filename = f"transcripts/routine_{routine_id}_transcript.jsonl"
-    segments = []
+    routine_ids = [202, 201, 200, 198, 197, 196, 195, 194, 193, 192, 191]
 
-    with open(filename, "r", encoding="utf-8") as file:
-        for line in file:
-            segment = Segment.from_json(line)
-            segments.append(segment)
-    repertoires = extract_repertories(segments = segments)
+    for routine_id in routine_ids:
+        filename = f"transcripts/routine_{routine_id}_transcript.jsonl"
+        segments = []
 
-    for r in repertoires:
-        for joke in r.jokes:
-            try:
-                if len(joke.corrected_transcript) > 0:
-                    with open(f"jokes/routine_{routine_id}_repertoire.jsonl", "a", encoding="utf-8") as file:
-                        json_line = joke.json()
-                        file.write(json_line + "\n")
-            except Exception as e:
-                logger.info(f"Error writing joke for {routine_id} {e}")
-                continue
+        with open(filename, "r", encoding="utf-8") as file:
+            for line in file:
+                segment = Segment.from_json(line)
+                segments.append(segment)
+        repertoires = extract_repertories(segments = segments)
+
+        for r in repertoires:
+            for joke in r.jokes:
+                try:
+                    if len(joke.corrected_transcript) > 0:
+                        with open(f"jokes/routine_{routine_id}_repertoire.jsonl", "a", encoding="utf-8") as file:
+                            json_line = joke.json()
+                            file.write(json_line + "\n")
+                except Exception as e:
+                    logger.info(f"Error writing joke for {routine_id} {e}")
+                    continue
 
 
 if __name__ == "__main__":
