@@ -5,6 +5,9 @@ from datetime import timedelta
 from typing import List
 import json
 
+from loguru import logger
+from chilean_humor.joke import create_jokes_from_transcript
+
 @dataclass
 class Segment:
     start_time: float
@@ -34,8 +37,30 @@ class Segment:
         else:
             return ""
     
+    def to_prompt(self):
+        if len(self.transcript) > 0:
+            return (
+                "language:{lang} timestamp:{ts} transcript:{transcript}".format(
+                    lang=self.language,
+                    ts=self.timestamp,
+                    transcript=self.transcript,
+                ).strip()
+                + "\n"
+            )
+        else:
+            return ""
+    
     def to_json(self):
         return json.dumps(asdict(self), ensure_ascii=False)
+
+    def from_json(json_line):
+        dict_line = json.loads(json_line)
+        return Segment(
+            language=dict_line["language"],
+            start_time=dict_line["start_time"],
+            end_time=dict_line["end_time"],
+            transcript=dict_line["transcript"],
+        )
 
 def group_speech_segments(
     segments: List[Segment], max_length=300
@@ -86,3 +111,28 @@ def group_speech_segments(
             )
     
     return phrases
+
+def extract_jokes_from_segments(
+        segments, chunk=300 * 10
+):
+    repertoires = []
+    text = ""
+
+    for block in segments:
+
+        if len(text) < chunk:
+           text += f"\n{block.to_prompt()}"
+        else:
+            logger.info("Extracting jokes.")
+            repertoire = create_jokes_from_transcript(text)
+            repertoires.append(repertoire)
+            text = f"{block.to_prompt()}"
+            logger.info(f"Extracted {len(repertoire.jokes)} jokes.")
+        
+    if text is not None and text != "":
+        logger.info("Extracting jokes.")
+        repertoire = create_jokes_from_transcript(text)
+        repertoires.append(repertoire)
+        logger.info(f"Extracted {len(repertoire.jokes)} jokes.")
+
+    return repertoires    
