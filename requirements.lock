@@ -235,6 +235,7 @@ numpy==1.26.4
     # via contourpy
     # via matplotlib
     # via pandas
+    # via pgvector
     # via seaborn
 openai==1.30.3
     # via chilean-humor
@@ -257,6 +258,8 @@ pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.4
     # via jedi
+pgvector==0.2.5
+    # via chilean-humor
 pillow==10.3.0
     # via matplotlib
 pint==0.23
@@ -275,6 +278,8 @@ prompt-toolkit==3.0.43
     # via jupyter-console
 psutil==5.9.8
     # via ipykernel
+psycopg2-binary==2.9.9
+    # via chilean-humor
 pure-eval==0.2.2
     # via stack-data
 pycparser==2.22
@@ -299,6 +304,8 @@ python-dateutil==2.9.0.post0
     # via matplotlib
     # via pandas
     # via sqlite-utils
+python-dotenv==1.0.1
+    # via chilean-humor
 python-json-logger==2.0.7
     # via jupyter-events
 python-multipart==0.0.9
