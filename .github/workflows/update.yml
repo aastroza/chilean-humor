@@ -34,4 +34,4 @@ jobs:
             gcloud components install beta
             gcloud config set run/region us-central1
             gcloud config set project chilean-humor
-            datasette publish cloudrun humor.db --service chilean-humor -m metadata.json --install datasette-youtube-embed datasette-homepage-table
+            datasette publish cloudrun humor.db --service chilean-humor -m metadata.json --install=datasette-youtube-embed --install=datasette-homepage-table
