@@ -35,6 +35,4 @@ for f in jokes_files:
                                 )
 
 df = pd.DataFrame(jokes_chunks)
-#df = df.stack().str.replace('\n', '\\n', regex=True).unstack()
 df.to_csv("data/jokes.csv", index=False)
-
