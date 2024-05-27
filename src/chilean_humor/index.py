@@ -3,9 +3,7 @@ import psycopg2
 from pgvector.psycopg2 import register_vector
 from loguru import logger
 from dotenv import load_dotenv
-import json
 
-from chilean_humor.utils import execute_bash
 from chilean_humor.config import EMBEDDING_DIMENSIONS, CONFIG
 
 # Load .env file
@@ -22,8 +20,6 @@ def store_pg_results(chunk):
 
 def set_index(embedded_chunks, embedding_model_name=CONFIG["embedding_model"]):
     logger.info("Setting index")
-    #execute_bash(f'psql "{os.environ["DB_CONNECTION_STRING"]}" -c "DROP TABLE clips;"')
-    
 
     with psycopg2.connect(os.environ["DB_CONNECTION_STRING"]) as conn:
         with conn.cursor() as cur:
