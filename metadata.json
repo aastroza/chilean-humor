@@ -10,11 +10,5 @@
                 }
             }
         }
-    },
-    "plugins": {
-        "datasette-homepage-table": {
-            "database": "humor",
-            "table": "routines"
-        }
     }
 }

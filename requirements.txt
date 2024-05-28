@@ -2,4 +2,3 @@ datasette
 sqlite-utils
 pandas
 datasette-youtube-embed
-datasette-homepage-table
