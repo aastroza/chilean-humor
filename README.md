@@ -2,7 +2,7 @@
 
 Tracking the history of Chilean humor.
 
-Visit the website [here](https://chilean-humor-lomay7b72q-uc.a.run.app/).
+Visit the website [here](https://db.datarisas.cl/).
 
 ## Screenshots
 
