@@ -3,6 +3,9 @@ from pydantic import BaseModel
 import datetime
 from chilean_humor.config import CONFIG
 
+from dotenv import load_dotenv
+load_dotenv()
+
 client = OpenAI()
 
 class JokeChunk(BaseModel):
