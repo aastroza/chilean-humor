@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from loguru import logger
 from chilean_humor.transcribe import transcribe_youtube
@@ -24,10 +25,16 @@ def main():
 
         try:
             url = row['VIDEO']
+            file_path = f"transcripts/routine_{row['ID']}_transcript.jsonl"
+
+            if os.path.exists(file_path):
+                logger.info(f"Transcript already exists for {url}")
+                continue
+
             phrases = download_transcript(url)
 
             logger.info(f"Downloading transcript for {url}")
-            with open(f"transcripts/routine_{row['ID']}_transcript.jsonl", "w", encoding="utf-8") as file:
+            with open(file_path, "w", encoding="utf-8") as file:
                 for phrase in phrases:
                     json_line = phrase.to_json()
                     file.write(json_line + "\n")
