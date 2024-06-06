@@ -5,6 +5,9 @@ from loguru import logger
 import datetime
 from openai import OpenAI
 
+from dotenv import load_dotenv
+load_dotenv()
+
 PROMPT = """
 Extract a list of jokes from the transcript in a clear and concise manner that makes use of timestamps, when available, to help others study the jokes from the comedy routine. Respond in the same language as the transcript if it is not english.
 
