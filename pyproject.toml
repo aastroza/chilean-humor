@@ -18,6 +18,8 @@ dependencies = [
     "pgvector>=0.2.5",
     "psycopg2-binary>=2.9.9",
     "python-dotenv>=1.0.1",
+    "rank-bm25>=0.2.2",
+    "pytube>=15.0.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

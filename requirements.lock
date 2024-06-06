@@ -236,6 +236,7 @@ numpy==1.26.4
     # via matplotlib
     # via pandas
     # via pgvector
+    # via rank-bm25
     # via seaborn
 openai==1.30.3
     # via chilean-humor
@@ -310,6 +311,8 @@ python-json-logger==2.0.7
     # via jupyter-events
 python-multipart==0.0.9
     # via asgi-csrf
+pytube==15.0.0
+    # via chilean-humor
 pytz==2024.1
     # via pandas
 pywin32==306
@@ -331,6 +334,8 @@ qtconsole==5.5.2
     # via jupyter
 qtpy==2.4.1
     # via qtconsole
+rank-bm25==0.2.2
+    # via chilean-humor
 referencing==0.35.1
     # via jsonschema
     # via jsonschema-specifications
