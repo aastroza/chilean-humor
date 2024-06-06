@@ -12,5 +12,5 @@ MAX_CONTEXT_LENGTHS = {
 
 CONFIG = {
     "chat_model": "gpt-4o",
-    "embedding_model": "text-embedding-3-small",
+    "embedding_model": "text-embedding-3-small"
 }
