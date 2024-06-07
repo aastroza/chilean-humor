@@ -12,7 +12,7 @@ Esperamos en el futuro completar con los chistes de todas las rutinas y agregar 
 
 ## Análisis
 
-Algunas cosas interesantes que salen de analizar rápidamente los datos.
+Algunas cosas interesantes que surgen de analizar rápidamente los datos.
 
 Acá un gráfico con la edad que tenía cada comediante al momento de presentarse en el escenario. Hay una tendencia a comediantes más jóvenes comenzando en la década de 2010 (¿quizás el efecto del *stand-up comedy*?).
 
