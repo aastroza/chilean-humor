@@ -2,7 +2,7 @@
 
 Tracking the history of Chilean humor.
 
-Visit the website [here](https://db.datarisas.cl/). A small report in spanish [here](/reports/datarisas.md).
+Visit the website [here](https://db.datarisas.cl/). A brief report in Spanish [here](/reports/datarisas.md).
 
 ## Screenshots
 
