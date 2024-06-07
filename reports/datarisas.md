@@ -1,6 +1,6 @@
 # Datarisas
 
-Bienvenido a [Datarisas](https://www.datarisas.cl), un proyecto dedicado a analizar la historia del humor en Chile. Hemos recopilado y analizado datos de miles de chistes contados sobre el escenario más importante del país. Nuestro objetivo es no solo preservar estos momentos de humor, sino también ofrecer una mirada profunda y curiosa sobre cómo ha evolucionado la comedia a lo largo de las décadas.
+[Datarisas](https://www.datarisas.cl) es un proyecto dedicado a analizar la historia del humor en Chile. Hemos recopilado y analizado datos de miles de chistes contados sobre el escenario más importante del país. Nuestro objetivo es no solo preservar estos momentos de humor, sino también ofrecer una mirada profunda y curiosa sobre cómo ha evolucionado la comedia a lo largo de las décadas.
 
 ## Datos
 
