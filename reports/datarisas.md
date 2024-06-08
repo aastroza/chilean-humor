@@ -30,4 +30,4 @@ Datarisas es un proyecto desarrollado por [Alonso Astroza](https://github.com/aa
 
 Si deseas utilizar los datos de este proyecto en tus propios análisis o investigaciones, por favor cita el proyecto de la siguiente manera:
 
-Astroza, A. y Concha, A. (2023). Datarisas: Análisis de la historia del humor chileno. https://www.datarisas.cl
+Astroza, A. y Concha, A. (2024). Datarisas: Análisis de la historia del humor chileno. https://www.datarisas.cl
