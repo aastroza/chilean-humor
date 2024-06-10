@@ -18,6 +18,7 @@ Extraction Tips:
 * Only include completed jokes.
 """
 
+
 class Joke(BaseModel):
     transcript: str = Field(
         description="The joke transcript. Do not include comments, greetings, or any other non-joke content."
@@ -31,6 +32,7 @@ class Joke(BaseModel):
 
 class Repertoire(BaseModel):
     jokes: List[Joke]
+
 
 def create_jokes_from_transcript(txt: str, language: str = "es") -> Repertoire:
     
@@ -104,3 +106,10 @@ def create_jokes_from_transcript(txt: str, language: str = "es") -> Repertoire:
             repertoire = Repertoire(jokes=[])
 
     return repertoire
+
+def fuse_jokes(joke1: Joke, joke2: Joke) -> Joke:
+    return Joke(
+        transcript=joke1.transcript + " " + joke2.transcript,
+        corrected_transcript=joke1.corrected_transcript + " " + joke2.corrected_transcript,
+        start_timestamp=joke1.start_timestamp,
+    )
