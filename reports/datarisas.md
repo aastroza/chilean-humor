@@ -4,11 +4,11 @@
 
 ## Datos
 
-El sitio se alimenta de una base de datos con [**6.276** chistes](https://db.datarisas.cl/humor/jokes) contados sobre el escenario del Festival de Viña del Mar desde 1960 hasta la fecha, extraídos de transcripciones de [128 rutinas](https://db.datarisas.cl/humor/routines) de las cuales se tienen registro en Youtube.
+El sitio se alimenta de una base de datos con [**3.509** chistes](https://db.datarisas.cl/humor/jokes) contados sobre el escenario del Festival de Viña del Mar desde 1960 hasta la fecha, extraídos de transcripciones de [128 rutinas](https://db.datarisas.cl/humor/routines) de las cuales se tienen registro en Youtube.
 
-Todo el proceso de transcripción y extracción de los chistes fue **completamente automatizado** usando **inteligencia artificial**. Por el momento ningún humano ha editado una sola coma. Si te interesa conocer como se realiza el proceso, puedes [revisar el código aquí](/src/chilean_humor/).
+Todo el proceso de transcripción y extracción de los chistes fue **completamente automatizado** usando **inteligencia artificial**. Por el momento ningún humano ha editado una sola coma, pero esperamos mejorar los datos lo más pronto posible. Si te interesa conocer como se realiza el proceso, puedes [revisar el código aquí](/src/chilean_humor/).
 
-Esperamos en el futuro completar con los chistes de todas las rutinas y agregar los datos de otros festivales populares. Si te interesa colaborar con esta causa, [contáctanos](https://twitter.com/aastroza).
+Esperamos en el futuro completar con todos los chistes de todas las rutinas y agregar los datos de otros festivales populares. Si te interesa colaborar con esta causa, [contáctanos](https://twitter.com/aastroza).
 
 ## Análisis
 
