@@ -4,7 +4,7 @@ import pandas as pd
 from chilean_humor.embed import JokeChunk
 from chilean_humor.utils import extract_number, extract_video_id
 
-jokes_files = glob.glob("jokes/*.jsonl")
+jokes_files = glob.glob("jokes_refined/*.jsonl")
 
 routines_df = pd.read_csv("data/routines.csv")
 comedians_df = pd.read_csv("data/comedians.csv")
