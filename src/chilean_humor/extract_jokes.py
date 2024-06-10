@@ -1,4 +1,3 @@
-import pandas as pd
 from loguru import logger
 from typing import List
 
@@ -12,7 +11,7 @@ def extract_repertories(
     return repertoires
 
 def main():
-    routine_ids = [202, 201, 200, 198, 197, 196, 195, 194, 193, 192, 191]
+    routine_ids = [172]
 
     for routine_id in routine_ids:
         filename = f"transcripts/routine_{routine_id}_transcript.jsonl"
