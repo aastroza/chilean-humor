@@ -20,6 +20,9 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "rank-bm25>=0.2.2",
     "pytube>=15.0.0",
+    "wordcloud>=1.9.3",
+    "nltk>=3.8.1",
+    "spacy>=3.7.5",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
