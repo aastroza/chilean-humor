@@ -3,3 +3,4 @@ sqlite-utils
 pandas
 datasette-youtube-embed
 datasette-block-robots
+datasette-auth-passwords
