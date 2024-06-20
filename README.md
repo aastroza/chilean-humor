@@ -4,6 +4,8 @@ Tracking the history of Chilean humor.
 
 Visit the website [here](https://db.datarisas.cl/). A brief report in Spanish [here](/reports/datarisas.md).
 
+**You need to login wiht username `meruane` and password `noctulo`.**
+
 ## Screenshots
 
 A list of every humor routine in the history of the [Festival de Viña](https://es.wikipedia.org/wiki/Festival_Internacional_de_la_Canci%C3%B3n_de_Vi%C3%B1a_del_Mar).
