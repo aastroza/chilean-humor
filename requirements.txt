@@ -2,3 +2,4 @@ datasette
 sqlite-utils
 pandas
 datasette-youtube-embed
+datasette-block-robots
