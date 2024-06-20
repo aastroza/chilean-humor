@@ -10,5 +10,10 @@
                 }
             }
         }
+    },
+    "plugins": {
+        "datasette-block-robots": {
+            "allow_only_index": true
+        }
     }
 }
