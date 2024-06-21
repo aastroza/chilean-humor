@@ -14,6 +14,9 @@
     "plugins": {
         "datasette-block-robots": {
             "allow_only_index": true
+        },
+        "datasette-auth-passwords": {
+            "http_basic_auth": true
         }
     }
 }
