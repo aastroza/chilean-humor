@@ -4,7 +4,6 @@ Tracking the history of Chilean humor.
 
 Visit the website [here](https://db.datarisas.cl/). A brief report in Spanish [here](/reports/datarisas.md).
 
-**You need to login wiht username `meruane` and password `noctulo`.**
 
 ## Screenshots
 
