@@ -18,12 +18,34 @@ The `process_clips.py` script:
 
 You need to install the following system tools:
 
-#### On Ubuntu/Debian:
-```bash
-sudo apt-get update
-sudo apt-get install -y ffmpeg python3-pip
-pip3 install yt-dlp
+#### On Windows:
+
+**Option 1: Using Package Manager (Recommended)**
+```powershell
+# Install Chocolatey if not already installed (https://chocolatey.org/install)
+# Then install dependencies
+choco install ffmpeg
+pip install yt-dlp
 ```
+
+**Option 2: Manual Installation**
+
+1. **Install ffmpeg**:
+   - Download from: https://github.com/BtbN/FFmpeg-Builds/releases
+   - Extract the zip file to a folder (e.g., `C:\ffmpeg`)
+   - Add `C:\ffmpeg\bin` to your system PATH:
+     - Right-click "This PC" > Properties > Advanced system settings
+     - Click "Environment Variables"
+     - Under "System variables", find and edit "Path"
+     - Add the path to ffmpeg's bin folder
+     - Click OK and restart your terminal
+
+2. **Install yt-dlp**:
+   ```powershell
+   pip install yt-dlp
+   ```
+   - Or download the executable from: https://github.com/yt-dlp/yt-dlp/releases
+   - Place it in a folder that's in your PATH
 
 #### On macOS:
 ```bash
@@ -31,16 +53,25 @@ brew install ffmpeg
 pip3 install yt-dlp
 ```
 
-#### On other systems:
-- **ffmpeg**: Download from https://ffmpeg.org/download.html
-- **yt-dlp**: Install via pip: `pip install yt-dlp`
+#### On Ubuntu/Debian:
+```bash
+sudo apt-get update
+sudo apt-get install -y ffmpeg python3-pip
+pip3 install yt-dlp
+```
 
 ### Verify Installation
+
+After installation, **restart your terminal** and verify the tools are accessible:
 
 ```bash
 ffmpeg -version
 yt-dlp --version
 ```
+
+If both commands work, you're ready to proceed!
+
+**Note**: The scripts will automatically check for these dependencies when you run them. If any are missing, you'll see detailed installation instructions.
 
 ## Usage
 

@@ -9,6 +9,8 @@ import os
 import csv
 import re
 import subprocess
+import sys
+import shutil
 from pathlib import Path
 from typing import Dict, List, Tuple
 import logging
@@ -19,6 +21,62 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def check_dependencies() -> bool:
+    """
+    Check if required external dependencies are installed.
+
+    Returns:
+        True if all dependencies are available, False otherwise
+    """
+    dependencies = {
+        'yt-dlp': 'yt-dlp',
+        'ffmpeg': 'ffmpeg'
+    }
+
+    missing = []
+
+    for name, executable in dependencies.items():
+        if not shutil.which(executable):
+            missing.append(name)
+            logger.error(f"Missing dependency: {name}")
+
+    if missing:
+        logger.error("\n" + "="*70)
+        logger.error("MISSING DEPENDENCIES")
+        logger.error("="*70)
+
+        for dep in missing:
+            logger.error(f"  ✗ {dep} not found")
+
+        logger.error("\nPlease install the missing dependencies:\n")
+
+        if sys.platform == 'win32':
+            logger.error("On Windows:")
+            logger.error("  1. Install ffmpeg:")
+            logger.error("     - Download from: https://github.com/BtbN/FFmpeg-Builds/releases")
+            logger.error("     - Or use chocolatey: choco install ffmpeg")
+            logger.error("  2. Install yt-dlp:")
+            logger.error("     - Run: pip install yt-dlp")
+            logger.error("     - Or download: https://github.com/yt-dlp/yt-dlp/releases")
+        elif sys.platform == 'darwin':
+            logger.error("On macOS:")
+            logger.error("  brew install ffmpeg")
+            logger.error("  pip3 install yt-dlp")
+        else:
+            logger.error("On Linux (Ubuntu/Debian):")
+            logger.error("  sudo apt-get update")
+            logger.error("  sudo apt-get install -y ffmpeg")
+            logger.error("  pip3 install yt-dlp")
+
+        logger.error("\nAfter installation, restart your terminal and try again.")
+        logger.error("="*70)
+
+        return False
+
+    logger.info("✓ All dependencies found")
+    return True
 
 
 def count_words(text: str) -> int:
@@ -288,6 +346,11 @@ def main():
 
     logger.info("Starting TEST clip processing...")
     logger.info(f"Will process max {MAX_ROUTINES} routines and {MAX_SEGMENTS} segments")
+
+    # Check dependencies first
+    if not check_dependencies():
+        logger.error("Cannot proceed without required dependencies. Exiting.")
+        sys.exit(1)
 
     # Load data
     logger.info("Loading routines metadata...")
