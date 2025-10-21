@@ -229,7 +229,7 @@ def extract_audio_clip(
     ]
 
     try:
-        subprocess.run(cmd, check=True, capture_output=True, stderr=subprocess.DEVNULL)
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except subprocess.CalledProcessError as e:
         logger.error(f"Failed to extract clip to {output_path}: {e}")
         raise
