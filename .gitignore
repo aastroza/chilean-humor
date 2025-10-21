@@ -12,3 +12,7 @@ wheels/
 
 # tmp
 tmp/
+
+# media
+videos/
+audios/
