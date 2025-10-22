@@ -1,0 +1,452 @@
+[
+  {
+    "audio_path": "./audios\\routine_100_clip_000012.mp3",
+    "transcript": "deseas tomar algo bueno le dijo pídeme un trago fuerte ya",
+    "routine_id": 100,
+    "start_time": 341,
+    "end_time": 349.62,
+    "duration": 8.620000000000005,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_100_clip_000019.mp3",
+    "transcript": "se fue a quedar a mi casa cuando yo no estaba",
+    "routine_id": 100,
+    "start_time": 512,
+    "end_time": 516.38,
+    "duration": 4.3799999999999955,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_100_clip_000020.mp3",
+    "transcript": "no si este es tan tonto, cree que la Marta Sánchez canta desesperada porque le apreta el sostén",
+    "routine_id": 100,
+    "start_time": 518,
+    "end_time": 524.24,
+    "duration": 6.240000000000009,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_100_clip_000026.mp3",
+    "transcript": "yo hago la del arroz y cuál es la del arroz después de comida vos",
+    "routine_id": 100,
+    "start_time": 639,
+    "end_time": 645.62,
+    "duration": 6.6200000000000045,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_100_clip_000032.mp3",
+    "transcript": "pero no lo podemos dejar de lado nuestras presentaciones personales",
+    "routine_id": 100,
+    "start_time": 699,
+    "end_time": 703.6999999999999,
+    "duration": 4.699999999999932,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_100_clip_000033.mp3",
+    "transcript": "y tiene una particularidad muy especial porque Juan me puntea para atrás",
+    "routine_id": 100,
+    "start_time": 714,
+    "end_time": 720.32,
+    "duration": 6.32000000000005,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000078.mp3",
+    "transcript": "y el taxista le responde con otro buenos días señor",
+    "routine_id": 101,
+    "start_time": 152,
+    "end_time": 160.98000000000002,
+    "duration": 8.980000000000018,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000082.mp3",
+    "transcript": "allí coño me lo hubiera dicho si no estamos hablando en finlandés hace dos horas",
+    "routine_id": 101,
+    "start_time": 261,
+    "end_time": 267.75,
+    "duration": 6.75,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000102.mp3",
+    "transcript": "buena, le preguntaron al gallego: ¿Oye tu mujer grita cuando hace el amor? ¿Qué si grita? La escucho desde el almacén.",
+    "routine_id": 101,
+    "start_time": 692,
+    "end_time": 703.4699999999999,
+    "duration": 11.469999999999914,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000103.mp3",
+    "transcript": "la galleguita a punto de casarse le dice al novio: Joaquín yo no puedo casarme sin velo. Bueno, velo.",
+    "routine_id": 101,
+    "start_time": 707,
+    "end_time": 718.0690000000001,
+    "duration": 11.069000000000074,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000121.mp3",
+    "transcript": "¿está con tratamiento con tu marido? si, el trata y yo miento. Y un día dice que le pregunta al esposo: ¿oye maridito nosotros tenemos orgasmos? no, pro vida",
+    "routine_id": 101,
+    "start_time": 1185,
+    "end_time": 1200.669,
+    "duration": 15.669000000000096,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000126.mp3",
+    "transcript": "oiga si con uno le sobran, si ¿y el otro zapato con que lo ató?",
+    "routine_id": 101,
+    "start_time": 1291,
+    "end_time": 1304.989,
+    "duration": 13.989000000000033,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000139.mp3",
+    "transcript": "con razón al pasar la puerta del quirófano leyó: errare humanum est",
+    "routine_id": 101,
+    "start_time": 1625,
+    "end_time": 1632.85,
+    "duration": 7.849999999999909,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_101_clip_000141.mp3",
+    "transcript": "ahí a la vuelta mira a uno solo en la puerta este. Y vos que hacés ahí? No sé, mi mujer me mandó",
+    "routine_id": 101,
+    "start_time": 1659,
+    "end_time": 1665.78,
+    "duration": 6.779999999999973,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_103_clip_000155.mp3",
+    "transcript": "Un, dos, tres, Melame por abajo",
+    "routine_id": 103,
+    "start_time": 255,
+    "end_time": 259.0,
+    "duration": 4.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_103_clip_000161.mp3",
+    "transcript": "Yo te puedo hacer el paso de Michael Jackson.",
+    "routine_id": 103,
+    "start_time": 306,
+    "end_time": 308.0,
+    "duration": 2.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_103_clip_000286.mp3",
+    "transcript": "¿Por qué no llevai el ritmo con la otra pierna mejor?",
+    "routine_id": 103,
+    "start_time": 1910,
+    "end_time": 1912.0,
+    "duration": 2.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_103_clip_000294.mp3",
+    "transcript": "Te mastuco y te mastico.  ¡Sí!  ¡Aguirre y agarra!  Me rosca y me rasco.",
+    "routine_id": 103,
+    "start_time": 2027,
+    "end_time": 2032.0,
+    "duration": 5.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000322.mp3",
+    "transcript": "escuela humilde, una escuela pobre, la escuela YZ1514, cáchense la escuelita.",
+    "routine_id": 104,
+    "start_time": 125,
+    "end_time": 129.0,
+    "duration": 4.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000325.mp3",
+    "transcript": "La biblioteca tenía un puro libro: el de reclamos, ¡puta que éramos humildes!",
+    "routine_id": 104,
+    "start_time": 142,
+    "end_time": 145.0,
+    "duration": 3.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000343.mp3",
+    "transcript": "Pero no sacamos nada con estar podridos en plata, amigos.",
+    "routine_id": 104,
+    "start_time": 232,
+    "end_time": 235.0,
+    "duration": 3.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000344.mp3",
+    "transcript": "Bien de salud, la salud no se compra con ninguna plata del mundo.  Tengo un amigo realmente enfermo, lo encontré ayer.",
+    "routine_id": 104,
+    "start_time": 236,
+    "end_time": 241.0,
+    "duration": 5.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000345.mp3",
+    "transcript": "Le encontraron principio de autopsia, el compadre está, pero...",
+    "routine_id": 104,
+    "start_time": 242,
+    "end_time": 244.0,
+    "duration": 2.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000346.mp3",
+    "transcript": "En la mano derecha le faltan los tres dedos del medio.",
+    "routine_id": 104,
+    "start_time": 246,
+    "end_time": 248.0,
+    "duration": 2.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_104_clip_000348.mp3",
+    "transcript": "Hay harto chiste con los dedos en las manos, ¿ah?",
+    "routine_id": 104,
+    "start_time": 254,
+    "end_time": 256.0,
+    "duration": 2.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_108_clip_000647.mp3",
+    "transcript": "la viuda podría haber estado triste porque se le había muerto el marido, pero igual estaba preocupada de todos los detalles que no fuera a faltar nada, que el vinito tinto, que que que el canapecito, que el pisco sour, porque este país es muy hocicón",
+    "routine_id": 108,
+    "start_time": 619,
+    "end_time": 630.8,
+    "duration": 11.799999999999955,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_108_clip_000652.mp3",
+    "transcript": "llega una empresa tipo americana, te agarran al muerto, los visten",
+    "routine_id": 108,
+    "start_time": 694,
+    "end_time": 700.399,
+    "duration": 6.399000000000001,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_108_clip_000656.mp3",
+    "transcript": "celulares en un velorio. No, yo he visto gallos mas giles con celulares prendidos en un festival de la canción",
+    "routine_id": 108,
+    "start_time": 771,
+    "end_time": 780.5600000000001,
+    "duration": 9.56000000000006,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_108_clip_000665.mp3",
+    "transcript": "cálmese señora, cálmese. Vaya donde el perro, le levanta la oreja y dígale suavemente en el oído: mi amor, te Llaman por teléfono.",
+    "routine_id": 108,
+    "start_time": 980,
+    "end_time": 992.4799999999999,
+    "duration": 12.479999999999905,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_109_clip_000844.mp3",
+    "transcript": "Dino, Dino Gordillo el humor de esta noche. Un hombre de risa fácil.",
+    "routine_id": 109,
+    "start_time": 1741,
+    "end_time": 1746.93,
+    "duration": 5.930000000000064,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_114_clip_001086.mp3",
+    "transcript": "con la mala suerte que el tío entra al auto, ¡pum! y lo echa a andar",
+    "routine_id": 114,
+    "start_time": 386,
+    "end_time": 393.919,
+    "duration": 7.918999999999983,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_117_clip_001223.mp3",
+    "transcript": "¡Ya no me banco más, que por esta concha acústica vos te has olvidado de mí!",
+    "routine_id": 117,
+    "start_time": 44,
+    "end_time": 53.0,
+    "duration": 9.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_117_clip_001231.mp3",
+    "transcript": "¡1977!  ¡Antonio!  No te pongas nervioso, Antonio. Son gajes del oficio.",
+    "routine_id": 117,
+    "start_time": 221,
+    "end_time": 231.0,
+    "duration": 10.0,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_121_clip_001386.mp3",
+    "transcript": "y yo lo conocí cabro chico cuando nació con la nariz respingada",
+    "routine_id": 121,
+    "start_time": 555,
+    "end_time": 560.3,
+    "duration": 5.2999999999999545,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_133_clip_002711.mp3",
+    "transcript": "y la mujer chilena es muy aseada, es limpia, ocupa colonia Avon",
+    "routine_id": 133,
+    "start_time": 1088,
+    "end_time": 1098.02,
+    "duration": 10.019999999999982,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_133_clip_002712.mp3",
+    "transcript": "que llega hasta el suelo pero la tiene peluda po",
+    "routine_id": 133,
+    "start_time": 1107,
+    "end_time": 1113.6200000000001,
+    "duration": 6.620000000000118,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_133_clip_002718.mp3",
+    "transcript": "claro, qué lindo estar acá se siente este olor a pueblo huevón",
+    "routine_id": 133,
+    "start_time": 1213,
+    "end_time": 1221.4399999999998,
+    "duration": 8.439999999999827,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_135_clip_002975.mp3",
+    "transcript": "ven para acá, aquí esta música, vamos poner una música de voz, ok",
+    "routine_id": 135,
+    "start_time": 1432,
+    "end_time": 1438.529,
+    "duration": 6.528999999999996,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_143_clip_003572.mp3",
+    "transcript": "ahora estoy apoderado de la mente de Paul Vásquez. ¡Paul Vásquez! ¿Qué?",
+    "routine_id": 143,
+    "start_time": 3371,
+    "end_time": 3379.719,
+    "duration": 8.719000000000051,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_143_clip_003579.mp3",
+    "transcript": "caperucita roja es un cuento infantil muy antiguo que caperucita roja",
+    "routine_id": 143,
+    "start_time": 3505,
+    "end_time": 3511.539,
+    "duration": 6.539000000000215,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_143_clip_003582.mp3",
+    "transcript": "Ay no tengo papel. ¡caperucita roja! ya una shakira no más ya",
+    "routine_id": 143,
+    "start_time": 3558,
+    "end_time": 3565.39,
+    "duration": 7.389999999999873,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_143_clip_003586.mp3",
+    "transcript": "escuchen el aplauso de este público como los quiere la quinta vergara",
+    "routine_id": 143,
+    "start_time": 3703,
+    "end_time": 3709.6,
+    "duration": 6.599999999999909,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_145_clip_003790.mp3",
+    "transcript": "salgo pa la calle, lo quedo mirando y le digo: vecino, quiero hablar con usted",
+    "routine_id": 145,
+    "start_time": 2091,
+    "end_time": 2097.97,
+    "duration": 6.9699999999998,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012449.mp3",
+    "transcript": "empieza con un silencio tremendo tienes un silencio así andino un silencio mira se tiene que oír crecer el pelo mirá",
+    "routine_id": 63,
+    "start_time": 1513,
+    "end_time": 1524.629,
+    "duration": 11.628999999999905,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012451.mp3",
+    "transcript": "y ahora entramos a bajar, llegamos a la zona norteña pero no tanto norteña medio en el centro va por ahí no",
+    "routine_id": 63,
+    "start_time": 1582,
+    "end_time": 1592.67,
+    "duration": 10.670000000000073,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012454.mp3",
+    "transcript": "parecía bien mansito y resultó tan feroz salió como una estampida se fue sin decirme adiós",
+    "routine_id": 63,
+    "start_time": 1677,
+    "end_time": 1687.93,
+    "duration": 10.930000000000064,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012458.mp3",
+    "transcript": "y que ha recibido tantos nombres, pero el más elegante de todos: casa de noche",
+    "routine_id": 63,
+    "start_time": 1774,
+    "end_time": 1782.8,
+    "duration": 8.799999999999955,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012466.mp3",
+    "transcript": "yo no quisiera, este, despedirme sin antes invitarse un tema para que para que participen todos, y",
+    "routine_id": 63,
+    "start_time": 2124,
+    "end_time": 2133.88,
+    "duration": 9.88000000000011,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012467.mp3",
+    "transcript": "en esta ocasión, este, se me ocurrió hacer, a modo de despedida",
+    "routine_id": 63,
+    "start_time": 2154,
+    "end_time": 2161.8689999999997,
+    "duration": 7.868999999999687,
+    "selected": true
+  },
+  {
+    "audio_path": "./audios\\routine_63_clip_012483.mp3",
+    "transcript": "y yo le dije a él y el tipo vino con el burro, yo no traje un burro pero pero traje un guitarrista que",
+    "routine_id": 63,
+    "start_time": 2584,
+    "end_time": 2598.23,
+    "duration": 14.230000000000018,
+    "selected": true
+  }
+]
