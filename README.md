@@ -40,5 +40,3 @@ This project is inspired by [Simon Willison's example](https://simonwillison.net
 - Follow Simon's [steps](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/), especially for setting up the Google Cloud Service Account.
 - [Enable](https://cloud.google.com/endpoints/docs/openapi/enable-api) the `Cloud Build` and `Cloud Run Admin` API's in your project.
 - After deploying your first Google Cloud Run service, make sure to allow unauthenticated invocations.
-
-![invocations](/images/google-run.PNG)
