@@ -1,3 +1,4 @@
 pandas
 numpy
 datasets
+python-dotenv
