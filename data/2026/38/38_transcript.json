@@ -1,0 +1,135 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/38/Festival Internacional de la Canción de Viña del Mar 1976/Los Muleros.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/38/Festival Internacional de la Canción de Viña del Mar 1976/Los Muleros/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Quiero invitarles a sonreír. Han sido designados el impacto humorístico del año 1975, y en esta noche, su consagración definitiva para todo Chile y América. Bastan palabras para decir que aquí están, en este, Los Muleros. Libera a comer, libera a leo, vine a pasar aquí a Viña del Mar. Mi pasaje en segunda pagué con ilusión. Del año entero de trabajar me despedí allá, con mis cuatro maletas en la estación. Los primeros donde llegar, voy a una residencial. Y fue entonces que reparé: mis maletas son solo tres. Dije: «Chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao». Quedé instalado en un corredor; dice que es lo mejor, está cerca del baño y no hace calor. Bajo a la playa con bronceador, pero no puedo entrar: hay demasiada gente y no hay nada de sol. Llegó la hora de comer, voy entonces a un restaurant por un plato de arroz y un pan. Con la cuenta me desmayé. Dije: «Chao». Dije: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao!». Seis días llevo ya sin dormir, tampoco he visto el sol. Ya perdí 4 kg, también el pronunciador. Con tres maletas en la estación y un tren por regresar, cuando entonces la veo reír cerca de mí, y fue entonces que descubrí que no es caro aquel restaurant, que no importa que no haya sol; tres maletas me bastarán. Dije: «Chao». Dije: «Chao, pero chao, chao, chao». Los Moleros en Viña del Mar. Amigos de la Quinta Vergara: esta noche hay una gran sorpresa para todos vosotros y también para ellos. Van a volver a estar con nosotros, pero antes quiero decirle que, en nombre de la Comisión Organizadora de este 17.º Festival Internacional de la Canción de Viña del Mar y en retribución al cariño recibido por vosotros, el público de esta noche de festival, Los Mureros recibirán un reconocimiento público en base a este pequeño anillo que encierra a su alrededor todo el cariño de Viña, de Chile y de su juventud. En nombre de todos vosotros y en nombre de la Comisión Organizadora, hago entrega de ellos de este presente. ¡Gracias, Viña, para Los Muleros! 1, 2, 3.",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 33.0,
+      "speaker": null,
+      "text": "Quiero invitarles a sonreír. Han sido designados el impacto humorístico del año 1975, y en esta noche, su consagración definitiva para todo Chile y América. Bastan palabras para decir que aquí están, en este, Los Muleros.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          0,
+          1
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 74.0,
+      "end_time_seconds": 119.0,
+      "speaker": null,
+      "text": "Libera a comer, libera a leo, vine a pasar aquí a Viña del Mar. Mi pasaje en segunda pagué con ilusión. Del año entero de trabajar me despedí allá, con mis cuatro maletas en la estación. Los primeros donde llegar, voy a una residencial. Y fue entonces que reparé: mis maletas son solo tres.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          2,
+          3
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 120.0,
+      "end_time_seconds": 149.0,
+      "speaker": null,
+      "text": "Dije: «Chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao, pero chao, chao, chao». Dije: «Chao». Quedé instalado en un corredor; dice que es lo mejor, está cerca del baño y no hace calor.",
+      "metadata": {
+        "confidence": 0.7579075694084167,
+        "speaker_tag": null,
+        "word_count": 40,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 152.0,
+      "end_time_seconds": 206.0,
+      "speaker": null,
+      "text": "Bajo a la playa con bronceador, pero no puedo entrar: hay demasiada gente y no hay nada de sol. Llegó la hora de comer, voy entonces a un restaurant por un plato de arroz y un pan. Con la cuenta me desmayé. Dije: «Chao». Dije: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao, pero chao, chao, chao!». Y: «¡Qué chao!». Seis días llevo ya sin dormir, tampoco he visto el sol. Ya perdí 4 kg, también el pronunciador.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          5,
+          6
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 210.0,
+      "end_time_seconds": 239.0,
+      "speaker": null,
+      "text": "Con tres maletas en la estación y un tren por regresar, cuando entonces la veo reír cerca de mí, y fue entonces que descubrí que no es caro aquel restaurant, que no importa que no haya sol; tres maletas me bastarán. Dije: «Chao». Dije: «Chao, pero chao, chao, chao».",
+      "metadata": {
+        "confidence": 0.7724788784980774,
+        "speaker_tag": null,
+        "word_count": 49,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 240.0,
+      "end_time_seconds": 264.0,
+      "speaker": null,
+      "text": "Los Moleros en Viña del Mar. Amigos de la Quinta Vergara: esta noche hay una gran sorpresa para todos vosotros y también para ellos.",
+      "metadata": {
+        "confidence": 0.8264514803886414,
+        "speaker_tag": null,
+        "word_count": 24,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 270.0,
+      "end_time_seconds": 316.0,
+      "speaker": null,
+      "text": "Van a volver a estar con nosotros, pero antes quiero decirle que, en nombre de la Comisión Organizadora de este 17.º Festival Internacional de la Canción de Viña del Mar y en retribución al cariño recibido por vosotros, el público de esta noche de festival, Los Mureros recibirán un reconocimiento público en base a este pequeño anillo que encierra a su alrededor todo el cariño de Viña, de Chile y de su juventud. En nombre de todos vosotros y en nombre de la Comisión Organizadora, hago entrega de ellos de este presente. ¡Gracias, Viña, para Los Muleros!",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          9,
+          10,
+          11
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 342.0,
+      "end_time_seconds": 342.0,
+      "speaker": null,
+      "text": "1, 2, 3.",
+      "metadata": {
+        "confidence": 0.5079501867294312,
+        "speaker_tag": null,
+        "word_count": 3,
+        "llm_correction": true
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 13,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 13,
+      "merged_segment_count": 8
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 8
+    }
+  },
+  "timestamp_source": "google"
+}

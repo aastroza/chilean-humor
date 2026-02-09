@@ -1,0 +1,111 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/136/Festival Internacional de la Canción de Viña del Mar 2009/Manpoval.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/136/Festival Internacional de la Canción de Viña del Mar 2009/Manpoval/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "El 50%. Con la platea. Espera un poquito. Vamos a hacer una cosa bien hecha. Aunque duela. Ya. Vamos a andar de tirones, ahí no se puede. Vamos, ahora sí. Vamos a la galería, vamos a la platea. Vamos el palco. A ver, ¿cómo dice? ¿Por qué te lo dice? Cecilio. Vamos a reír, a reír, a reír, a reír. Vamos a jugar, a jugar, a jugar con los tintesitos que trae los papol. ¡Déjale! Oye, oye, Felipito, ¿cómo se llama este alemán que me esconde todas las cosas? Alzheimer, viejo mierda, Alzheimer. Vamos a reír, a reír, a reír, vamos a jugar, a jugar, a jugar, con los chistecitos que traen los mapoales. Oye, iba llegó un viejito de 80 años al doctor y le el doctor le pregunta, \"Oiga, viejito, ¿cómo se siente superbien, pues, hombre. Tengo una polola de 18 años y la tengo embarazada. Así que tenía una polola de 18 años y la tenía embarazada. Yo te voy a contar una historia. Esta era una vez, un cazador que le gustaba la caza. Un día salió apurado de su casa y en vez de tomar la escopeta, agarró el paraguas. Llega al bosque, se le enfrenta un oso gigante. El viejito levanta el paraguas y el oso cayó muerto. ¿Cayó muerto? Ahí doctor le dice, \"Tiene que haber disparado otro. A eso quería llegar, huevón. A eso quería llegar. Vamos a a reír, a reír, vamos a jugar, a jugar, a jugar. Con los chistecitos que traen los pajaro. Llega el viejito, urgido a la panadería. Caballero, caballero, me da 40 kg de pan, pero señor, se le va a poner duro. Eso es lo que quiero, eso es lo que quiero. Vamos a reír, a reír, a reír. Vamos a jugar, a jugar. Con los chistecitos Este espacio está oficiado por el ron del verano, disfruta tus noches y tus carretes, Pelano es el ron del verano, pídelo por su nombre, rompegrano. Llega el tipo, pero curado ya arrastrándose a la casa, toca la puerta. Cecilio, es una metáfora, es una metáfora. Yo sé que es un micrófono, pero ahora va a ser una una puerta. Metáfora. Que te expliquen. ¿Ah? Ahí atrás. Ya. Ya. Llega el curado, toca la puerta y lo recibe la señora con un semblante matutino tipo 5 de la mañana. Mira como venís llegando, desgraciado, todo curado. Me prometiste nunca más poner un pie en una cantina. Para, para, para, mi amor. Yo no puse ningún pie porque entré arrastrando y me sacaron en brazos. Vamos a reír, a reír, vamos a jugar, a jugar, con los chistecitos que traen los papás. Déjale. Llega el curado al doctor y le dice, \"Doctor, ¿cómo encontró mis exámenes?\" Para hacerte sincero, amigo mío, tienes un 98% de alcohol en la sangre. ¡Maldito hielo! Vamos a reír, a reír, a reír, vamos a jugar, a jugar. Con los chistecitos que traen los cobardes. Sí. Mira, yo por un lado tengo un chiste bien cochino y por el otro es más suavecito, pero me gustaría ver. ¿Podemos repetir un corito? ¿Ya? Ya. Vamos fuerte, vamos, eh. Vamos a reír, a reír, a reír. Vamos a jugar, a jugar con los chistecitos que traen los cobardes. Ay, con sin nombre. Te está armando. Llega el curado a las 4 de la mañana: «Mi amor, ábreme la puerta que tengo hambre en me comí el tiro». «¡Estúpido, borracho! De nuevo venís llegando pasado a trago». «Mi amor, tranquilízate que no te he contado nada, que más encima anoche me agarraron a tu vaso». «¡Uy, mi amor! ¿Y no te pasó nada en la carita?». «No, no, es que mis amigos me decían: \"Aquí está tu vaso, aquí está tu vaso, aquí está tu vaso\"». Vamos a reír, a reír, a reír. Vamos a jugar, a jugar a con los chistecitos. «Mamita, mamita, ¿puedo jugar con los pollitos de mi abuelita?». «Mamita, déjame jugar con los pollitos de mi abuelita». «Bueno, Felipito, pero sin dar vuelta a la vacinica». Vamos a reír, a reír, a reír. Vamos a jugar, a jugar. «Mamá, mamá, no me esperen esta noche». «¿Y por qué, hijo?». «Porque ya llegué». Vamos a reír, a reír, a reír, vamos a jugar, a jugar con los chistecitos que trae los mapoales. «Oye, papá». «Dígame, hijo». «Papito, ¿me puedo acostar con mi abuelita?». «¿Cómo se te ocurre, cabro degenerado, que te vaya a acostar con mi mamá?». «¿Y cómo te acostáis con la mía?».",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 4.0,
+      "end_time_seconds": 5.0,
+      "speaker": null,
+      "text": "El 50%.",
+      "metadata": {
+        "confidence": 0.609501838684082,
+        "speaker_tag": null,
+        "word_count": 2,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 30.0,
+      "end_time_seconds": 58.0,
+      "speaker": null,
+      "text": "Con la platea. Espera un poquito. Vamos a hacer una cosa bien hecha. Aunque duela. Ya. Vamos a andar de tirones, ahí no se puede. Vamos, ahora sí. Vamos a la galería, vamos a la platea. Vamos el palco. A ver, ¿cómo dice? ¿Por qué te lo dice? Cecilio. Vamos a reír, a reír, a reír, a reír. Vamos a jugar, a jugar, a jugar con los tintesitos que trae los papol.",
+      "metadata": {
+        "confidence": 0.7329785227775574,
+        "speaker_tag": null,
+        "word_count": 72,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 60.0,
+      "end_time_seconds": 149.0,
+      "speaker": null,
+      "text": "¡Déjale! Oye, oye, Felipito, ¿cómo se llama este alemán que me esconde todas las cosas? Alzheimer, viejo mierda, Alzheimer. Vamos a reír, a reír, a reír, vamos a jugar, a jugar, a jugar, con los chistecitos que traen los mapoales. Oye, iba llegó un viejito de 80 años al doctor y le el doctor le pregunta, \"Oiga, viejito, ¿cómo se siente superbien, pues, hombre. Tengo una polola de 18 años y la tengo embarazada. Así que tenía una polola de 18 años y la tenía embarazada. Yo te voy a contar una historia. Esta era una vez, un cazador que le gustaba la caza. Un día salió apurado de su casa y en vez de tomar la escopeta, agarró el paraguas. Llega al bosque, se le enfrenta un oso gigante. El viejito levanta el paraguas y el oso cayó muerto. ¿Cayó muerto? Ahí doctor le dice, \"Tiene que haber disparado otro. A eso quería llegar, huevón. A eso quería llegar. Vamos a a reír, a reír, vamos a jugar, a jugar, a jugar. Con los chistecitos que traen los pajaro. Llega el viejito, urgido a la panadería. Caballero, caballero, me da 40 kg de pan, pero señor, se le va a poner duro. Eso es lo que quiero, eso es lo que quiero. Vamos a reír, a reír, a reír. Vamos a jugar, a jugar. Con los chistecitos",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 153.0,
+      "end_time_seconds": 237.0,
+      "speaker": null,
+      "text": "Este espacio está oficiado por el ron del verano, disfruta tus noches y tus carretes, Pelano es el ron del verano, pídelo por su nombre, rompegrano. Llega el tipo, pero curado ya arrastrándose a la casa, toca la puerta. Cecilio, es una metáfora, es una metáfora. Yo sé que es un micrófono, pero ahora va a ser una una puerta. Metáfora. Que te expliquen. ¿Ah? Ahí atrás. Ya. Ya. Llega el curado, toca la puerta y lo recibe la señora con un semblante matutino tipo 5 de la mañana. Mira como venís llegando, desgraciado, todo curado. Me prometiste nunca más poner un pie en una cantina. Para, para, para, mi amor. Yo no puse ningún pie porque entré arrastrando y me sacaron en brazos. Vamos a reír, a reír, vamos a jugar, a jugar, con los chistecitos que traen los papás. Déjale. Llega el curado al doctor y le dice, \"Doctor, ¿cómo encontró mis exámenes?\" Para hacerte sincero, amigo mío, tienes un 98% de alcohol en la sangre. ¡Maldito hielo! Vamos a reír, a reír, a reír, vamos a jugar, a jugar.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 240.0,
+      "end_time_seconds": 310.0,
+      "speaker": null,
+      "text": "Con los chistecitos que traen los cobardes. Sí. Mira, yo por un lado tengo un chiste bien cochino y por el otro es más suavecito, pero me gustaría ver. ¿Podemos repetir un corito? ¿Ya? Ya. Vamos fuerte, vamos, eh. Vamos a reír, a reír, a reír. Vamos a jugar, a jugar con los chistecitos que traen los cobardes. Ay, con sin nombre. Te está armando. Llega el curado a las 4 de la mañana: «Mi amor, ábreme la puerta que tengo hambre en me comí el tiro». «¡Estúpido, borracho! De nuevo venís llegando pasado a trago». «Mi amor, tranquilízate que no te he contado nada, que más encima anoche me agarraron a tu vaso». «¡Uy, mi amor! ¿Y no te pasó nada en la carita?». «No, no, es que mis amigos me decían: \"Aquí está tu vaso, aquí está tu vaso, aquí está tu vaso\"». Vamos a reír, a reír, a reír. Vamos a jugar, a jugar a con los chistecitos. «Mamita, mamita, ¿puedo jugar con los pollitos de mi abuelita?». «Mamita, déjame jugar con los pollitos de mi abuelita». «Bueno, Felipito, pero sin dar vuelta a la vacinica». Vamos a reír, a reír, a reír. Vamos a jugar, a jugar.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          8,
+          9,
+          10
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 312.0,
+      "end_time_seconds": 345.0,
+      "speaker": null,
+      "text": "«Mamá, mamá, no me esperen esta noche». «¿Y por qué, hijo?». «Porque ya llegué». Vamos a reír, a reír, a reír, vamos a jugar, a jugar con los chistecitos que trae los mapoales. «Oye, papá». «Dígame, hijo». «Papito, ¿me puedo acostar con mi abuelita?». «¿Cómo se te ocurre, cabro degenerado, que te vaya a acostar con mi mamá?». «¿Y cómo te acostáis con la mía?».",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          11,
+          12
+        ],
+        "llm_correction": true
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 13,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 13,
+      "merged_segment_count": 6
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 6
+    }
+  },
+  "timestamp_source": "google"
+}

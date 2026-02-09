@@ -1,0 +1,12 @@
+{
+  "date": "1999-02-10",
+  "youtube_url": "https://www.youtube.com/watch?v=RZYpVSGWkd0",
+  "id": 100,
+  "festival": "XL",
+  "year": 1999,
+  "tv": "Megavision",
+  "show": "Los Indolatinos",
+  "show_id": 42,
+  "event_name": "Festival Internacional de la Canción de Viña del Mar 1999",
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/100/Festival Internacional de la Canción de Viña del Mar 1999/Los Indolatinos.mp4"
+}

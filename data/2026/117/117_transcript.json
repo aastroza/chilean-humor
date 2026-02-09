@@ -1,0 +1,153 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/117/Festival Internacional de la Canción de Viña del Mar 2003/Vanessa Miller.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/117/Festival Internacional de la Canción de Viña del Mar 2003/Vanessa Miller/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Hasta este momento en Viña del Mar, en nuestra tercera noche de festival, hemos entregado seis antorchas, el premio del público de la Quinta Vergara. El miércoles Maná se llevó antorcha, antorcha de plata. El juez Diego Torres, antorcha de plata. Antonio, renuncio. A todo que hace de dos bárbaras. Bárbara. Renuncio. Ya no me banco más que por esta concha. Acústica, vos te has olvidado de mí. Bárbara, monstruo, sos brutal. De todos los públicos me quedo con vos que es el que la tiene más grande. Bárbara, no se da cuenta que estoy trabajando, que estoy animando el festival de Viña del Mar. Ah, gracias por aclarármelo, porque la verdad es que te vi parado allí, pensé que estabas esperando la micro. Chicos, no quieren una nana cesante que usa colaless dorado y sirve tan bien por atrás como por delante. Bárbara, por favor, ¿ah? Por favor, no. Chicos, yo sirvo bien por los dos lados, pero no, por favor, porque me gusta, porque me sale bien. Además, soy re bilingüe, chico, sé hablar chileno y argentino, mi lengua vale en doble. Usted no tiene idea de hablar en chileno. No me güey, tú crees que yo no sé hablar en chileno, huevón. O sea, perdón. Bárbara. Me gusta el chorito, sé abrirlo y como picoroco. Bárbara, ¿cómo se atreve, por favor? ¿Cómo me atrevo, Antonio? Me atrevo a Sí, me atrevo así, me atrevo así, me atrevo así y para, esta es la última. Anoche me atreví así. Bárbara. Decime que esa no es tipo la foto que le sacaron a la boloco en el escenario. Ya sé, ya sé, Antonio, que nada, ninguna de esas poses significan nada para vos, ni este cuerpo quinta Vergara lleno de protuberancias. Eso no le interesa a nadie. Men, sí. Decile a la quinta Vergara que soy la única mujer que logró que tus huevos estén a punto. Por favor, me refería a los huevos a la copa. Ah, ¿y yo de qué huevos estoy hablando? A ver, vos te pensás que los todas esas que que Por nos favor, me Bárbara, no aclare que oscurece, ah. Ah, okay. A propósito de oscuridad Chicos, paren poco. ¿Sabían que Antonio es un hombre muy premiado? Okay. ¿No quiere que le muestre los premios? No, tampoco el lápiz. Okay, no quieren ver los premios. 1977... Antonio, no te pongas nervioso, Antonio, son gajes del oficio. 1977. Antonio, ¿quieren ver los premios o no? Levanten la mano los chips. Se les... Antonio se gana el chorito de oro. ¡Por favor! ¡Por favor! Este premio se lo otorgó la Asociación de Comedores de Choritos de Chile por su récord. Por favor, guarda el chorito, ¿ah? ¿Cuál chorito querés que él guarde? ¿Premio, pues? Yo guardo el chorito si vos te comés el chorito premiado. Por favor. Pará. 1980: Antonio se gana el paquete de oro. A ver, pará, pará, vamos a opinar. Vamos a opinar. ¿Quieren opinar o no? No. Tampoco quieren ver el premio de oro. Okay. No quieren. Yo quería hacerlo con todos ustedes, pero a la fuerza nunca me gustó. Así es que por lo menos quieren que haga mi show. La voy a presentar en Viña del Mar. Chicos, quiero presentar a mi valet, que son los ganadores de los reality show de todas partes del mundo. ¿Y estos tipos de dónde los sacó? Ya te dije. Por ejemplo, porque creo que ahora van a entender un poco el concepto de lo que se quería mostrar la noche de hoy. Preséntame directamente. Muy bien, señoras y señores, en Viña del Mar canta y baila para ustedes Pero pero pero pero un minuto, ya me olvidé tan tarde. Ah, falta el repertorio. Esto no era todo. Con su colalés dorado para su público encantado esta noche Bárbara Pelorfi y los bárbaros del planeta. Ha subido la vibración. ¡Ha! Sí. ¡Uira! Ha bailado la alegría. Siga todos el compás, que se mece la energía; es la hora de vibrar con la luz de la alegría y tu cuerpo en tu conexión. Que te sepa en todo el mundo el poder de esta canción. Y hace como llega a tu cuerpo la emoción. Tu cuerpo se hace ritmo a subir la vibración. Que suba, que suba la vibración. La paz es nuestro derecho, también nuestra vocación. Que suba, que suba la vibración para que la paz resida. Vamos la vibración. El mundo se siente amenazado y sabemos que la guerra no es la solución, sino el peor de los problemas. Quería cantar con ustedes esto: «Solo le pido a Dios». Solo le pido a Dios que la guerra no me sea indiferente. Que la guerra no me sea indiferente. Es un monstruo grande y pisa fuerte. Es un monstruo grande y pisa fuerte toda la pobre inocencia de la gente. Toda la pobre inocencia de la gente. Ni por todo esto me hubiese perdido estar con ustedes esta noche. Gracias por esta oportunidad maravillosa. Gracias, madre. Y que suba. Que suba la libertad. La paz es nuestro derecho. El aplauso para Vanessa Miller, la nana argentina, Bárbara Pelorri, que esta noche tuvo en Viña del Mar. Entrégale la medalla, por favor.",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 4.0,
+      "end_time_seconds": 23.0,
+      "speaker": null,
+      "text": "Hasta este momento en Viña del Mar, en nuestra tercera noche de festival, hemos entregado seis antorchas, el premio del público de la Quinta Vergara. El miércoles Maná se llevó antorcha, antorcha de plata. El juez Diego Torres, antorcha de plata. Antonio, renuncio.",
+      "metadata": {
+        "confidence": 0.7314399480819702,
+        "speaker_tag": null,
+        "word_count": 43,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 34.0,
+      "end_time_seconds": 89.0,
+      "speaker": null,
+      "text": "A todo que hace de dos bárbaras. Bárbara. Renuncio. Ya no me banco más que por esta concha. Acústica, vos te has olvidado de mí. Bárbara, monstruo, sos brutal. De todos los públicos me quedo con vos que es el que la tiene más grande. Bárbara, no se da cuenta que estoy trabajando, que estoy animando el festival de Viña del Mar. Ah, gracias por aclarármelo, porque la verdad es que te vi parado allí, pensé que estabas esperando la micro. Chicos, no quieren una nana cesante que usa colaless dorado y sirve tan bien por atrás como por delante. Bárbara, por favor, ¿ah? Por favor, no. Chicos, yo sirvo bien",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 90.0,
+      "end_time_seconds": 179.0,
+      "speaker": null,
+      "text": "por los dos lados, pero no, por favor, porque me gusta, porque me sale bien. Además, soy re bilingüe, chico, sé hablar chileno y argentino, mi lengua vale en doble. Usted no tiene idea de hablar en chileno. No me güey, tú crees que yo no sé hablar en chileno, huevón. O sea, perdón. Bárbara. Me gusta el chorito, sé abrirlo y como picoroco. Bárbara, ¿cómo se atreve, por favor? ¿Cómo me atrevo, Antonio? Me atrevo a Sí, me atrevo así, me atrevo así, me atrevo así y para, esta es la última. Anoche me atreví así. Bárbara. Decime que esa no es tipo la foto que le sacaron a la boloco en el escenario. Ya sé, ya sé, Antonio, que nada, ninguna de esas poses significan nada para vos, ni este cuerpo quinta Vergara lleno de protuberancias. Eso no le interesa a nadie. Men, sí. Decile a la quinta Vergara que soy la única mujer que logró que tus huevos estén a punto. Por favor, me refería a los huevos a la copa. Ah, ¿y yo de qué huevos estoy hablando? A ver, vos te pensás que los todas esas que que Por nos favor, me Bárbara, no aclare que oscurece, ah. Ah, okay. A propósito de oscuridad",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 183.0,
+      "end_time_seconds": 230.0,
+      "speaker": null,
+      "text": "Chicos, paren poco. ¿Sabían que Antonio es un hombre muy premiado? Okay. ¿No quiere que le muestre los premios? No, tampoco el lápiz. Okay, no quieren ver los premios. 1977... Antonio, no te pongas nervioso, Antonio, son gajes del oficio.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          6,
+          7
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 246.0,
+      "end_time_seconds": 310.0,
+      "speaker": null,
+      "text": "1977. Antonio, ¿quieren ver los premios o no? Levanten la mano los chips. Se les... Antonio se gana el chorito de oro. ¡Por favor! ¡Por favor! Este premio se lo otorgó la Asociación de Comedores de Choritos de Chile por su récord. Por favor, guarda el chorito, ¿ah? ¿Cuál chorito querés que él guarde? ¿Premio, pues? Yo guardo el chorito si vos te comés el chorito premiado. Por favor. Pará. 1980: Antonio se gana el paquete de oro. A ver, pará, pará, vamos a opinar. Vamos a opinar. ¿Quieren opinar o no? No. Tampoco quieren ver el premio de oro. Okay.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          8,
+          9,
+          10
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 312.0,
+      "end_time_seconds": 385.0,
+      "speaker": null,
+      "text": "No quieren. Yo quería hacerlo con todos ustedes, pero a la fuerza nunca me gustó. Así es que por lo menos quieren que haga mi show. La voy a presentar en Viña del Mar. Chicos, quiero presentar a mi valet, que son los ganadores de los reality show de todas partes del mundo. ¿Y estos tipos de dónde los sacó? Ya te dije. Por ejemplo, porque creo que ahora van a entender un poco el concepto de lo que se quería mostrar la noche de hoy. Preséntame directamente. Muy bien, señoras y señores, en Viña del Mar canta y baila para ustedes Pero pero pero pero un minuto, ya me olvidé tan tarde. Ah, falta el repertorio. Esto no era todo. Con su colalés dorado para su público encantado esta noche Bárbara Pelorfi y los bárbaros del planeta.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 402.0,
+      "end_time_seconds": 459.0,
+      "speaker": null,
+      "text": "Ha subido la vibración. ¡Ha! Sí. ¡Uira! Ha bailado la alegría. Siga todos el compás, que se mece la energía; es la hora de vibrar con la luz de la alegría y tu cuerpo en tu conexión. Que te sepa en todo el mundo el poder de esta canción. Y hace como llega a tu cuerpo la emoción. Tu cuerpo se hace ritmo a subir la vibración. Que suba, que suba la vibración. La paz es nuestro derecho, también nuestra vocación. Que suba, que suba la vibración para que la paz resida.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          14,
+          15
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 462.0,
+      "end_time_seconds": 536.0,
+      "speaker": null,
+      "text": "Vamos la vibración. El mundo se siente amenazado y sabemos que la guerra no es la solución, sino el peor de los problemas. Quería cantar con ustedes esto: «Solo le pido a Dios». Solo le pido a Dios que la guerra no me sea indiferente. Que la guerra no me sea indiferente. Es un monstruo grande y pisa fuerte. Es un monstruo grande y pisa fuerte toda la pobre inocencia de la gente. Toda la pobre inocencia de la gente. Ni por todo esto me hubiese perdido estar con ustedes esta noche. Gracias por esta oportunidad maravillosa. Gracias, madre. Y que suba. Que suba la libertad. La paz es nuestro derecho.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          16,
+          17,
+          18
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 557.0,
+      "end_time_seconds": 567.0,
+      "speaker": null,
+      "text": "El aplauso para Vanessa Miller, la nana argentina, Bárbara Pelorri, que esta noche tuvo en Viña del Mar. Entrégale la medalla, por favor.",
+      "metadata": {
+        "confidence": 0.7135656476020813,
+        "speaker_tag": null,
+        "word_count": 23,
+        "llm_correction": true
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 20,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 20,
+      "merged_segment_count": 9
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 9
+    }
+  },
+  "timestamp_source": "google"
+}

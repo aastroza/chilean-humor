@@ -1,0 +1,76 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/31/Festival Internacional de la Canción de Viña del Mar 1974/Tato Cifuentes.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/31/Festival Internacional de la Canción de Viña del Mar 1974/Tato Cifuentes/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Hola, amigos de nuestro canal histórico, ¿cómo están? Les quiero contar que en esta oportunidad haremos un pequeño homenaje a un gran artista que empezó el escenario de La Quinta Vergara en 1974. Hablo de un gran humorista chileno que hace poquitos días, lamentablemente, nos dejó, falleció en el país trasandino hace sus 91 años. Hablo de Tato Cifuentes. Aquí les vamos a dejar una pequeña fracción de su presentación en 1974 en el Festival de la Canción de Viña del Mar. Aprovechamos como canal histórico, por supuesto, de enviar darle un saludo muy cariñoso a todos sus familiares, a todos sus seguidores y por supuesto que comenten este video aquí abajito, Datos y Fuentes 1974 en Viña del Mar. El niñito de 5 años y el papá mayor que el hijo van de camino, caminando, de paseo, mirando viñedos, etcétera y de repente pasa lo inesperado. Por la vereda del frente una señora casada bien casada por las apariencias. Y el mocoso nunca había visto una señora así tan casada y le llama poderosamente la atención. ¿A quién le va a preguntar si no es a su papito? Y ahí empieza el problema del padre y no le dice lo que corresponde. Papacito. Papacito. ¿Qué le pasa, el gordito? Papacito. Mire, la señora que va con mirando por ahí. ¿Qué tiene? Sí tiene. Digo, ¿qué tiene de particular? Una señora que va caminando. Sí, va caminando, pero pero pero Pero por ¿Por qué va caminando así tan hecha para atrás? Algún defecto que tiene la señora en los zapatos. No, no es los zapatos. El más arriba. Mira, yo te he dicho muchas veces que los niños no hacen ciertas preguntas. No, papito, no. Usted siempre me ha dicho que los niñitos cuando no saben tienen que preguntar. Y yo quiero saber por qué la señora queda caminando con Bueno, déjeme, la señora tranquila porque me voy a enojar. Pero por qué por mí no sé. Cállese la boca. Ni una palabra más. Pero por qué no basta hombre, los hombres no lloran. Esa señora es así porque es de otro barrio. Y nosotros Estamos caminando por esta vereda y no tenemos por qué preocuparnos de otra gente. Vamos a ir mirando, mire, mire la vidriera que hay ahí, eso es una juguetería, eso es para niño, mire qué bonito. Qué linda la juguetería. Mire la mía. Ay, qué lindo. Mire el tren con motocolora y todo. Loco motora. Motocolora. Qué lindo el trencito. A mí me gustan los trenes. Mire, el conejo. El trencito me gusta, mira. Esos trenes duran mucho. Ahí se ve lindo, pero más lindo se vería en mi pieza. Yo cuando sea grande y tenga hijos, le voy a regalar trenes a mis hijos. A mí me gustan los trenes. Yo voy a ser trenero cuando grande. Caminando al trencito. Duran mucho los trenes, son baratos. A mí me gustan todos los juguetes. Aunque sean chiquititos me gustan. Todos los juguetes son lindos. Pero, ¿por qué está tan gorda la señora? Esa señora está enferma, —Pobrecito, está enfermita y anda por la calle. ¿Y de qué está enferma? —De una enfermedad enfermosa. —Sí, pero, ¿cómo se llama la enfermedad? —Mira, es una enfermedad que... (Bueno, ahí piensa el padre que lo va a dejar callado). Mira, es una enfermedad que tienen las señoras, que tienen que tener las señoras, que se llama hidropesía. —¿Hidropesía? —Hidropesía. —Ah, hidroterapia. ¡Ay, hidroterapia! ¿Y qué quiere decir hidroterapia? —Hidroterapia, mi amor. Mira, ahí te lo quiere decir agua y te decía 'exceso'. O sea, lo que tiene la señora es exceso de agua. —Ah, exceso de agua. Papito, pero el niñito sabe nadar.",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 119.0,
+      "speaker": null,
+      "text": "Hola, amigos de nuestro canal histórico, ¿cómo están? Les quiero contar que en esta oportunidad haremos un pequeño homenaje a un gran artista que empezó el escenario de La Quinta Vergara en 1974. Hablo de un gran humorista chileno que hace poquitos días, lamentablemente, nos dejó, falleció en el país trasandino hace sus 91 años. Hablo de Tato Cifuentes. Aquí les vamos a dejar una pequeña fracción de su presentación en 1974 en el Festival de la Canción de Viña del Mar. Aprovechamos como canal histórico, por supuesto, de enviar darle un saludo muy cariñoso a todos sus familiares, a todos sus seguidores y por supuesto que comenten este video aquí abajito, Datos y Fuentes 1974 en Viña del Mar. El niñito de 5 años y el papá mayor que el hijo van de camino, caminando, de paseo, mirando viñedos, etcétera y de repente pasa lo inesperado. Por la vereda del frente una señora casada bien casada por las apariencias. Y el mocoso nunca había visto una señora así tan casada y le llama poderosamente la atención. ¿A quién le va a preguntar si no es a su papito? Y ahí empieza el problema del padre y no le dice lo que corresponde. Papacito. Papacito. ¿Qué le pasa, el gordito? Papacito. Mire, la señora que va con mirando por ahí. ¿Qué tiene? Sí tiene. Digo, ¿qué tiene de particular? Una señora que va caminando. Sí, va caminando, pero pero pero Pero por ¿Por qué va caminando así tan hecha para atrás? Algún defecto que tiene la señora en los zapatos. No, no es los zapatos. El más arriba.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 120.0,
+      "end_time_seconds": 269.0,
+      "speaker": null,
+      "text": "Mira, yo te he dicho muchas veces que los niños no hacen ciertas preguntas. No, papito, no. Usted siempre me ha dicho que los niñitos cuando no saben tienen que preguntar. Y yo quiero saber por qué la señora queda caminando con Bueno, déjeme, la señora tranquila porque me voy a enojar. Pero por qué por mí no sé. Cállese la boca. Ni una palabra más. Pero por qué no basta hombre, los hombres no lloran. Esa señora es así porque es de otro barrio. Y nosotros Estamos caminando por esta vereda y no tenemos por qué preocuparnos de otra gente. Vamos a ir mirando, mire, mire la vidriera que hay ahí, eso es una juguetería, eso es para niño, mire qué bonito. Qué linda la juguetería. Mire la mía. Ay, qué lindo. Mire el tren con motocolora y todo. Loco motora. Motocolora. Qué lindo el trencito. A mí me gustan los trenes. Mire, el conejo. El trencito me gusta, mira. Esos trenes duran mucho. Ahí se ve lindo, pero más lindo se vería en mi pieza. Yo cuando sea grande y tenga hijos, le voy a regalar trenes a mis hijos. A mí me gustan los trenes. Yo voy a ser trenero cuando grande. Caminando al trencito. Duran mucho los trenes, son baratos. A mí me gustan todos los juguetes. Aunque sean chiquititos me gustan. Todos los juguetes son lindos. Pero, ¿por qué está tan gorda la señora? Esa señora está enferma,",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 270.0,
+      "end_time_seconds": 324.0,
+      "speaker": null,
+      "text": "—Pobrecito, está enfermita y anda por la calle. ¿Y de qué está enferma? —De una enfermedad enfermosa. —Sí, pero, ¿cómo se llama la enfermedad? —Mira, es una enfermedad que... (Bueno, ahí piensa el padre que lo va a dejar callado). Mira, es una enfermedad que tienen las señoras, que tienen que tener las señoras, que se llama hidropesía. —¿Hidropesía? —Hidropesía. —Ah, hidroterapia. ¡Ay, hidroterapia! ¿Y qué quiere decir hidroterapia? —Hidroterapia, mi amor. Mira, ahí te lo quiere decir agua y te decía 'exceso'. O sea, lo que tiene la señora es exceso de agua. —Ah, exceso de agua. Papito, pero el niñito sabe nadar.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          9,
+          10,
+          11
+        ],
+        "llm_correction": true
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 12,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 12,
+      "merged_segment_count": 3
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 3
+    }
+  },
+  "timestamp_source": "google"
+}

@@ -1,0 +1,68 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/24/Festival Internacional de la Canción de Viña del Mar 1971/Edmundo Arrocet.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/24/Festival Internacional de la Canción de Viña del Mar 1971/Edmundo Arrocet/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Por favor, oraciosos a ella. De inmediato, a continuación, vamos a presentar con ustedes este gran artista con su gran director de orquesta que se hace presente aquí en el Festival de Viña del Mar para dejar de inmediato al italiano Nicola Dibari. Señora, señora, andiamo a interpretar una canzonata. ¿A chi si chiama la canzone? ¿Come si chiama, bambino? \"Il trotamondo\". Allora, cavalieri, aspettiamo... Que camina sin cesar. No, que le gusta de la vida es el amor que nada más. Si rodando el mundo puedo hallar una que piense como yo o que le gusta de la vida es el amor y nada más. Y día tras día la espero yo. Y paso tras paso, yo la buscaré y la encontraré, la encontraré, la encontraré. Contra todo el mundo como yo, que camina sin cesar, lo que le gusta de la vida es el amor que nada más. Es el amor y nada más.",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 8.0,
+      "end_time_seconds": 24.0,
+      "speaker": null,
+      "text": "Por favor, oraciosos a ella. De inmediato, a continuación, vamos a presentar con ustedes este gran artista con su gran director de orquesta que se hace presente aquí en el Festival de Viña del Mar para dejar de inmediato al italiano Nicola Dibari.",
+      "metadata": {
+        "confidence": 0.8048925399780273,
+        "speaker_tag": null,
+        "word_count": 43
+      }
+    },
+    {
+      "start_time_seconds": 33.0,
+      "end_time_seconds": 89.0,
+      "speaker": null,
+      "text": "Señora, señora, andiamo a interpretar una canzonata. ¿A chi si chiama la canzone? ¿Come si chiama, bambino? \"Il trotamondo\". Allora, cavalieri, aspettiamo... Que camina sin cesar. No, que le gusta de la vida es el amor que nada más. Si rodando el mundo puedo hallar una que piense como yo o que le gusta de la vida es el amor y nada más. Y día tras día la espero yo.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          1,
+          2
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 91.0,
+      "end_time_seconds": 123.0,
+      "speaker": null,
+      "text": "Y paso tras paso, yo la buscaré y la encontraré, la encontraré, la encontraré. Contra todo el mundo como yo, que camina sin cesar, lo que le gusta de la vida es el amor que nada más. Es el amor y nada más.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          3,
+          4
+        ]
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 5,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 5,
+      "merged_segment_count": 3
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 3
+    }
+  },
+  "timestamp_source": "google"
+}

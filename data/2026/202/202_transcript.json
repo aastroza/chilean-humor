@@ -1,0 +1,642 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/202/Festival Internacional de la Canción de Viña del Mar 2024/Alex Ortiz.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/202/Festival Internacional de la Canción de Viña del Mar 2024/Alex Ortiz/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Y volvemos a la sexta noche de Viña 2024. Ha sido una satisfacción enorme estar junto a ustedes. Así es que gracias a Canal 13 y también a TVN y también a nuestras radios oficiales, ADN y mi querida Radio Pudahuel, desde una región que se está poniendo de pie y mirando el futuro con muchísima esperanza. Sigamos apoyándolo porque aún hay tiempo para escanear el código QR que está en pantalla y poder hacer sus aportes. Así es y qué importante. Y por mi parte quiero saludar a un gran compañero de CBN. Él deslumbró a los panamericanos y nos va a acompañar desde el sábado 9 de marzo en el regreso de un clásico a día una vez, el gran Gonzalo Fuyú. ¿Cómo estás, Gonza? Y ahora quiero saludar a mi amigo y compañero, mi querido Eduardo Fuentes, a quien adoro y desde este lunes les vamos a decir, \"Buenos días a todos desde la 8 a.m. en el matinal de Chile. Te quiero muchísimo y tú lo sabes.\" Y decirles también que estamos todos expectantes del estreno de Ahoy Caigo este lunes a las 19:20 horas. Le deseamos toda la suerte a Daniel Puerta Lida. Quedan por supuesto todos invitados quinta. Grande, Dani. Un abrazo, amigos, a todos ustedes. Bueno, sigan muy atentos a lo que vienen porque ahora les tengo una gran invitación. Es momento de reír a carcajadas porque acá demostramos que hacer reír nos hace bien, nos va sanando el corazón y también el alma. Muy importante. Claro que sí y en el cierre queremos hacerlo junto a un gran comediante que durante una década ha recorrido el país entero con sus rutinas y que hoy día va a vivir un día soñado. El debut en La Quinta Vergara, que es la verdadera catedral del humor en Chile. Oye, yo les aseguro que todo lo que él cuente de alguna manera lo han vivido y que cuando escuchen sus chistes van a recordar sus propias historias porque es un especialista en encontrar el lado más divertido de la vida cotidiana. En Piña 2024. Es momento de recibir a un observador agudo e implacable. Ningún detalle se le escapa y esta noche lo va a demostrar. Soñó con este momento y aquí está con el aplauso de ustedes. Vamos a recibir a Alex Ortiz. ¡Buenas noches, Piña! Buenas noches, Quinta Vergara. Amigos ahí arriba, ¿cómo está todo? Hoy acá, amigos, oye, muchas gracias. Muchas gracias, amigos, gracias por la por la por el recibimiento. Última noche, última noche estamos acá. Agradecido de la invitación, mi nombre es Álex Ortiz, lejos, el comediante más desconocido de este festival. Pero acá estoy, amigos, estoy contento, estoy feliz porque los compromisos están hechos para cumplirse, ¿cierto? No como el otro, huevón. Salió arrancando. Ay, el queso crema. Y se enojó. Oye, amigos, aquí estamos. Mi nombre es Álex Ortiz y mira, yo el año pasado, amigos, fui al Festival de Olmué sin ceremonia inmediatamente. ¿Alguien lo vio, la verdad? No, ¿pero sabes qué? Me fue bien. Yo soy de barrio y me fue bien. Yo sé que tú me veis rico, toda la huevada. Pero yo pero yo soy de barrio, yo soy de barrio. ¿Sabes qué? Lo único malo que mi mamá al otro día se levantó de raja, al otro día. Me decía, \"No, Alex, yo ya no me puedo juntar con las vecinas.\" Mi mamá, con cuatro muelas, te lo juro. Le decía, \"Mamita, ¿pero por qué se levanta de tanto raja?\" No es Que mira el linaje que tenemos ahora. Qué linaje, mamá, y la queso, la queso. ¿Qué es la queso? De repente anda con esos léxicos de TikTok y yo le digo, \"¿Sabe qué, mamá? No tiene que ser así.\" Mira, Alex, las botas que me compré en la feria. Uy, tan bonitas. ¿Cuáles son? Las máquinas de guerra, me dice. Me dice, \"Máquina de guerra, ¿qué es eso? Máquina de muerte.\" Yo le digo, \"Pero ¿sabe qué? Da lo mismo. Uno, amigos, tiene que ser siempre humilde.\" ¿Sí o no? Puede estar arriba, puede estar abajo, da lo mismo. Yo le decía: \"Mamá, yo me acuerdo cuando usted me lleva al colegio municipal porque yo sé que me veo de privado, ¿cierto? Privado libertad\". No, colegio municipal, con mucho orgullo. Muchas gracias, muchas gracias. Muchas gracias, amigo. Yo me acuerdo cuando yo iba al colegio le decía a mi mamá y ahí estaba. Yo llegaba a las 8 de la mañana, el director en la puerta vendiendo falopa. Ahí está. Yo me acuerdo, teníamos que entrar todos más duros que Peso Pluma. ¡Ahí ya! Uno tenía que entrar así. Por eso no hay que levantarse, hay que ser humilde siempre para que la experiencia... de repente la la pillaba mi vieja mirando por la ventana. \"¿Qué está haciendo, mamita, con la escoba?\". \"No, estoy mirando\". \"Pero ¿qué está mirando?\". \"No, es que voy a ir a barrer\". \"Pero vaya a barrer pues, mamá. ¿Qué está viendo?\". \"Estoy viendo si hay prensa\". \"Mamá, ¿quién la va a querer entrevistar?\". ¿Usted me vais a creer que a veces hacía cazuela por si venía Panchito Saavedra a comer? Yo dije: \"Mamá, no va a venir jamás porque es una cazuela a comer\". Y fue el coleo, se comió todo. Pero sabéis lo más importante que tenéis que querer a tu vieja. Yo siempre me baso en eso, aunque les voy a preguntar algo, amigos de la Quinta Vergara: ¿te estresa un poquito tu mamá, la verdad? Pero un poquitito, un poquitito, a mí igual. Oye, fue como: \"Sí\". Y la mamá mirando: \"¿Qué estáis diciendo si vivís conmigo?\". A mí me estresa un poquito, ¿sabéis qué cosa? Que de repente que ella me pida cosas que ella puede resolver, porque yo ya me cambié, porque ya no vivo con ella. Ahora me ha ido un poquito mejor. Me cambié al barrio alto, Independencia, ahí soy yo. Y de repente me de repente me llama sin ningún cariño, amigo, si eso es lo que me molesta. De repente estamos así son el teléfono. ¿Estáis ocupado? Mamita, para usted nunca. Así le digo yo. Hay que querer a la mamá. Ya, si estáis tan desocupado, ¿por qué no me pedís un Uber, huevón? Alguien le abrió un Uber a la mamá. La verdad Todos los que leemos sabemos que no hay forma de que este auto que está en el mapa se junte con el punto que es el otro punto de tu mamá. Porque tu mamá no tiene chuchidea donde vive, hermano. No sabe en qué lugar del planeta vive. Yo de repente le digo, \"Sí, mamita, ¿dónde está? A Capo.\" No, no, pero en qué parte? A Capo, huevón. No me veís. No, mamá, yo no la veo que yo estoy al otro lado del teléfono. Oye, pide un Uber, huevón, por favor. Mamita, ¿dónde está? Acá, en el Hospital San Borja con tu abuelita, en el kiosco blanco. Le digo, \"Mamá, el Hospital San Borja tiene 20 cuadras a la redonda, 20. Deme una dirección en la esquina. Hay una flecha que usted me da la dirección. Yo la pongo en el Uber, así el Uber puede llegar o si no, no va a poder llegar. A ver, dame con ese huevón, me dice. No, mamá, yo no estoy con el Uber. Oye, pídeme la huevada. Mamita, ¿dónde está? Oye, Alex, ¿Qué pasa, mamá? Tenéis mala voluntad, huevón. Puta, que tenéis mala voluntad. Soy igual a tu papá, huevón. Muchas gracias, amigos. Soy igual a ese huevón pago de tu papá. Yo le digo, \"Mamita, no se trata de eso. Deme una dirección, alguna referencia. Estoy acá, huevón, en el kiosco blanco, se metió tu abuela.\" Le digo, \"Mamita, deme una referencia, estoy de rojo.\" Mamá, si sé que está de rojo, ¿pero en qué parte? ¿Sabéis qué, huevón? Y de repente mi mamá corta, pero no corta. Sigue el teléfono ahí. Y yo escucho todo lo que dice de mí. Está con mi abuela, si es huevón, mamá. El más huevón de Chile, el más huevón que pesopluma este. Y pa, me corta. Y cuando tú Quería ayudar a tu mamá. Amigos, ¿qué hacen ustedes? Igual la ayudan, ¿cierto? Hay que ayudar a la mamita siempre. Me meto ahí a internet, donde queda el Hospital San Borja, inteligencia artificial, Santa Rosa 1 2 3 4, aparece. Le pongo ahí, le pido el Uber. Ahí está, en el kiosco blanco, esta vieja con mi abuela mía, ahí, pa. Sigue el olor, le pongo. Llamo a mi mamá para avisarle, para avisarle, mamita. Llamada 90 y mi mamá no contesta. Porque tu mamá nunca te va a contestar después de que se enoja contigo. Tu mamá es rencorosa, huevón. Llamada 315, te contesta como si nada. ¿Qué pasó? Mamita, le pedí el Uber. Está en el kiosco blanco, quédese ahí, Hospital San Borja. Oye, huevón, deja la huevada ahí nomás, mala voluntad. Me viene el micro, huevón. Eres mala la voluntad igual a tu papá. Eso es lo que tenés mal agradecido. Ya te corto, huevón, que se me quedó tu abuela también. Muchas gracias, amigo. Muchas gracias, por por este momento. ¿Se escucha bonito? ¿Sí? ¿Sabéis qué? Me gusta mi mamá, me encanta, la amo, de hecho anda por ahí y yo sabéis lo que pasa? Que de un momento a otro he encontrado que con los años mi mamá se ha puesto más violenta, ¿no te pasa? Como que te puso agresiva. De repente amigos me llaman a mí, \"Alex, anda a ver a tu mamá está peleando.\" ¿Adónde? En Facebook. Pero cómo, anda a verla, la van a funar, huevón. Yo le digo, \"Pero huevón, ¿cómo va a estar peleando mi mamá?\" Anda a verla, está peleando con todo el mundo y me meto a Facebook, yo no tengo ni la clave, me meto ahí, ahí está mi mamá. La encontré en un grupo de cats lovers. Dije, \"¿Qué hace mi mamá ahí?\" Empecé a buscar el mensaje de mi mamá, ahí estaba, me cargan los gatos culiados, puso. Y yo le digo, \"Pero mamá, ¿cómo se le ocurre poner que le cargan los gatos en un grupo donde aman a los gatos. Es para debatir, huevón, me dice. Y la queso, dice, \"Ah.\" Pero ¿sabes qué? Es bonito, bonito poder ayudar a tu mamá y recordarle, porque hay que mantenerse siempre con los pies en la tierra. Te vaya bien, no te vaya mal, la vida te da muchas sorpresas, amigo. Yo le decía a mi vieja, \"¿Sabes qué, mamá? Yo usé mochila mezclilla y usted le da color.\" ¿Alguien usó mochila mezclilla acá? Pero mochila mezclilla de verdad. Esa de género azul ordinaria que era como un cierre al medio y una placa que decía Wrangler. Ordinaria. Tu mamá y te echaba los Santillana 2000, los Icarito, plasticina Fulton con tolueno, amigos. Te lo juro que yo hacía trabajos volados. Mi mamá decía, \"Oye, pónle de voluntad. Estoy volado.\" Y yo cuando me ponía mi mochilita mi vieja, me iba, \"Mamita, me voy al colegio.\" Llegaba corriendo, preocupada siempre, \"Toma, Alex, una yulla.\" Ustedes dirán, \"La colación.\" No, amigos, era la goma, yo borraba con un pan, te lo juro. Alguien borró con un pan, la verdad. Con y Santa María, Pante Maza Madre, otra huevada. Claro, Joe Sister, Pante molde, ah. Amigos del palco, pan con chia, ahí. Pero sabéis qué? Muchas gracias, adiós. Por eso uno tiene que mantenerse así, mamá, le decía yo, imagínate todos mis amigos con estas gomas Bacane, Standlets, unas gomas de miga y yo borrando con una yuyá ahí como los hueones. Mi cuaderno Auca, Auca. Para él no Auca, 10 por lucas. 100 hojas transparentes, huevón. Mi mamá la usaba para hacer queque, yo me acuerdo. Una espiral que era transparente y no podíais toser arriba de ese cuaderno. Teníais que tratarlo con cuidado porque las hojas volaban, huevón. Yo decía, \"Mamita, por eso tiene que ser así.\" Una vez, imagínate, estaba borrando con el aylluya y se cagara el cuaderno porque el pan tenía mantequilla. Igual era práctico. Mamá, vísteme cuando le eche mantequilla a la goma le Te equivocáis, borráis, te da hambre, te coméis la huevada. Amigos, ustedes en el colegio tuvieron un compañero cuico, uno. ¡Oh! Le cambian los cuicos, ¿no? Es que sabéis qué, no quiero sonar resentido, pero es que yo siempre los veía llegar con cosas que yo no tenía y le daban tanto color, llegaban con vestón, bañado, con zapatos. Yo decía, \"Mamita, estos hueones se bañan.\" No tienen idea de la vida, estos hueones me decía. Y siempre tenían útiles que yo no cachaba, de repente llegaban, ¿tú crees que tenía mochila Wrangler? No. Llegaban así, mochila de aeropuerto, alarma, estacionamiento, ruedas repuesto, ¿achá? ¿Y tú crees que ellos iban a usar un cuaderno Auca? Jamás. Me daba rabia porque sacaban un cuaderno grande, tapa ultra dura, un azul dejo hecho tapa, amigos. Podíais matar un hueón de un cuadernazo. Rain. Cuaderno Rain. Tres colores separados por materia, un lujo para la época. Y yo en mi cuaderno tenía 12 ramos más religión. Y libreta de comunicaciones muchas veces. Uno se da inmediatamente cuenta cuando un cuico es cuico. Cuando yo iba al colegio a recreo, agarraba una pelota de esas de mapamundi para el recreo. Esa que le pegaba y una patada, te daba vuelta la rodilla. Y yo cachá esto otro bueno pues agarraban su guayno y bajaban a jugar pádel. Ahí estaban. En el recreo jugando pádel. Y siempre los miraba y yo decía, \"Estos locos tienen tienen útiles que yo nunca tuve.\" Había ahí un estuche Faber Castell. Oh. Y siempre le veía una goma mitad azul, mitad roja. Ya había un mito urbano de esa goma que el lado azul borraba lápiz, pasta. Yo un día me acerqué y le dije, \"Oye, ¿cuíco culeado?\" ¿Me prestáis la goma? ¿Me la vais a devolver? Sí, pues espérate, sí, sí. Digo, \"Toma, te la cambio por un plátano, ¿conoces la fruta, huevón?\" le dije. Y ahí empecé yo, pues mi cuñado no auca, a borrar, a borrar, a borrar, a borrar, a borrar, a borrar. Cuando iba en la mesa dije, \"Esta huevada no sirve.\" Oye, ¿cómo cómo nos mentían? ¿Cómo nos mentían? Pero Gracias a eso, mira, amigos, yo soy como soy. Imagínate, el año pasado fui al Festival del Muelle. A mí me pagaron muchas lucas el año pasado, te digo la verdad, mucha plata, nunca había tenido tanta plata. Me pagaron 98 lucas. Y sabéis lo que hice, le compré un celular a mi mamá. Yo sé que es humilde comprarle un celular a No, como Joe Sister que se sacó una casa al toque. Pero voy para allá, algún día voy para allá. Le dije, \"Mamita, tome un celular.\" ¡Oh! Ahí está, maestro, cuánto sabe, de barrio, el hombre. Ay, más o menos, weón. Hoy no la había visto, ahí mirando, oye, pero mira, oye, me siento aquí privilegiado, mira todos bonitos, bueno, y chavito, y chavito. Chavito, también está. También está chavito, hermoso, simpaticón. Es como yo también. Mamita, tome un celular para que usted me llame cuando lo quiera, tome, mamá, guárdelo en la cartera, porque la delincuencia igual está brígida, guárdelo en la cartera, en la ánfora, que yo también le regalé. Ahí, guarda. De repente me gusta sacarle en cara a mi mamá. Sacale en cara vez que podáis, pero pequeñas cosas. ¿Sabes por qué? Porque tu mamita olvida rápido. Un puro triunfo a tu hermana, pasaste la historia, conchetumare. De repente llegó a la casa y le digo, \"Mamita, la invito a comer. Ya, poneme el gas para bañarme, sí, el que compré yo.\" Y le digo, \"Mamita, guarde su celular en la cartera, se lo van a robar porque es por si anda viendo TikTok en la calle.\" Amigos, mi mamá es de barrio. ¿Ustedes creen que se guardó el celular en la cartera? ¿A dónde se lo guardó? En las tetas, acá. Pero por qué las mamás se guardan todo en las tetas? ¿Qué enfermedad es esa, huevón? Sí que le cayera hasta perver, sancuchito. Ya no una teta, es un banano. Bueno, revisa la teta de tu mamá. Va a encontrar de todo. Si te ha perdido el gato, revisa de la teta de tu mamá. ¿Dónde está el control remoto, mamá? Muchas gracias, amigos. Gracias por el cariño. ¿Quién es mi mamá? O sea, ¿quién soy yo para Decirle las cosas que haga mi mamá, mi mamita hace lo que quiere, le ha le ha costado, es una mujer esforzada. Se guarda el celular acá, si tú veías tu mamita con el celular acá, déjala, son técnicas. De repente lo guarda aquí, la llaman por teléfono, se aprieta el pezón, \"Alo.\", como tal. Aquí estoy. Un pezón Bluetooth. Está bien, oye, ves que podáis sacar a tu vieja, sácala. Yo Mira, te digo la verdad, mi mamá, gracias, ahora que nos ha ido un poco mejor, la invitar a comer cosas que nunca había comido. ¿Habéis pensado eso? Mi mamá le dije, \"Mamita, ¿qué quiere comer? Dígame lo que quiera. Quiero probar el sushi.\" Me dio una pena que le dije, \"¿Sabe qué, mamá?\" La voy a hallar al mejor sushi, amigos, al mejor sushi que hay en Providencia, una huevada que atendía a Yakijian, te lo juro. No, pero te lo juro, bacán. Nunca había ido tan bacán. Y ahí tú te dais cuenta que cuando tú sois de barrio, tu familia también, aunque te vaya un poquito mejor, tu mamá nunca va a dejar de ser kuma, nunca. No, pero mi mamá mochando el ilacha de que entró a la puerta. Oye, qué rica la Pepsi, mamá, deja la soya ahí, le dije. Deja la soya, mamá, asociégate. Asociégate haciéndose un moño con los palitos, mamita. Quédate quieta, le dije, \"Oye, con Muchas gracias. Muchas gracias, tamaraguita. ¿Pero sabés qué? Me gusta, hay que dejarla hacer porque es tu vieja. ¿Quién la es así de repente? A veces enojada, me decía, \"Oye, me cargó este sushi.\" No dan pan ni pebre, mamá. Oye, mamá, no Mamá, pan ni pebre, acá, mamá, asociégate. Le dije, \"Siéntate acá.\" ¿Cuál quiere comer? Pedí uno acevichado, hay que echar a esos que tienen cerveza arriba bacanes. Le dije, \"Mamita, pruébe, abastézcase.\" Le dije, \"Abastézcase.\" \"Abastécete, mamá.\" Le dije. Me dijo, \"¿Cómo están?\" \"Exquisitos.\" \"Al exquisito.\" Lo único malo, la palta más picante que la chucha, amigo. \"¿Qué palta, mamá?\" Le dije yo. \"La palta, po, güey.\" Te comí ¿Viste el WhatsApp, mamá? Le dije. Si esa agua es más picante que nosotros. Pero, mamita, eso no. Ya, déjame ser. Déjame ser, me dice. Yo la quedé mirando, mamita, disfrute. Y cuando tú pensás que tu mamá no va a seguir mostrándole el hacha, levanta la mano. ¿Me puede traer ketchup, por favor? No. Pero, mamá, ¿cómo pedís ketchup para echarle al sushi? Bueno, ¿y qué tiene? No, mamá, es ordinaria esa huevada. Si con mostaza quedan la raja, le dije yo yo. Motaza, mayonesa, chucrut, rico. Su chipleto, ah. Muchas gracias. ¿Vamos bien, amigos? Bacán. Muchas gracias, agradecido. Tengo Tengo un hijo de 19 años. ¿Alguien tiene hijos, amigos? Hijo, los hijos no se niegan. Hijos. Están todos aquí, bueno, ay, los dejé en el auto. Tengo un hijo de 19 años y no le pasa muchas veces. Mira, imagínate, yo vine para acá noche joven hoy día cerrando el festival y yo le dije a mi hijo, \"Huevón, va a ir público joven, necesito adaptarme.\" Mira, me tatué, me teñí, me bañé. Patético, po, hermano. Me veo patético. Le dije, \"Huevón, necesito cachar el léxico porque los jóvenes de ahora hablan en otro idioma según la música.\" Le dije a mi hijo, \"Bueno, yo te compro unas pizzas, unas pizcolas, invita a tu amigo y yo ahí entro a conversar.\" Están carreteando, caché al primer amigo de mi hijo. Llegué yo, modo, tío Lolo. ¿Qué pasa, mi Chan? ¿Qué pasa, mi Chan? ¿Qué pasa, mi Chan? ¿Qué pasa, mi sangrecita? El loco me quedó mirando, ¿qué huevada, tío? Estáis detonado, perro bomba o no? Miró a mi hijo, ¿qué hago a tu papá? Mi hijo, qué crinche este viejo culiao. Ahí lo maté. Estoy bien, tío, pero dime una respuesta de bio. ¿Cómo está ahí? Bien, tío. De pana. De pana. ¿Qué es de pana, weón? Cayé. Corriente, yo sister, ¿qué es de pana, hermano? Estar bien. Estar pulento, dice. No sabía. Yo dije, \"Mejor me cambio, me cambié a otro.\" al lado. Estaba más o menos medio triste. Tú, perrito, ¿cómo estáis? Más o menos, tío. De la perra. De la perra. Huevón, ¿qué es tarde la perra? Te lo juro que no sabía cómo responderle. Uh, me cagó. Lo quedé mirando, ¿qué es de la perra? Malaya culiá, le dije. Para que entienda que yo también soy ficha galáctica. Puro corte Jereclein. Me gusta Jereclein. ¿Sabéis qué? Me gusta Me gusta el Me gusta Me gusta Jereclein, pero ¿sabéis por qué? Mucha gente le tira hate a todos los urbanos, pues ¿sabéis qué? Cuando hay que ayudar, ¿quién está ahí? Los urbanos. Todo el mundo tirándole hate a la gente joven, me carga. ¿Y sabéis por qué me carga? Porque yo también tengo un hijo. Y si weón se pone a cantar, va a tener que apoyarlo. Hay que apoyar talento, amigos, son gente que le ganó al barrio, la misma Naya que anda por ahí. Mira, ahí estaba, ahí estaba. Mira. ¡Bravo! ¡Ya, siéntate! Aguanta, imagínate, ahí andaba. Ahí tení. Aprende Lady D. Me gusta, weón, ahí que me gusta, me gustan esas personas porque no hay que tirarle hate a la juventud, son personas que le ganaron al barrio, hermanito. Jerry Klein, me gusta, te voy a confesar, me encanta, lo me gusta, te vacilo, Jerry Klein, te lo vacilo. Lo lo único malo que no sé qué chucha dice. No, es que no le entiendo, tengo 40 años, weón. Ando. Me tengo la taza con Oh, ahí me fui a la chucha. Y de repente como que pasa del amor a los sutros. Ese totito rico. Tilambo. Ah, qué bueno ese tema. Es que me gusta, huevón, la juventud es bacán. ¿Sabés que ahora que soy papá me he dado cuenta? Mi vieja siempre me trató de educar. Yo ahora le enseño a mi hijo hasta ir a comprar. A las carnicerías de ahora. He cachado las carnicerías de ahora. Todas espectaculares, todas ordenaditas. Tú veías al carnicero, ese güey te podría vender un auto, espectacular. Pero, amigos, ¿alguien de ustedes fue una carnicería antigua? Esa carnicería de barrio donde mirás al carnicero, masacre en Texas. Tápame a culpa, te lo juro. Unas cortinas llenas de sangre, panitas, cerebro, patas de pollo, para las propina, una cabeza de chancho arriba. viva. Y harto a serrín, harto a serrín. Porque la serrín es de cantería. Mi mamá me decía, \"Alex, yo te voy a enseñar a comprar para que seas vivo para la vida.\" Me enteré que llegaba y me decía, \"Mira, así desenvuélvete yo.\" \"Hola, casero.\" \"Hola, mamita.\" Me da 400 pesos de hueso para los perros. Hueso para los perros, antiguamente vendían huesos para los perros. Me decía, \"Pero la gracia que todo el mundo sepa que son para los perros.\" hueso para los perros. Y yo decía, \"Sí, mamá.\" Y yo pensaba, po. Yo no tengo perro, po, concha de tu madre. Era yo el perro culeado que se iba a comer esas casas. Oye, muchas gracias, de verdad. Agradecido, amigos. Contento. Hagamos un asado. Tengo 3 kg de carne en la casa. Síganme en Instagram @flakychileño y ahí nos juntamos para hacer un un asadito. Un asadito, mira, justo salió un himno. Oye, amigos, ¿sabéis qué? Yo para ir comentando muchas otras cosas, yo soy fonasa. Yo sé que ustedes me ven disápero, ¿no? Digo, \"Yo soy fonasa, me he mantenido en fonasa porque yo me crié antiguamente.\" Yo usé este, fonasa, pues maestro. Con y Santa María. Y ah Otra wea. Otra cosa, podríamos hacer una notita para que se dejen de cagarnos igual porque hay que charlar. Imagínate, imagínate la la la la el de chacra. Chavito, ¿usted? Ponazo también. Y sapre, chavito. Pero sabés que igual hay diferencia, por ejemplo, imagínate. No sé, pues ni Dios lo quiera. A chavito le pongo una pata en el hocico, ni Dios lo quiera. No, pero ni Dios lo quiera. Ni Dios lo quiera. Chavito y sapre. Chavito le pongo una pata del hocico, llega un dron, lo toma. Ahí, pum, se atiende en la clínica de la Coni Santa María. En cambio, yo le explico a mi hijo, yo vengo de consultorio, amigos, consultorio de verdad, del consultorio de San Joaquín. Para mí ese es fan es Cuico. Yo te lo encuentro Cuico. Yo le digo a mi hijo, \"Weón, consultorio de verdad.\" No como el de Talcahuano, la mina moviendo la raja. Oye. Oiga, me siento mal, ¿en serio? Oye, pero imagínate ir al dentista en Talcahuano. Imagínate la gente que va al dentista, doctora, me pasa el hilo dental. Sí, doctor. Oiga, tiene gusto raro, es que es de la Anita. Gracias, Dios. Muchas gracias Gracias. Es que mira, yo le explico para que él no se críe en una burbuja, hay que decirle. Yo recuerdo muchas veces, de repente yo me crié cuando había una pura enfermedad cuando chico, amigo, ahora está lleno de enfermedades. Yo me acuerdo cuando chico, una pura enfermedad, la flema. No había otra, llegaba mi mamá dando diagnóstico, \"Flema blanca o flema verde?\" Mi papá se creía doctor, \"No, tiene el pecho tomado, tiene el pecho tomado.\" Mi mamá me decía, \"Ven, ven, no lo llevemos al consultorio, sale muy caro el coleto.\" en la casa, remedio casero. Yo con el pecho tomado, no podía respirar. Mi mamá me ponía para atrás. Sacaba un pedazo de diario, me lo ponía aquí. Y de la nada, amigo, prendí un fósforo, te lo juro. Y decía, \"No.\" Y una vela y me empezaba a echar vela caliente en el pecho. Las 50 sombras de Grey's. Y decía Y decía, \"Mamita, mamita, me estáis quemando.\" le dije. Cállate, huevón, que por eso estáis de la perra, me decía. Y además, siempre llevando más allá muchas Muchas veces, yo me he criado, por ejemplo, ¿ustedes alguna vez se han cortado el dedo o han tenido una herida canche tierra? ¿Tienen canche tierra en la casa? Canche tierra de verdad, no la de padel con pasito, no. Canche tierra de verdad, esa que te caí y te enterráis un camote en la cabeza, esa. Yo le decía a mi mamá, \"Uno antes llegar, yo llegaba pelado con aquí sin piel, sin la epidermis, así llegaba a la casa. El hombre sin sombra, así llegaba.\" Ya, mamita, mire, me caí. Un pollo, ya déjate huevea. Ya, ándate para dentro. Ándate para dentro, me decía. Yo me corté el dedo, ¿te cortaste alguna vez con una hoja en entre medio los dedos. ¡Oh, ese dolor! Ese dolor. Yo decía, \"Qué dolor, papá, papá, tenía un parche curita.\" ¿Qué? Un parche curita para la alergia. ¿Cómo un parche curita? Papá, me corté el dedo, un parche curita. Me quedaba mirando, \"Me atelería, maricón.\" Mi papá con ese léxico antiguo. Pero imagínate qué diagnóstico es eso, ¿cómo te vas a estar meando la herida? Imagínate vaya apuñalado, \"Doctor, doctor, mire, ya, ven.\" Venga, venga, venga, quédese quieto, quédese quieto, quédese quieto. No se mueva que estoy suturando. Era todo trágico antiguamente, amigos. Todo trágico, incluso el hipo. ¿Cachaste que el hipo desapareció? Ya no vi a nadie con hipo. Nadie lo veis con hipo, en la peste negra y el COVID desaparecieron. Yo de repente llegaba con hipo, papito, tengo hipo. Toma esa bolsa que está ahí, póntela en la cabeza y no respiréis por media hora, me dice. Mi mamá llega, \"Oye, deja el niño tranquilo, huevón, ven para acá, Alex. Ven, que yo te voy a curar el hipo.\" Sacaba un diario, el mismo que me puse en el pecho. La cuarta. Y de la raja a la mina. Con un pollo aquí. Me decía, \"Ya, anda a jugar.\" Pero, mamá, ¿cómo va a ir con este diario en la cabeza? Anda a jugar antes que te quite el hipo una pura patada en la raja, me decía. Y así me iba a jugar yo, todo mi amigo. ¿Por qué no le tiene ese papel en la cabeza? ¿Ah? Se me quitaba el hipo la pura vergüenza, amigo. ¿Cómo nos trataban así? Yo muchas veces con ese pecho tomado, caminando, los que tienen isapre tienen una ficha. Tú llegás, suena un chip, sale tu nombre, enfermedades de base. Los que somos más de barrio y consultorio, mi mamá tenía que llevar ella la ficha, mira la agua ordinaria. Ya había una ficha que todos teníamos. Mira para la sacada del buffet, un carné niño sano. Alguien tuvo carné niño sano, una wea toda mía por mi papá con una guagua botopelado en la porta así. Se rellenaba con lápiz pasta, amigos. Imagínate quizás cuántas vacunas de más tenemos y no sabemos. Pero realmente, \"Oy, ¿le pusimos la vacuna a Chavito?\" Ya cagó, nomás, qué wea. Imagínate, así llegaba yo y mi mamá decía, \"Ya, vamos al consultorio.\" Me llevaba, íbamos caminando y ahí lo único que yo pensaba en mi mente cuando me dolía el pecho. Ojalá que no sea un supositorio. Ojalá que no sea un supositorio. Ojalá, Diosito Santo, que no sea un supositorio. Mi mamá llegaba superchora, \"¿Qué es el doctor de esta wea?\" Yo decía, \"¿Sabe qué? A mí no me tenía un remedio, los remedios están caros. Yo sé lo que tiene mi hijo, porque soy la mamá, por eso.\" ¿Qué tiene su hijo, señora? Hipo. Y el pecho tomado. Así que a mí no me dé pastilla, póngale una penicilina con pensatina, este huevón. Deberían suspender la penicilina penicilina con pensatina. Es una masacre al hoyo, te lo juro. No, pero es que cómo es posible que te puedan poner un líquido que te duela tanto como vidrio molido que te inyectan. Yo quedé mirando al doctor y le dije, \"Oiga, ¿no tiene un supositorio por ahí?\" Le dije. Es que sabéis que un supositorio igual era humillante, ¿cierto, amigos? Humillante, era lo peor, ¿por qué no te dan un paracetamol? Te bajaba los pantalones, a raja pelada, todos mirándote ahí, te ponían en una camilla y llegaba el doctor así, \"Quédese quieto.\" Afírmelo, señora, afírmelo y de repente, huevón, un en el hoyo, te lo juro. Y mi mamá decía, \"Quédate quieto para que se derrita.\" Uy, ya antes, amigos. ¿Pero sabéis qué? Dentro de eso, yo trato trato de explicarle también a mi hijo la misma, la misma Navidad. Por ejemplo, ¿a ustedes les gustaba el arbolito de Pascua de verdad? Era bacán, era bonito. Yo me acuerdo que llegaba mi papá y me decía, \"Mira, me robé perdón, compré este árbol.\" decía. Y llegaba a la casa, a la villa y lo plantaba. en la casa, ahí, pum. Era un tarro en ido. Oh. Y yo mirá el tarro y yo nunca tomé esa leche, po, mi Te conseguí el tarro para esa wea. Mi mamá lo forró en papel de regalo ahí. Yo tomaba pura purita cereal. ¿Alguien toma purita cereal? ¿Cómo nos mentían con eso, amigos? Purita cereal, 100% instantánea. Unos grumos, concha de tu madre. Era como sacarle la mochila Wrangler de nata, te lo juro. Yo decía, \"Pero cómo nos mentían.\" Era Pero era Navidad bonita, llegaba mi vieja, le ponía una estrellita, un cometa, arriba de esta quirnalda que dejaban todo cochino, no importa. Mi papá llegaba con las luces, pero no las luces de ahora con rayo láser, no, la luz antigua, 20 luces. Dos tiempos, una transparente, puntúa, un Miguelito hecho luz, una guá peligrosísima, amigos. Cuánta gente no pisó esa guá, pa, perdiste la pata. Cuánta gente no murió. Cuánta gente reventó. Oye, ¿qué le pasó al vecino al lado? Se cayó a las luces. ¡Ah! Terrible. Y aparte la Navidad venía de la mano del año nuevo. ¿Y quién es más feliz con el año nuevo? Tu papito. Mi papá sacaba ponchera. ¿Tuvieron ponchera? Una ponchera grande con tacita, 20 tacitas. Y nosotros en la casa éramos tres nomás. 20 litros de vino le ponía a mi papá y dos duraznos. Para el sabor decía, \"Alex, nunca te vayas a comer los duraznos.\" Porque hay a quedar de la perra. Pura vitamina me decía. Y yo me acuerdo que no sé si será una tradición en mi familia o una tradición chilena que 20 para las 12 antes de dar el abrazo tu papá tenía que estar curado y miao. ¿Hay visto a tu papá sano? Es que antiguamente las mamitas dejaban la puerta abierta para que viniera el vecino a saludarte, viniera todo el mundo, era una felicidad. Pregúntale a tu mamá ahora. Si pudiera dejar la puerta abierta para que venga la vecina. Que la vieja naficante al lado. Mi papá salía 20 para las 12 a dar el abrazo. Casa uno, buenas noches, vecino. Feliz Año Nuevo, abrazo, ponche. Casa dos, buenas noches, vecino. Feliz Año Nuevo, abrazo, cole mono. De Vicuña Mackena a Puente Alto mi papá saludando. Saludaba a cualquier casa que estuviera abierta. Llegaba a mi casa feliz Año Nuevo, vecino. Abrazo, ponche, pipazo. Pero mira, lo más importante es que uno tiene que dejar eso, que no se vayan olvidando las tradiciones, porque yo le explico a mi hijo y hay cosas que ni siquiera entiende. ¿Se acuerda? ¿Alguna vez ustedes cambiaron plantas por zapatos en su casa? Era bonito cuando pasaba eso o de repente está en la casa jugando y sentía ahí afuera, ¿Qué es lo que era? El barquito manícero. Yo decía, \"El maní, el maní, huevón, qué emoción.\" Peso pluma empujando el maní, el maní. ¿Y tú a los sabéis? Este culiao no vende maní. No. Vendía maní prensado. ¿Qué vas a ver, mi hijo, de eso, de esas tradiciones cuando tu mamá te mandaba a comprar y solamente te da una pura instrucción, \"Anda a comprarle al caballero.\" ¿Y qué vende? Como nadie ha escuchado, ahuevonado. Y yo no entendía nada de lo que Y decía, \"Anda a comprar, que se va a ir.\" Mamita, te lo juro que no entiendo lo que dice. Y de repente lo estás escuchando, abro la ventana y se escucha así como \"Coterita llegó en los huevos.\" Decía, \"Mamá, pero ¿qué dice? Anda a comprar.\" Y el loco te la hace más difícil. \"Para pero para que yo te haga con los huevos.\" El pero que se fuma, chupa los Pero uno decía, \"¿Qué vende, mamá?\" \"Huevos.\" \"Huevos, este huevo, hueón.\" \"Hueón.\" Y cocinando todo eso, mi amada Nocia. Por huevos comí arroz solo. Muchas gracias, amigos. Toda la vida he pensado que uno tiene que ser muy agradecido también. Imagínate, yo antes del Festival del Muelle nunca había podido a Fantasilandia, amigo. ¿Ustedes conocen Fantasilandia? ¿No hay Una persona dice que no, te voy a regalar una entrada. Y encuentro que es bonito porque mi es carísimo ir a Fantasilandia, carísimo, primera vez estaba mi señora emocionada con mi hijo ahí en el boomerang sacándose fotos hasta con las basureros de Ranita, ahí está. Es que es bonito. Aprenden, le dije yo, vaya para allá, vaya, aprovechen porque es caro y comer en Fantasilandia, amigos, más caro. Voy juntar la plata de todos los hueones, te vayas a Brasil 3, 4 días, te lo juro. No, carísimo. Yo le le digo a mi hijo, \"Yo jamás pude darme esos lujos, nunca.\" Pero mi papá igual lo lograba. Mi papá vivía en San Antonio, era pescador y sabéis que no me llevaba Fantasilandia, pero él buscaba la solución. Me llevaba unos juegos de barrios que se llamaban Felicilandia. ¿Alguien fue alguna vez a un juego de barrio? Como los del Quisco. Esos juegos encerrados en la arena que tú no sabés cómo el Seremi autorizó que la corriente, el agua y las personas estuvieran en el mismo lugar. Todo era peligroso. Iba y a comprar un algodón de azúcar y había un viejo ahí. Ahí está. Sí, sí me metía los los palos, los cocos ahí. Te lo juro. Yo nunca supe cómo se pegaba el azúcar y de repente y se iba a formar. Eso nos comíamos. Pero cómo nadie revisa eso. Manzana confitada, ¿te dieron alguna vez? En una bandeja lleno de manzana con un palito arriba, una cuestión roja que nunca supimos qué era. Tu papá te lo pasaba, \"Toma, un palo negro con la misma mano que se rascó la raja.\" toma, te decía. Una vez perdí dos dientes de leche por pegarle una máscara a esa huevada. Mi hijo me decía, \"Alex, me decía, \"Papi, ¿de verdad?\" Hijo, \"¿Cómo te va a estar mintiendo, huevón, para que aprendáis malaya, culiá?\" le dije.\" No, perdón, perdón, que se me pegó también. Yo le decía, \"Basti, en los Feliz Landias las tacitas voladoras realmente volaban, huevón. Te lo juro, todo es era peligroso. Una vez yo estaba con mi mamá en la Rule of the Fortune en San Antonio, \"Ay, qué bonito.\" y se salió. Mi mamá me dijo, \"No, parece que no nos vamos nada a poder subir hoy día. Vamos a tener que ir a subirlo al tabo.\" me dijo. Pero nadie fiscaliza esos juegos y todo es más peligroso. De repente mi vieja me decía, \"Toma Alex, ponte acá.\" La centrífuga, aquí. Y yo me quedaba ahí parado como los huevones, \"Chátete ahí.\" me decía, \"Chátete ahí.\" Ya, mamita, quédate ahí, huevón, te dije, \"Bacterias, quédate ahí, quédate ahí.\" para sacar una foto y de repente todas las familias ponían a los hijos alrededor de eso y eso empezaba a girar, amigos. Tan rápido que las personas dejaban de ver a su hijo. Toda la gente cuéntame mi hijo. ¿Dónde está mi hijo, huevón? Lo identificáis con el puro vómito. Churro con manjar. Ah, ahí está mi hijo. Está vivo. Muchas gracias, amigos. Saludita. Muchas gracias. Qué bonita, de verdad, agradezco la buena onda de esta noche. ¿Pero sabéis qué? Pero siempre faltaba más. Yo llegaba al final y siempre había un juego más peligroso que el otro. Yo veía al final había una luz, bueno, una luz estroboscópica, luz ultravioleta, un juego que tenía DJ, huevón, te lo juro. Una huevada redonda, con silla, con un cromado, una barra, arriba un resorte. Y tenía música, había un DJ. Ah, you're ready. Eh, eh, eh, eh, eh, en Mortal Kombat, el jefe final. Todo peligroso. Mi mamá decía, \"No, muy peligroso.\" Subámonos, subámonos. Mi papá, subámonos, estoy con esta familia culiá y yo subámonos. Y ahí estaba yo, imagínate arriba del tagadá, te lo juro, ahí estaba yo. Decía, \"No, mamita, mamita, aquí nos vamos a matar.\" Y aparte tenía unos sonidos, yo estaba sentado realmente Si a mamá dónde salió el sonido, afírmate, afírmate. Mamá, nos vamos a matar. Afírmate, huevón, aquí hay que saber lo que es bueno. Hácete hombre, maricona, ¿sí? Oye, mamita, ese léxico tan antiguo, afírmate. ¿Pero por qué nos subimos acá? Porque no me pediste el Uber, pues, huevón, me dijo. Muchas gracias, amigos. Osea, mamá, nos vamos a matar, afírmate, huevón. Aquí hay ya saber lo que es bueno. Ya, mamá, nos vamos a matar. Y toda la gente gritando, amigos. Te lo juro que yo nunca había visto en un juego que todos gritando y nadie decía nada. Está ¡No! Y todavía no partía. Estaba quieto. Y como cachó que estaban todos gritando, llegó el encargado de seguridad para cerrar el juego con una cadenita. Como que con esa cadena tapón del water tú decís, \"Ah, aquí hay seguridad.\" Ah. Como que esa cadena delgada y te imprime Y diera que yo saliera y estuviera a la playa. Pero por eso nos morimos, pues, huevón. ¿Cómo nadie reclama? Y ahí estaba yo, \"Mamá, nos van a matar.\" Y miro para el lado, \"Mamá.\" Y había una caseta llena de luces estroboscópicas con un cuadradito y adentro había un huevón. Yo le dije, \"Mamá, hay un huevón en la caseta.\" El que maneja el papá ahuevonado, me dijo, \"Afírmate.\" Y yo dije, \"No.\" Y miro para adentro y se veía una mano, arriba una palanca y una pistola. A la Te lo juro, te lo juro. Yo dije, \"Weón, le falta una mano a este weón.\" Mire para el lado y estaba así. ¡Ah! Te lo juro, weón. Se pegó un queso crema y yo le dije, \"No.\" Le dije, \"Mamá, el weón que maneja esta weá está jalando.\" Es parte del protocolo, me dijo. Parte del protocolo, hijito. Ahí estaba yo. Mamá, este bol nos va a matar, le dije, \"Afírmate, huevón.\" Y la gente lo empieza a desafiar. Dale, boluda, huevón. Yo decía, \"No, no lo huevén, que el loco tiene nuestra vida en sus narices.\" ¡No! Dale, boluda, huevón. Decía, \"No, mamá, no puedo ir a mi mamá.\" ¡Mamá! Y le da la huevada. Pesca la palanca. Te lo juro que yo jamás había sentido tanta presión en la cara, 700 km/h. ¡No! Mamá, bueno, podía me parecía Carter, tal y Ya mamá, weón, nos vamos a matar. 1000 km/h. Te lo juro, estaba ahí ya firmado las tete mi mamá, ¡no! Se empezó a caer el celular, toda la huevada. Mamita, afírmate, weón, me sí, afírmate. de viva bando, vuelta, huevón, en el suelo. Mamá, nos vamos a matar. 2000 km/h. Cruz para el cielo. Cruz para el cielo, 3000 km/h. Mamá, nos vamos a matar. Ya no veía nada, puras luces. Puras luces. Decía, \"Oh, nos vamos a matar, mamá.\" Y yo no sé de adónde, amigos. Te lo juro, 3000 km/h. Y yo no sé de adónde. Aparece un huevón al medio. Ay. Dándolo todo el huevón ahí. Ay, ahí está. Una monja culiada, ahí. Que mamá hay un huevón al medio. Hay un huevón bailando y no se cae. Afírmate, huevón. Mamá, el huevón baila la raja, le dije. Oh, el huevón atento y lo quedó mirando y era el huevón de la caseta. Buenas noches, amigos. Muchas Gracias. Gracias por el apoyo. Gracias por la buena onda, por sus risas. Soy Alex Ortiz. Nos vemos por ahí. Tóquelo mucho. Muchas gracias, De San Francisco a la Quinta Vergara. Un comediante de barrio, Muchas gracias. experto en el chile real y sobre todo especialista en hacer reír. El público del festival ya lo comprobó y le entrega ese tremendo aplauso a Alex Muchas gracias. Porque Torrotina estuvo de pan a punta gorda de emociones esta noche. Venga, Alex. Este hombre que está acá. Venga. Soñó profundamente con este momento. Y en esta sexta noche de Viña del Mar. Allá en la galería. Pero has ganado, no cabe ninguna duda, porque esta noche en Viña 2024 hay Gaviota de Plata para Alex Cortés. Muchas gracias, de verdad. Agradecido. Muchas gracias por la buena onda por el cariño. Estoy muy muy emocionado, la verdad. Te lo mereces. Muchas gracias. ¿Cuánto trabajo hay detrás? Alex, pídeme un Uber, dice ahí. Ahí está tu papá. Muy bien. Diciendo Alex, pídeme un Uber. Y la quinta Vergara quiere seguir riendo esta noche. quinta quiere seguir disfrutando. Muchas gracias, amigos, de verdad. Que sepan lo que es bueno. Sigue en la quinta Alex Alex Ortiz. Ortiz Amigo, Muchas gracias, de verdad. No, chucha, se me cortó la mesa, bueno. No, no, no esperaba tanta tanto cariño, tanta buena onda, eh Muy bonito, verdad, estoy muy emocionado. Oye, un aplauso a mi vieja que vino a verme acá. Nunca me había venido a ver. Nunca le pedí luz para verme. Aguante, vieja. Eh, mira. Muchas gracias, Tengo, como le conté un hijo de 19 años, él jamás va a saber lo que realmente a mí me ha costado, pero ¿sabéis qué? Quiero romper esos patrones que a los hijos les tiene que costar lo mismo, tenemos que también aprender eso. Yo le explico, ¿sabéis qué, hijo? Yo antes hacía unos trabajos en el colegio muy diferente a lo que casi tú, porque este huevón tiene impresora, tiene tele, el accidente más grande que ha tenido que se cayó en la silla gamer, ahuevonado, se quedó dormido ahí. Pero en la pieza, imagínate yo y le decía, \"Huevón, tus trabajos fue imprimirlos, fue a mirarlo a cualquier lado a la impresora y va a salir al tiro. \"Papá, pero eso ya pasó, no seas boomer.\" Boomer. ¿Qué es boomer? Me pedí internet, viejo culiao. Ah, ya. Uno aprendiendo con los hijos también. Lo que mirando, sí, pues, weón, pero mis trajes eran mucho más peludos. Pa, papá, no me dis la lata, lo que mirando cuando he visto crecer un poroto vos, weón. ¿Alguien hizo ese trabajo? Con y Santa María, un frijol, eso sí, un frijol. Vasito plástico, algodón, porotos o frijol, agua. Tu mamá te pasaba una ficha bibliográfica para que pusiera ahí los procesos y anda equivocarte porque valía 70 pesos. Leche hay agüita día uno. Está igual. Se vienen cositas. Día dos. Te di hondo el poroto. Día tres. Se pudrió con Y uno iba todo triste con ese poroto a la casa para ir al colegio para sacarte un cuatro por lo menos. Y ahí entrando te sentás en la sala, aparecía el profe por la puerta con así un árbol. Así tiene que quedar, un agua con naranja, así tiene que quedar. Yo decía, Eso son trabajos. Ustedes hicieron alguna vez un mapa de Chile que tenía que poner con papel volantín y cola fría estar pinchando toda la tarde. Yo una vez me perdí Marimar por hacer esa huevada. Te lo juro, toda la tarde, más encima para que tu profesor dudara. Lo llevaba y decía, \"¿Te ayudó tu papá?\" No, malaya, culiares. No, que era era medio atrevido. Mi hijo, ahí no entiende yo lo que he mirando, es que tenéis que tener que igual me costó un poquito. Papá, pero eso ya pasó, olvídalo. No, no me voy a olvidar lo que mirando cuando hay calcado mapa a vos, huevón, le dije, \"Alguien calcó un mapa acá.\" Y eso dividía el país porque, por ejemplo, te iba más o menos chavito, papel, mantequilla. Con el Santa María, diamante. Otra cosa. Para que no se te arrugue el mapa la la figura de tu mamá, el elefante con el billete. Angelito celosa, el Buda, ahí. Y aparte, seamos sinceros, uno igual era bien irresponsable igual, llegaba supertarde a dar la información. Yo me acuerdo, mi mamá instalada, viendo la fiera, 9 de la noche con un tarro de pintura de té, ahí. Y yo llegaba, 9 de la noche, abría la mochila, libreta de comunicaciones. Conchetumadre. Me han a masacrado. Y uno llegaba haciéndose simpático, digamos con la libreta Oh, mamita, no sabéis nada. Oh, la vida nos vuelve a juntar. Oh, la vida culia loca, mamita. Tu mamá agarrando un bate. ¿Qué pasó? Cuéntame, po. Bacteria, cuéntame, po. Puta mamita no está ahí. No, cuéntame, po, paliente. Tengo que hacer un ¿Qué, po? No, po. ¿Qué? Habla bien. mapa Nunca había visto a mi mamá tan enojada. Te lo juro, esta bacteria, culiá, maldito bastardo, pero cómo me hace esto. ¿Por qué no me lo tragué? Buenas noches, amigos, muchas gracias. Gracias por venir. Espero que lo hayan disfrutado. Soy Alex Ortiz. Si tiene el Instagram, díganme ahí @playstore. Un comediante que se consagra en la Quinta Vergara. Muchas gracias, amigo, los quiero mucho. ¡Sencito! Y después de 10 años hoy día lo vemos llegar a lo más alto. Gracias por retratarnos, por hacernos recordar. El público se pone de pie. Alex, eres un seco. Te pasaste Quinta Vergara, te lo demuestra de esta manera. Todos de pie con más fuerza. Que lo que dice la galería. Que es lo que dice el centro. A los lados del 15 000 personas hoy día te aplauden aquí y millones en todo Chile y Latinoamérica. No cabe duda, Pancho, porque esta noche hay gaviota de oro para Alex Ortiz. Muchas gracias. Estoy estoy muy emocionado, la verdad, no Soy medio llorón, pero muchas gracias. Oye, Dale gracias a mi familia. Dale gracias a mi mamá, a mi papá, a mi señora, a mi hijo, a mi productor Karim Sufan, a la chiqui también que está acá, a Leíto, a Camilo, al Fido, a la Rocío, a todos los que participaron y confiaron en mí si se me olvida alguien, de verdad. Les pido hoy disculpas, pero estoy muy emocionado, amigos. De verdad jamás soñé con estar con usted acá. Gracias. Muchas gracias, amigo. Viequita, mira. Y la mamá le tira beso. Ahí está la mamá. Va a tener que pedir un número para que se haya, huevón. Es que ve que tiene buena voluntad. Muy buena voluntad. Que la madre y tu padre reciban también esa ovación de la Quinta Vergara. Muchas gracias. Porque sabemos que detrás de esa historia hay mucho esfuerzo, mucho cariño y mucho sacrificio y te dieron tanto material también. Sí, harto material. No, contento. Muchas gracias, amigo. Gracias a usted, a todos los amigos del festival, a los que también tuvieron adelante yo Sí, sí, te la dan y que participaron. A los amigos de la galería. Gracias, amigos, por el apoyo. A los de aquí abajo se pasaron. Gracias, gracias. Aguante el barrio. Qué grande, Un Alex un sueño cumplido, triunfar en este Muchas momento. gracias Quédate con nosotros para decirle a todos ustedes que en más rato Alex va a estar en el backstage junto a Natalia y Simón y nosotros nos vamos a una pausa comercial. Así vamos y volvemos porque este es Viña 2024. ¡Vamos! la música la fiesta la fiesta",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 14.0,
+      "end_time_seconds": 58.0,
+      "speaker": null,
+      "text": "Y volvemos a la sexta noche de Viña 2024. Ha sido una satisfacción enorme estar junto a ustedes. Así es que gracias a Canal 13 y también a TVN y también a nuestras radios oficiales, ADN y mi querida Radio Pudahuel, desde una región que se está poniendo de pie y mirando el futuro con muchísima esperanza. Sigamos apoyándolo porque aún hay tiempo para escanear el código QR que está en pantalla y poder hacer sus aportes. Así es y qué importante. Y por mi parte quiero saludar a un gran compañero de CBN. Él deslumbró a los panamericanos y nos va a acompañar desde el sábado 9 de marzo en el regreso de un clásico a día una vez, el gran Gonzalo Fuyú. ¿Cómo estás, Gonza?",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 63.0,
+      "end_time_seconds": 119.0,
+      "speaker": null,
+      "text": "Y ahora quiero saludar a mi amigo y compañero, mi querido Eduardo Fuentes, a quien adoro y desde este lunes les vamos a decir, \"Buenos días a todos desde la 8 a.m. en el matinal de Chile. Te quiero muchísimo y tú lo sabes.\" Y decirles también que estamos todos expectantes del estreno de Ahoy Caigo este lunes a las 19:20 horas. Le deseamos toda la suerte a Daniel Puerta Lida. Quedan por supuesto todos invitados quinta. Grande, Dani. Un abrazo, amigos, a todos ustedes. Bueno, sigan muy atentos a lo que vienen porque ahora les tengo una gran invitación. Es momento de reír a carcajadas porque acá demostramos que hacer reír nos hace bien, nos va sanando el corazón y también el alma. Muy importante. Claro que sí y en el cierre queremos hacerlo junto a un gran",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 120.0,
+      "end_time_seconds": 177.0,
+      "speaker": null,
+      "text": "comediante que durante una década ha recorrido el país entero con sus rutinas y que hoy día va a vivir un día soñado. El debut en La Quinta Vergara, que es la verdadera catedral del humor en Chile. Oye, yo les aseguro que todo lo que él cuente de alguna manera lo han vivido y que cuando escuchen sus chistes van a recordar sus propias historias porque es un especialista en encontrar el lado más divertido de la vida cotidiana. En Piña 2024. Es momento de recibir a un observador agudo e implacable. Ningún detalle se le escapa y esta noche lo va a demostrar. Soñó con este momento y aquí está con el aplauso de ustedes. Vamos a recibir a Alex Ortiz. ¡Buenas noches, Piña!",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 180.0,
+      "end_time_seconds": 239.0,
+      "speaker": null,
+      "text": "Buenas noches, Quinta Vergara. Amigos ahí arriba, ¿cómo está todo? Hoy acá, amigos, oye, muchas gracias. Muchas gracias, amigos, gracias por la por la por el recibimiento. Última noche, última noche estamos acá. Agradecido de la invitación, mi nombre es Álex Ortiz, lejos, el comediante más desconocido de este festival. Pero acá estoy, amigos, estoy contento, estoy feliz porque los compromisos están hechos para cumplirse, ¿cierto? No como el otro, huevón. Salió arrancando. Ay, el queso crema. Y se enojó. Oye, amigos, aquí estamos. Mi nombre es Álex Ortiz y mira, yo el año pasado, amigos, fui al Festival de Olmué sin ceremonia inmediatamente. ¿Alguien lo vio, la verdad?",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          6,
+          7
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 240.0,
+      "end_time_seconds": 299.0,
+      "speaker": null,
+      "text": "No, ¿pero sabes qué? Me fue bien. Yo soy de barrio y me fue bien. Yo sé que tú me veis rico, toda la huevada. Pero yo pero yo soy de barrio, yo soy de barrio. ¿Sabes qué? Lo único malo que mi mamá al otro día se levantó de raja, al otro día. Me decía, \"No, Alex, yo ya no me puedo juntar con las vecinas.\" Mi mamá, con cuatro muelas, te lo juro. Le decía, \"Mamita, ¿pero por qué se levanta de tanto raja?\" No es Que mira el linaje que tenemos ahora. Qué linaje, mamá, y la queso, la queso. ¿Qué es la queso? De repente anda con esos léxicos de TikTok y yo le digo, \"¿Sabe qué, mamá? No tiene que ser así.\" Mira, Alex, las botas que me compré en la feria. Uy, tan bonitas. ¿Cuáles son? Las máquinas de guerra, me dice. Me dice, \"Máquina de guerra, ¿qué es eso? Máquina de muerte.\" Yo le digo, \"Pero ¿sabe qué? Da lo mismo. Uno, amigos, tiene que ser siempre humilde.\" ¿Sí o no?",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 300.0,
+      "end_time_seconds": 342.0,
+      "speaker": null,
+      "text": "Puede estar arriba, puede estar abajo, da lo mismo. Yo le decía: \"Mamá, yo me acuerdo cuando usted me lleva al colegio municipal porque yo sé que me veo de privado, ¿cierto? Privado libertad\". No, colegio municipal, con mucho orgullo. Muchas gracias, muchas gracias. Muchas gracias, amigo. Yo me acuerdo cuando yo iba al colegio le decía a mi mamá y ahí estaba. Yo llegaba a las 8 de la mañana, el director en la puerta vendiendo falopa. Ahí está. Yo me acuerdo, teníamos que entrar todos más duros que Peso Pluma. ¡Ahí ya! Uno tenía que entrar así. Por eso no hay que levantarse, hay que ser humilde siempre para que",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          10,
+          11
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 342.0,
+      "end_time_seconds": 402.0,
+      "speaker": null,
+      "text": "la experiencia... de repente la la pillaba mi vieja mirando por la ventana. \"¿Qué está haciendo, mamita, con la escoba?\". \"No, estoy mirando\". \"Pero ¿qué está mirando?\". \"No, es que voy a ir a barrer\". \"Pero vaya a barrer pues, mamá. ¿Qué está viendo?\". \"Estoy viendo si hay prensa\". \"Mamá, ¿quién la va a querer entrevistar?\". ¿Usted me vais a creer que a veces hacía cazuela por si venía Panchito Saavedra a comer? Yo dije: \"Mamá, no va a venir jamás porque es una cazuela a comer\". Y fue el coleo, se comió todo. Pero sabéis lo más importante que tenéis que querer a tu vieja. Yo siempre me baso en eso, aunque les voy a preguntar algo, amigos de la Quinta Vergara: ¿te estresa un poquito tu mamá, la verdad? Pero un poquitito, un poquitito, a mí igual. Oye, fue como: \"Sí\". Y la mamá mirando: \"¿Qué estáis diciendo si vivís conmigo?\". A mí me estresa un poquito, ¿sabéis qué cosa? Que de repente",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          12,
+          13
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 402.0,
+      "end_time_seconds": 492.0,
+      "speaker": null,
+      "text": "que ella me pida cosas que ella puede resolver, porque yo ya me cambié, porque ya no vivo con ella. Ahora me ha ido un poquito mejor. Me cambié al barrio alto, Independencia, ahí soy yo. Y de repente me de repente me llama sin ningún cariño, amigo, si eso es lo que me molesta. De repente estamos así son el teléfono. ¿Estáis ocupado? Mamita, para usted nunca. Así le digo yo. Hay que querer a la mamá. Ya, si estáis tan desocupado, ¿por qué no me pedís un Uber, huevón? Alguien le abrió un Uber a la mamá. La verdad Todos los que leemos sabemos que no hay forma de que este auto que está en el mapa se junte con el punto que es el otro punto de tu mamá. Porque tu mamá no tiene chuchidea donde vive, hermano. No sabe en qué lugar del planeta vive. Yo de repente le digo, \"Sí, mamita, ¿dónde está? A Capo.\" No, no, pero en qué parte? A Capo, huevón. No me veís. No, mamá, yo no la veo que yo estoy al otro lado del teléfono. Oye, pide un Uber, huevón, por favor. Mamita, ¿dónde está? Acá, en el Hospital San Borja con tu abuelita, en el kiosco blanco. Le digo, \"Mamá, el Hospital San Borja tiene 20 cuadras a la redonda, 20. Deme una dirección en la esquina. Hay una flecha que usted me da la dirección. Yo la pongo en el Uber, así el Uber puede llegar o si no, no va a poder llegar. A ver, dame con ese huevón, me dice. No, mamá, yo no estoy con el Uber. Oye, pídeme la huevada. Mamita, ¿dónde está? Oye, Alex,",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 492.0,
+      "end_time_seconds": 552.0,
+      "speaker": null,
+      "text": "¿Qué pasa, mamá? Tenéis mala voluntad, huevón. Puta, que tenéis mala voluntad. Soy igual a tu papá, huevón. Muchas gracias, amigos. Soy igual a ese huevón pago de tu papá. Yo le digo, \"Mamita, no se trata de eso. Deme una dirección, alguna referencia. Estoy acá, huevón, en el kiosco blanco, se metió tu abuela.\" Le digo, \"Mamita, deme una referencia, estoy de rojo.\" Mamá, si sé que está de rojo, ¿pero en qué parte? ¿Sabéis qué, huevón? Y de repente mi mamá corta, pero no corta. Sigue el teléfono ahí. Y yo escucho todo lo que dice de mí. Está con mi abuela, si es huevón, mamá. El más huevón de Chile, el más huevón que pesopluma este. Y pa, me corta. Y cuando tú",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          17,
+          18
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 552.0,
+      "end_time_seconds": 624.0,
+      "speaker": null,
+      "text": "Quería ayudar a tu mamá. Amigos, ¿qué hacen ustedes? Igual la ayudan, ¿cierto? Hay que ayudar a la mamita siempre. Me meto ahí a internet, donde queda el Hospital San Borja, inteligencia artificial, Santa Rosa 1 2 3 4, aparece. Le pongo ahí, le pido el Uber. Ahí está, en el kiosco blanco, esta vieja con mi abuela mía, ahí, pa. Sigue el olor, le pongo. Llamo a mi mamá para avisarle, para avisarle, mamita. Llamada 90 y mi mamá no contesta. Porque tu mamá nunca te va a contestar después de que se enoja contigo. Tu mamá es rencorosa, huevón. Llamada 315, te contesta como si nada. ¿Qué pasó? Mamita, le pedí el Uber. Está en el kiosco blanco, quédese ahí, Hospital San Borja. Oye, huevón, deja la huevada ahí nomás, mala voluntad. Me viene el micro, huevón. Eres mala la voluntad igual a tu papá. Eso es lo que tenés mal agradecido. Ya te corto, huevón, que se me quedó tu abuela también. Muchas gracias, amigo. Muchas gracias,",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          19,
+          20,
+          21
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 625.0,
+      "end_time_seconds": 684.0,
+      "speaker": null,
+      "text": "por por este momento. ¿Se escucha bonito? ¿Sí? ¿Sabéis qué? Me gusta mi mamá, me encanta, la amo, de hecho anda por ahí y yo sabéis lo que pasa? Que de un momento a otro he encontrado que con los años mi mamá se ha puesto más violenta, ¿no te pasa? Como que te puso agresiva. De repente amigos me llaman a mí, \"Alex, anda a ver a tu mamá está peleando.\" ¿Adónde? En Facebook. Pero cómo, anda a verla, la van a funar, huevón. Yo le digo, \"Pero huevón, ¿cómo va a estar peleando mi mamá?\" Anda a verla, está peleando con todo el mundo y me meto a Facebook, yo no tengo ni la clave, me meto ahí, ahí está mi mamá. La encontré en un grupo de cats lovers. Dije, \"¿Qué hace mi mamá ahí?\" Empecé a buscar el mensaje de mi mamá, ahí estaba, me cargan los gatos culiados, puso. Y yo le digo, \"Pero mamá, ¿cómo se le ocurre",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 685.0,
+      "end_time_seconds": 744.0,
+      "speaker": null,
+      "text": "poner que le cargan los gatos en un grupo donde aman a los gatos. Es para debatir, huevón, me dice. Y la queso, dice, \"Ah.\" Pero ¿sabes qué? Es bonito, bonito poder ayudar a tu mamá y recordarle, porque hay que mantenerse siempre con los pies en la tierra. Te vaya bien, no te vaya mal, la vida te da muchas sorpresas, amigo. Yo le decía a mi vieja, \"¿Sabes qué, mamá? Yo usé mochila mezclilla y usted le da color.\" ¿Alguien usó mochila mezclilla acá? Pero mochila mezclilla de verdad. Esa de género azul ordinaria que era como un cierre al medio y una placa que decía Wrangler. Ordinaria. Tu mamá y te echaba los Santillana 2000, los Icarito, plasticina Fulton con tolueno, amigos. Te lo juro que yo hacía trabajos volados. Mi mamá decía, \"Oye, pónle de voluntad. Estoy volado.\" Y yo cuando me ponía mi mochilita",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          24,
+          25
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 745.0,
+      "end_time_seconds": 834.0,
+      "speaker": null,
+      "text": "mi vieja, me iba, \"Mamita, me voy al colegio.\" Llegaba corriendo, preocupada siempre, \"Toma, Alex, una yulla.\" Ustedes dirán, \"La colación.\" No, amigos, era la goma, yo borraba con un pan, te lo juro. Alguien borró con un pan, la verdad. Con y Santa María, Pante Maza Madre, otra huevada. Claro, Joe Sister, Pante molde, ah. Amigos del palco, pan con chia, ahí. Pero sabéis qué? Muchas gracias, adiós. Por eso uno tiene que mantenerse así, mamá, le decía yo, imagínate todos mis amigos con estas gomas Bacane, Standlets, unas gomas de miga y yo borrando con una yuyá ahí como los hueones. Mi cuaderno Auca, Auca. Para él no Auca, 10 por lucas. 100 hojas transparentes, huevón. Mi mamá la usaba para hacer queque, yo me acuerdo. Una espiral que era transparente y no podíais toser arriba de ese cuaderno. Teníais que tratarlo con cuidado porque las hojas volaban, huevón. Yo decía, \"Mamita, por eso tiene que ser así.\" Una vez, imagínate, estaba borrando con el aylluya y se cagara el cuaderno porque el pan tenía mantequilla. Igual era práctico. Mamá, vísteme cuando le eche mantequilla a la goma le",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          26,
+          27,
+          28
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 836.0,
+      "end_time_seconds": 924.0,
+      "speaker": null,
+      "text": "Te equivocáis, borráis, te da hambre, te coméis la huevada. Amigos, ustedes en el colegio tuvieron un compañero cuico, uno. ¡Oh! Le cambian los cuicos, ¿no? Es que sabéis qué, no quiero sonar resentido, pero es que yo siempre los veía llegar con cosas que yo no tenía y le daban tanto color, llegaban con vestón, bañado, con zapatos. Yo decía, \"Mamita, estos hueones se bañan.\" No tienen idea de la vida, estos hueones me decía. Y siempre tenían útiles que yo no cachaba, de repente llegaban, ¿tú crees que tenía mochila Wrangler? No. Llegaban así, mochila de aeropuerto, alarma, estacionamiento, ruedas repuesto, ¿achá? ¿Y tú crees que ellos iban a usar un cuaderno Auca? Jamás. Me daba rabia porque sacaban un cuaderno grande, tapa ultra dura, un azul dejo hecho tapa, amigos. Podíais matar un hueón de un cuadernazo. Rain. Cuaderno Rain. Tres colores separados por materia, un lujo para la época. Y yo en mi cuaderno tenía 12 ramos más religión. Y libreta de comunicaciones muchas veces. Uno se da inmediatamente cuenta",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          29,
+          30,
+          31
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 925.0,
+      "end_time_seconds": 997.0,
+      "speaker": null,
+      "text": "cuando un cuico es cuico. Cuando yo iba al colegio a recreo, agarraba una pelota de esas de mapamundi para el recreo. Esa que le pegaba y una patada, te daba vuelta la rodilla. Y yo cachá esto otro bueno pues agarraban su guayno y bajaban a jugar pádel. Ahí estaban. En el recreo jugando pádel. Y siempre los miraba y yo decía, \"Estos locos tienen tienen útiles que yo nunca tuve.\" Había ahí un estuche Faber Castell. Oh. Y siempre le veía una goma mitad azul, mitad roja. Ya había un mito urbano de esa goma que el lado azul borraba lápiz, pasta. Yo un día me acerqué y le dije, \"Oye, ¿cuíco culeado?\" ¿Me prestáis la goma? ¿Me la vais a devolver? Sí, pues espérate, sí, sí. Digo, \"Toma, te la cambio por un plátano, ¿conoces la fruta, huevón?\" le dije. Y ahí empecé yo, pues mi cuñado no auca, a borrar, a borrar, a borrar, a borrar, a borrar, a borrar. Cuando iba en la mesa dije, \"Esta huevada no sirve.\" Oye, ¿cómo cómo nos mentían? ¿Cómo nos mentían? Pero",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          32,
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 997.0,
+      "end_time_seconds": 1057.0,
+      "speaker": null,
+      "text": "Gracias a eso, mira, amigos, yo soy como soy. Imagínate, el año pasado fui al Festival del Muelle. A mí me pagaron muchas lucas el año pasado, te digo la verdad, mucha plata, nunca había tenido tanta plata. Me pagaron 98 lucas. Y sabéis lo que hice, le compré un celular a mi mamá. Yo sé que es humilde comprarle un celular a No, como Joe Sister que se sacó una casa al toque. Pero voy para allá, algún día voy para allá. Le dije, \"Mamita, tome un celular.\" ¡Oh! Ahí está, maestro, cuánto sabe, de barrio, el hombre. Ay, más o menos, weón. Hoy no la había visto, ahí mirando, oye, pero mira, oye, me siento aquí privilegiado, mira todos bonitos, bueno, y chavito, y chavito. Chavito, también está. También está chavito, hermoso, simpaticón. Es como yo también. Mamita, tome un celular para que usted me llame cuando",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          35,
+          36
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1057.0,
+      "end_time_seconds": 1177.0,
+      "speaker": null,
+      "text": "lo quiera, tome, mamá, guárdelo en la cartera, porque la delincuencia igual está brígida, guárdelo en la cartera, en la ánfora, que yo también le regalé. Ahí, guarda. De repente me gusta sacarle en cara a mi mamá. Sacale en cara vez que podáis, pero pequeñas cosas. ¿Sabes por qué? Porque tu mamita olvida rápido. Un puro triunfo a tu hermana, pasaste la historia, conchetumare. De repente llegó a la casa y le digo, \"Mamita, la invito a comer. Ya, poneme el gas para bañarme, sí, el que compré yo.\" Y le digo, \"Mamita, guarde su celular en la cartera, se lo van a robar porque es por si anda viendo TikTok en la calle.\" Amigos, mi mamá es de barrio. ¿Ustedes creen que se guardó el celular en la cartera? ¿A dónde se lo guardó? En las tetas, acá. Pero por qué las mamás se guardan todo en las tetas? ¿Qué enfermedad es esa, huevón? Sí que le cayera hasta perver, sancuchito. Ya no una teta, es un banano. Bueno, revisa la teta de tu mamá. Va a encontrar de todo. Si te ha perdido el gato, revisa de la teta de tu mamá. ¿Dónde está el control remoto, mamá? Muchas gracias, amigos. Gracias por el cariño. ¿Quién es mi mamá? O sea, ¿quién soy yo para Decirle las cosas que haga mi mamá, mi mamita hace lo que quiere, le ha le ha costado, es una mujer esforzada. Se guarda el celular acá, si tú veías tu mamita con el celular acá, déjala, son técnicas. De repente lo guarda aquí, la llaman por teléfono, se aprieta el pezón, \"Alo.\", como tal. Aquí estoy. Un pezón Bluetooth. Está bien, oye, ves que podáis sacar a tu vieja, sácala. Yo Mira, te digo la verdad, mi mamá, gracias, ahora que nos ha ido un poco mejor, la",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1177.0,
+      "end_time_seconds": 1236.0,
+      "speaker": null,
+      "text": "invitar a comer cosas que nunca había comido. ¿Habéis pensado eso? Mi mamá le dije, \"Mamita, ¿qué quiere comer? Dígame lo que quiera. Quiero probar el sushi.\" Me dio una pena que le dije, \"¿Sabe qué, mamá?\" La voy a hallar al mejor sushi, amigos, al mejor sushi que hay en Providencia, una huevada que atendía a Yakijian, te lo juro. No, pero te lo juro, bacán. Nunca había ido tan bacán. Y ahí tú te dais cuenta que cuando tú sois de barrio, tu familia también, aunque te vaya un poquito mejor, tu mamá nunca va a dejar de ser kuma, nunca. No, pero mi mamá mochando el ilacha de que entró a la puerta. Oye, qué rica la Pepsi, mamá, deja la soya ahí, le dije. Deja la soya, mamá, asociégate. Asociégate haciéndose un moño con los palitos, mamita. Quédate quieta, le dije, \"Oye, con Muchas gracias. Muchas gracias, tamaraguita.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          41,
+          42
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1239.0,
+      "end_time_seconds": 1309.0,
+      "speaker": null,
+      "text": "¿Pero sabés qué? Me gusta, hay que dejarla hacer porque es tu vieja. ¿Quién la es así de repente? A veces enojada, me decía, \"Oye, me cargó este sushi.\" No dan pan ni pebre, mamá. Oye, mamá, no Mamá, pan ni pebre, acá, mamá, asociégate. Le dije, \"Siéntate acá.\" ¿Cuál quiere comer? Pedí uno acevichado, hay que echar a esos que tienen cerveza arriba bacanes. Le dije, \"Mamita, pruébe, abastézcase.\" Le dije, \"Abastézcase.\" \"Abastécete, mamá.\" Le dije. Me dijo, \"¿Cómo están?\" \"Exquisitos.\" \"Al exquisito.\" Lo único malo, la palta más picante que la chucha, amigo. \"¿Qué palta, mamá?\" Le dije yo. \"La palta, po, güey.\" Te comí ¿Viste el WhatsApp, mamá? Le dije. Si esa agua es más picante que nosotros. Pero, mamita, eso no. Ya, déjame ser. Déjame ser, me dice. Yo la quedé mirando, mamita, disfrute. Y cuando tú pensás que tu mamá no va a seguir mostrándole el hacha, levanta la mano. ¿Me puede traer ketchup, por favor? No. Pero, mamá, ¿cómo pedís ketchup para echarle al sushi? Bueno, ¿y qué tiene? No, mamá, es ordinaria esa huevada. Si con mostaza quedan la raja, le dije yo",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          43,
+          44,
+          45
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1310.0,
+      "end_time_seconds": 1427.0,
+      "speaker": null,
+      "text": "yo. Motaza, mayonesa, chucrut, rico. Su chipleto, ah. Muchas gracias. ¿Vamos bien, amigos? Bacán. Muchas gracias, agradecido. Tengo Tengo un hijo de 19 años. ¿Alguien tiene hijos, amigos? Hijo, los hijos no se niegan. Hijos. Están todos aquí, bueno, ay, los dejé en el auto. Tengo un hijo de 19 años y no le pasa muchas veces. Mira, imagínate, yo vine para acá noche joven hoy día cerrando el festival y yo le dije a mi hijo, \"Huevón, va a ir público joven, necesito adaptarme.\" Mira, me tatué, me teñí, me bañé. Patético, po, hermano. Me veo patético. Le dije, \"Huevón, necesito cachar el léxico porque los jóvenes de ahora hablan en otro idioma según la música.\" Le dije a mi hijo, \"Bueno, yo te compro unas pizzas, unas pizcolas, invita a tu amigo y yo ahí entro a conversar.\" Están carreteando, caché al primer amigo de mi hijo. Llegué yo, modo, tío Lolo. ¿Qué pasa, mi Chan? ¿Qué pasa, mi Chan? ¿Qué pasa, mi Chan? ¿Qué pasa, mi sangrecita? El loco me quedó mirando, ¿qué huevada, tío? Estáis detonado, perro bomba o no? Miró a mi hijo, ¿qué hago a tu papá? Mi hijo, qué crinche este viejo culiao. Ahí lo maté. Estoy bien, tío, pero dime una respuesta de bio. ¿Cómo está ahí? Bien, tío. De pana. De pana. ¿Qué es de pana, weón? Cayé. Corriente, yo sister, ¿qué es de pana, hermano? Estar bien. Estar pulento, dice. No sabía. Yo dije, \"Mejor me cambio, me cambié a otro.\"",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          46,
+          47,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1430.0,
+      "end_time_seconds": 1511.0,
+      "speaker": null,
+      "text": "al lado. Estaba más o menos medio triste. Tú, perrito, ¿cómo estáis? Más o menos, tío. De la perra. De la perra. Huevón, ¿qué es tarde la perra? Te lo juro que no sabía cómo responderle. Uh, me cagó. Lo quedé mirando, ¿qué es de la perra? Malaya culiá, le dije. Para que entienda que yo también soy ficha galáctica. Puro corte Jereclein. Me gusta Jereclein. ¿Sabéis qué? Me gusta Me gusta el Me gusta Me gusta Jereclein, pero ¿sabéis por qué? Mucha gente le tira hate a todos los urbanos, pues ¿sabéis qué? Cuando hay que ayudar, ¿quién está ahí? Los urbanos. Todo el mundo tirándole hate a la gente joven, me carga. ¿Y sabéis por qué me carga? Porque yo también tengo un hijo. Y si weón se pone a cantar, va a tener que apoyarlo. Hay que apoyar talento, amigos, son gente que le ganó al barrio, la misma Naya que anda por ahí. Mira, ahí estaba, ahí estaba. Mira. ¡Bravo! ¡Ya, siéntate! Aguanta, imagínate, ahí andaba.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          50,
+          51,
+          52
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1520.0,
+      "end_time_seconds": 1587.0,
+      "speaker": null,
+      "text": "Ahí tení. Aprende Lady D. Me gusta, weón, ahí que me gusta, me gustan esas personas porque no hay que tirarle hate a la juventud, son personas que le ganaron al barrio, hermanito. Jerry Klein, me gusta, te voy a confesar, me encanta, lo me gusta, te vacilo, Jerry Klein, te lo vacilo. Lo lo único malo que no sé qué chucha dice. No, es que no le entiendo, tengo 40 años, weón. Ando. Me tengo la taza con Oh, ahí me fui a la chucha. Y de repente como que pasa del amor a los sutros. Ese totito rico. Tilambo. Ah, qué bueno ese tema. Es que me gusta, huevón, la juventud es bacán. ¿Sabés que ahora que soy papá me he dado cuenta? Mi vieja siempre me trató de educar. Yo ahora le enseño a mi hijo hasta ir a comprar. A las carnicerías de ahora. He cachado las carnicerías de ahora.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          53,
+          54,
+          55
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1592.0,
+      "end_time_seconds": 1682.0,
+      "speaker": null,
+      "text": "Todas espectaculares, todas ordenaditas. Tú veías al carnicero, ese güey te podría vender un auto, espectacular. Pero, amigos, ¿alguien de ustedes fue una carnicería antigua? Esa carnicería de barrio donde mirás al carnicero, masacre en Texas. Tápame a culpa, te lo juro. Unas cortinas llenas de sangre, panitas, cerebro, patas de pollo, para las propina, una cabeza de chancho arriba. viva. Y harto a serrín, harto a serrín. Porque la serrín es de cantería. Mi mamá me decía, \"Alex, yo te voy a enseñar a comprar para que seas vivo para la vida.\" Me enteré que llegaba y me decía, \"Mira, así desenvuélvete yo.\" \"Hola, casero.\" \"Hola, mamita.\" Me da 400 pesos de hueso para los perros. Hueso para los perros, antiguamente vendían huesos para los perros. Me decía, \"Pero la gracia que todo el mundo sepa que son para los perros.\" hueso para los perros. Y yo decía, \"Sí, mamá.\" Y yo pensaba, po. Yo no tengo perro, po, concha de tu madre. Era yo el perro culeado que se iba a comer esas casas. Oye, muchas gracias, de verdad. Agradecido, amigos. Contento. Hagamos un asado. Tengo 3 kg de carne en la casa. Síganme en Instagram @flakychileño y ahí nos juntamos para hacer un",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          56,
+          57,
+          58
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1682.0,
+      "end_time_seconds": 1799.0,
+      "speaker": null,
+      "text": "un asadito. Un asadito, mira, justo salió un himno. Oye, amigos, ¿sabéis qué? Yo para ir comentando muchas otras cosas, yo soy fonasa. Yo sé que ustedes me ven disápero, ¿no? Digo, \"Yo soy fonasa, me he mantenido en fonasa porque yo me crié antiguamente.\" Yo usé este, fonasa, pues maestro. Con y Santa María. Y ah Otra wea. Otra cosa, podríamos hacer una notita para que se dejen de cagarnos igual porque hay que charlar. Imagínate, imagínate la la la la el de chacra. Chavito, ¿usted? Ponazo también. Y sapre, chavito. Pero sabés que igual hay diferencia, por ejemplo, imagínate. No sé, pues ni Dios lo quiera. A chavito le pongo una pata en el hocico, ni Dios lo quiera. No, pero ni Dios lo quiera. Ni Dios lo quiera. Chavito y sapre. Chavito le pongo una pata del hocico, llega un dron, lo toma. Ahí, pum, se atiende en la clínica de la Coni Santa María. En cambio, yo le explico a mi hijo, yo vengo de consultorio, amigos, consultorio de verdad, del consultorio de San Joaquín. Para mí ese es fan es Cuico. Yo te lo encuentro Cuico. Yo le digo a mi hijo, \"Weón, consultorio de verdad.\" No como el de Talcahuano, la mina moviendo la raja. Oye. Oiga, me siento mal, ¿en serio? Oye, pero imagínate ir al dentista en Talcahuano. Imagínate la gente que va al dentista, doctora, me pasa el hilo dental. Sí, doctor. Oiga, tiene gusto raro, es que es de la Anita. Gracias, Dios. Muchas gracias",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          59,
+          60,
+          61,
+          62
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1802.0,
+      "end_time_seconds": 1862.0,
+      "speaker": null,
+      "text": "Gracias. Es que mira, yo le explico para que él no se críe en una burbuja, hay que decirle. Yo recuerdo muchas veces, de repente yo me crié cuando había una pura enfermedad cuando chico, amigo, ahora está lleno de enfermedades. Yo me acuerdo cuando chico, una pura enfermedad, la flema. No había otra, llegaba mi mamá dando diagnóstico, \"Flema blanca o flema verde?\" Mi papá se creía doctor, \"No, tiene el pecho tomado, tiene el pecho tomado.\" Mi mamá me decía, \"Ven, ven, no lo llevemos al consultorio, sale muy caro el coleto.\" en la casa, remedio casero. Yo con el pecho tomado, no podía respirar. Mi mamá me ponía para atrás. Sacaba un pedazo de diario, me lo ponía aquí. Y de la nada, amigo, prendí un fósforo, te lo juro. Y decía, \"No.\" Y una vela y me empezaba a echar vela caliente en el pecho. Las 50 sombras de Grey's. Y decía Y decía, \"Mamita, mamita, me estáis quemando.\" le dije. Cállate, huevón, que por eso estáis de la perra, me decía. Y además, siempre llevando más allá muchas",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          63,
+          64
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1862.0,
+      "end_time_seconds": 1934.0,
+      "speaker": null,
+      "text": "Muchas veces, yo me he criado, por ejemplo, ¿ustedes alguna vez se han cortado el dedo o han tenido una herida canche tierra? ¿Tienen canche tierra en la casa? Canche tierra de verdad, no la de padel con pasito, no. Canche tierra de verdad, esa que te caí y te enterráis un camote en la cabeza, esa. Yo le decía a mi mamá, \"Uno antes llegar, yo llegaba pelado con aquí sin piel, sin la epidermis, así llegaba a la casa. El hombre sin sombra, así llegaba.\" Ya, mamita, mire, me caí. Un pollo, ya déjate huevea. Ya, ándate para dentro. Ándate para dentro, me decía. Yo me corté el dedo, ¿te cortaste alguna vez con una hoja en entre medio los dedos. ¡Oh, ese dolor! Ese dolor. Yo decía, \"Qué dolor, papá, papá, tenía un parche curita.\" ¿Qué? Un parche curita para la alergia. ¿Cómo un parche curita? Papá, me corté el dedo, un parche curita. Me quedaba mirando, \"Me atelería, maricón.\" Mi papá con ese léxico antiguo. Pero imagínate qué diagnóstico es eso, ¿cómo te vas a estar meando la herida? Imagínate vaya apuñalado, \"Doctor, doctor, mire, ya, ven.\"",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          65,
+          66,
+          67
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1935.0,
+      "end_time_seconds": 1994.0,
+      "speaker": null,
+      "text": "Venga, venga, venga, quédese quieto, quédese quieto, quédese quieto. No se mueva que estoy suturando. Era todo trágico antiguamente, amigos. Todo trágico, incluso el hipo. ¿Cachaste que el hipo desapareció? Ya no vi a nadie con hipo. Nadie lo veis con hipo, en la peste negra y el COVID desaparecieron. Yo de repente llegaba con hipo, papito, tengo hipo. Toma esa bolsa que está ahí, póntela en la cabeza y no respiréis por media hora, me dice. Mi mamá llega, \"Oye, deja el niño tranquilo, huevón, ven para acá, Alex. Ven, que yo te voy a curar el hipo.\" Sacaba un diario, el mismo que me puse en el pecho. La cuarta. Y de la raja a la mina. Con un pollo aquí. Me decía, \"Ya, anda a jugar.\" Pero, mamá, ¿cómo va a ir con este diario en la cabeza? Anda a jugar antes que te quite el hipo una pura patada en la raja, me decía. Y así me iba a jugar yo, todo mi amigo. ¿Por qué no le tiene ese papel en la cabeza?",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          68,
+          69
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 1995.0,
+      "end_time_seconds": 2054.0,
+      "speaker": null,
+      "text": "¿Ah? Se me quitaba el hipo la pura vergüenza, amigo. ¿Cómo nos trataban así? Yo muchas veces con ese pecho tomado, caminando, los que tienen isapre tienen una ficha. Tú llegás, suena un chip, sale tu nombre, enfermedades de base. Los que somos más de barrio y consultorio, mi mamá tenía que llevar ella la ficha, mira la agua ordinaria. Ya había una ficha que todos teníamos. Mira para la sacada del buffet, un carné niño sano. Alguien tuvo carné niño sano, una wea toda mía por mi papá con una guagua botopelado en la porta así. Se rellenaba con lápiz pasta, amigos. Imagínate quizás cuántas vacunas de más tenemos y no sabemos. Pero realmente, \"Oy, ¿le pusimos la vacuna a Chavito?\" Ya cagó, nomás, qué wea. Imagínate, así llegaba yo y mi mamá decía, \"Ya, vamos al consultorio.\" Me llevaba, íbamos caminando y",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          70,
+          71
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2055.0,
+      "end_time_seconds": 2144.0,
+      "speaker": null,
+      "text": "ahí lo único que yo pensaba en mi mente cuando me dolía el pecho. Ojalá que no sea un supositorio. Ojalá que no sea un supositorio. Ojalá, Diosito Santo, que no sea un supositorio. Mi mamá llegaba superchora, \"¿Qué es el doctor de esta wea?\" Yo decía, \"¿Sabe qué? A mí no me tenía un remedio, los remedios están caros. Yo sé lo que tiene mi hijo, porque soy la mamá, por eso.\" ¿Qué tiene su hijo, señora? Hipo. Y el pecho tomado. Así que a mí no me dé pastilla, póngale una penicilina con pensatina, este huevón. Deberían suspender la penicilina penicilina con pensatina. Es una masacre al hoyo, te lo juro. No, pero es que cómo es posible que te puedan poner un líquido que te duela tanto como vidrio molido que te inyectan. Yo quedé mirando al doctor y le dije, \"Oiga, ¿no tiene un supositorio por ahí?\" Le dije. Es que sabéis que un supositorio igual era humillante, ¿cierto, amigos? Humillante, era lo peor, ¿por qué no te dan un paracetamol? Te bajaba los pantalones, a raja pelada, todos mirándote ahí, te ponían en una camilla y llegaba el doctor así, \"Quédese quieto.\" Afírmelo, señora, afírmelo y de repente, huevón, un",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          72,
+          73,
+          74
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2145.0,
+      "end_time_seconds": 2246.0,
+      "speaker": null,
+      "text": "en el hoyo, te lo juro. Y mi mamá decía, \"Quédate quieto para que se derrita.\" Uy, ya antes, amigos. ¿Pero sabéis qué? Dentro de eso, yo trato trato de explicarle también a mi hijo la misma, la misma Navidad. Por ejemplo, ¿a ustedes les gustaba el arbolito de Pascua de verdad? Era bacán, era bonito. Yo me acuerdo que llegaba mi papá y me decía, \"Mira, me robé perdón, compré este árbol.\" decía. Y llegaba a la casa, a la villa y lo plantaba. en la casa, ahí, pum. Era un tarro en ido. Oh. Y yo mirá el tarro y yo nunca tomé esa leche, po, mi Te conseguí el tarro para esa wea. Mi mamá lo forró en papel de regalo ahí. Yo tomaba pura purita cereal. ¿Alguien toma purita cereal? ¿Cómo nos mentían con eso, amigos? Purita cereal, 100% instantánea. Unos grumos, concha de tu madre. Era como sacarle la mochila Wrangler de nata, te lo juro. Yo decía, \"Pero cómo nos mentían.\" Era Pero era Navidad bonita, llegaba mi vieja, le ponía una estrellita, un cometa, arriba de esta quirnalda que dejaban todo cochino, no importa. Mi papá llegaba con las luces, pero no las luces de ahora con rayo láser, no, la luz antigua, 20 luces. Dos tiempos, una transparente, puntúa, un Miguelito hecho luz, una guá peligrosísima, amigos. Cuánta gente no pisó esa guá, pa, perdiste la pata. Cuánta gente no murió. Cuánta gente reventó. Oye, ¿qué le pasó al vecino al lado? Se cayó a las luces.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          75,
+          76,
+          77,
+          78
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2247.0,
+      "end_time_seconds": 2337.0,
+      "speaker": null,
+      "text": "¡Ah! Terrible. Y aparte la Navidad venía de la mano del año nuevo. ¿Y quién es más feliz con el año nuevo? Tu papito. Mi papá sacaba ponchera. ¿Tuvieron ponchera? Una ponchera grande con tacita, 20 tacitas. Y nosotros en la casa éramos tres nomás. 20 litros de vino le ponía a mi papá y dos duraznos. Para el sabor decía, \"Alex, nunca te vayas a comer los duraznos.\" Porque hay a quedar de la perra. Pura vitamina me decía. Y yo me acuerdo que no sé si será una tradición en mi familia o una tradición chilena que 20 para las 12 antes de dar el abrazo tu papá tenía que estar curado y miao. ¿Hay visto a tu papá sano? Es que antiguamente las mamitas dejaban la puerta abierta para que viniera el vecino a saludarte, viniera todo el mundo, era una felicidad. Pregúntale a tu mamá ahora. Si pudiera dejar la puerta abierta para que venga la vecina. Que la vieja naficante al lado. Mi papá salía 20 para las 12 a dar el abrazo. Casa uno, buenas noches, vecino. Feliz Año Nuevo, abrazo, ponche. Casa dos, buenas noches, vecino. Feliz Año Nuevo, abrazo, cole mono. De Vicuña Mackena a Puente Alto mi papá saludando. Saludaba a cualquier casa que estuviera abierta. Llegaba a mi casa feliz Año Nuevo, vecino.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          79,
+          80,
+          81
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2338.0,
+      "end_time_seconds": 2457.0,
+      "speaker": null,
+      "text": "Abrazo, ponche, pipazo. Pero mira, lo más importante es que uno tiene que dejar eso, que no se vayan olvidando las tradiciones, porque yo le explico a mi hijo y hay cosas que ni siquiera entiende. ¿Se acuerda? ¿Alguna vez ustedes cambiaron plantas por zapatos en su casa? Era bonito cuando pasaba eso o de repente está en la casa jugando y sentía ahí afuera, ¿Qué es lo que era? El barquito manícero. Yo decía, \"El maní, el maní, huevón, qué emoción.\" Peso pluma empujando el maní, el maní. ¿Y tú a los sabéis? Este culiao no vende maní. No. Vendía maní prensado. ¿Qué vas a ver, mi hijo, de eso, de esas tradiciones cuando tu mamá te mandaba a comprar y solamente te da una pura instrucción, \"Anda a comprarle al caballero.\" ¿Y qué vende? Como nadie ha escuchado, ahuevonado. Y yo no entendía nada de lo que Y decía, \"Anda a comprar, que se va a ir.\" Mamita, te lo juro que no entiendo lo que dice. Y de repente lo estás escuchando, abro la ventana y se escucha así como \"Coterita llegó en los huevos.\" Decía, \"Mamá, pero ¿qué dice? Anda a comprar.\" Y el loco te la hace más difícil. \"Para pero para que yo te haga con los huevos.\" El pero que se fuma, chupa los Pero uno decía, \"¿Qué vende, mamá?\" \"Huevos.\" \"Huevos, este huevo, hueón.\" \"Hueón.\" Y cocinando todo eso, mi amada Nocia. Por huevos comí arroz solo. Muchas gracias, amigos. Toda la vida he pensado que uno tiene que ser muy agradecido también. Imagínate, yo antes del Festival del Muelle nunca había podido a Fantasilandia, amigo. ¿Ustedes conocen Fantasilandia? ¿No hay Una persona dice que no, te voy a regalar una entrada.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          82,
+          83,
+          84,
+          85
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2460.0,
+      "end_time_seconds": 2589.0,
+      "speaker": null,
+      "text": "Y encuentro que es bonito porque mi es carísimo ir a Fantasilandia, carísimo, primera vez estaba mi señora emocionada con mi hijo ahí en el boomerang sacándose fotos hasta con las basureros de Ranita, ahí está. Es que es bonito. Aprenden, le dije yo, vaya para allá, vaya, aprovechen porque es caro y comer en Fantasilandia, amigos, más caro. Voy juntar la plata de todos los hueones, te vayas a Brasil 3, 4 días, te lo juro. No, carísimo. Yo le le digo a mi hijo, \"Yo jamás pude darme esos lujos, nunca.\" Pero mi papá igual lo lograba. Mi papá vivía en San Antonio, era pescador y sabéis que no me llevaba Fantasilandia, pero él buscaba la solución. Me llevaba unos juegos de barrios que se llamaban Felicilandia. ¿Alguien fue alguna vez a un juego de barrio? Como los del Quisco. Esos juegos encerrados en la arena que tú no sabés cómo el Seremi autorizó que la corriente, el agua y las personas estuvieran en el mismo lugar. Todo era peligroso. Iba y a comprar un algodón de azúcar y había un viejo ahí. Ahí está. Sí, sí me metía los los palos, los cocos ahí. Te lo juro. Yo nunca supe cómo se pegaba el azúcar y de repente y se iba a formar. Eso nos comíamos. Pero cómo nadie revisa eso. Manzana confitada, ¿te dieron alguna vez? En una bandeja lleno de manzana con un palito arriba, una cuestión roja que nunca supimos qué era. Tu papá te lo pasaba, \"Toma, un palo negro con la misma mano que se rascó la raja.\" toma, te decía. Una vez perdí dos dientes de leche por pegarle una máscara a esa huevada. Mi hijo me decía, \"Alex, me decía, \"Papi, ¿de verdad?\" Hijo, \"¿Cómo te va a estar mintiendo, huevón, para que aprendáis malaya, culiá?\" le dije.\" No, perdón, perdón, que se me pegó también. Yo le decía, \"Basti, en los Feliz Landias las tacitas voladoras realmente volaban, huevón. Te lo juro, todo es",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          86,
+          87,
+          88,
+          89,
+          90
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2590.0,
+      "end_time_seconds": 2649.0,
+      "speaker": null,
+      "text": "era peligroso. Una vez yo estaba con mi mamá en la Rule of the Fortune en San Antonio, \"Ay, qué bonito.\" y se salió. Mi mamá me dijo, \"No, parece que no nos vamos nada a poder subir hoy día. Vamos a tener que ir a subirlo al tabo.\" me dijo. Pero nadie fiscaliza esos juegos y todo es más peligroso. De repente mi vieja me decía, \"Toma Alex, ponte acá.\" La centrífuga, aquí. Y yo me quedaba ahí parado como los huevones, \"Chátete ahí.\" me decía, \"Chátete ahí.\" Ya, mamita, quédate ahí, huevón, te dije, \"Bacterias, quédate ahí, quédate ahí.\" para sacar una foto y de repente todas las familias ponían a los hijos alrededor de eso y eso empezaba a girar, amigos. Tan rápido que las personas dejaban de ver a su hijo. Toda la gente cuéntame mi hijo. ¿Dónde está mi hijo, huevón? Lo identificáis con el puro vómito. Churro con manjar. Ah, ahí está mi hijo. Está vivo. Muchas gracias, amigos. Saludita.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          91,
+          92
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2650.0,
+      "end_time_seconds": 2739.0,
+      "speaker": null,
+      "text": "Muchas gracias. Qué bonita, de verdad, agradezco la buena onda de esta noche. ¿Pero sabéis qué? Pero siempre faltaba más. Yo llegaba al final y siempre había un juego más peligroso que el otro. Yo veía al final había una luz, bueno, una luz estroboscópica, luz ultravioleta, un juego que tenía DJ, huevón, te lo juro. Una huevada redonda, con silla, con un cromado, una barra, arriba un resorte. Y tenía música, había un DJ. Ah, you're ready. Eh, eh, eh, eh, eh, en Mortal Kombat, el jefe final. Todo peligroso. Mi mamá decía, \"No, muy peligroso.\" Subámonos, subámonos. Mi papá, subámonos, estoy con esta familia culiá y yo subámonos. Y ahí estaba yo, imagínate arriba del tagadá, te lo juro, ahí estaba yo. Decía, \"No, mamita, mamita, aquí nos vamos a matar.\" Y aparte tenía unos sonidos, yo estaba sentado realmente Si a mamá dónde salió el sonido, afírmate, afírmate.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          93,
+          94,
+          95
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2740.0,
+      "end_time_seconds": 2866.0,
+      "speaker": null,
+      "text": "Mamá, nos vamos a matar. Afírmate, huevón, aquí hay que saber lo que es bueno. Hácete hombre, maricona, ¿sí? Oye, mamita, ese léxico tan antiguo, afírmate. ¿Pero por qué nos subimos acá? Porque no me pediste el Uber, pues, huevón, me dijo. Muchas gracias, amigos. Osea, mamá, nos vamos a matar, afírmate, huevón. Aquí hay ya saber lo que es bueno. Ya, mamá, nos vamos a matar. Y toda la gente gritando, amigos. Te lo juro que yo nunca había visto en un juego que todos gritando y nadie decía nada. Está ¡No! Y todavía no partía. Estaba quieto. Y como cachó que estaban todos gritando, llegó el encargado de seguridad para cerrar el juego con una cadenita. Como que con esa cadena tapón del water tú decís, \"Ah, aquí hay seguridad.\" Ah. Como que esa cadena delgada y te imprime Y diera que yo saliera y estuviera a la playa. Pero por eso nos morimos, pues, huevón. ¿Cómo nadie reclama? Y ahí estaba yo, \"Mamá, nos van a matar.\" Y miro para el lado, \"Mamá.\" Y había una caseta llena de luces estroboscópicas con un cuadradito y adentro había un huevón. Yo le dije, \"Mamá, hay un huevón en la caseta.\" El que maneja el papá ahuevonado, me dijo, \"Afírmate.\" Y yo dije, \"No.\" Y miro para adentro y se veía una mano, arriba una palanca y una pistola. A la Te lo juro, te lo juro. Yo dije, \"Weón, le falta una mano a este weón.\" Mire para el lado y estaba así. ¡Ah! Te lo juro, weón. Se pegó un queso crema y yo le dije, \"No.\" Le dije, \"Mamá, el weón que maneja esta weá está jalando.\" Es parte del protocolo, me dijo. Parte del protocolo, hijito.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          96,
+          97,
+          98,
+          99,
+          100
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2875.0,
+      "end_time_seconds": 2992.0,
+      "speaker": null,
+      "text": "Ahí estaba yo. Mamá, este bol nos va a matar, le dije, \"Afírmate, huevón.\" Y la gente lo empieza a desafiar. Dale, boluda, huevón. Yo decía, \"No, no lo huevén, que el loco tiene nuestra vida en sus narices.\" ¡No! Dale, boluda, huevón. Decía, \"No, mamá, no puedo ir a mi mamá.\" ¡Mamá! Y le da la huevada. Pesca la palanca. Te lo juro que yo jamás había sentido tanta presión en la cara, 700 km/h. ¡No! Mamá, bueno, podía me parecía Carter, tal y Ya mamá, weón, nos vamos a matar. 1000 km/h. Te lo juro, estaba ahí ya firmado las tete mi mamá, ¡no! Se empezó a caer el celular, toda la huevada. Mamita, afírmate, weón, me sí, afírmate. de viva bando, vuelta, huevón, en el suelo. Mamá, nos vamos a matar. 2000 km/h. Cruz para el cielo. Cruz para el cielo, 3000 km/h. Mamá, nos vamos a matar. Ya no veía nada, puras luces. Puras luces. Decía, \"Oh, nos vamos a matar, mamá.\" Y yo no sé de adónde, amigos. Te lo juro, 3000 km/h. Y yo no sé de adónde. Aparece un huevón al medio. Ay. Dándolo todo el huevón ahí. Ay, ahí está. Una monja culiada, ahí. Que mamá hay un huevón al medio. Hay un huevón bailando y no se cae. Afírmate, huevón. Mamá, el huevón baila la raja, le dije. Oh, el huevón atento y lo quedó mirando y era el huevón de la caseta. Buenas noches, amigos. Muchas",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          101,
+          102,
+          103,
+          104
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 2992.0,
+      "end_time_seconds": 3124.0,
+      "speaker": null,
+      "text": "Gracias. Gracias por el apoyo. Gracias por la buena onda, por sus risas. Soy Alex Ortiz. Nos vemos por ahí. Tóquelo mucho. Muchas gracias, De San Francisco a la Quinta Vergara. Un comediante de barrio, Muchas gracias. experto en el chile real y sobre todo especialista en hacer reír. El público del festival ya lo comprobó y le entrega ese tremendo aplauso a Alex Muchas gracias. Porque Torrotina estuvo de pan a punta gorda de emociones esta noche. Venga, Alex. Este hombre que está acá. Venga. Soñó profundamente con este momento. Y en esta sexta noche de Viña del Mar. Allá en la galería. Pero has ganado, no cabe ninguna duda, porque esta noche en Viña 2024 hay Gaviota de Plata para Alex Cortés. Muchas gracias, de verdad. Agradecido. Muchas gracias por la buena onda por el cariño. Estoy muy muy emocionado, la verdad. Te lo mereces. Muchas gracias. ¿Cuánto trabajo hay detrás? Alex, pídeme un Uber, dice ahí. Ahí está tu papá. Muy bien. Diciendo Alex, pídeme un Uber. Y la quinta Vergara quiere seguir riendo esta noche. quinta quiere seguir disfrutando. Muchas gracias, amigos, de verdad. Que sepan lo que es bueno. Sigue en la quinta Alex Alex Ortiz. Ortiz Amigo,",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          105,
+          106,
+          107,
+          108,
+          109
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 3125.0,
+      "end_time_seconds": 3154.0,
+      "speaker": null,
+      "text": "Muchas gracias, de verdad. No, chucha, se me cortó la mesa, bueno. No, no, no esperaba tanta tanto cariño, tanta buena onda, eh Muy bonito, verdad, estoy muy emocionado. Oye, un aplauso a mi vieja que vino a verme acá. Nunca me había venido a ver. Nunca le pedí luz para verme. Aguante, vieja. Eh, mira. Muchas gracias,",
+      "metadata": {
+        "confidence": 0.7993365526199341,
+        "speaker_tag": null,
+        "word_count": 58
+      }
+    },
+    {
+      "start_time_seconds": 3155.0,
+      "end_time_seconds": 3243.0,
+      "speaker": null,
+      "text": "Tengo, como le conté un hijo de 19 años, él jamás va a saber lo que realmente a mí me ha costado, pero ¿sabéis qué? Quiero romper esos patrones que a los hijos les tiene que costar lo mismo, tenemos que también aprender eso. Yo le explico, ¿sabéis qué, hijo? Yo antes hacía unos trabajos en el colegio muy diferente a lo que casi tú, porque este huevón tiene impresora, tiene tele, el accidente más grande que ha tenido que se cayó en la silla gamer, ahuevonado, se quedó dormido ahí. Pero en la pieza, imagínate yo y le decía, \"Huevón, tus trabajos fue imprimirlos, fue a mirarlo a cualquier lado a la impresora y va a salir al tiro. \"Papá, pero eso ya pasó, no seas boomer.\" Boomer. ¿Qué es boomer? Me pedí internet, viejo culiao. Ah, ya. Uno aprendiendo con los hijos también. Lo que mirando, sí, pues, weón, pero mis trajes eran mucho más peludos. Pa, papá, no me dis la lata, lo que mirando cuando he visto crecer un poroto vos, weón. ¿Alguien hizo ese trabajo? Con y Santa María, un frijol, eso sí, un frijol. Vasito plástico, algodón, porotos o frijol, agua. Tu mamá te pasaba una ficha bibliográfica para que pusiera ahí los procesos y anda equivocarte porque valía 70 pesos. Leche hay agüita día uno. Está igual. Se vienen cositas.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          111,
+          112,
+          113
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 3245.0,
+      "end_time_seconds": 3334.0,
+      "speaker": null,
+      "text": "Día dos. Te di hondo el poroto. Día tres. Se pudrió con Y uno iba todo triste con ese poroto a la casa para ir al colegio para sacarte un cuatro por lo menos. Y ahí entrando te sentás en la sala, aparecía el profe por la puerta con así un árbol. Así tiene que quedar, un agua con naranja, así tiene que quedar. Yo decía, Eso son trabajos. Ustedes hicieron alguna vez un mapa de Chile que tenía que poner con papel volantín y cola fría estar pinchando toda la tarde. Yo una vez me perdí Marimar por hacer esa huevada. Te lo juro, toda la tarde, más encima para que tu profesor dudara. Lo llevaba y decía, \"¿Te ayudó tu papá?\" No, malaya, culiares. No, que era era medio atrevido. Mi hijo, ahí no entiende yo lo que he mirando, es que tenéis que tener que igual me costó un poquito. Papá, pero eso ya pasó, olvídalo. No, no me voy a olvidar lo que mirando cuando hay calcado mapa a vos, huevón, le dije, \"Alguien calcó un mapa acá.\" Y eso dividía el país porque, por ejemplo, te iba más o menos chavito, papel, mantequilla. Con el Santa María, diamante. Otra cosa. Para que no se te arrugue el mapa la la figura de tu mamá, el elefante con el billete. Angelito",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          114,
+          115,
+          116
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 3335.0,
+      "end_time_seconds": 3423.0,
+      "speaker": null,
+      "text": "celosa, el Buda, ahí. Y aparte, seamos sinceros, uno igual era bien irresponsable igual, llegaba supertarde a dar la información. Yo me acuerdo, mi mamá instalada, viendo la fiera, 9 de la noche con un tarro de pintura de té, ahí. Y yo llegaba, 9 de la noche, abría la mochila, libreta de comunicaciones. Conchetumadre. Me han a masacrado. Y uno llegaba haciéndose simpático, digamos con la libreta Oh, mamita, no sabéis nada. Oh, la vida nos vuelve a juntar. Oh, la vida culia loca, mamita. Tu mamá agarrando un bate. ¿Qué pasó? Cuéntame, po. Bacteria, cuéntame, po. Puta mamita no está ahí. No, cuéntame, po, paliente. Tengo que hacer un ¿Qué, po? No, po. ¿Qué? Habla bien. mapa Nunca había visto a mi mamá tan enojada. Te lo juro, esta bacteria, culiá, maldito bastardo, pero cómo me hace esto. ¿Por qué no me lo tragué? Buenas noches, amigos, muchas gracias. Gracias por venir. Espero que lo hayan disfrutado. Soy Alex Ortiz. Si tiene el Instagram, díganme ahí @playstore.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          117,
+          118,
+          119
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 3427.0,
+      "end_time_seconds": 3585.0,
+      "speaker": null,
+      "text": "Un comediante que se consagra en la Quinta Vergara. Muchas gracias, amigo, los quiero mucho. ¡Sencito! Y después de 10 años hoy día lo vemos llegar a lo más alto. Gracias por retratarnos, por hacernos recordar. El público se pone de pie. Alex, eres un seco. Te pasaste Quinta Vergara, te lo demuestra de esta manera. Todos de pie con más fuerza. Que lo que dice la galería. Que es lo que dice el centro. A los lados del 15 000 personas hoy día te aplauden aquí y millones en todo Chile y Latinoamérica. No cabe duda, Pancho, porque esta noche hay gaviota de oro para Alex Ortiz. Muchas gracias. Estoy estoy muy emocionado, la verdad, no Soy medio llorón, pero muchas gracias. Oye, Dale gracias a mi familia. Dale gracias a mi mamá, a mi papá, a mi señora, a mi hijo, a mi productor Karim Sufan, a la chiqui también que está acá, a Leíto, a Camilo, al Fido, a la Rocío, a todos los que participaron y confiaron en mí si se me olvida alguien, de verdad. Les pido hoy disculpas, pero estoy muy emocionado, amigos. De verdad jamás soñé con estar con usted acá. Gracias. Muchas gracias, amigo. Viequita, mira. Y la mamá le tira beso. Ahí está la mamá. Va a tener que pedir un número para que se haya, huevón. Es que ve que tiene buena voluntad. Muy buena voluntad. Que la madre y tu padre reciban también esa ovación de la Quinta Vergara. Muchas gracias. Porque sabemos que detrás de esa historia hay mucho esfuerzo, mucho cariño y mucho sacrificio y te dieron tanto material también. Sí, harto material. No, contento. Muchas gracias, amigo. Gracias a usted, a todos los amigos del festival, a los que también tuvieron adelante yo Sí, sí, te la dan y que participaron. A los amigos de la galería. Gracias, amigos, por el apoyo. A los de aquí abajo se pasaron. Gracias, gracias. Aguante el barrio. Qué grande, Un Alex un sueño cumplido, triunfar en este Muchas momento. gracias Quédate con nosotros para decirle a todos ustedes que en más rato Alex va a estar en el backstage junto a Natalia y Simón y nosotros nos vamos a una pausa comercial. Así vamos y volvemos porque este es Viña 2024. ¡Vamos!",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          120,
+          121,
+          122,
+          123,
+          124,
+          125
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 3591.0,
+      "end_time_seconds": 3606.0,
+      "speaker": null,
+      "text": "la música la fiesta la fiesta",
+      "metadata": {
+        "confidence": 0.4761408865451813,
+        "speaker_tag": null,
+        "word_count": 6
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 127,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 127,
+      "merged_segment_count": 44
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 44
+    }
+  },
+  "timestamp_source": "google"
+}

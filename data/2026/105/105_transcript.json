@@ -1,0 +1,170 @@
+{
+  "gcs_uri": "gs://chacate-bucket/uploads/datarisas/105/Festival Internacional de la Canción de Viña del Mar 2000/Daniel Muñoz El Malo.mp4",
+  "audio_gcs_uri": "gs://chacate-bucket/derivatives/uploads/datarisas/105/Festival Internacional de la Canción de Viña del Mar 2000/Daniel Muñoz El Malo/audio.mp3",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "language": "es-US",
+  "transcript": "Oye, con esa no calienta ni al hermano el pollo por luego. Ya hago una buena por luego, buen de una de ahora así no he nada más. ¡Oh, aló! Ahí va y ¡bájalo! Baila, ¡qué rico te sobra!, baila que baila de... A cerca de sus dedos saluda, baila, ¡qué rico te sobra! Baila que baila que que que que chiso me mueres. Vaya. Eso es. Ven para acá. Ven para acá. Ven para acá, Lora. ¡Rompe el fuego! Ven para acá. Ven para acá. ¡Rompe el fuego! Ven para acá. ¡Rompe el fuego! La envidia. Vaya, vaya. Por esta loca me caso yo luego. I miss you. Yes, I'll be broken heart. Lose the day we fought. Why, why need I ever let you go? Come on here. Now I really know my life I could never let you go. ¿Quiere que diga? Oh, ¿quiere que pare? ¿Quiere que diga? Sí. ¿Sabes qué más no lo hago? Este no al final que yo quería por loco. ¿Sabes loco lo que yo quería? Que llegar un hombre así para llegar así los marcianos me tiraran para arriba así Después diciendo esta cuestión Esta caja logo, gastaron cualquier billete, me dijeron, \"Ocupa la logo.\" No lo voy a ocupar la nada. Después me dijeron los logos, \"Queríamos que subas, que te duches, pero que no te saques los calzoncillos.\" Luego así, con la mano en el corazón, alguno de ustedes, compadre, se ha duchado con el lip. ¿Alguna vez? Todos de por lo Estoy cabreado, compadre, estoy compadre En la tele, compadre, hay más malos que yo. Yo te lo digo, compadre. ¿Seguro con loco? Es más malo el loco que el de juego artificial a los carochicos, por lo que más. Más malo el loco que inventó la restricción, por loco. Ese loco es malo, po. El loco que le dijo al Arturo Frey que voy a ser candidato, ese loco es malo, po. Ese es malo, po. El que copió el video del Chacotero, loco, es el malo también, po. El loco que escribió la teleserie Santiago City es el malo, po. Es el malo. El loco que le dijo a la Titi que se iba a casar con el Pampam, ese loco es malo, po. Ese es malo. El El loco que le dijo que al Chino Ríos no le iba a pillar en la bolola, es de loco malo, loco. El loco que le dijo a Pinoché que se fuera a operar a Londres, es loco es malo, loco. Pelado. Oye, si en la tele loco hay cualquier malo, loco. Cualquier malo, así. En la tele loco hasta la tati pena se derritica, pues, loco. Sí, loco. Hasta la Bibi Cruz que se llama flaca, loco. Si la la tele luego todos dicen, \"Mala, el malo, el malo es todo, el malo es supermalo y todo porque no tengo pituto.\" ¿Cómo es la cuestión, compadre? Ah, no, yo estoy choreado, loco. Negro. Chao, compadre. Oye, déjame bajar un poquito, loco. ¿Sabes qué más? Chao, chaela. No estoy ni ahí, compadre. Y ahora tendrían que haber aparecido cualquiera de los giles que la venden de animal ahora así va y pregúntame y el malo va a volver algún día a Segura Laga, el día en que encuentre a por jefe. Laga, voy a volver el día en que pase en la última tentación de grito por la tele y Laga. Laga, voy a volver el día en que la selección chilena salga campeona del mundo, loco. Loco, voy a volver el día en que los diputados y los senadores estén trabajando en el congreso. Y va. Voy a volver, loco, el día en que no me corten más los libritos, loco. O sea, voy a volver el día de la goma. Chao. Fuerte el aplauso para el malo que esta noche estuvo con nosotros en este escenario. Embregando su humor, un personaje que nació en la televisión y que se fue en la televisión. Un personaje indolente que se convirtió en el tiempo en el más bueno de los malos. Esa es su presentación de este la noche, pero quizás queremos brindar un gran aplauso y un gran saludo a un actor que ha tenido un año excepcional. En el cine, en la televisión, en el teatro, sus personajes se multiplicaron a través de los programas estelares de Canal 13. Y esta noche le invitamos a recibir el aplauso de ustedes a Daniel Muñoz. En el cine cuatro películas del año recién pasado. Terminando con el Chacotero Sentimental en el Teatro de los Bufones de Shakespeare. Y en la televisión el Carmelo, el Chanza y este personaje el más popular, el malo. Bueno, gracias por la paciencia Ya. Eh, este premio, bueno, se lo quiero dedicar a mis hijos, a mi señora, mi familia, a mi socio Ariel Galindo, que escribe todas las cochinadas que yo digo. Quiero también dedicárselo y en especial al canal por haberme dado la posibilidad de estar en este escenario, a toda la gente que repleta la Quinta Vergara, a la gente que ve el programa. Y en especial, en especial, a todos los actores de Chile. Gracias, Daniel. Felicidades. Y que este año 2000 sea tan fructífero como los años últimos. Fuerte el aplauso para despedirlo. Más que merecida la Gaviota para este gran actor chileno y, sin lugar a dudas, ha logrado un éxito arrollador en este año 99. Le deseamos la misma suerte para el año 2000. Gracias, Daniel, y hasta siempre.",
+  "speakers": [],
+  "segments": [
+    {
+      "start_time_seconds": 0.0,
+      "end_time_seconds": 18.0,
+      "speaker": null,
+      "text": "Oye, con esa no calienta ni al hermano el pollo por luego. Ya hago una buena por luego, buen de una de ahora así no he nada más.",
+      "metadata": {
+        "confidence": 0.6672906875610352,
+        "speaker_tag": null,
+        "word_count": 28
+      }
+    },
+    {
+      "start_time_seconds": 30.0,
+      "end_time_seconds": 90.0,
+      "speaker": null,
+      "text": "¡Oh, aló! Ahí va y ¡bájalo! Baila, ¡qué rico te sobra!, baila que baila de... A cerca de sus dedos saluda, baila, ¡qué rico te sobra! Baila que baila que que que que chiso me mueres. Vaya. Eso es. Ven para acá. Ven para acá. Ven para acá, Lora. ¡Rompe el fuego! Ven para acá. Ven para acá. ¡Rompe el fuego! Ven para acá. ¡Rompe el fuego!",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          1,
+          2
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 90.0,
+      "end_time_seconds": 112.0,
+      "speaker": null,
+      "text": "La envidia. Vaya, vaya. Por esta loca me caso yo luego.",
+      "metadata": {
+        "confidence": 0.5769073963165283,
+        "speaker_tag": null,
+        "word_count": 11
+      }
+    },
+    {
+      "start_time_seconds": 120.0,
+      "end_time_seconds": 147.0,
+      "speaker": null,
+      "text": "I miss you. Yes, I'll be broken heart. Lose the day we fought. Why, why need I ever let you go? Come on here. Now I really know my life I could never let you go. ¿Quiere que diga? Oh, ¿quiere que pare? ¿Quiere que diga? Sí.",
+      "metadata": {
+        "confidence": 0.6312996745109558,
+        "speaker_tag": null,
+        "word_count": 47,
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 158.0,
+      "end_time_seconds": 209.0,
+      "speaker": null,
+      "text": "¿Sabes qué más no lo hago? Este no al final que yo quería por loco. ¿Sabes loco lo que yo quería? Que llegar un hombre así para llegar así los marcianos me tiraran para arriba así Después diciendo esta cuestión Esta caja logo, gastaron cualquier billete, me dijeron, \"Ocupa la logo.\" No lo voy a ocupar la nada. Después me dijeron los logos, \"Queríamos que subas, que te duches, pero que no te saques los calzoncillos.\" Luego así, con la mano en el corazón, alguno de ustedes, compadre, se ha duchado con el lip. ¿Alguna vez? Todos de por lo Estoy cabreado, compadre, estoy",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 213.0,
+      "end_time_seconds": 311.0,
+      "speaker": null,
+      "text": "compadre En la tele, compadre, hay más malos que yo. Yo te lo digo, compadre. ¿Seguro con loco? Es más malo el loco que el de juego artificial a los carochicos, por lo que más. Más malo el loco que inventó la restricción, por loco. Ese loco es malo, po. El loco que le dijo al Arturo Frey que voy a ser candidato, ese loco es malo, po. Ese es malo, po. El que copió el video del Chacotero, loco, es el malo también, po. El loco que escribió la teleserie Santiago City es el malo, po. Es el malo. El loco que le dijo a la Titi que se iba a casar con el Pampam, ese loco es malo, po. Ese es malo. El El loco que le dijo que al Chino Ríos no le iba a pillar en la bolola, es de loco malo, loco. El loco que le dijo a Pinoché que se fuera a operar a Londres, es loco es malo, loco. Pelado. Oye, si en la tele loco hay cualquier malo, loco. Cualquier malo, así. En la tele loco hasta la tati pena se derritica, pues, loco. Sí, loco. Hasta la Bibi Cruz que se llama flaca, loco. Si la la tele luego todos dicen, \"Mala, el malo, el malo es todo, el malo es supermalo y todo porque no tengo pituto.\" ¿Cómo es la cuestión, compadre? Ah, no, yo estoy choreado, loco.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 312.0,
+      "end_time_seconds": 339.0,
+      "speaker": null,
+      "text": "Negro. Chao, compadre. Oye, déjame bajar un poquito, loco. ¿Sabes qué más? Chao, chaela. No estoy ni ahí, compadre. Y ahora tendrían que haber aparecido cualquiera de los giles que la venden de animal",
+      "metadata": {
+        "confidence": 0.7850250005722046,
+        "speaker_tag": null,
+        "word_count": 34
+      }
+    },
+    {
+      "start_time_seconds": 342.0,
+      "end_time_seconds": 399.0,
+      "speaker": null,
+      "text": "ahora así va y pregúntame y el malo va a volver algún día a Segura Laga, el día en que encuentre a por jefe. Laga, voy a volver el día en que pase en la última tentación de grito por la tele y Laga. Laga, voy a volver el día en que la selección chilena salga campeona del mundo, loco. Loco, voy a volver el día en que los diputados y los senadores estén trabajando en el congreso. Y va. Voy a volver, loco, el día en que no me corten más los libritos, loco. O sea, voy a volver el día de la goma. Chao.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 411.0,
+      "end_time_seconds": 487.0,
+      "speaker": null,
+      "text": "Fuerte el aplauso para el malo que esta noche estuvo con nosotros en este escenario. Embregando su humor, un personaje que nació en la televisión y que se fue en la televisión. Un personaje indolente que se convirtió en el tiempo en el más bueno de los malos. Esa es su presentación de este la noche, pero quizás queremos brindar un gran aplauso y un gran saludo a un actor que ha tenido un año excepcional. En el cine, en la televisión, en el teatro, sus personajes se multiplicaron a través de los programas estelares de Canal 13. Y esta noche le invitamos a recibir el aplauso de ustedes a Daniel Muñoz. En el cine cuatro películas del año recién pasado. Terminando con el Chacotero Sentimental en el Teatro de los Bufones de Shakespeare. Y en la televisión el Carmelo, el Chanza y este personaje el más popular, el malo. Bueno, gracias por la paciencia",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "start_time_seconds": 492.0,
+      "end_time_seconds": 546.0,
+      "speaker": null,
+      "text": "Ya. Eh, este premio, bueno, se lo quiero dedicar a mis hijos, a mi señora, mi familia, a mi socio Ariel Galindo, que escribe todas las cochinadas que yo digo. Quiero también dedicárselo y en especial al canal por haberme dado la posibilidad de estar en este escenario, a toda la gente que repleta la Quinta Vergara, a la gente que ve el programa. Y en especial, en especial, a todos los actores de Chile. Gracias, Daniel. Felicidades. Y que este año 2000 sea tan fructífero como los años últimos. Fuerte el aplauso para despedirlo.",
+      "metadata": {
+        "merge_strategy": "gemini_idea_merge",
+        "merged_indices": [
+          17,
+          18
+        ],
+        "llm_correction": true
+      }
+    },
+    {
+      "start_time_seconds": 552.0,
+      "end_time_seconds": 568.0,
+      "speaker": null,
+      "text": "Más que merecida la Gaviota para este gran actor chileno y, sin lugar a dudas, ha logrado un éxito arrollador en este año 99. Le deseamos la misma suerte para el año 2000. Gracias, Daniel, y hasta siempre.",
+      "metadata": {
+        "confidence": 0.8727490901947021,
+        "speaker_tag": null,
+        "word_count": 38,
+        "llm_correction": true
+      }
+    }
+  ],
+  "raw_response": {
+    "provider": "google",
+    "api": "speech_v2",
+    "model": "chirp_2",
+    "language": "es-US",
+    "segment_count": 20,
+    "segment_merge": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "original_segment_count": 20,
+      "merged_segment_count": 11
+    },
+    "segment_correction": {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "segment_count": 11
+    }
+  },
+  "timestamp_source": "google"
+}
