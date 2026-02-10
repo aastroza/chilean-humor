@@ -37,8 +37,6 @@ ROUTINES_FEATURES = Features(
                 "start_time_seconds": Value("float64"),
                 "end_time_seconds": Value("float64"),
                 "text": Value("string"),
-                "confidence": Value("float64"),
-                "word_count": Value("int64"),
             }
         ],
     }
@@ -58,8 +56,6 @@ SEGMENTS_FEATURES = Features(
         "end_time_seconds": Value("float64"),
         "duration_seconds": Value("float64"),
         "text": Value("string"),
-        "confidence": Value("float64"),
-        "word_count": Value("int64"),
     }
 )
 
@@ -177,19 +173,14 @@ def build_rows(
         routine_segments: list[dict[str, Any]] = []
 
         for segment_idx, segment in enumerate(segments_source):
-            segment_metadata = segment.get("metadata") or {}
             start = as_float(segment.get("start_time_seconds"))
             end = as_float(segment.get("end_time_seconds"))
             text = segment.get("text") or ""
-            confidence = as_float(segment_metadata.get("confidence"))
-            word_count = as_int(segment_metadata.get("word_count"))
 
             routine_segment = {
                 "start_time_seconds": start,
                 "end_time_seconds": end,
                 "text": text,
-                "confidence": confidence,
-                "word_count": word_count,
             }
             routine_segments.append(routine_segment)
 
@@ -211,8 +202,6 @@ def build_rows(
                     "end_time_seconds": end,
                     "duration_seconds": duration,
                     "text": text,
-                    "confidence": confidence,
-                    "word_count": word_count,
                 }
             )
 
