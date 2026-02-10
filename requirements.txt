@@ -5,3 +5,4 @@ python-dotenv
 bertopic>=0.17.4
 jupyter
 nltk
+kaleido
