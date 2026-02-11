@@ -10,6 +10,8 @@ import nltk
 
 from .config import TopicModelingConfig
 
+_DEFAULT_EMBEDDING_MODEL = object()
+
 
 def ensure_stopwords_resource() -> None:
     """Download NLTK stopwords if not already available."""
@@ -57,8 +59,16 @@ def build_hdbscan_model(config: TopicModelingConfig) -> HDBSCAN:
     )
 
 
-def build_topic_model(config: TopicModelingConfig) -> BERTopic:
+def build_topic_model(
+    config: TopicModelingConfig,
+    embedding_model: object = _DEFAULT_EMBEDDING_MODEL,
+) -> BERTopic:
     """Create BERTopic model with deterministic sub-components."""
+    effective_embedding_model = (
+        config.embedding_model
+        if embedding_model is _DEFAULT_EMBEDDING_MODEL
+        else embedding_model
+    )
     ctfidf_model = ClassTfidfTransformer(
         reduce_frequent_words=config.ctfidf_reduce_frequent_words,
         bm25_weighting=config.ctfidf_bm25_weighting,
@@ -66,7 +76,7 @@ def build_topic_model(config: TopicModelingConfig) -> BERTopic:
 
     return BERTopic(
         language=config.language,
-        embedding_model=config.embedding_model,
+        embedding_model=effective_embedding_model,
         vectorizer_model=build_vectorizer(config),
         ctfidf_model=ctfidf_model,
         umap_model=build_umap_model(config),

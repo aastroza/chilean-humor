@@ -18,6 +18,13 @@ class TopicModelingConfig:
 
     language: str = "multilingual"
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    use_jina_embeddings: bool = False
+    jina_model_name: str = "jinaai/jina-embeddings-v4"
+    jina_task: str = "text-matching"
+    jina_truncate_dim: int | None = 128
+    jina_batch_size: int = 64
+    jina_device: str = "auto"
+    jina_cache_dir: str | None = None
     calculate_probabilities: bool = True
     verbose: bool = True
 

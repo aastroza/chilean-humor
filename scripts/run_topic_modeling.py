@@ -89,6 +89,51 @@ def parse_args() -> argparse.Namespace:
         help="SentenceTransformer model used by BERTopic.",
     )
     parser.add_argument(
+        "--use-jina-embeddings",
+        action="store_true",
+        help=(
+            "Precompute Jina embeddings and pass them to BERTopic.fit_transform. "
+            "When enabled, BERTopic is initialized without an internal embedding model."
+        ),
+    )
+    parser.add_argument(
+        "--jina-model-name",
+        default="jinaai/jina-embeddings-v4",
+        help="Jina model id loaded via transformers.AutoModel.from_pretrained.",
+    )
+    parser.add_argument(
+        "--jina-task",
+        default="text-matching",
+        help="Task argument passed to model.encode_text(...).",
+    )
+    parser.add_argument(
+        "--jina-truncate-dim",
+        type=int,
+        default=128,
+        help="Embedding dimension truncation for Jina; set <= 0 to disable.",
+    )
+    parser.add_argument(
+        "--jina-batch-size",
+        type=int,
+        default=64,
+        help="Batch size used while computing Jina embeddings.",
+    )
+    parser.add_argument(
+        "--jina-device",
+        choices=["auto", "cpu", "cuda"],
+        default="auto",
+        help="Device for Jina embeddings computation.",
+    )
+    parser.add_argument(
+        "--jina-cache-dir",
+        type=Path,
+        default=None,
+        help=(
+            "Optional directory for embedding cache files. "
+            "If omitted, uses <output-dir>/embeddings_cache."
+        ),
+    )
+    parser.add_argument(
         "--min-df",
         type=int,
         default=2,
@@ -193,6 +238,15 @@ def main() -> None:
         min_text_chars=args.min_text_chars,
         min_text_tokens=args.min_text_tokens,
         embedding_model=args.embedding_model,
+        use_jina_embeddings=args.use_jina_embeddings,
+        jina_model_name=args.jina_model_name,
+        jina_task=args.jina_task,
+        jina_truncate_dim=(
+            args.jina_truncate_dim if args.jina_truncate_dim > 0 else None
+        ),
+        jina_batch_size=args.jina_batch_size,
+        jina_device=args.jina_device,
+        jina_cache_dir=str(args.jina_cache_dir) if args.jina_cache_dir else None,
         verbose=not args.quiet,
         min_df=args.min_df,
         token_pattern=args.token_pattern,

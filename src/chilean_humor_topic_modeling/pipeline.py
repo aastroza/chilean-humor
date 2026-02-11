@@ -6,6 +6,7 @@ from typing import Any
 
 from .config import TopicModelingConfig
 from .deterministic import set_global_seed
+from .embeddings import load_or_compute_jina_embeddings
 from .modeling import build_topic_model
 from .preprocessing import load_clean_documents
 from .visualization import save_plotly_figure
@@ -30,8 +31,27 @@ def run_topic_modeling_pipeline(
     tables_dir.mkdir(parents=True, exist_ok=True)
     warnings: list[str] = []
 
-    topic_model = build_topic_model(config)
-    topics, probabilities = topic_model.fit_transform(documents)
+    precomputed_embeddings = None
+    embeddings_cache_path: Path | None = None
+    embeddings_loaded_from_cache: bool | None = None
+    if config.use_jina_embeddings:
+        precomputed_embeddings, embeddings_cache_path, embeddings_loaded_from_cache = (
+            load_or_compute_jina_embeddings(
+                documents=documents,
+                config=config,
+                output_dir=output_dir,
+            )
+        )
+
+    topic_model = (
+        build_topic_model(config, embedding_model=None)
+        if config.use_jina_embeddings
+        else build_topic_model(config)
+    )
+    topics, probabilities = topic_model.fit_transform(
+        documents,
+        embeddings=precomputed_embeddings,
+    )
 
     if config.reduce_outliers:
         strategy = config.reduce_outliers_strategy
@@ -49,6 +69,8 @@ def run_topic_modeling_pipeline(
             }
             if strategy == "probabilities" and probabilities is not None:
                 reduce_kwargs["probabilities"] = probabilities
+            if strategy == "embeddings" and precomputed_embeddings is not None:
+                reduce_kwargs["embeddings"] = precomputed_embeddings
 
             topics = topic_model.reduce_outliers(
                 documents,
@@ -161,6 +183,10 @@ def run_topic_modeling_pipeline(
             "selected_topics_png": str(selected_png_path.resolve())
             if selected_png_path
             else None,
+            "jina_embeddings_cache": str(embeddings_cache_path.resolve())
+            if embeddings_cache_path
+            else None,
+            "jina_embeddings_loaded_from_cache": embeddings_loaded_from_cache,
             "model_dir": str(model_dir.resolve()) if model_dir else None,
         },
     }

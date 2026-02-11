@@ -6,3 +6,8 @@ bertopic>=0.17.4
 jupyter
 nltk
 kaleido
+torch
+torchvision
+transformers>=4.50,<5
+pillow
+peft

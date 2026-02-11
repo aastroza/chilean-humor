@@ -70,3 +70,22 @@ python scripts/push_hf_dataset.py --repo-id <your_username>/chilean-humor-raw-tr
 ```
 
 Optional: add `--private` if you want the dataset repo to be private when it is first created.
+
+## Topic Modeling With Jina Embeddings
+
+You can precompute Jina embeddings and reuse them across BERTopic runs:
+
+```powershell
+.venv\Scripts\python scripts/run_topic_modeling.py `
+  --use-jina-embeddings `
+  --jina-model-name jinaai/jina-embeddings-v4 `
+  --jina-task text-matching `
+  --jina-truncate-dim 128 `
+  --jina-device auto
+```
+
+Notes:
+
+- Embeddings are cached under `outputs/topic_modeling/embeddings_cache` by default.
+- Use `--jina-cache-dir <path>` to keep cache files somewhere else.
+- Set `--jina-truncate-dim 0` to disable truncation.
