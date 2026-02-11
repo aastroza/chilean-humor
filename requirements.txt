@@ -5,7 +5,8 @@ python-dotenv
 bertopic>=0.17.4
 jupyter
 nltk
-kaleido
+# NOTE: default install may resolve CPU-only PyTorch.
+# For CUDA setup, follow README section "NVIDIA GPU setup (Jina embeddings)".
 torch
 torchvision
 transformers>=4.50,<5

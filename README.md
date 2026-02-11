@@ -32,6 +32,35 @@ source .venv/bin/activate
 uv pip install -r ./requirements.txt
 ```
 
+### NVIDIA GPU setup (Jina embeddings)
+
+If you want Jina embeddings to run on GPU, install CUDA-enabled PyTorch wheels
+after the base requirements.
+
+Windows (PowerShell):
+
+```powershell
+uv venv
+.venv\Scripts\activate
+uv pip install -r .\requirements.txt
+uv pip uninstall torch torchvision
+uv pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
+python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.version.cuda)"
+```
+
+macOS/Linux:
+
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r ./requirements.txt
+uv pip uninstall torch torchvision
+uv pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
+python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.version.cuda)"
+```
+
+The check must print `True` for `torch.cuda.is_available()`.
+
 ## Build HF Dataset from raw data
 
 Generate the two Hugging Face configs from `data/2026`:
