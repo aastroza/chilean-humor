@@ -43,13 +43,14 @@ def parse_decade(date_value: str) -> int | None:
 
 def load_clean_documents(
     config: TopicModelingConfig,
-) -> tuple[list[str], list[int], dict[str, Any]]:
+) -> tuple[list[str], list[int], list[dict[str, Any]], dict[str, Any]]:
     """
     Load dataset from Hugging Face and filter out numeric-only segments.
 
     Returns:
         documents: cleaned text segments
         decades: decade labels aligned with documents
+        cleaned_rows: original dataset rows (plus modeling metadata) aligned with documents
         stats: summary counters useful for logging
     """
     dataset = load_dataset(
@@ -60,12 +61,13 @@ def load_clean_documents(
 
     documents: list[str] = []
     decades: list[int] = []
+    cleaned_rows: list[dict[str, Any]] = []
     skipped_empty = 0
     skipped_too_short = 0
     skipped_numeric_noise = 0
     skipped_invalid_date = 0
 
-    for row in dataset:
+    for row_index, row in enumerate(dataset):
         text = str(row.get(config.text_column, "")).strip()
         if not text:
             skipped_empty += 1
@@ -88,10 +90,16 @@ def load_clean_documents(
 
         documents.append(text)
         decades.append(decade)
+        modeled_row = dict(row)
+        modeled_row["source_row_index"] = row_index
+        modeled_row["model_text"] = text
+        modeled_row["model_decade"] = decade
+        cleaned_rows.append(modeled_row)
 
     if config.sample_size is not None:
         documents = documents[: config.sample_size]
         decades = decades[: config.sample_size]
+        cleaned_rows = cleaned_rows[: config.sample_size]
 
     stats = {
         "total_rows": len(dataset),
@@ -101,4 +109,4 @@ def load_clean_documents(
         "skipped_numeric_noise": skipped_numeric_noise,
         "skipped_invalid_date": skipped_invalid_date,
     }
-    return documents, decades, stats
+    return documents, decades, cleaned_rows, stats

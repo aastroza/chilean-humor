@@ -5,6 +5,8 @@ import logging
 from pathlib import Path
 from typing import Any
 
+import pandas as pd
+
 from .config import TopicModelingConfig
 from .deterministic import set_global_seed
 from .embeddings import load_or_compute_jina_embeddings
@@ -13,6 +15,12 @@ from .preprocessing import load_clean_documents
 from .visualization import save_plotly_figure
 
 logger = logging.getLogger(__name__)
+
+
+def _serialize_for_table(value: object) -> object:
+    if isinstance(value, (dict, list, tuple, set)):
+        return json.dumps(value, ensure_ascii=False)
+    return value
 
 
 def run_topic_modeling_pipeline(
@@ -25,7 +33,7 @@ def run_topic_modeling_pipeline(
     set_global_seed(config.random_seed)
 
     logger.info("Loading and cleaning documents from dataset...")
-    documents, decades, data_stats = load_clean_documents(config)
+    documents, decades, cleaned_rows, data_stats = load_clean_documents(config)
     if not documents:
         raise RuntimeError("No documents available after preprocessing.")
     logger.info(
@@ -69,6 +77,7 @@ def run_topic_modeling_pipeline(
         documents,
         embeddings=precomputed_embeddings,
     )
+    initial_topics = list(topics)
     logger.info("BERTopic fit_transform completed.")
 
     if config.reduce_outliers:
@@ -111,6 +120,11 @@ def run_topic_modeling_pipeline(
             logger.warning("Skipping outlier reassignment due to error: %s", exc)
 
     topic_info = topic_model.get_topic_info()
+    topic_name_map = {
+        int(row["Topic"]): str(row["Name"])
+        for _, row in topic_info.iterrows()
+        if pd.notna(row["Topic"]) and pd.notna(row["Name"])
+    }
     topic_info_path = tables_dir / "topic_info.csv"
     topic_info.to_csv(topic_info_path, index=False)
     logger.info("Saved topic info table to %s", topic_info_path)
@@ -125,6 +139,68 @@ def run_topic_modeling_pipeline(
     topics_over_time_path = tables_dir / "topics_over_time.csv"
     topics_over_time.to_csv(topics_over_time_path, index=False)
     logger.info("Saved topics-over-time table to %s", topics_over_time_path)
+
+    max_probabilities: list[float | None] = [None] * len(documents)
+    if probabilities is not None:
+        try:
+            probability_matrix = pd.DataFrame(probabilities)
+            if probability_matrix.shape[0] == len(documents):
+                max_probabilities = (
+                    probability_matrix.max(axis=1).astype(float).tolist()
+                )
+        except Exception as exc:
+            warnings.append(
+                f"Could not compute max probabilities for segment-topic table: {exc}"
+            )
+            logger.warning(
+                "Could not compute max probabilities for segment-topic table: %s",
+                exc,
+            )
+
+    segments_topics_records: list[dict[str, object]] = []
+    for row, initial_topic, final_topic, max_probability in zip(
+        cleaned_rows,
+        initial_topics,
+        topics,
+        max_probabilities,
+        strict=False,
+    ):
+        record = {key: _serialize_for_table(value) for key, value in row.items()}
+        record["topic_initial"] = int(initial_topic)
+        record["topic_final"] = int(final_topic)
+        record["topic_name_initial"] = topic_name_map.get(int(initial_topic))
+        record["topic_name_final"] = topic_name_map.get(int(final_topic))
+        record["is_outlier_initial"] = int(initial_topic) == -1
+        record["is_outlier_final"] = int(final_topic) == -1
+        record["max_topic_probability"] = max_probability
+        segments_topics_records.append(record)
+
+    segments_topics_path = tables_dir / "segments_topics.csv"
+    pd.DataFrame(segments_topics_records).to_csv(
+        segments_topics_path,
+        index=False,
+    )
+    logger.info("Saved segment-topic table to %s", segments_topics_path)
+
+    hierarchical_topics_path: Path | None = None
+    hierarchy_html_path: Path | None = None
+    hierarchy_png_path: Path | None = None
+    try:
+        hierarchical_topics = topic_model.hierarchical_topics(documents)
+        hierarchical_topics_path = tables_dir / "hierarchical_topics.csv"
+        hierarchical_topics.to_csv(hierarchical_topics_path, index=False)
+        hierarchy_figure = topic_model.visualize_hierarchy(
+            hierarchical_topics=hierarchical_topics
+        )
+        hierarchy_html_path, hierarchy_png_path = save_plotly_figure(
+            hierarchy_figure,
+            figures_dir,
+            "topic_hierarchy",
+        )
+        logger.info("Saved hierarchical topics artifacts.")
+    except Exception as exc:
+        warnings.append(f"Skipping hierarchical topics artifacts due to error: {exc}")
+        logger.warning("Skipping hierarchical topics artifacts due to error: %s", exc)
 
     topics_html_path: Path | None = None
     topics_png_path: Path | None = None
@@ -199,8 +275,18 @@ def run_topic_modeling_pipeline(
         "artifacts": {
             "topic_info_csv": str(topic_info_path.resolve()),
             "topics_over_time_csv": str(topics_over_time_path.resolve()),
+            "segments_topics_csv": str(segments_topics_path.resolve()),
+            "hierarchical_topics_csv": str(hierarchical_topics_path.resolve())
+            if hierarchical_topics_path
+            else None,
             "topics_html": str(topics_html_path.resolve()) if topics_html_path else None,
             "topics_png": str(topics_png_path.resolve()) if topics_png_path else None,
+            "topic_hierarchy_html": str(hierarchy_html_path.resolve())
+            if hierarchy_html_path
+            else None,
+            "topic_hierarchy_png": str(hierarchy_png_path.resolve())
+            if hierarchy_png_path
+            else None,
             "topics_over_time_html": str(over_time_html_path.resolve())
             if over_time_html_path
             else None,

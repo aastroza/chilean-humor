@@ -137,3 +137,12 @@ Notes:
 - Set `--jina-truncate-dim 0` to disable truncation.
 - API mode reads the bearer token from `JINA_API_TOKEN` by default (or another variable via `--jina-api-token-env`).
 - API endpoint can be overridden with `--jina-api-url` and timeout with `--jina-api-timeout-seconds`.
+
+Main outputs for topic analysis are written to `outputs/topic_modeling`:
+
+- `tables/segments_topics.csv`: row-level table linked to the original `segments` dataset (original columns + cleaned text + decade + initial/final topic assignment + outlier flags + max topic probability).
+- `tables/topic_info.csv`: topic metadata and representative documents.
+- `tables/topics_over_time.csv`: topic trends over time.
+- `tables/hierarchical_topics.csv`: hierarchy produced by BERTopic.
+- `figures/topic_hierarchy.html` and `figures/topic_hierarchy.png`: hierarchical clustering visualization.
+- `figures/topics_over_time_top_n.html` and `figures/topics_over_time_top_n.png`: temporal trend visualization.

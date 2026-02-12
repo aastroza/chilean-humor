@@ -13,3 +13,4 @@ torchvision
 transformers>=4.50,<5
 pillow
 peft
+matplotlib

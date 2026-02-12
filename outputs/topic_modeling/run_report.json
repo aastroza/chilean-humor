@@ -76,8 +76,12 @@
   "artifacts": {
     "topic_info_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topic_info.csv",
     "topics_over_time_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topics_over_time.csv",
+    "segments_topics_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segments_topics.csv",
+    "hierarchical_topics_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\hierarchical_topics.csv",
     "topics_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics.html",
     "topics_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics.png",
+    "topic_hierarchy_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topic_hierarchy.html",
+    "topic_hierarchy_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topic_hierarchy.png",
     "topics_over_time_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics_over_time_top_n.html",
     "topics_over_time_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics_over_time_top_n.png",
     "selected_topics_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics_over_time_selected.html",
