@@ -203,13 +203,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--hdbscan-min-cluster-size",
         type=int,
-        default=25,
+        default=22,
         help="HDBSCAN min_cluster_size parameter.",
     )
     parser.add_argument(
         "--hdbscan-min-samples",
         type=int,
-        default=8,
+        default=6,
         help="Optional HDBSCAN min_samples parameter.",
     )
     parser.add_argument(

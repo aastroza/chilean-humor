@@ -44,8 +44,8 @@
     "umap_n_components": 10,
     "umap_min_dist": 0.0,
     "umap_metric": "cosine",
-    "hdbscan_min_cluster_size": 25,
-    "hdbscan_min_samples": 8,
+    "hdbscan_min_cluster_size": 22,
+    "hdbscan_min_samples": 6,
     "hdbscan_metric": "euclidean",
     "hdbscan_cluster_selection_method": "eom",
     "global_tuning": true,
@@ -70,7 +70,7 @@
     "skipped_numeric_noise": 28,
     "skipped_invalid_date": 0
   },
-  "num_topics_found": 23,
+  "num_topics_found": 31,
   "num_documents_modeled": 4568,
   "warnings": [],
   "artifacts": {

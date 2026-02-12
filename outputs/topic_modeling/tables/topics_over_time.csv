@@ -1,128 +1,169 @@
 Topic,Words,Frequency,Timestamp
 -1,", , , , ",1,1970
-0,"trenes, elizabeth, judío, inútil, traicionado",12,1970
-1,"cigarrillos, sueltos, desfile, mexicano, voy ver",5,1970
-2,"1000 pesos, 300 pesos, 1000, 300, pesos",4,1970
-3,"vivo vivo, vivo, canción, norteamericano, guitarra",22,1970
+0,"1000 pesos, 300 pesos, 1000, 300, pesos",4,1970
+1,"vivo vivo, vivo, canción, cigarrillos, sueltos",23,1970
+2,"versito, albert, sabe sabe, exactamente iguales, hacer invitación",5,1970
+3,"indiana, papacito, va caminando, home, buen humor",12,1970
 4,"pam, pam pam, rezando, astronautas, manicomio",6,1970
-5,"indiana, papacito, va caminando, home, buen humor",12,1970
-6,"platón, chiflío, comisión organizadora, organizadora, café",4,1970
-7,"repertorio, decir cosa, realidad voy, tía va, niños así",2,1970
-8,"cobucha, chao chao, cobucha cobucha, chao, dije chao",10,1970
-9,"chancho, torre control, avión, veníamos, chancha",9,1970
-10,"amor, dio, alone, anthony, amor amor",15,1970
-11,"decirle muchas, parte público, faceta, artista mostrado, público acá",2,1970
-12,"basan, quisiera pedirle, último día, camilla, moment",6,1970
-13,"66, 58, hollywood, quiero mostrarles, 79",5,1970
-14,"dinero, da dinero, da da, mañana da, da",2,1970
-15,"jorge romero, romero, benavides, gloria benavides, acetatos",11,1970
-16,"norteamericanos, jurado, juntan, japonés, noche noche",2,1970
-17,"miren aquí, aquí miren, mucha mucha, gane, miren",6,1970
-18,"garganta, verás, pecho, agachado, ciencia",1,1970
-19,"albert, frío frío, genio, iré, imitación",2,1970
-20,"versito, sabe sabe, hacer invitación, exactamente iguales, mientras años",2,1970
-0,"alcancé llegar, puntería, salvé, rancho, pellejo",2,1980
-1,"antonio, fecha, portero, ningún programa, nunca ido",3,1980
-3,"monóculo, coro, tocan, plumero, bolerito",9,1980
-4,"palabras, súper, carne humana, vente, naturalmente",4,1980
-5,"satélite, hugo, hugo varela, varela, saludo afectuoso",6,1980
-6,"paz paz, paz, digo, quinta, quinta vergara",1,1980
-7,"oiga, abuela, pues oiga, pedazo, abuelo",8,1980
-8,"acontece, teniente, escúchame, niñas, aquí hombre",5,1980
-9,"chancho, lolo, documentos, chancho así, moto",8,1980
-11,"amigas amigos, animo, gustaría ahí, pasado bueno, folklore",3,1980
-12,"don fermín, fermín, trabajo acá, resulta llegué, caballero mire",2,1980
-13,"remamos, remamos remamos, palma, tropical, distancia",6,1980
-14,"cantos, amores, cantar voy, vencidos, revivir",1,1980
-15,"mar, pescamos, nadamos, juntamos, remamos",4,1980
-17,"amigo vez, humor amigo, pido aplauso, circunstancias, agradecido ustedes",2,1980
-20,"caballero oiga, bernardo, viene oiga, oiga mejor, esperando",1,1980
-21,"zambita, cantora, lindo nombre, temática, toqueteando",1,1980
-0,"melón, niños, mamá, coca cola, meloni",97,1990
-1,"amor, tan hermosa, mujer, elegante, bella",67,1990
-2,"árabe, crédito, camello, presidente, fidel",28,1990
-3,"pegado, canción, merengue, luna, canción dice",39,1990
-4,"chileno, argentino, chile, aeropuerto, chino",54,1990
-5,"humor, melame, mar, viña mar, noche",57,1990
-6,"quinta, quinta vergara, vergara, implica, meléndez",22,1990
-7,"vieja, viejito, manito, cirugía, viejitos",18,1990
-8,"selva, mono, bien parece, pez, parece",32,1990
-9,"pueblo, micro, moto, sacó, bicicleta",49,1990
-10,"amas, anthony, dar beso, amor voy, beso",25,1990
-11,"bam, bam bam, resto vida, comienza resto, buenas noches",28,1990
-12,"maestro, pasando, grado, fanfarria, dos minutos",27,1990
-13,"ay ay, salta salta, salta, ay, derecha derecha",40,1990
-14,"llavero, canciones, cha, casita, arriba hombres",11,1990
-15,"viña mar, mar, viña, través, internacional",27,1990
-16,"colada, piña colada, caníbal, piña, francia",11,1990
-17,"pecadora, pampero, pampero chile, pecadora pecadora, placer",13,1990
-18,"doctor, conejo, farmacia, buenas tardes, médico",14,1990
-19,"poesía, lechuga, tomate, amigo pepe, popó",7,1990
-20,"palomo, peces, imaginación, cartas, re",6,1990
-21,"puta puta, puta, cobucha, copucha, cobucha cobucha",5,1990
-0,"escuela, compadre, pohue, dijo, mamá",89,2000
-1,"mujer, mujeres, hombres, amor, hombre",98,2000
-2,"cartagena, gobierno, presidente, copia, país",40,2000
-3,"canción, pi, cantar, usted, dice así",111,2000
-4,"playa playa, playa, avión, idioma, chileno",38,2000
-5,"humor, quinta, quinta vergara, vergara, artista",52,2000
-6,"antorcha, quinta, vergara, quinta vergara, oro",64,2000
-7,"suegra, vieja, abuela, matrimonio, da mismo",33,2000
-8,"perro, perrito, lobo, perritos, diana",39,2000
-9,"loco, oso, malo, auto, chofer",38,2000
-10,"anthony, you, francisco, my, don francisco",40,2000
-11,"muchísimas, burrito, muchas, muchísimas corazón, corazón",40,2000
-12,"hora hora, ruperto, hora, compartir, compartir compartir",45,2000
-13,"ay ay, mosca, ay, sigue, sigue sigue",56,2000
-14,"aquí allá, ámame, bailar, ámame ámame, bésame",8,2000
-15,"sandy, mar, viña mar, viña, través",17,2000
-16,"natalia, nati, natalia cuevas, cuevas, li",22,2000
-17,"ho, ho ho, muchísimas, corazón, alegres",16,2000
-18,"viagra, pastillas, pastilla, remedios, doctor",15,2000
-19,"reír reír, jugar jugar, jugar, reír, reír vamos",13,2000
-20,"vale show, oferta, instinto, pilar, cuánto vale",7,2000
-21,"noticias, teleserie, noticia, lente, fanático",8,2000
-0,"mamá, papá, hijo, weón, dije",357,2010
-1,"mujer, mujeres, hombres, hombre, baño",291,2010
-2,"huevón, checho, país, pesos, ley",174,2010
-3,"almas, rima, canción, cantando, cantar",58,2010
-4,"chileno, chile, chilenos, argentino, peruanos",100,2010
-5,"humor, vergara, quinta vergara, escenario, quinta",68,2010
-6,"público, quinta, quinta vergara, vergara, gaviota",139,2010
-7,"vieja, suegra, abuela, abuelita, olla",67,2010
-8,"caperucita, caperucita roja, perro, roja, lobo",67,2010
-9,"micro, metro, carabinero, chofer, auto",54,2010
-10,"gonna, your, gonna do, do, sororidad",23,2010
-11,"muchas, verdad, cariño, agradecer, buenas noches",57,2010
-12,"paul, relajado, casting, nombre paul, vamos vamos",40,2010
-13,"bomba, ay ay, bum, ay, kramer",19,2010
-14,"bailar, reggaeton, dale, bailemos, beto",47,2010
-15,"hashtag, hashtag viña, competencia, viña 2016, 2016",15,2010
-16,"chiqui, chiqui chiqui, alison, escenario, natalia",25,2010
-17,"muchas, aplauso, vengan vengan, vengan, atletas",42,2010
-18,"doctor, farmacia, consulta, ginecólogo, examen",48,2010
-19,"ratón, chiste, mírame ojos, improvisar, mírame",19,2010
-20,"cartel, programa, pedro engel, engel, repetía",22,2010
-21,"noticias, ta, ta ta, muestran, tele",24,2010
-0,"mamá, papá, hija, dije, hijo",383,2020
-1,"mujeres, cartero, mujer, hombres, amor",95,2020
-2,"presidente, chile, piñera, sismo, bolsa",51,2020
-3,"canción, música, marciano, capo, urbano",40,2020
-4,"chile, chileno, the, gringo, chilenos",66,2020
-5,"humor, quinta, comediante, quinta vergara, vergara",40,2020
-6,"quinta, gaviota, quinta vergara, vergara, público",59,2020
-7,"suegra, pandemia, vieja, motiva, obsoleto",26,2020
-8,"perro, lucho lucho, serpiente, pikachu, compré",15,2020
-9,"dijo dijo, loro, carabineros, auto, seguridad",39,2020
-10,"pica, you, dueño dueño, just, and",13,2020
-11,"muchas, verdad, muchas muchas, agradecer, quiero",33,2020
-12,"carrete, famosa, cuenta tres, dame, beneficio",18,2020
-13,"va bien, digo va, abajo dos, escucha, bien digo",7,2020
-14,"reggaeton, bailar, perdón perdón, si juntamos, perdón",13,2020
-15,"viña 2024, 2024, volvemos, radios, canal 13",14,2020
-16,"javiera, contador, javiera contador, chiqui, alison",24,2020
-17,"muchas, aplauso, cloro, diego, chao",19,2020
-18,"hoy hoy, hipo, doctor, examen, hoy",18,2020
-19,"discapacidad, chiste, chistes, escalera, ay amor",33,2020
-20,"programa, canal, carmen, carmen gloria, zabaleta",17,2020
-21,"matinales, noticias, tele, informo, tvn",16,2020
+5,"trenes, quién descubrió, descubrió américa, traicionado, trencito",5,1970
+6,"benavides, gloria benavides, platón, gloria, benavides cuatro",5,1970
+7,"repertorio, decir cosa, tía va, realidad voy, mundo dice",2,1970
+8,"amor amor, can, as, be, why",14,1970
+9,"chancho, torre control, veníamos, chancha, control",10,1970
+10,"florcita, basan, último día, quisiera pedirle, moment",8,1970
+11,"cobucha, cobucha cobucha, crecen, cobucha va, creciendo cobucha",2,1970
+12,"chao chao, chao, dije chao, tomar tomar, lloramos",7,1970
+13,"66, 58, hollywood, quiero mostrarles, 87 88",5,1970
+14,"miren aquí, aquí miren, mucha mucha, gane, miren",5,1970
+16,"judío, italiano, elizabeth taylor, taylor, elizabeth",1,1970
+17,"norteamericanos, jurado, juntan, japonés, noche noche",2,1970
+19,"romero, jorge romero, acetatos, intendente, televisión nacional",9,1970
+20,"telegrama, inútil, novio, monja, envidia",2,1970
+21,"cómo muchas, muchas cómo, autor, entonces ahora, creía",2,1970
+22,"decirle muchas, parte público, artista mostrado, público acá, faceta",1,1970
+23,"fíjese voy, proseguir, hace menos, gente tan, axila",1,1970
+24,"dio, amor, sostenido, pa pa, pa",2,1970
+25,"debajo cama, goodman, debajo, despeinada, rato aquí",2,1970
+26,"exceso, enfermedad, dile, hilo, porquería",3,1970
+27,"voy ver, ver dar, ver hago, dar, ver",1,1970
+29,"dinero, da dinero, da da, da, pan",1,1970
+1,"monóculo, remamos, coro, plumero, llaman acá",12,1980
+2,"antonio, fecha, portero, llorando, ningún programa",3,1980
+3,"satélite, hugo, hugo varela, varela, cortó",5,1980
+4,"palabras, súper, carne humana, vente, naturalmente",3,1980
+6,"paz paz, paz, digo, quinta, vergara",1,1980
+7,"oiga, abuela, pues oiga, carretilla, abuelo",7,1980
+8,"pedazo, abajo aunque, aunque parezca, hacerte feliz, malvado",1,1980
+9,"chancho, lolo, documentos, chancho así, moto",7,1980
+10,"don fermín, fermín, resulta llegué, gara, iba calle",2,1980
+12,"acontece, teniente, escúchame, niñas, aquí hombre",4,1980
+13,"distancia, palma, silencio, entonces hagamos, imprime",4,1980
+14,"música folclórica, agradecido ustedes, gustaría ahí, humor amigo, pasado bueno",3,1980
+19,"mar, pescamos, nadamos, juntamos, remamos",4,1980
+20,"burro, mañana dije, viste recién, mozo dice, entradita",2,1980
+22,"animo, amigas amigos, comunicación hoy, ocurría, público gusta",2,1980
+24,"caballero oiga, poema, bernardo, acomodan, campesina",2,1980
+25,"provincia, tango, destino arribo, ahí primero, aprender tango",1,1980
+26,"teléfono, malo, aquí teléfono, teléfono teléfono, siempre llego",1,1980
+28,"zambita, cantora, esfuerzos, orinal, temática",1,1980
+29,"cantos, amores, cantar voy, vencidos, voy bailar",1,1980
+0,"árabe, camello, presidente, crédito, fidel",36,1990
+1,"canción, merengue, luna, canción dice, cantar",45,1990
+2,"popó, tan bella, bella, poesía, lechuga",26,1990
+3,"humor, viña mar, melame, mar, escenario",58,1990
+4,"chileno, argentino, elegante, chile, aeropuerto",55,1990
+5,"niños, melón, niño, profesora, cabro chico",35,1990
+6,"implica, quinta, meléndez, quinta vergara, vergara",22,1990
+7,"vieja, abuelita, manito, viejito, siguió",31,1990
+8,"amas, anthony, soledad, olvido, anthony anthony",25,1990
+9,"pueblo, micro, santiago, moto, bicicleta",55,1990
+10,"maestro, pasando, grado, fanfarria, pasando compadre",32,1990
+11,"meloni, meloni meloni, tina, quiero ir, cabaret",13,1990
+12,"selva, bien parece, perro, parece, loro",26,1990
+13,"salta salta, salta, ay ay, ay, derecha derecha",38,1990
+14,"amable, placer, gran sandy, buenas noches, felicidades",13,1990
+15,"tan hermosa, artículo, tristeza, sé tan, hermosa sé",9,1990
+16,"coca cola, coca, cola, toda mujer, cocote",12,1990
+17,"colada, piña colada, caníbal, piña, francia",10,1990
+18,"doctor, farmacia, psiquiatras, dientes, muestro foto",15,1990
+19,"viña mar, mar, viña, través, internacional",21,1990
+20,"hielo, fea, prima, barra, cochina",13,1990
+21,"pecadora, bam, bam bam, pampero chile, buenas noches",18,1990
+22,"academia, ola, gente veo, trenzas, estrechita",11,1990
+23,"amante, marido, lima, curitas, gorda",14,1990
+24,"dar beso, conejo, amor voy, voy dar, beso",9,1990
+25,"saltando, saltando saltando, todas mujeres, llavero, meloni",11,1990
+26,"pegado, momia, pegados, suena teléfono, in",6,1990
+27,"sacó, bebé, sacó parte, parte abajo, sentó",10,1990
+28,"puta puta, puta, cobucha, copucha, cobucha cobucha",4,1990
+29,"casita, tristeza, lambada, andaría, canciones",4,1990
+0,"cartagena, política, copia, presidente, país",44,2000
+1,"canción, pi, cantar, sujeto, carmelo",108,2000
+2,"juan gabriel, gabriel, hacia, titanic, juan",41,2000
+3,"humor, quinta, quinta vergara, vergara, escenario",54,2000
+4,"avión, tierra, idioma, barco, chileno",41,2000
+5,"escuela, pohue, colo, matemáticas, compañeros",25,2000
+6,"antorcha, quinta, antorcha plata, oro, vergara",69,2000
+7,"suegra, vieja, abuela, matrimonio, viejo",38,2000
+8,"anthony, playa playa, you, my, playa",43,2000
+9,"loco, malo loco, oso, malo, chofer",37,2000
+10,"hora hora, ruperto, hora, usted, compartir",49,2000
+11,"apura, nací, falta letra, mamá dije, hijo",17,2000
+12,"perro, perrito, lobo, perritos, diana",33,2000
+13,"ay ay, mosca, ay, sigue sigue, oh oh",59,2000
+14,"ho, ho ho, muchísimas, corazón, alegres",17,2000
+15,"mujeres, hombres, mujer, pensamiento, hombre",26,2000
+16,"almorzar, teflón, llega cabro, ándale, sartén",8,2000
+17,"natalia, nati, natalia cuevas, cuevas, li",20,2000
+18,"doctor, remedios, viagra, pastillas, farmacia",21,2000
+19,"sandy, festival, viña mar, viña, través",16,2000
+20,"reír reír, jugar jugar, jugar, reír vamos, reír",19,2000
+21,"burrito, planta, muchísimas, usted jardín, cuanto venga",19,2000
+22,"cara dura, corazón, dura, muchísimas, palabra",20,2000
+23,"cambian, pololos, canapé, cesante, marido",12,2000
+24,"mano mano, dormir conmigo, costanera, entretención, caíste",12,2000
+25,"bailar, sau, aquí allá, fiesta, sau sau",10,2000
+26,"celular, computación, celulares, máquinas, dame celular",9,2000
+27,"lona, novia, varones, chupa, fiesta",12,2000
+28,"noticias, teleserie, noticia, lente, ahora escucha",6,2000
+29,"rodeo, pasé, quedaron, bésame, yola",4,2000
+0,"huevón, país, pesos, ley, huevones",205,2010
+1,"almas, rima, canción, cantando, cantar",55,2010
+2,"chiste, programa, ratón, higgins, amigo",80,2010
+3,"humor, quinta vergara, vergara, escenario, quinta",61,2010
+4,"chileno, chile, argentino, chilenos, país",105,2010
+5,"colegio, padre, papá, hijo, niños",107,2010
+6,"público, quinta, quinta vergara, vergara, gaviota",138,2010
+7,"vieja, suegra, abuelita, abuela, olla",87,2010
+8,"your, gonna, gonna do, do, sororidad",24,2010
+9,"auto, micro, metro, maricón, carabinero",75,2010
+10,"juan pérez, pérez, donald, relajado, casting",47,2010
+11,"hijo, jesús, papá, hijos, mamá",64,2010
+12,"caperucita, caperucita roja, perro, roja, cocodrilo",46,2010
+13,"bomba, ay ay, bum, dale, ay",21,2010
+14,"aplauso, muchas, vengan vengan, vengan, atletas",40,2010
+15,"hombres, mujer, mujeres, hombre, pedo",95,2010
+16,"comida, comer, pan, italiana, torta",56,2010
+17,"chiqui, chiqui chiqui, alison, escenario, actriz",25,2010
+18,"doctor, farmacia, consulta, examen, ginecólogo",59,2010
+19,"hashtag, hashtag viña, viña 2016, 2016, competencia",15,2010
+20,"hermana, fea, hedionda, colorín colorín, colorín",43,2010
+21,"amable, buenas noches, noches, buenas, muchas",31,2010
+22,"agradecer, verdad, emocionado, quiero agradecer, sueños",32,2010
+23,"marido, tenis, amante, mírala, toallita",44,2010
+24,"paul, dije, indio, pasó bien, blue",46,2010
+25,"bailar, bailemos, discoteca, beto, fiesta",32,2010
+26,"celular, teléfono, tablet, plan, tic",38,2010
+27,"soltera, arturo vidal, tinder, vidal, sucio",34,2010
+28,"noticias, ta, muestran, ta ta, tele",27,2010
+29,"reggaeton, calmado, dale, ten, perreo",24,2010
+0,"presidente, piñera, bolsa, chile, sismo",69,2020
+1,"música, canción, dj, urbano, capo",42,2020
+2,"hoy hoy, discapacidad, chiste, chistes, programa",79,2020
+3,"humor, plaquito, quinta, comediante, quinta vergara",42,2020
+4,"chile, chileno, gringo, the, chilenos",68,2020
+5,"colegio, tac, tac tac, hijo, papá",120,2020
+6,"gaviota, quinta, vergara, quinta vergara, público",64,2020
+7,"suegra, pandemia, vieja, tía, abuela",39,2020
+8,"pica, you, dueño dueño, just, quién importa",14,2020
+9,"dijo dijo, loro, auto, carabineros, vidrio",47,2020
+10,"carrete, famosa, bracitos, zorrón, okay",22,2020
+11,"hijos, mamá, hija, papá, hijo",127,2020
+12,"loro, genaro, don genaro, perro, lorito",18,2020
+13,"va bien, digo va, abajo dos, bien digo, escucha",5,2020
+14,"diego, cloro, muchas, aplauso, diego urrutia",18,2020
+15,"cartero, cartero cartero, mujeres, flaite, jorge jorge",19,2020
+16,"mamita, comida, hija, ensalada, mamá",45,2020
+17,"javiera, javiera contador, contador, alison, chiqui",22,2020
+18,"doctor, hipo, examen, farmacia, pastilla",20,2020
+19,"viña 2024, 2024, volvemos, radios, tvn",12,2020
+20,"jimmy, marihuana, lucho lucho, vino, curado",19,2020
+21,"muchas muchas, venció, muchas, siento orgullosa, agradezco agradezco",10,2020
+22,"verdad, agradecer, apagón, emocionado, quiero agradecer",17,2020
+23,"lavar, loza, escuchado, 50 50, 30",18,2020
+24,"dije, baño, vino vino, pam, pa",25,2020
+25,"bailar, si juntamos, bonitas, malón, animo",15,2020
+26,"teléfono, celular, alvarito, whatsapp, teléfono casa",15,2020
+27,"subiste, nuevo huevón, flor, nube, ex",7,2020
+28,"noticias, matinales, tele, informo, tvn",16,2020
+29,"reggaeton, rumbera, box, perdón perdón, big",5,2020

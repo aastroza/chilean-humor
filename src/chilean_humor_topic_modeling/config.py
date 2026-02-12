@@ -55,8 +55,8 @@ class TopicModelingConfig:
     umap_min_dist: float = 0.0
     umap_metric: str = "cosine"
 
-    hdbscan_min_cluster_size: int = 25
-    hdbscan_min_samples: int | None = 8
+    hdbscan_min_cluster_size: int = 22
+    hdbscan_min_samples: int | None = 6
     hdbscan_metric: str = "euclidean"
     hdbscan_cluster_selection_method: str = "eom"
 
