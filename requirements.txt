@@ -2,6 +2,7 @@ pandas
 numpy
 datasets
 python-dotenv
+requests
 bertopic>=0.17.4
 jupyter
 nltk

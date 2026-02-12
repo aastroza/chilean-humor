@@ -19,3 +19,4 @@ audios/
 
 # data
 hf_dataset/
+embeddings_cache/

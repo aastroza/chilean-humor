@@ -102,15 +102,32 @@ Optional: add `--private` if you want the dataset repo to be private when it is 
 
 ## Topic Modeling With Jina Embeddings
 
-You can precompute Jina embeddings and reuse them across BERTopic runs:
+You can precompute Jina embeddings and reuse them across BERTopic runs.
+
+Local provider (`transformers` + optional GPU):
 
 ```powershell
 .venv\Scripts\python scripts/run_topic_modeling.py `
   --use-jina-embeddings `
+  --jina-provider local `
   --jina-model-name jinaai/jina-embeddings-v4 `
   --jina-task text-matching `
   --jina-truncate-dim 128 `
   --jina-device auto
+```
+
+Jina API provider (useful when local inference is too slow):
+
+```env
+JINA_API_TOKEN=jina_xxx_your_token
+```
+
+```powershell
+.venv\Scripts\python scripts/run_topic_modeling.py `
+  --use-jina-embeddings `
+  --jina-provider api `
+  --jina-model-name jina-embeddings-v4 `
+  --jina-task text-matching
 ```
 
 Notes:
@@ -118,3 +135,5 @@ Notes:
 - Embeddings are cached under `outputs/topic_modeling/embeddings_cache` by default.
 - Use `--jina-cache-dir <path>` to keep cache files somewhere else.
 - Set `--jina-truncate-dim 0` to disable truncation.
+- API mode reads the bearer token from `JINA_API_TOKEN` by default (or another variable via `--jina-api-token-env`).
+- API endpoint can be overridden with `--jina-api-url` and timeout with `--jina-api-timeout-seconds`.

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import logging
 import sys
 from pathlib import Path
 
@@ -14,6 +15,14 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 from chilean_humor_topic_modeling.config import TopicModelingConfig
+
+
+def configure_logging(quiet: bool) -> None:
+    level = logging.WARNING if quiet else logging.INFO
+    logging.basicConfig(
+        level=level,
+        format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+    )
 
 
 def parse_selected_topics(raw: str) -> tuple[int, ...]:
@@ -97,9 +106,19 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--jina-provider",
+        choices=["local", "api"],
+        default="local",
+        help="Where Jina embeddings are computed: local transformers model or Jina API.",
+    )
+    parser.add_argument(
         "--jina-model-name",
         default="jinaai/jina-embeddings-v4",
-        help="Jina model id loaded via transformers.AutoModel.from_pretrained.",
+        help=(
+            "Jina model id. Use a HF model path for local mode "
+            "(e.g. jinaai/jina-embeddings-v4) or an API model id for API mode "
+            "(e.g. jina-embeddings-v4)."
+        ),
     )
     parser.add_argument(
         "--jina-task",
@@ -115,14 +134,30 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--jina-batch-size",
         type=int,
-        default=64,
+        default=16,
         help="Batch size used while computing Jina embeddings.",
     )
     parser.add_argument(
         "--jina-device",
         choices=["auto", "cpu", "cuda"],
         default="auto",
-        help="Device for Jina embeddings computation.",
+        help="Device for local Jina embeddings computation.",
+    )
+    parser.add_argument(
+        "--jina-api-url",
+        default="https://api.jina.ai/v1/embeddings",
+        help="Endpoint used when --jina-provider api.",
+    )
+    parser.add_argument(
+        "--jina-api-token-env",
+        default="JINA_API_TOKEN",
+        help="Environment variable name containing the Jina API bearer token.",
+    )
+    parser.add_argument(
+        "--jina-api-timeout-seconds",
+        type=float,
+        default=60.0,
+        help="HTTP timeout used when requesting Jina API embeddings.",
     )
     parser.add_argument(
         "--jina-cache-dir",
@@ -150,7 +185,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--umap-n-neighbors",
         type=int,
-        default=8,
+        default=15,
         help="UMAP n_neighbors parameter.",
     )
     parser.add_argument(
@@ -168,19 +203,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--hdbscan-min-cluster-size",
         type=int,
-        default=8,
+        default=25,
         help="HDBSCAN min_cluster_size parameter.",
     )
     parser.add_argument(
         "--hdbscan-min-samples",
         type=int,
-        default=3,
+        default=8,
         help="Optional HDBSCAN min_samples parameter.",
     )
     parser.add_argument(
         "--hdbscan-cluster-selection-method",
         choices=["eom", "leaf"],
-        default="leaf",
+        default="eom",
         help="HDBSCAN cluster_selection_method.",
     )
     parser.add_argument(
@@ -226,7 +261,9 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    configure_logging(args.quiet)
     from chilean_humor_topic_modeling.pipeline import run_topic_modeling_pipeline
+    logger = logging.getLogger(__name__)
 
     config = TopicModelingConfig(
         repo_id=args.repo_id,
@@ -239,6 +276,7 @@ def main() -> None:
         min_text_tokens=args.min_text_tokens,
         embedding_model=args.embedding_model,
         use_jina_embeddings=args.use_jina_embeddings,
+        jina_provider=args.jina_provider,
         jina_model_name=args.jina_model_name,
         jina_task=args.jina_task,
         jina_truncate_dim=(
@@ -246,6 +284,9 @@ def main() -> None:
         ),
         jina_batch_size=args.jina_batch_size,
         jina_device=args.jina_device,
+        jina_api_url=args.jina_api_url,
+        jina_api_token_env=args.jina_api_token_env,
+        jina_api_timeout_seconds=args.jina_api_timeout_seconds,
         jina_cache_dir=str(args.jina_cache_dir) if args.jina_cache_dir else None,
         verbose=not args.quiet,
         min_df=args.min_df,
@@ -262,6 +303,13 @@ def main() -> None:
         reduce_outliers_strategy=args.outlier_strategy,
         reduce_outliers_threshold=args.outlier_threshold,
         random_seed=args.seed,
+    )
+    logger.info(
+        "Starting topic modeling with use_jina_embeddings=%s provider=%s batch_size=%s timeout=%ss",
+        config.use_jina_embeddings,
+        config.jina_provider,
+        config.jina_batch_size,
+        config.jina_api_timeout_seconds,
     )
 
     result = run_topic_modeling_pipeline(

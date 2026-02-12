@@ -19,11 +19,15 @@ class TopicModelingConfig:
     language: str = "multilingual"
     embedding_model: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     use_jina_embeddings: bool = False
+    jina_provider: str = "local"
     jina_model_name: str = "jinaai/jina-embeddings-v4"
     jina_task: str = "text-matching"
     jina_truncate_dim: int | None = 128
-    jina_batch_size: int = 64
+    jina_batch_size: int = 16
     jina_device: str = "auto"
+    jina_api_url: str = "https://api.jina.ai/v1/embeddings"
+    jina_api_token_env: str = "JINA_API_TOKEN"
+    jina_api_timeout_seconds: float = 60.0
     jina_cache_dir: str | None = None
     calculate_probabilities: bool = True
     verbose: bool = True
@@ -46,15 +50,15 @@ class TopicModelingConfig:
     ctfidf_reduce_frequent_words: bool = True
     ctfidf_bm25_weighting: bool = True
 
-    umap_n_neighbors: int = 8
+    umap_n_neighbors: int = 15
     umap_n_components: int = 10
     umap_min_dist: float = 0.0
     umap_metric: str = "cosine"
 
-    hdbscan_min_cluster_size: int = 8
-    hdbscan_min_samples: int | None = 3
+    hdbscan_min_cluster_size: int = 25
+    hdbscan_min_samples: int | None = 8
     hdbscan_metric: str = "euclidean"
-    hdbscan_cluster_selection_method: str = "leaf"
+    hdbscan_cluster_selection_method: str = "eom"
 
     global_tuning: bool = True
     evolution_tuning: bool = True

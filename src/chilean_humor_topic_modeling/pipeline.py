@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +12,8 @@ from .modeling import build_topic_model
 from .preprocessing import load_clean_documents
 from .visualization import save_plotly_figure
 
+logger = logging.getLogger(__name__)
+
 
 def run_topic_modeling_pipeline(
     config: TopicModelingConfig,
@@ -18,11 +21,18 @@ def run_topic_modeling_pipeline(
     save_model: bool = False,
 ) -> dict[str, Any]:
     """Run complete BERTopic analysis and persist tabular + visual outputs."""
+    logger.info("Setting global seed to %d", config.random_seed)
     set_global_seed(config.random_seed)
 
+    logger.info("Loading and cleaning documents from dataset...")
     documents, decades, data_stats = load_clean_documents(config)
     if not documents:
         raise RuntimeError("No documents available after preprocessing.")
+    logger.info(
+        "Loaded %d documents for modeling. Data stats: %s",
+        len(documents),
+        data_stats,
+    )
 
     output_dir.mkdir(parents=True, exist_ok=True)
     figures_dir = output_dir / "figures"
@@ -35,6 +45,7 @@ def run_topic_modeling_pipeline(
     embeddings_cache_path: Path | None = None
     embeddings_loaded_from_cache: bool | None = None
     if config.use_jina_embeddings:
+        logger.info("Jina embeddings enabled. Preparing precomputed embeddings...")
         precomputed_embeddings, embeddings_cache_path, embeddings_loaded_from_cache = (
             load_or_compute_jina_embeddings(
                 documents=documents,
@@ -42,18 +53,30 @@ def run_topic_modeling_pipeline(
                 output_dir=output_dir,
             )
         )
+        logger.info(
+            "Embeddings ready: cache=%s loaded_from_cache=%s",
+            embeddings_cache_path,
+            embeddings_loaded_from_cache,
+        )
 
     topic_model = (
         build_topic_model(config, embedding_model=None)
         if config.use_jina_embeddings
         else build_topic_model(config)
     )
+    logger.info("Fitting BERTopic model...")
     topics, probabilities = topic_model.fit_transform(
         documents,
         embeddings=precomputed_embeddings,
     )
+    logger.info("BERTopic fit_transform completed.")
 
     if config.reduce_outliers:
+        logger.info(
+            "Running outlier reassignment with strategy=%s threshold=%s",
+            config.reduce_outliers_strategy,
+            config.reduce_outliers_threshold,
+        )
         strategy = config.reduce_outliers_strategy
         if strategy == "probabilities" and probabilities is None:
             warnings.append(
@@ -85,10 +108,12 @@ def run_topic_modeling_pipeline(
             )
         except Exception as exc:
             warnings.append(f"Skipping outlier reassignment due to error: {exc}")
+            logger.warning("Skipping outlier reassignment due to error: %s", exc)
 
     topic_info = topic_model.get_topic_info()
     topic_info_path = tables_dir / "topic_info.csv"
     topic_info.to_csv(topic_info_path, index=False)
+    logger.info("Saved topic info table to %s", topic_info_path)
 
     topics_over_time = topic_model.topics_over_time(
         docs=documents,
@@ -99,6 +124,7 @@ def run_topic_modeling_pipeline(
     )
     topics_over_time_path = tables_dir / "topics_over_time.csv"
     topics_over_time.to_csv(topics_over_time_path, index=False)
+    logger.info("Saved topics-over-time table to %s", topics_over_time_path)
 
     topics_html_path: Path | None = None
     topics_png_path: Path | None = None
@@ -111,6 +137,7 @@ def run_topic_modeling_pipeline(
             )
         except Exception as exc:
             warnings.append(f"Skipping topic-map figure due to error: {exc}")
+            logger.warning("Skipping topic-map figure due to error: %s", exc)
     else:
         warnings.append(
             "Skipping visualize_topics because fewer than two non-outlier topics were found."
@@ -127,6 +154,7 @@ def run_topic_modeling_pipeline(
         )
     except Exception as exc:
         warnings.append(f"Skipping topics-over-time figure due to error: {exc}")
+        logger.warning("Skipping topics-over-time figure due to error: %s", exc)
 
     selected_html_path: Path | None = None
     selected_png_path: Path | None = None
@@ -150,6 +178,7 @@ def run_topic_modeling_pipeline(
                 )
             except Exception as exc:
                 warnings.append(f"Skipping selected-topics figure due to error: {exc}")
+                logger.warning("Skipping selected-topics figure due to error: %s", exc)
         else:
             warnings.append(
                 "Skipping selected-topics figure because none of the requested topic IDs exist."
@@ -159,6 +188,7 @@ def run_topic_modeling_pipeline(
     if save_model:
         model_dir = output_dir / "model"
         topic_model.save(str(model_dir), serialization="safetensors", save_ctfidf=True)
+        logger.info("Saved BERTopic model to %s", model_dir)
 
     run_report = {
         "config": config.to_dict(),
@@ -194,6 +224,7 @@ def run_topic_modeling_pipeline(
     report_path = output_dir / "run_report.json"
     with report_path.open("w", encoding="utf-8") as file:
         json.dump(run_report, file, ensure_ascii=False, indent=2)
+    logger.info("Saved run report to %s", report_path)
 
     result = {
         "topic_model": topic_model,
