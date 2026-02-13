@@ -39,6 +39,7 @@ class Config:
     birth_threshold_pct: float = 1.0
     similarity_top_k: int = 50
     random_seed: int = 42
+    excluded_topics: tuple[int, ...] = ()
 
 class AdvancedTopicAnalyzer:
     def __init__(self, cfg: Config):
@@ -53,6 +54,7 @@ class AdvancedTopicAnalyzer:
         self.show_year_topic_distribution = None
         self.work = None
         self.weighted_topic_year = None
+        self.n_excluded_topics_segments = 0
 
     def load(self):
         tdir = self.cfg.input_tables_dir
@@ -79,6 +81,10 @@ class AdvancedTopicAnalyzer:
     def build_working_table(self):
         df = self.segments_topics.copy()
         df = df[df['topic_final'] != -1].copy()
+        if self.cfg.excluded_topics:
+            before = len(df)
+            df = df[~df['topic_final'].isin(self.cfg.excluded_topics)].copy()
+            self.n_excluded_topics_segments = before - len(df)
         df['topic_weight'] = df['max_topic_probability'].fillna(1.0).clip(0, 1)
         df['decade'] = (df['year'] // 10) * 10
         self.work = df
@@ -186,9 +192,13 @@ class AdvancedTopicAnalyzer:
         return sim_df, pairs
 
     def build_summary(self, lifecycle, pairs):
+        n_assigned_topic = int((self.segments_topics['topic_final'] != -1).sum())
         summary = {
             'n_segments_total': int(len(self.segments_topics)),
-            'n_segments_assigned_topic': int((self.segments_topics['topic_final'] != -1).sum()),
+            'n_segments_assigned_topic': n_assigned_topic,
+            'excluded_topics': list(self.cfg.excluded_topics),
+            'n_segments_excluded_topics': int(self.n_excluded_topics_segments),
+            'n_segments_analyzed': int(len(self.work)),
             'n_topics_detected': int(self.work['topic_final'].nunique()),
             'year_min': int(self.work['year'].min()),
             'year_max': int(self.work['year'].max()),
@@ -229,7 +239,24 @@ def parse_args():
     p.add_argument('--birth-threshold-pct', type=float, default=1.0)
     p.add_argument('--similarity-top-k', type=int, default=50)
     p.add_argument('--seed', type=int, default=42)
+    p.add_argument(
+        '--exclude-topics',
+        type=str,
+        default='3,6,17,22',
+        help='Comma-separated topic IDs to exclude from analysis (e.g., "3,6,14").',
+    )
     return p.parse_args()
+
+def parse_topic_ids(raw: str) -> tuple[int, ...]:
+    if not raw:
+        return ()
+    values = []
+    for item in raw.split(','):
+        item = item.strip()
+        if not item:
+            continue
+        values.append(int(item))
+    return tuple(sorted(set(values)))
 
 def main():
     a = parse_args()
@@ -240,6 +267,7 @@ def main():
         birth_threshold_pct=a.birth_threshold_pct,
         similarity_top_k=a.similarity_top_k,
         random_seed=a.seed,
+        excluded_topics=parse_topic_ids(a.exclude_topics),
     )
     AdvancedTopicAnalyzer(cfg).run()
 

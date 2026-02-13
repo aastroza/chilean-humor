@@ -1,295 +1,151 @@
 {
   "n_segments_total": 4568,
   "n_segments_assigned_topic": 4567,
-  "n_topics_detected": 30,
+  "excluded_topics": [
+    3,
+    6,
+    17,
+    22
+  ],
+  "n_segments_excluded_topics": 693,
+  "n_segments_analyzed": 3874,
+  "n_topics_detected": 26,
   "year_min": 1971,
   "year_max": 2025,
   "n_shows": 90,
   "topic_birth_threshold_pct": 1.0,
   "top_similarity_pairs_preview": [
     {
-      "show_a": "Felipe Avello",
-      "show_b": "Nancho Parra",
-      "cosine_similarity": 0.9347747726287043
-    },
-    {
-      "show_a": "Jorge Romero",
-      "show_b": "Profesor Salomón y Tutu-Tutu",
-      "cosine_similarity": 0.875480066180711
-    },
-    {
-      "show_a": "Daniel Muñoz \"El Carmelo\"",
-      "show_b": "Profesor Salomón y Tutu-Tutu",
-      "cosine_similarity": 0.8634680446250058
-    },
-    {
-      "show_a": "Edmundo Arrocet",
-      "show_b": "Gilberto Gless",
-      "cosine_similarity": 0.8603147539570011
+      "show_a": "Millenium Show",
+      "show_b": "Ruperto",
+      "cosine_similarity": 0.8769796176279862
     },
     {
       "show_a": "Memo Bunke",
       "show_b": "Piña Colada",
-      "cosine_similarity": 0.812712911341093
+      "cosine_similarity": 0.8633756506313427
+    },
+    {
+      "show_a": "Edmundo Arrocet",
+      "show_b": "Gilberto Gless",
+      "cosine_similarity": 0.8632034546671047
+    },
+    {
+      "show_a": "Memo Bunke y Natalia Cuevas",
+      "show_b": "Rudy Rey",
+      "cosine_similarity": 0.8578545989139883
+    },
+    {
+      "show_a": "Edmundo Arrocet",
+      "show_b": "Natalia Cuevas",
+      "cosine_similarity": 0.8552169781168214
+    },
+    {
+      "show_a": "Daniel Muñoz \"El Carmelo\"",
+      "show_b": "Rudy Rey",
+      "cosine_similarity": 0.8455498801219821
+    },
+    {
+      "show_a": "Alejandra Azcárate",
+      "show_b": "Alison Mandel",
+      "cosine_similarity": 0.8394797090769831
+    },
+    {
+      "show_a": "Jorge Romero",
+      "show_b": "Rudy Rey",
+      "cosine_similarity": 0.8270820866354803
     },
     {
       "show_a": "George Harris",
       "show_b": "Los Atletas de la Risa",
-      "cosine_similarity": 0.8006400632101124
-    },
-    {
-      "show_a": "Profesor Salomón y Tutu-Tutu",
-      "show_b": "Rudy Rey",
-      "cosine_similarity": 0.8004149431488456
-    },
-    {
-      "show_a": "Edmundo Arrocet",
-      "show_b": "Hugo Goodman",
-      "cosine_similarity": 0.7859230049919103
-    },
-    {
-      "show_a": "Memo Bunke y Natalia Cuevas",
-      "show_b": "Natalia Cuevas",
-      "cosine_similarity": 0.7839404535910127
+      "cosine_similarity": 0.8201655806020134
     },
     {
       "show_a": "Edmundo Arrocet",
       "show_b": "Julio Sabala",
-      "cosine_similarity": 0.7805415785130132
+      "cosine_similarity": 0.799598098961066
     }
   ],
   "topic_lifecycle_preview": [
     {
       "topic_final": 8,
       "birth_year": 1971,
-      "active_years": 21,
-      "volatility_mean_abs_diff": 6.092741297456786,
-      "mean_prevalence_pct": 8.346672533909782,
-      "max_prevalence_pct": 64.33396487990373
-    },
-    {
-      "topic_final": 3,
-      "birth_year": 1971,
-      "active_years": 36,
-      "volatility_mean_abs_diff": 6.6611127175455405,
-      "mean_prevalence_pct": 7.201252266941295,
-      "max_prevalence_pct": 54.21866550931362
-    },
-    {
-      "topic_final": 1,
-      "birth_year": 1973,
-      "active_years": 29,
-      "volatility_mean_abs_diff": 8.555769026489994,
-      "mean_prevalence_pct": 7.8252444730310495,
-      "max_prevalence_pct": 31.369925518245285
+      "active_years": 24,
+      "volatility_mean_abs_diff": 8.2006128390045,
+      "mean_prevalence_pct": 10.877613843724578,
+      "max_prevalence_pct": 100.0
     },
     {
       "topic_final": 12,
       "birth_year": 1973,
-      "active_years": 24,
-      "volatility_mean_abs_diff": 8.637295303822595,
-      "mean_prevalence_pct": 7.1513636418213755,
-      "max_prevalence_pct": 63.56458361861707
+      "active_years": 26,
+      "volatility_mean_abs_diff": 12.647648024258057,
+      "mean_prevalence_pct": 9.704697769393547,
+      "max_prevalence_pct": 76.45142323692843
+    },
+    {
+      "topic_final": 1,
+      "birth_year": 1973,
+      "active_years": 30,
+      "volatility_mean_abs_diff": 10.21998648254057,
+      "mean_prevalence_pct": 9.382949441970002,
+      "max_prevalence_pct": 35.233470425377476
     },
     {
       "topic_final": 2,
       "birth_year": 1973,
-      "active_years": 31,
-      "volatility_mean_abs_diff": 6.15143968088256,
-      "mean_prevalence_pct": 6.515107100780735,
-      "max_prevalence_pct": 24.13987472073046
+      "active_years": 32,
+      "volatility_mean_abs_diff": 6.993402841626071,
+      "mean_prevalence_pct": 7.527158869032323,
+      "max_prevalence_pct": 27.399133496720104
     },
     {
       "topic_final": 9,
       "birth_year": 1973,
-      "active_years": 33,
-      "volatility_mean_abs_diff": 7.552641225841944,
-      "mean_prevalence_pct": 6.3121923609782105,
-      "max_prevalence_pct": 61.8156086111348
+      "active_years": 34,
+      "volatility_mean_abs_diff": 8.163443438757866,
+      "mean_prevalence_pct": 6.961188425165938,
+      "max_prevalence_pct": 63.635121103823614
     },
     {
       "topic_final": 13,
       "birth_year": 1973,
       "active_years": 25,
-      "volatility_mean_abs_diff": 4.543620384563162,
-      "mean_prevalence_pct": 5.378146549519239,
-      "max_prevalence_pct": 24.743125437251486
+      "volatility_mean_abs_diff": 5.534827581435147,
+      "mean_prevalence_pct": 6.586231673561418,
+      "max_prevalence_pct": 27.00094081742978
     },
     {
       "topic_final": 29,
       "birth_year": 1973,
       "active_years": 13,
-      "volatility_mean_abs_diff": 7.86108490785854,
-      "mean_prevalence_pct": 5.032766053119288,
-      "max_prevalence_pct": 36.15703955656172
+      "volatility_mean_abs_diff": 8.920319852795362,
+      "mean_prevalence_pct": 5.7495315207097155,
+      "max_prevalence_pct": 38.10654505984149
     },
     {
       "topic_final": 10,
       "birth_year": 1973,
       "active_years": 31,
-      "volatility_mean_abs_diff": 5.172723263989035,
-      "mean_prevalence_pct": 4.397689456119286,
-      "max_prevalence_pct": 19.001848569197026
+      "volatility_mean_abs_diff": 6.456437548450913,
+      "mean_prevalence_pct": 5.477012524343219,
+      "max_prevalence_pct": 28.480536178260824
     },
     {
       "topic_final": 19,
       "birth_year": 1973,
-      "active_years": 23,
-      "volatility_mean_abs_diff": 5.145673820166142,
-      "mean_prevalence_pct": 4.1961378868575485,
-      "max_prevalence_pct": 36.15703955656172
-    }
-  ],
-  "topic_cluster_labels_preview": [
+      "active_years": 24,
+      "volatility_mean_abs_diff": 6.225618816827137,
+      "mean_prevalence_pct": 5.208637366517454,
+      "max_prevalence_pct": 38.10654505984149
+    },
     {
       "topic_final": 0,
-      "old_topic_name": "0_presidente_país_huevón_pesos",
-      "proposed_title": "Política y actualidad: presidente, país, pesos",
-      "proposed_description": "Cluster con 358 segmentos (1973-2025) centrado en presidente, país, pesos, política, chile. Predomina en rutinas de Pedro Ruminot, Edo Caroe.",
-      "theme": "Política y actualidad",
-      "n_segments": 358,
-      "year_min": 1973,
-      "year_max": 2025,
-      "top_keywords": "presidente, país, pesos, política, chile, plata, huevones, ley, piñera",
-      "top_shows": "Pedro Ruminot, Edo Caroe, Bombo Fica",
-      "example_text_1": "Hoy a mí me gusta mucho leer y el otro día estaba leyendo en TikTok que Chile es un país que está envejeciendo. Chile es un país que demográficamente tiene una población bien avanzada en edad. Y se nota un poco que Chile...",
-      "example_text_2": "algunos que se pusieron así. Ya se puso a hablar hueá este comunista de mierda, hueá. Los veo, si yo lo estoy mirando. Puta, yo quería ver al Checho Iturbi y al Checho Freire, puta, que la cagamos. Mira, independiente el...",
-      "example_text_3": "con Don Consa ahora democracia. Tenemos un presidente tan joven que debe tener WhatsApp de primo. Igual que nosotros, po, si todos si es joven, es ser humano, debe tener WhatsApp de primo, donde los primos le escriben, \"..."
-    },
-    {
-      "topic_final": 1,
-      "old_topic_name": "1_canción_almas_cantar_vivo vivo",
-      "proposed_title": "Parodias musicales: canción, almas, cantar",
-      "proposed_description": "Cluster con 285 segmentos (1973-2025) centrado en canción, almas, cantar, vivo vivo, música. Predomina en rutinas de Hugo Varela, Daniel Muñoz \"El Carmelo\".",
-      "theme": "Parodias musicales",
-      "n_segments": 285,
-      "year_min": 1973,
-      "year_max": 2025,
-      "top_keywords": "canción, almas, cantar, vivo vivo, música, vivo, rima, luna, gusta",
-      "top_shows": "Hugo Varela, Daniel Muñoz \"El Carmelo\", Carlos García",
-      "example_text_1": "...que se llama ahora como 40 minutos, entonces Ehm, Sí, pero cerrando. Me gustaría Quisiera un poquito de música, que lo pasáramos bien, quisiéramos una fiesta que si se la saben pueden cantar. Transformemos esto en un...",
-      "example_text_2": "acá el de música, mi show, porque pienso que la música nos transporta experiencias a momentos que hemos vivido, nos trae nostalgia. Por ejemplo, esta música, maestro, cuando quiera, póngale nomás. Y quiero ver cómo está...",
-      "example_text_3": "No tienen un futbolista que cante. En el año 99, Alvarito, cuando tú estabas naciendo, en este escenario se presentó Marcelo Pablo Barticcioto, mi ídolo. Ni un futbolista usted ningún futbolista de ahora canta y los humo..."
-    },
-    {
-      "topic_final": 2,
-      "old_topic_name": "2_chiste_programa_hoy hoy_chistes",
-      "proposed_title": "Televisión y medios: programa, hoy hoy, discapacidad",
-      "proposed_description": "Cluster con 234 segmentos (1973-2025) centrado en programa, hoy hoy, discapacidad, juan gabriel, gabriel. Predomina en rutinas de Edo Caroe, Stefan Kramer.",
-      "theme": "Televisión y medios",
-      "n_segments": 234,
-      "year_min": 1973,
-      "year_max": 2025,
-      "top_keywords": "programa, hoy hoy, discapacidad, juan gabriel, gabriel, popó, amigo",
-      "top_shows": "Edo Caroe, Stefan Kramer, Pedro Ruminot",
-      "example_text_1": "Oiga, una pifiadita para echar una confianza nueva, a ver. Ay, sí que sí. Ay, sí que sí. Oiga, fíjese que el Albert Hammond, aló, aló, el Albert Hammond, el andaba más genio el Albert Hammond el otro día, ¿se acuerda ust...",
-      "example_text_2": "Bueno, este para tantear el público, probando. Perfecto. Mi mejor imitación: una imitación a un Aziz. Vamos a proseguir haciendo ahora una... este... Ya los tanteé, ya veo que están con ganas de divertirse. Vamos a ir sa...",
-      "example_text_3": "El humor está en las micros también el otro día. Los humoristas son cortitos, son son sabrosos. Iban dos señoras gordas. No tengo una concha de los gordos yo, pero esas señoras que se dan a chancha, los fracasos al Cente..."
-    },
-    {
-      "topic_final": 3,
-      "old_topic_name": "3_humor_quinta_quinta vergara_vergara",
-      "proposed_title": "Meta-humor de escenario: humor, quinta vergara, escenario",
-      "proposed_description": "Cluster con 232 segmentos (1971-2025) centrado en humor, quinta vergara, escenario, reír, artista. Predomina en rutinas de Coco Legrand, Dinamita Show.",
-      "theme": "Meta-humor de escenario",
-      "n_segments": 232,
-      "year_min": 1971,
-      "year_max": 2025,
-      "top_keywords": "humor, quinta vergara, escenario, reír, artista, viña mar, gran",
-      "top_shows": "Coco Legrand, Dinamita Show, Melón y Melame",
-      "example_text_1": "...con Piña Colada. Un nuevo humorista, su nombre: Carlos Cerón. Recuérdalo. Ha nacido en Viña del Mar con este humor popular, contingente, variado, que nos hace salir fácil una sonrisa. Vamos en este 34.º Festival Inter...",
-      "example_text_2": "Lo difícil que es hacer reír. Esta noche lo logró Paulo Paulo Iglesias. Pero hay más. Hay más. ¡Fuerte, Paulo Iglesias!",
-      "example_text_3": "Y llegamos a otro momento importante en esta noche. Un momento para sonreír, un momento para alegrarnos. Le vimos en el Festival de Arica y realmente presentó una rutina espectacular con nuevos chistes y con nuevos perso..."
-    },
-    {
-      "topic_final": 4,
-      "old_topic_name": "4_chileno_chile_argentino_chilenos",
-      "proposed_title": "Política y actualidad: chileno, chile, argentino",
-      "proposed_description": "Cluster con 278 segmentos (1974-2025) centrado en chileno, chile, argentino, chilenos, país. Predomina en rutinas de Pedro Ruminot, Palta Meléndez.",
-      "theme": "Política y actualidad",
-      "n_segments": 278,
-      "year_min": 1974,
-      "year_max": 2025,
-      "top_keywords": "chileno, chile, argentino, chilenos, país, argentina, temuco, inglés, chino, avión",
-      "top_shows": "Pedro Ruminot, Palta Meléndez, Bombo Fica",
-      "example_text_1": "es chileno, no es chileno. Nunca tuvo castellano, artes plásticas, técnico manual. Nunca hizo el collar de fideos para la mamá. Nunca tuvo educación física, le dijo al profe, \"Profe, ¿qué hacemos?\" No sé, corran. Nunca....",
-      "example_text_2": "El rodillo. Se junta con el amigo y venía el rodillo lleno de parches, hasta las pestañas están ahí enguesadas. Venía más golpeado que el pepe tape a salir del estadio. El amigo dice, \"Compañito, ¿qué te pasó?\" \"Ni no sa...",
-      "example_text_3": "Y ahí está la familia chilena en Miami. De repente levantan la vista. Oh, amor, mira, amor, mira, mira, mira, mira, mira, mira. Gente tomando en la playa. Imagínense lo que es para un chileno ver gente tomando en la play..."
-    },
-    {
-      "topic_final": 5,
-      "old_topic_name": "5_colegio_niños_papá_hijo",
-      "proposed_title": "Familia y crianza: colegio, niños, papá",
-      "proposed_description": "Cluster con 292 segmentos (1974-2025) centrado en colegio, niños, papá, hijo, tac. Predomina en rutinas de Dino Gordillo, Javiera Contador.",
-      "theme": "Familia y crianza",
-      "n_segments": 292,
-      "year_min": 1974,
-      "year_max": 2025,
-      "top_keywords": "colegio, niños, papá, hijo, tac, niño, tac tac, padre, mamá, chico",
-      "top_shows": "Dino Gordillo, Javiera Contador, Alex Ortiz",
-      "example_text_1": "de colegio, huevón. Y de repente cierra la carpeta, me la pasa y me dice ahí para que vayan viendo los aranceles, todas las huevadas. Y de repente yo abro la carpeta y digo, \"Conchetu ¿Sabe qué parece que hay un error aq...",
-      "example_text_2": "Mira, esa fue la primera vez que yo me sentí mala madre, porque después han venido otras veces, pero esa fue la primera vez que yo me sentí mala madre. ¿Y sabéis qué? Otra vez que me sentí mala madre, es que cuando nos d...",
-      "example_text_3": "Entonces Mira, y si tenemos problemas en la salud, ¿para qué decir en la educación? En los años 70 muchos de ustedes aprendieron a leer con un libro que se llamaba El ojo, cuando la educación era gratuita. Por eso que mu..."
-    },
-    {
-      "topic_final": 6,
-      "old_topic_name": "6_quinta_vergara_público_quinta vergara",
-      "proposed_title": "Meta-humor de escenario: público, quinta vergara, gaviota",
-      "proposed_description": "Cluster con 299 segmentos (1976-2025) centrado en público, quinta vergara, gaviota, muchas, oro. Predomina en rutinas de Dinamita Show, Bombo Fica.",
-      "theme": "Meta-humor de escenario",
-      "n_segments": 299,
-      "year_min": 1976,
-      "year_max": 2025,
-      "top_keywords": "público, quinta vergara, gaviota, muchas, oro, aplauso, antorcha, escenario",
-      "top_shows": "Dinamita Show, Bombo Fica, Stefan Kramer",
-      "example_text_1": "Este público maravilloso de la Quinta Vergara quiere hacerte el regalo que tú te mereces por toda tu trayectoria en este festival, por ser el gran animador que eres y porque todo este público te ama, Anthony.",
-      "example_text_2": "de oro. Señoras y señores. Muchas gracias. Ay. Gaviota de oro para Felipe Bello. También queremos cortarle esta gaviota. Es muy emocionante, que también es muy emocionante, que que hoy día te acompaña tu mamá, que es est...",
-      "example_text_3": "Los quiero mucho. Irreverente, impredecible, travieso. Nunca sabemos lo que va a pasar con él en un escenario, pero siempre se sabe cuál va a ser el resultado. Ese aplauso con que ahora despide este público de Viña del M..."
-    },
-    {
-      "topic_final": 7,
-      "old_topic_name": "7_vieja_suegra_abuela_abuelita",
-      "proposed_title": "Vida cotidiana y observación social: vieja, suegra, abuela",
-      "proposed_description": "Cluster con 204 segmentos (1977-2025) centrado en vieja, suegra, abuela, abuelita, abuelo. Predomina en rutinas de Coco Legrand, Dino Gordillo.",
-      "theme": "Vida cotidiana y observación social",
-      "n_segments": 204,
-      "year_min": 1977,
-      "year_max": 2025,
-      "top_keywords": "vieja, suegra, abuela, abuelita, abuelo, oiga, olla, señora, viejo, casa",
-      "top_shows": "Coco Legrand, Dino Gordillo, Los Locos del Humor",
-      "example_text_1": "...sacrificar al final. ¡Cómo gritaba la vieja! Bueno. El hecho es que esta abuela tenía, tenía una... No, no se moleste, junten para después. Bueno. Mi abuela tenía una vitrola, una vitrolita. Se le llamaba gramófono, g...",
-      "example_text_2": "...tango en mi show. Y este, este... este tango lo aprendí, lo aprendí gracias a una abuela que yo tenía, linda abuela. De esas abuelas, sí, de esas abuelas de antes. No como vienen las abuelas de ahora, las abuelas mode...",
-      "example_text_3": "Los viejos, los viejos están siendo abandonados y no está en la memoria de este país cuidarlo, no sé por qué. Tal vez porque el gran pecado fue haberles dejado un mundo desechable a los jóvenes. Por eso se quieren borrar..."
-    },
-    {
-      "topic_final": 8,
-      "old_topic_name": "8_anthony_amas_your_you",
-      "proposed_title": "Vida cotidiana y observación social: anthony, amas, your",
-      "proposed_description": "Cluster con 121 segmentos (1971-2025) centrado en anthony, amas, your, you, gonna. Predomina en rutinas de Gloria Benavides, Gilberto Gless.",
-      "theme": "Vida cotidiana y observación social",
-      "n_segments": 121,
-      "year_min": 1971,
-      "year_max": 2025,
-      "top_keywords": "anthony, amas, your, you, gonna, gonna do, playa playa, the, sororidad",
-      "top_shows": "Gloria Benavides, Gilberto Gless, Julio Sabala",
-      "example_text_1": "Alone, why must I be alone? I spent so many hours with you. How can I be alone? I think, I think I dream alone. I think we were made for us to share and I dream alone. There's such a thing as forgiving, so why can't you...",
-      "example_text_2": "Yo soy aquel que cada noche te persigue. Yo soy aquel que por quererte ya no vive. El que te espera, el que te sueña, el que quisiera ser dueño de tu amor, de tu amor. Yo soy aquel que por tenerte da la vida. Yo soy aque...",
-      "example_text_3": "Tú eres mi hermano del alma, realmente el amigo. Que en todo camino y por nada estás siempre conmigo. Aunque eres un hombre aún tienes alma de niño. Aquel que me da su amistad, su respeto y cariño. Recuerdo que juntos Pa..."
-    },
-    {
-      "topic_final": 9,
-      "old_topic_name": "9_auto_dijo dijo_micro_carabineros",
-      "proposed_title": "Transporte y calle: auto, dijo dijo, micro",
-      "proposed_description": "Cluster con 231 segmentos (1973-2025) centrado en auto, dijo dijo, micro, carabineros, moto. Predomina en rutinas de Palta Meléndez, Juan Pablo López.",
-      "theme": "Transporte y calle",
-      "n_segments": 231,
-      "year_min": 1973,
-      "year_max": 2025,
-      "top_keywords": "auto, dijo dijo, micro, carabineros, moto, chancho, loco, chofer, metro, loro",
-      "top_shows": "Palta Meléndez, Juan Pablo López, Dino Gordillo",
-      "example_text_1": "ningún problema. Porque a la llegada de San Bernardo El Lolo, oiga, se aspiraba más que ¿Qué le digo yo que ¿Qué qué podría hacer? Que pucha que se aspiraba, oiga, porque era una cosa impresionante así. Parecía testigo f...",
-      "example_text_2": "Y la verdad que el otro día me reía, porque resulta que iba una señora, iba una señora manejando el auto así. Entonces, iba lo mejor manejando el auto cuando, de repente, un carabinero va; la señora le pone luz roja, se...",
-      "example_text_3": "Yo estaba en una deuda con ustedes. Había empezado a contar el chiste de la moto y lo voy a terminar ahora. ¿Ah? Realmente se pasaron ahí, muchísimas gracias. El lolo llamado por teléfono porque ustedes saben cómo son lo..."
+      "birth_year": 1973,
+      "active_years": 29,
+      "volatility_mean_abs_diff": 4.137036634341888,
+      "mean_prevalence_pct": 4.6394016896719785,
+      "max_prevalence_pct": 17.97072145841427
     }
   ],
   "note": "Influence analysis intentionally removed due to insufficient evidence for causal claims."
