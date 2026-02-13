@@ -87,6 +87,14 @@ def parse_args() -> argparse.Namespace:
         help="Directory where charts, tables and run report will be written.",
     )
     parser.add_argument(
+        "--run-id",
+        default=None,
+        help=(
+            "Optional run identifier. If provided, outputs are written under "
+            "<output-dir>/runs/<run-id>/."
+        ),
+    )
+    parser.add_argument(
         "--seed",
         type=int,
         default=42,
@@ -252,6 +260,14 @@ def parse_args() -> argparse.Namespace:
         help="Persist trained BERTopic model under output_dir/model.",
     )
     parser.add_argument(
+        "--probability-export-threshold",
+        type=float,
+        default=0.01,
+        help=(
+            "Minimum topic probability used when exporting segment_topic_probs_long.csv."
+        ),
+    )
+    parser.add_argument(
         "--quiet",
         action="store_true",
         help="Disable verbose BERTopic logs.",
@@ -289,6 +305,7 @@ def main() -> None:
         jina_api_timeout_seconds=args.jina_api_timeout_seconds,
         jina_cache_dir=str(args.jina_cache_dir) if args.jina_cache_dir else None,
         verbose=not args.quiet,
+        probability_export_threshold=args.probability_export_threshold,
         min_df=args.min_df,
         token_pattern=args.token_pattern,
         umap_n_neighbors=args.umap_n_neighbors,
@@ -304,6 +321,9 @@ def main() -> None:
         reduce_outliers_threshold=args.outlier_threshold,
         random_seed=args.seed,
     )
+    resolved_output_dir = (
+        args.output_dir / "runs" / args.run_id if args.run_id else args.output_dir
+    )
     logger.info(
         "Starting topic modeling with use_jina_embeddings=%s provider=%s batch_size=%s timeout=%ss",
         config.use_jina_embeddings,
@@ -314,13 +334,13 @@ def main() -> None:
 
     result = run_topic_modeling_pipeline(
         config=config,
-        output_dir=args.output_dir,
+        output_dir=resolved_output_dir,
         save_model=args.save_model,
     )
 
     print("Pipeline finished successfully.")
     print(f"Run report: {result['run_report_path']}")
-    print(f"Output dir: {args.output_dir.resolve()}")
+    print(f"Output dir: {resolved_output_dir.resolve()}")
 
 
 if __name__ == "__main__":

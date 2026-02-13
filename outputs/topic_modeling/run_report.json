@@ -1,4 +1,6 @@
 {
+  "run_id": null,
+  "seed": 42,
   "config": {
     "repo_id": "astroza/chilean-humor-raw-transcripts",
     "config_name": "segments",
@@ -22,6 +24,7 @@
     "jina_api_timeout_seconds": 60.0,
     "jina_cache_dir": null,
     "calculate_probabilities": true,
+    "probability_export_threshold": 0.01,
     "verbose": true,
     "min_df": 2,
     "ngram_range_min": 1,
@@ -62,6 +65,46 @@
     "reduce_outliers_threshold": 0.0,
     "random_seed": 42
   },
+  "environment": {
+    "python_version": "3.12.1 (main, Jan  8 2024, 06:26:26) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "package_versions": {
+      "bertopic": "0.17.4",
+      "umap_learn": "0.5.11",
+      "hdbscan": "0.8.41",
+      "scikit_learn": "1.8.0",
+      "pandas": "3.0.0",
+      "numpy": "2.3.5"
+    }
+  },
+  "params": {
+    "embedding_model_name": "jina-embeddings-v4",
+    "use_jina_embeddings": true,
+    "umap": {
+      "n_neighbors": 15,
+      "n_components": 10,
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "random_state": 42
+    },
+    "hdbscan": {
+      "min_cluster_size": 22,
+      "min_samples": 6,
+      "metric": "euclidean",
+      "cluster_selection_method": "eom"
+    },
+    "vectorizer": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": null,
+      "max_features": null,
+      "token_pattern": null
+    },
+    "probability_export_threshold": 0.01
+  },
   "data_stats": {
     "total_rows": 4645,
     "kept_rows": 4568,
@@ -72,11 +115,30 @@
   },
   "num_topics_found": 31,
   "num_documents_modeled": 4568,
+  "diagnostics": {
+    "n_docs": 4568,
+    "outlier_rate_initial": 0.5689579684763573,
+    "outlier_rate_final": 0.00021891418563922942,
+    "n_topics_final": 30,
+    "median_topic_size": 121.5,
+    "p90_topic_size": 285.7
+  },
   "warnings": [],
   "artifacts": {
     "topic_info_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topic_info.csv",
     "topics_over_time_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topics_over_time.csv",
     "segments_topics_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segments_topics.csv",
+    "topic_probability_columns_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topic_probability_columns.csv",
+    "segment_topic_probs_long_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segment_topic_probs_long.csv",
+    "segment_topic_probs_dense_npz": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segment_topic_probs_dense.npz",
+    "topic_size_distribution_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\topic_size_distribution.csv",
+    "coverage_by_year_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\coverage_by_year.csv",
+    "coverage_by_show_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\coverage_by_show.csv",
+    "show_year_topic_distribution_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\show_year_topic_distribution.csv",
+    "segment_embeddings_npz": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segment_embeddings.npz",
+    "segment_embeddings_index_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\segment_embeddings_index.csv",
+    "show_year_embedding_centroids_parquet": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\show_year_embedding_centroids.parquet",
+    "show_year_embedding_centroids_csv": null,
     "hierarchical_topics_csv": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\tables\\hierarchical_topics.csv",
     "topics_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics.html",
     "topics_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling\\figures\\topics.png",

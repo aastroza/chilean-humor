@@ -30,6 +30,7 @@ class TopicModelingConfig:
     jina_api_timeout_seconds: float = 60.0
     jina_cache_dir: str | None = None
     calculate_probabilities: bool = True
+    probability_export_threshold: float = 0.01
     verbose: bool = True
 
     min_df: int = 2

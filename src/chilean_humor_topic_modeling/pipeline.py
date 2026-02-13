@@ -2,9 +2,13 @@ from __future__ import annotations
 
 import json
 import logging
+import platform
+import sys
+from importlib.metadata import PackageNotFoundError, version as package_version
 from pathlib import Path
 from typing import Any
 
+import numpy as np
 import pandas as pd
 
 from .config import TopicModelingConfig
@@ -21,6 +25,13 @@ def _serialize_for_table(value: object) -> object:
     if isinstance(value, (dict, list, tuple, set)):
         return json.dumps(value, ensure_ascii=False)
     return value
+
+
+def _safe_package_version(package_name: str) -> str | None:
+    try:
+        return package_version(package_name)
+    except PackageNotFoundError:
+        return None
 
 
 def run_topic_modeling_pipeline(
@@ -141,21 +152,92 @@ def run_topic_modeling_pipeline(
     logger.info("Saved topics-over-time table to %s", topics_over_time_path)
 
     max_probabilities: list[float | None] = [None] * len(documents)
+    probability_columns_path: Path | None = None
+    segment_topic_probs_long_path: Path | None = None
+    segment_topic_probs_dense_path: Path | None = None
+    probability_matrix_np: np.ndarray | None = None
     if probabilities is not None:
         try:
-            probability_matrix = pd.DataFrame(probabilities)
-            if probability_matrix.shape[0] == len(documents):
-                max_probabilities = (
-                    probability_matrix.max(axis=1).astype(float).tolist()
+            probability_matrix_np = np.asarray(probabilities)
+            if probability_matrix_np.ndim == 1:
+                probability_matrix_np = probability_matrix_np.reshape(-1, 1)
+            if probability_matrix_np.shape[0] == len(documents):
+                max_probabilities = probability_matrix_np.max(axis=1).astype(float).tolist()
+            else:
+                warnings.append(
+                    "Probability matrix row count does not match documents; "
+                    "max_topic_probability values may be incomplete."
                 )
+
+            non_outlier_topic_ids = sorted(
+                topic
+                for topic in pd.to_numeric(topic_info["Topic"], errors="coerce")
+                .dropna()
+                .astype(int)
+                .tolist()
+                if topic != -1
+            )
+            if len(non_outlier_topic_ids) == probability_matrix_np.shape[1]:
+                inferred_topic_ids: list[int | None] = non_outlier_topic_ids
+                inference_method = "sorted_non_outlier_topic_ids"
+            else:
+                inferred_topic_ids = [None] * probability_matrix_np.shape[1]
+                inference_method = "unresolved"
+                warnings.append(
+                    "Could not resolve probability matrix columns to BERTopic topic IDs; "
+                    "saved matrix-index mapping only."
+                )
+
+            probability_columns = pd.DataFrame(
+                {
+                    "topic_id_matrix": np.arange(probability_matrix_np.shape[1], dtype=int),
+                    "topic_id_assumed": inferred_topic_ids,
+                    "inference_method": inference_method,
+                }
+            )
+            probability_columns_path = tables_dir / "topic_probability_columns.csv"
+            probability_columns.to_csv(probability_columns_path, index=False)
+
+            prob_threshold = float(getattr(config, "probability_export_threshold", 0.01))
+            records: list[dict[str, object]] = []
+            for segment_idx, row in enumerate(probability_matrix_np):
+                topic_indices = np.where(row >= prob_threshold)[0]
+                for topic_idx in topic_indices:
+                    records.append(
+                        {
+                            "segment_idx": int(segment_idx),
+                            "topic_id_matrix": int(topic_idx),
+                            "topic_id_assumed": (
+                                int(inferred_topic_ids[topic_idx])
+                                if inferred_topic_ids[topic_idx] is not None
+                                else None
+                            ),
+                            "p_topic": float(row[topic_idx]),
+                        }
+                    )
+
+            segment_topic_probs_long_path = tables_dir / "segment_topic_probs_long.csv"
+            pd.DataFrame.from_records(records).to_csv(
+                segment_topic_probs_long_path,
+                index=False,
+                columns=[
+                    "segment_idx",
+                    "topic_id_matrix",
+                    "topic_id_assumed",
+                    "p_topic",
+                ],
+            )
+
+            segment_topic_probs_dense_path = tables_dir / "segment_topic_probs_dense.npz"
+            np.savez_compressed(
+                segment_topic_probs_dense_path,
+                probs=probability_matrix_np,
+            )
         except Exception as exc:
             warnings.append(
-                f"Could not compute max probabilities for segment-topic table: {exc}"
+                f"Could not export topic probability artifacts; continuing without them: {exc}"
             )
-            logger.warning(
-                "Could not compute max probabilities for segment-topic table: %s",
-                exc,
-            )
+            logger.warning("Could not export probability artifacts: %s", exc)
 
     segments_topics_records: list[dict[str, object]] = []
     for row, initial_topic, final_topic, max_probability in zip(
@@ -175,12 +257,207 @@ def run_topic_modeling_pipeline(
         record["max_topic_probability"] = max_probability
         segments_topics_records.append(record)
 
+    segments_topics_df = pd.DataFrame(segments_topics_records)
     segments_topics_path = tables_dir / "segments_topics.csv"
-    pd.DataFrame(segments_topics_records).to_csv(
-        segments_topics_path,
-        index=False,
-    )
+    segments_topics_df.to_csv(segments_topics_path, index=False)
     logger.info("Saved segment-topic table to %s", segments_topics_path)
+
+    topic_size_distribution_path: Path | None = None
+    coverage_by_year_path: Path | None = None
+    coverage_by_show_path: Path | None = None
+    show_year_topic_distribution_path: Path | None = None
+    diagnostics = {
+        "n_docs": int(len(segments_topics_df)),
+        "outlier_rate_initial": float((np.asarray(initial_topics) == -1).mean()),
+        "outlier_rate_final": float((segments_topics_df["topic_final"] == -1).mean()),
+    }
+    try:
+        size_df = (
+            segments_topics_df[segments_topics_df["topic_final"] != -1]
+            .groupby("topic_final")
+            .size()
+            .rename("n")
+            .reset_index()
+            .sort_values("n", ascending=False)
+        )
+        topic_size_distribution_path = tables_dir / "topic_size_distribution.csv"
+        size_df.to_csv(topic_size_distribution_path, index=False)
+        diagnostics["n_topics_final"] = int(size_df.shape[0])
+        diagnostics["median_topic_size"] = float(size_df["n"].median()) if len(size_df) else 0.0
+        diagnostics["p90_topic_size"] = float(size_df["n"].quantile(0.9)) if len(size_df) else 0.0
+    except Exception as exc:
+        warnings.append(
+            f"Could not compute topic size diagnostics; continuing without them: {exc}"
+        )
+        logger.warning("Could not compute topic size diagnostics: %s", exc)
+    diagnostics.setdefault("n_topics_final", 0)
+    diagnostics.setdefault("median_topic_size", 0.0)
+    diagnostics.setdefault("p90_topic_size", 0.0)
+
+    if "year" in segments_topics_df.columns:
+        try:
+            coverage_by_year = (
+                segments_topics_df.groupby("year")
+                .size()
+                .rename("n_segments")
+                .reset_index()
+                .sort_values("year")
+            )
+            coverage_by_year_path = tables_dir / "coverage_by_year.csv"
+            coverage_by_year.to_csv(coverage_by_year_path, index=False)
+        except Exception as exc:
+            warnings.append(f"Could not export coverage_by_year table: {exc}")
+            logger.warning("Could not export coverage_by_year table: %s", exc)
+    else:
+        warnings.append("Skipping coverage_by_year export because 'year' column is missing.")
+
+    if "show" in segments_topics_df.columns:
+        try:
+            coverage_by_show = (
+                segments_topics_df.groupby("show")
+                .size()
+                .rename("n_segments")
+                .reset_index()
+                .sort_values("n_segments", ascending=False)
+            )
+            coverage_by_show_path = tables_dir / "coverage_by_show.csv"
+            coverage_by_show.to_csv(coverage_by_show_path, index=False)
+        except Exception as exc:
+            warnings.append(f"Could not export coverage_by_show table: {exc}")
+            logger.warning("Could not export coverage_by_show table: %s", exc)
+    else:
+        warnings.append("Skipping coverage_by_show export because 'show' column is missing.")
+
+    if {"show", "year"}.issubset(segments_topics_df.columns):
+        try:
+            show_year_topic = segments_topics_df[segments_topics_df["topic_final"] != -1].copy()
+            if "max_topic_probability" in show_year_topic.columns:
+                show_year_topic["topic_weight"] = (
+                    pd.to_numeric(show_year_topic["max_topic_probability"], errors="coerce")
+                    .fillna(1.0)
+                    .clip(lower=0.0, upper=1.0)
+                )
+            else:
+                show_year_topic["topic_weight"] = 1.0
+
+            show_year_topic_distribution = (
+                show_year_topic.groupby(["show", "year", "topic_final"], as_index=False)[
+                    "topic_weight"
+                ]
+                .sum()
+                .rename(columns={"topic_final": "topic_id", "topic_weight": "topic_mass"})
+            )
+            totals = (
+                show_year_topic_distribution.groupby(["show", "year"], as_index=False)[
+                    "topic_mass"
+                ]
+                .sum()
+                .rename(columns={"topic_mass": "total_mass"})
+            )
+            show_year_topic_distribution = show_year_topic_distribution.merge(
+                totals, on=["show", "year"], how="left"
+            )
+            show_year_topic_distribution["p_topic_show_year"] = (
+                show_year_topic_distribution["topic_mass"]
+                / show_year_topic_distribution["total_mass"]
+            )
+            show_year_topic_distribution_path = (
+                tables_dir / "show_year_topic_distribution.csv"
+            )
+            show_year_topic_distribution.to_csv(
+                show_year_topic_distribution_path, index=False
+            )
+        except Exception as exc:
+            warnings.append(
+                f"Could not export show_year_topic_distribution table: {exc}"
+            )
+            logger.warning(
+                "Could not export show_year_topic_distribution table: %s", exc
+            )
+    else:
+        warnings.append(
+            "Skipping show_year_topic_distribution export because show/year columns are missing."
+        )
+
+    segment_embeddings_path: Path | None = None
+    segment_embeddings_index_path: Path | None = None
+    show_year_embedding_centroids_path: Path | None = None
+    show_year_embedding_centroids_csv_path: Path | None = None
+    segment_embeddings: np.ndarray | None = None
+    if precomputed_embeddings is not None:
+        segment_embeddings = np.asarray(precomputed_embeddings)
+    else:
+        try:
+            segment_embeddings = np.asarray(
+                topic_model._extract_embeddings(  # noqa: SLF001
+                    documents,
+                    method="document",
+                    verbose=False,
+                )
+            )
+        except Exception as exc:
+            warnings.append(
+                f"Could not extract segment embeddings from BERTopic model: {exc}"
+            )
+            logger.warning("Could not extract segment embeddings: %s", exc)
+
+    if segment_embeddings is not None:
+        try:
+            if segment_embeddings.shape[0] != len(documents):
+                warnings.append(
+                    "Skipping segment embedding artifacts because number of embeddings "
+                    "does not match number of documents."
+                )
+            else:
+                segment_embeddings_path = tables_dir / "segment_embeddings.npz"
+                np.savez_compressed(segment_embeddings_path, embeddings=segment_embeddings)
+
+                segment_embeddings_index = pd.DataFrame(
+                    {
+                        "segment_idx": np.arange(len(documents), dtype=int),
+                        "show": [row.get("show") for row in cleaned_rows],
+                        "year": [row.get("year") for row in cleaned_rows],
+                    }
+                )
+                segment_embeddings_index_path = (
+                    tables_dir / "segment_embeddings_index.csv"
+                )
+                segment_embeddings_index.to_csv(
+                    segment_embeddings_index_path, index=False
+                )
+
+                if {"show", "year"}.issubset(segment_embeddings_index.columns):
+                    centroid_frame = pd.DataFrame(segment_embeddings)
+                    centroid_frame.insert(0, "year", segment_embeddings_index["year"].values)
+                    centroid_frame.insert(0, "show", segment_embeddings_index["show"].values)
+                    centroids = (
+                        centroid_frame.groupby(["show", "year"], as_index=False)
+                        .mean(numeric_only=True)
+                    )
+                    show_year_embedding_centroids_path = (
+                        tables_dir / "show_year_embedding_centroids.parquet"
+                    )
+                    try:
+                        centroids.to_parquet(
+                            show_year_embedding_centroids_path, index=False
+                        )
+                    except Exception as exc:
+                        warnings.append(
+                            "Could not write show-year centroids as parquet; wrote CSV "
+                            f"instead: {exc}"
+                        )
+                        show_year_embedding_centroids_path = None
+                        show_year_embedding_centroids_csv_path = (
+                            tables_dir / "show_year_embedding_centroids.csv"
+                        )
+                        centroids.to_csv(
+                            show_year_embedding_centroids_csv_path, index=False
+                        )
+        except Exception as exc:
+            warnings.append(
+                f"Could not export segment embedding artifacts; continuing without them: {exc}"
+            )
+            logger.warning("Could not export segment embedding artifacts: %s", exc)
 
     hierarchical_topics_path: Path | None = None
     hierarchy_html_path: Path | None = None
@@ -266,16 +543,115 @@ def run_topic_modeling_pipeline(
         topic_model.save(str(model_dir), serialization="safetensors", save_ctfidf=True)
         logger.info("Saved BERTopic model to %s", model_dir)
 
+    package_versions = {
+        "bertopic": _safe_package_version("bertopic"),
+        "umap_learn": _safe_package_version("umap-learn"),
+        "hdbscan": _safe_package_version("hdbscan"),
+        "scikit_learn": _safe_package_version("scikit-learn"),
+        "pandas": _safe_package_version("pandas"),
+        "numpy": _safe_package_version("numpy"),
+    }
+    run_id = output_dir.name if output_dir.parent.name == "runs" else None
     run_report = {
+        "run_id": run_id,
+        "seed": int(config.random_seed),
         "config": config.to_dict(),
+        "environment": {
+            "python_version": sys.version,
+            "platform": platform.platform(),
+            "package_versions": package_versions,
+        },
+        "params": {
+            "embedding_model_name": (
+                config.jina_model_name if config.use_jina_embeddings else config.embedding_model
+            ),
+            "use_jina_embeddings": bool(config.use_jina_embeddings),
+            "umap": {
+                "n_neighbors": int(config.umap_n_neighbors),
+                "n_components": int(config.umap_n_components),
+                "min_dist": float(config.umap_min_dist),
+                "metric": str(config.umap_metric),
+                "random_state": int(config.random_seed),
+            },
+            "hdbscan": {
+                "min_cluster_size": int(config.hdbscan_min_cluster_size),
+                "min_samples": (
+                    int(config.hdbscan_min_samples)
+                    if config.hdbscan_min_samples is not None
+                    else None
+                ),
+                "metric": str(config.hdbscan_metric),
+                "cluster_selection_method": str(config.hdbscan_cluster_selection_method),
+            },
+            "vectorizer": {
+                "ngram_range": [int(config.ngram_range_min), int(config.ngram_range_max)],
+                "min_df": int(config.min_df),
+                "max_df": None,
+                "max_features": None,
+                "token_pattern": config.token_pattern,
+            },
+            "probability_export_threshold": float(
+                getattr(config, "probability_export_threshold", 0.01)
+            ),
+        },
         "data_stats": data_stats,
         "num_topics_found": int(topic_info.shape[0]),
         "num_documents_modeled": len(documents),
+        "diagnostics": diagnostics,
         "warnings": warnings,
         "artifacts": {
             "topic_info_csv": str(topic_info_path.resolve()),
             "topics_over_time_csv": str(topics_over_time_path.resolve()),
             "segments_topics_csv": str(segments_topics_path.resolve()),
+            "topic_probability_columns_csv": (
+                str(probability_columns_path.resolve())
+                if probability_columns_path
+                else None
+            ),
+            "segment_topic_probs_long_csv": (
+                str(segment_topic_probs_long_path.resolve())
+                if segment_topic_probs_long_path
+                else None
+            ),
+            "segment_topic_probs_dense_npz": (
+                str(segment_topic_probs_dense_path.resolve())
+                if segment_topic_probs_dense_path
+                else None
+            ),
+            "topic_size_distribution_csv": (
+                str(topic_size_distribution_path.resolve())
+                if topic_size_distribution_path
+                else None
+            ),
+            "coverage_by_year_csv": (
+                str(coverage_by_year_path.resolve()) if coverage_by_year_path else None
+            ),
+            "coverage_by_show_csv": (
+                str(coverage_by_show_path.resolve()) if coverage_by_show_path else None
+            ),
+            "show_year_topic_distribution_csv": (
+                str(show_year_topic_distribution_path.resolve())
+                if show_year_topic_distribution_path
+                else None
+            ),
+            "segment_embeddings_npz": (
+                str(segment_embeddings_path.resolve()) if segment_embeddings_path else None
+            ),
+            "segment_embeddings_index_csv": (
+                str(segment_embeddings_index_path.resolve())
+                if segment_embeddings_index_path
+                else None
+            ),
+            "show_year_embedding_centroids_parquet": (
+                str(show_year_embedding_centroids_path.resolve())
+                if show_year_embedding_centroids_path
+                else None
+            ),
+            "show_year_embedding_centroids_csv": (
+                str(show_year_embedding_centroids_csv_path.resolve())
+                if show_year_embedding_centroids_csv_path
+                else None
+            ),
             "hierarchical_topics_csv": str(hierarchical_topics_path.resolve())
             if hierarchical_topics_path
             else None,
