@@ -1,0 +1,2851 @@
+show_a,show_b,cosine_similarity
+Millenium Show,Ruperto,0.8769796176279862
+Memo Bunke,Piña Colada,0.8633756506313427
+Edmundo Arrocet,Gilberto Gless,0.8632034546671047
+Memo Bunke y Natalia Cuevas,Rudy Rey,0.8578545989139883
+Edmundo Arrocet,Natalia Cuevas,0.8552169781168214
+"Daniel Muñoz ""El Carmelo""",Rudy Rey,0.8455498801219821
+Alejandra Azcárate,Alison Mandel,0.8394797090769831
+Jorge Romero,Rudy Rey,0.8270820866354803
+George Harris,Los Atletas de la Risa,0.8201655806020134
+Edmundo Arrocet,Julio Sabala,0.799598098961066
+Pamela Leiva,Stefan Kramer,0.7992069025135307
+Gilberto Gless,Natalia Cuevas,0.79805891333132
+George Harris,Paulo Iglesias,0.7978975438554818
+Hugo Varela,Memo Bunke y Natalia Cuevas,0.7918284617495402
+Felo,Julio Sabala,0.7907239213397388
+Gloria Benavides,Jappening con ja,0.7883740120500703
+Edmundo Arrocet,Hugo Goodman,0.7865529689240343
+Alison Mandel,"Daniela ""Chiqui"" Aguayo",0.7751322504335761
+Bombo Fica,Pedro Ruminot,0.7748351605403965
+"Daniel Muñoz ""El Carmelo""",Jorge Romero,0.7692291068679035
+Los Atletas de la Risa,Paulo Iglesias,0.7637033417244847
+Gilberto Gless,Julio Sabala,0.7606612513486753
+Carlos García,Rudy Rey,0.7596603435185116
+Pedro Ruminot,Álvaro Salas,0.7433126407615831
+"Daniel Muñoz ""El Carmelo""",Los Acetatos,0.7405986239518785
+Arturo Ruiz-Tagle,Dinamita Show,0.7380179252945023
+Fusión Humor,Stefan Kramer,0.735279510353795
+Alejandra Azcárate,Natalia Valdebenito,0.7300150432681514
+Carlos García,"Daniel Muñoz ""El Carmelo""",0.7297258349353026
+Carlos García,Memo Bunke y Natalia Cuevas,0.7282782403112594
+"Daniel Muñoz ""El Carmelo""",Felo,0.7277946797538577
+Jappening con ja,Piña Colada,0.7238542425513335
+Juan Pablo López,Palta Meléndez,0.7116430696231875
+Carlos García,Julio Sabala,0.7113769608738837
+Felo,Jorge Romero,0.7110574180485689
+Dino Gordillo,Sandy,0.708342768409084
+Álvaro Salas,Óscar Gangas,0.7072740149357031
+Felo,Rudy Rey,0.704093401594121
+Gilberto Gless,Los Acetatos,0.7005147594583512
+Edmundo Arrocet,Felo,0.7004898339787738
+Felo,Memo Bunke y Natalia Cuevas,0.6983196348464049
+Huaso Filomeno,Luis Slimming,0.693674780162806
+Gloria Benavides,Hugo Varela,0.6891358274065308
+Hermógenes Conache,Álvaro Salas,0.688377590800206
+"Daniel Muñoz ""El Carmelo""",Memo Bunke y Natalia Cuevas,0.6867397851365965
+Rodrigo González,Óscar Gangas,0.6864375397895034
+Carlos García,Edmundo Arrocet,0.6863383457272041
+Jani Dueñas,Jenny Cavallo,0.6849841088338618
+Gloria Benavides,Memo Bunke y Natalia Cuevas,0.684537134826594
+Pamela Leiva,Óscar Gangas,0.6830624023700193
+Pedro Ruminot,Sergio Freire,0.6827567106553497
+Alejandra Azcárate,Jenny Cavallo,0.6802855301336703
+Arturo Ruiz-Tagle,Nancho Parra,0.6795681261543978
+Carlos García,Felo,0.6777749546133559
+Julio Sabala,Los Acetatos,0.6744725332842135
+Jenny Cavallo,Natalia Valdebenito,0.6739694112385539
+Los Locos del Humor,Mauricio Palma,0.6733729249169785
+"Daniel Muñoz ""El Carmelo""",Julio Sabala,0.6729463303215728
+Dinamita Show,Nancho Parra,0.6728432091574502
+Coco Legrand,Juan Pablo López,0.6721788162767276
+Dinamita Show,Stefan Kramer,0.6701054075169919
+Coco Legrand,Natalia Valdebenito,0.6689306731962218
+"Juan Luis ""Jajá"" Calderón",Juan Pablo López,0.6688732702596482
+Jorge Romero,Memo Bunke y Natalia Cuevas,0.6672743904581668
+Edmundo Arrocet,Los Acetatos,0.6651037620921313
+Felo,Payahop,0.6633060602782769
+Belén Mora,"Daniela ""Chiqui"" Aguayo",0.6608080862470865
+Jappening con ja,Memo Bunke,0.6590836863621878
+Dinamita Show,Fusión Humor,0.6589344251847814
+Carlos García,Payahop,0.656001744415905
+Dinamita Show,"Jorge ""Chino"" Navarrete",0.6557645846515855
+Fabrizio Copano,Pedro Ruminot,0.6556617534424876
+Arturo Ruiz-Tagle,Bombo Fica,0.6550141852403653
+Carlos García,Gloria Benavides,0.6544660589770396
+Gilberto Gless,Hugo Goodman,0.6539065437880801
+Hermógenes Conache,"Jorge ""Chino"" Navarrete",0.6538724862965829
+Alejandra Azcárate,"Daniela ""Chiqui"" Aguayo",0.6526269720704184
+Lucho Miranda,Pamela Leiva,0.6520966079507423
+"Jorge ""Chino"" Navarrete",Lucho Miranda,0.6469907450506407
+Huaso Filomeno,Los Locos del Humor,0.6466139033850151
+Paulo Iglesias,Rodrigo Villegas,0.6441512508292903
+Hugo Goodman,Stefan Kramer,0.641896220452259
+Hugo Goodman,Natalia Cuevas,0.6388628338248745
+Arturo Ruiz-Tagle,Melón y Melame,0.6385455594583895
+Felipe Avello,"Paul Vásquez ""El Flaco""",0.6376876135147738
+Carlos García,Jorge Romero,0.6375751115676614
+"Jorge ""Chino"" Navarrete",Nancho Parra,0.6374824595472117
+Pujillay,Álvaro Salas,0.6367050160051544
+Centella,Ricardo Meruane,0.635556129933981
+Fabrizio Copano,Sergio Freire,0.6355173807952486
+Coco Legrand,Óscar Gangas,0.6353570068744457
+Melón y Melame,Ruperto,0.6333945065168234
+Bombo Fica,Felipe Avello,0.6316439165350121
+Hugo Goodman,Pamela Leiva,0.6312930182484533
+Ricardo Meruane,Sandy,0.6300405088315238
+Pujillay,Rodrigo González,0.6291806497779748
+Alex Ortiz,Javiera Contador,0.6280883779429955
+Javiera Contador,Lucho Miranda,0.6267436430878992
+Nancho Parra,"Paul Vásquez ""El Flaco""",0.6264079019964732
+Gloria Benavides,Natalia Cuevas,0.6255713334257893
+Bombo Fica,Sergio Freire,0.6244148399378551
+Diego Urrutia,Óscar Gangas,0.6243432946630023
+Huaso Filomeno,Mauricio Palma,0.62400911584916
+Stefan Kramer,Óscar Gangas,0.6240058798572029
+Diego Urrutia,Mauricio Palma,0.6234358820049012
+Jorge Alís,Pedro Ruminot,0.6232133375092476
+Alison Mandel,Natalia Valdebenito,0.6218515513994545
+Jorge Romero,Payahop,0.6209447482627216
+Payahop,Rudy Rey,0.6208604845864392
+Melón y Melame,Millenium Show,0.6208587595881855
+Alison Mandel,Pamela Leiva,0.6204666891353072
+Juan Pablo López,Luis Slimming,0.6200703023053425
+Gloria Benavides,Piña Colada,0.6192625225772732
+Dinamita Show,Millenium Show,0.6167654637942391
+Arturo Ruiz-Tagle,Millenium Show,0.6162343562954143
+Dino Gordillo,Juan Pablo López,0.6155196775711548
+Dino Gordillo,Zip-Zup,0.6105310477724938
+Alejandra Azcárate,"Carlos ""El Mono"" Sánchez",0.6103527522168224
+"Carlos ""El Mono"" Sánchez",Jenny Cavallo,0.6103362019732121
+Gilberto Gless,Gloria Benavides,0.6100963494212284
+Centella,Hermógenes Conache,0.6098829120020545
+Memo Bunke y Natalia Cuevas,Piña Colada,0.6090850311080583
+Dinamita Show,Los Indolatinos,0.6090453898401142
+Pedro Ruminot,Pujillay,0.6086253434844764
+Gloria Benavides,Los Indolatinos,0.6074477840762594
+Edo Caroe,Pamela Leiva,0.6066133575853115
+Lucho Miranda,Stefan Kramer,0.6046511254626703
+"Jorge ""Chino"" Navarrete","Paul Vásquez ""El Flaco""",0.6016912507043465
+Los Indolatinos,Memo Bunke,0.6007343057545901
+Hugo Varela,Piña Colada,0.6005058031545919
+Pamela Leiva,Rodrigo González,0.6002295944951674
+Coco Legrand,Ricardo Meruane,0.5993236043420679
+Arturo Ruiz-Tagle,"Paul Vásquez ""El Flaco""",0.5978488960430571
+Fusión Humor,Ricardo Meruane,0.5968681240968904
+Alex Ortiz,"Juan Luis ""Jajá"" Calderón",0.5965106253618678
+Jorge Alís,Pujillay,0.5962579127371178
+Julio Sabala,Rudy Rey,0.5950589853884345
+Alex Ortiz,"Daniela ""Chiqui"" Aguayo",0.5935953444305017
+Edo Caroe,Ricardo Meruane,0.5930713808807339
+Jorge Alís,Álvaro Salas,0.59194198297739
+Millenium Show,Nancho Parra,0.591548606531469
+Ricardo Meruane,Stefan Kramer,0.5901700163038387
+Jani Dueñas,Natalia Valdebenito,0.5900091741708843
+Felo,Natalia Cuevas,0.5887842114074711
+Bombo Fica,Rodrigo González,0.587735751255983
+Pedro Ruminot,Rodrigo González,0.5861190987521163
+Carlos García,Gilberto Gless,0.5856901042792655
+Luis Slimming,"Paul Vásquez ""El Flaco""",0.5846965457476635
+Javiera Contador,Melón y Melame,0.5841653100669346
+Fusión Humor,"Jorge ""Chino"" Navarrete",0.5833474843960272
+Jorge Romero,Rodrigo Villegas,0.5830595984280875
+Dinamita Show,Sandy,0.5826519278704432
+Ernesto Belloni,Zip-Zup,0.5826327539131352
+"Daniel Muñoz ""El Carmelo""",Payahop,0.5809290692284028
+Coco Legrand,León Murillo,0.5803309498043312
+Edo Caroe,Stefan Kramer,0.5791433935788527
+Hugo Varela,Los Indolatinos,0.5790370443741304
+"Daniel Muñoz ""El Carmelo""",Edmundo Arrocet,0.5789679789830123
+Centella,Lucho Miranda,0.5780045306419607
+Hermógenes Conache,Juan Pablo López,0.577983757533475
+Arturo Ruiz-Tagle,Gigi Martin,0.5776074054982351
+Gigi Martin,Julio Sabala,0.5774981864451034
+Coco Legrand,"Juan Luis ""Jajá"" Calderón",0.5770013060105408
+"Daniela ""Chiqui"" Aguayo",Javiera Contador,0.5749225289430102
+Hermógenes Conache,Óscar Gangas,0.5742579343130727
+Diego Urrutia,El Pampero,0.5741863282869233
+Belén Mora,Edo Caroe,0.573376987133441
+Hugo Goodman,Julio Sabala,0.5726190759509723
+Juan Pablo López,Zip-Zup,0.5709638124345844
+Los Acetatos,Millenium Show,0.5706919727561306
+Bastián Paz,Ruperto,0.5699554408217381
+"Jorge ""Chino"" Navarrete",Luis Slimming,0.5698402564391303
+Lucho Miranda,Luis Slimming,0.5694710000110713
+Jappening con ja,Los Indolatinos,0.5694591075725065
+Bombo Fica,Palta Meléndez,0.5692458421616399
+Los Locos del Humor,Pujillay,0.5676957770947958
+Carlos García,Los Acetatos,0.5670249606048338
+Bombo Fica,Los Indolatinos,0.5669366246611665
+George Harris,Rodrigo Villegas,0.5662362466689287
+Alex Ortiz,Dino Gordillo,0.5660033982499053
+Hugo Goodman,Los Acetatos,0.5655938012398515
+Diego Urrutia,Stefan Kramer,0.565039335615732
+Fabrizio Copano,Álvaro Salas,0.5643349768325592
+Alison Mandel,Los Indolatinos,0.5634043683621848
+Alex Ortiz,Juan Pablo López,0.5629269660129155
+Fabrizio Copano,Felo,0.5621602758865105
+Los Indolatinos,Pamela Leiva,0.5619406182774834
+Los Locos del Humor,Rodrigo González,0.561872557485454
+Dinamita Show,Melón y Melame,0.5616783592292345
+Pedro Ruminot,Óscar Gangas,0.5612512719701048
+Memo Bunke y Natalia Cuevas,Payahop,0.5607318372028405
+"Carlos ""El Mono"" Sánchez",Natalia Valdebenito,0.5601910770559413
+Alison Mandel,Jenny Cavallo,0.5601058165900142
+Fabrizio Copano,Juan Pablo López,0.5595420210098198
+Diego Urrutia,Rodrigo González,0.5595204584842471
+Coco Legrand,Los Indolatinos,0.5592070426694162
+Hermógenes Conache,Zip-Zup,0.5589720000927149
+Fabrizio Copano,Óscar Gangas,0.5585557602983117
+Gigi Martin,Melón y Melame,0.5582847377279323
+Coco Legrand,Pamela Leiva,0.5566895012127134
+Diego Urrutia,Huaso Filomeno,0.5559304688210391
+Julio Sabala,Natalia Cuevas,0.5555579497922486
+"Jorge ""Chino"" Navarrete",Stefan Kramer,0.5554283150004373
+Bastián Paz,Dinamita Show,0.5542991445883182
+Juan Pablo López,Lucho Miranda,0.5541975313613848
+Alison Mandel,Rodrigo González,0.553416019509314
+Diego Urrutia,Lucho Miranda,0.5534121180046305
+Lucho Miranda,Óscar Gangas,0.5527568678510574
+Coco Legrand,Zip-Zup,0.551474660287779
+Jani Dueñas,Palta Meléndez,0.5512639924808147
+Dino Gordillo,Los Locos del Humor,0.5505973677546779
+Diego Urrutia,Fusión Humor,0.550389041696319
+Edo Caroe,Pedro Ruminot,0.5501594364236855
+Rodrigo González,Stefan Kramer,0.5496088555819673
+Rodrigo Villegas,Rudy Rey,0.5470067753361009
+León Murillo,Ricardo Meruane,0.546035785447425
+Edo Caroe,Fusión Humor,0.5456689814952916
+Fabrizio Copano,Rodrigo González,0.5454413293174099
+Jorge Alís,Palta Meléndez,0.5453608843964347
+Felipe Avello,Luis Slimming,0.5450984972492616
+Arturo Ruiz-Tagle,"Jorge ""Chino"" Navarrete",0.5449760693282855
+"Daniela ""Chiqui"" Aguayo",Rodrigo González,0.5446329097294301
+Fabrizio Copano,Palta Meléndez,0.5437321547427859
+Bombo Fica,"Paul Vásquez ""El Flaco""",0.5433034268078746
+Bombo Fica,Álvaro Salas,0.5428338420387262
+Coco Legrand,Palta Meléndez,0.5426827137931951
+Rodrigo González,Álvaro Salas,0.5426777340965379
+Diego Urrutia,Los Locos del Humor,0.542294652359601
+Centella,Stefan Kramer,0.5414264029163324
+Alison Mandel,"Carlos ""El Mono"" Sánchez",0.5413468946200118
+Diego Urrutia,Dino Gordillo,0.5411113017454253
+Coco Legrand,Dino Gordillo,0.5394615413366314
+Alejandra Azcárate,Jani Dueñas,0.5392781467270049
+Coco Legrand,Sergio Freire,0.5390920286414713
+Felipe Avello,Pedro Ruminot,0.538856439208594
+Centella,Juan Pablo López,0.5383482886857659
+Coco Legrand,Álvaro Salas,0.5369544370980774
+Diego Urrutia,Payahop,0.536527559641573
+Los Acetatos,Nancho Parra,0.5363369410964065
+Hugo Goodman,Óscar Gangas,0.5346604028693471
+Fabrizio Copano,"Juan Luis ""Jajá"" Calderón",0.534357886840669
+Ernesto Belloni,Hermógenes Conache,0.5332283921110673
+Jorge Romero,Julio Sabala,0.5328135675442643
+Alex Ortiz,Lucho Miranda,0.5317303594718124
+Hugo Varela,Jappening con ja,0.5313647391867167
+Bombo Fica,Pujillay,0.5311314051387389
+Jappening con ja,Memo Bunke y Natalia Cuevas,0.5310337782817782
+Arturo Ruiz-Tagle,Fusión Humor,0.5307362562811193
+Luis Slimming,Nancho Parra,0.5292158112265708
+Felo,Gilberto Gless,0.529123797167055
+Edo Caroe,Javiera Contador,0.5283758766162848
+Coco Legrand,Los Locos del Humor,0.5280625116820015
+Dino Gordillo,Fabrizio Copano,0.5269966596552457
+Arturo Ruiz-Tagle,Rodrigo Villegas,0.5264529920544845
+Fusión Humor,Óscar Gangas,0.5258236824921058
+Hermógenes Conache,"Paul Vásquez ""El Flaco""",0.525790330136958
+Alison Mandel,Edo Caroe,0.5255244854256523
+Edmundo Arrocet,Gloria Benavides,0.5253551825366265
+Bombo Fica,Fabrizio Copano,0.5251369370692265
+Natalia Cuevas,Sandy,0.5241914437529014
+Alison Mandel,Dinamita Show,0.5240734796405213
+Coco Legrand,Los Atletas de la Risa,0.5227651931714341
+Carlos García,Hugo Varela,0.5218266398915506
+Dinamita Show,"Paul Vásquez ""El Flaco""",0.5212876104042016
+Coco Legrand,Jenny Cavallo,0.5211530270351606
+Alex Ortiz,Luis Slimming,0.5204728679308389
+Coco Legrand,Hermógenes Conache,0.5194359776556384
+Los Indolatinos,Nancho Parra,0.5183655853186093
+Hugo Goodman,Lucho Miranda,0.5182058839526423
+Bastián Paz,Millenium Show,0.5174963538086864
+Los Acetatos,Natalia Cuevas,0.517192077689078
+Mauricio Palma,Payahop,0.5171567554062828
+Centella,"Jorge ""Chino"" Navarrete",0.5164317345172543
+Fusión Humor,Rodrigo González,0.515852954192692
+Zip-Zup,Óscar Gangas,0.5151733661684847
+Los Atletas de la Risa,Rodrigo Villegas,0.5150439724385555
+Arturo Ruiz-Tagle,Pedro Ruminot,0.515010734266751
+Bombo Fica,Juan Pablo López,0.514708662607358
+"Daniel Muñoz ""El Carmelo""",Millenium Show,0.5144364918210274
+Dino Gordillo,"Juan Luis ""Jajá"" Calderón",0.514385445180567
+Diego Urrutia,Fabrizio Copano,0.5137345748268641
+Carlos García,Diego Urrutia,0.5135698776821493
+Bastián Paz,Jani Dueñas,0.5135541332228928
+Diego Urrutia,Zip-Zup,0.5134815862688509
+Dino Gordillo,Óscar Gangas,0.5133322712211854
+Fabrizio Copano,Luis Slimming,0.513166087959442
+Dinamita Show,Ruperto,0.5126927479294577
+Coco Legrand,Stefan Kramer,0.511688218604256
+Felipe Avello,Nancho Parra,0.5116599814742754
+Julio Sabala,Memo Bunke y Natalia Cuevas,0.5111047903555445
+Alison Mandel,"Paul Vásquez ""El Flaco""",0.5110249682682597
+"Paul Vásquez ""El Flaco""",Rodrigo Villegas,0.5107925984972517
+Edo Caroe,Sergio Freire,0.5106208706363881
+Bombo Fica,"Daniela ""Chiqui"" Aguayo",0.5105834551589309
+Huaso Filomeno,Álvaro Salas,0.5105487602936196
+Arturo Ruiz-Tagle,Felipe Avello,0.5104857559642152
+Coco Legrand,Fabrizio Copano,0.5097748812956073
+El Pampero,Sergio Freire,0.5090352315644331
+"Carlos ""El Mono"" Sánchez",Melón y Melame,0.5069986980566701
+"Juan Luis ""Jajá"" Calderón",Luis Slimming,0.5063927089021507
+Felo,Los Acetatos,0.5059131789629775
+Centella,Javiera Contador,0.5057951032837716
+Hermógenes Conache,Los Indolatinos,0.5052508989607232
+Centella,Natalia Cuevas,0.5038944316761516
+Huaso Filomeno,Rodrigo González,0.5034382731780518
+"Juan Luis ""Jajá"" Calderón",León Murillo,0.5031650489859827
+Dinamita Show,Dino Gordillo,0.5026601533409765
+Felo,Hugo Varela,0.5014957726669312
+Centella,Sandy,0.5008381347309879
+Carlos García,Natalia Cuevas,0.499055858197558
+Gloria Benavides,Los Acetatos,0.496745473530869
+Pamela Leiva,"Paul Vásquez ""El Flaco""",0.4966789172440341
+Jappening con ja,Ruperto,0.49652769341700803
+Los Indolatinos,"Paul Vásquez ""El Flaco""",0.4955679919218753
+Alison Mandel,Lucho Miranda,0.49522057753290644
+Hugo Varela,Rudy Rey,0.49499643750256467
+Felo,Gigi Martin,0.49413726032897004
+Dinamita Show,Rodrigo González,0.4935378608401316
+Gloria Benavides,Julio Sabala,0.49203374523308036
+Huaso Filomeno,Pujillay,0.4919250170734064
+"Daniel Muñoz ""El Carmelo""",Jani Dueñas,0.49179656610797534
+Carlos García,Los Indolatinos,0.49147761200565493
+Hermógenes Conache,Pedro Ruminot,0.48935436689101924
+Gloria Benavides,Memo Bunke,0.4882116266637518
+Arturo Ruiz-Tagle,Bastián Paz,0.48604406115570514
+Gloria Benavides,Ruperto,0.48558262192805435
+Natalia Valdebenito,Sergio Freire,0.4852251269600459
+Fabrizio Copano,Natalia Valdebenito,0.4847260189269888
+Jenny Cavallo,León Murillo,0.48434970460726307
+Hugo Varela,Memo Bunke,0.48190382577884433
+Edmundo Arrocet,Stefan Kramer,0.4817359022832017
+Fabrizio Copano,Pujillay,0.4814016040934009
+Dino Gordillo,Huaso Filomeno,0.48113724297942273
+"Carlos ""El Mono"" Sánchez",Gigi Martin,0.48086908227640635
+Juan Pablo López,Los Indolatinos,0.4805211144438644
+Huaso Filomeno,"Jorge ""Chino"" Navarrete",0.47998327741658925
+Gigi Martin,Los Acetatos,0.4798191022060005
+Payahop,Sandy,0.47966505289386924
+Alison Mandel,"Jorge ""Chino"" Navarrete",0.47963784378283436
+Coco Legrand,Edo Caroe,0.47953409185974255
+Dinamita Show,Los Acetatos,0.4788146247180731
+Ricardo Meruane,Sergio Freire,0.4787503843751332
+"Daniela ""Chiqui"" Aguayo",Jenny Cavallo,0.4782121680318585
+León Murillo,Palta Meléndez,0.478200566797798
+Centella,Palta Meléndez,0.47775256487605033
+Dino Gordillo,Rodrigo González,0.477373158988141
+Los Indolatinos,Rodrigo Villegas,0.4770570029062227
+Dinamita Show,Hugo Goodman,0.4762885690201116
+Dino Gordillo,Jenny Cavallo,0.4761370736266899
+Fusión Humor,Melón y Melame,0.47602807507900863
+Arturo Ruiz-Tagle,Stefan Kramer,0.4757220672325697
+"Juan Luis ""Jajá"" Calderón",Ricardo Meruane,0.4755837230989959
+Juan Pablo López,Óscar Gangas,0.47514041723432543
+"Daniela ""Chiqui"" Aguayo",Edo Caroe,0.4748660317356279
+Nancho Parra,Ruperto,0.474482730052643
+Los Indolatinos,Piña Colada,0.47447166433061194
+Alison Mandel,Belén Mora,0.4742751998991088
+Arturo Ruiz-Tagle,Ruperto,0.47411719538646546
+Bastián Paz,Palta Meléndez,0.4740710963979649
+Felo,Gloria Benavides,0.47394102588243153
+Jorge Alís,Sandy,0.4730294232941351
+Dinamita Show,Pamela Leiva,0.47293179409939673
+El Pampero,Zip-Zup,0.47289572017396975
+Memo Bunke,Memo Bunke y Natalia Cuevas,0.47239818981570597
+Paulo Iglesias,Sergio Freire,0.4715914857793022
+Javiera Contador,Luis Slimming,0.47139791598774444
+Centella,Pamela Leiva,0.4711756928868376
+Arturo Ruiz-Tagle,Álvaro Salas,0.4710338720634544
+Alison Mandel,Stefan Kramer,0.4708438039489339
+Los Indolatinos,Los Locos del Humor,0.4703587157382939
+Javiera Contador,Juan Pablo López,0.47027406569607116
+Rodrigo González,Rodrigo Villegas,0.4701961460504014
+Bastián Paz,Dino Gordillo,0.4691472094884262
+Felo,Rodrigo Villegas,0.4687500349469357
+Bombo Fica,Rodrigo Villegas,0.46855048894655343
+"Daniel Muñoz ""El Carmelo""",Hugo Varela,0.4675241740525208
+Juan Pablo López,"Paul Vásquez ""El Flaco""",0.4667567888886238
+Gloria Benavides,Rudy Rey,0.46640133423890195
+Hugo Varela,Los Locos del Humor,0.46622546608339027
+Los Locos del Humor,Melón y Melame,0.46537579577090954
+Los Indolatinos,Memo Bunke y Natalia Cuevas,0.4653112347899711
+Edmundo Arrocet,Payahop,0.46480595303385475
+"Jorge ""Chino"" Navarrete",Álvaro Salas,0.4644626656429062
+Edmundo Arrocet,Rudy Rey,0.46417770951344806
+Hugo Varela,Pamela Leiva,0.46346750742785237
+Fabrizio Copano,Jorge Alís,0.46336034545960697
+Arturo Ruiz-Tagle,Juan Pablo López,0.46314076863706216
+Felipe Avello,Hermógenes Conache,0.4630032683047737
+Bombo Fica,Coco Legrand,0.4629199886468011
+Natalia Valdebenito,Paulo Iglesias,0.46291474714705055
+Mauricio Palma,Melón y Melame,0.4627043489461157
+Diego Urrutia,Pamela Leiva,0.4625395776905654
+"Daniela ""Chiqui"" Aguayo",Natalia Valdebenito,0.46206282867986004
+"Jorge ""Chino"" Navarrete",Pamela Leiva,0.46125339903413426
+Coco Legrand,Rodrigo González,0.46121664411165947
+Millenium Show,Álvaro Salas,0.4603306421344807
+"Daniel Muñoz ""El Carmelo""",Rodrigo Villegas,0.46023298677258806
+Centella,Ernesto Belloni,0.4602085240187905
+Fusión Humor,Sergio Freire,0.45991877104910156
+Belén Mora,Javiera Contador,0.45973081259447696
+Bastián Paz,Melón y Melame,0.45857562615915454
+Dino Gordillo,Álvaro Salas,0.4582931480834128
+Huaso Filomeno,"Paul Vásquez ""El Flaco""",0.45811099893497415
+Los Atletas de la Risa,Natalia Valdebenito,0.4580740627196321
+Juan Pablo López,Álvaro Salas,0.4579014985326461
+Juan Pablo López,Sergio Freire,0.457703683990544
+"Daniela ""Chiqui"" Aguayo",Jani Dueñas,0.4576308780344934
+Bastián Paz,Fusión Humor,0.4572393610649032
+"Daniel Muñoz ""El Carmelo""",Ruperto,0.4565608877698214
+Dino Gordillo,Hugo Varela,0.45588125121602496
+Mauricio Palma,Palta Meléndez,0.4557255643521195
+Los Acetatos,Ruperto,0.45538804035591873
+Hugo Varela,Pujillay,0.4552018617849087
+Bastián Paz,Bombo Fica,0.45483680025648376
+Carlos García,Rodrigo Villegas,0.45454890120489977
+Felipe Avello,"Jorge ""Chino"" Navarrete",0.45389506684538594
+Felipe Avello,Rodrigo Villegas,0.4535751730754767
+Dino Gordillo,Luis Slimming,0.4533836004076937
+Bastián Paz,Sandy,0.4523855825703742
+Edmundo Arrocet,Jorge Romero,0.4523735157497056
+Fabrizio Copano,Fusión Humor,0.45209849917206346
+Arturo Ruiz-Tagle,Palta Meléndez,0.45203423329216585
+Pedro Ruminot,Ricardo Meruane,0.45090098221496994
+Hermógenes Conache,Huaso Filomeno,0.4506126630761642
+Alison Mandel,Óscar Gangas,0.4504604853019436
+"Daniela ""Chiqui"" Aguayo",Juan Pablo López,0.45035406498982417
+Natalia Cuevas,Stefan Kramer,0.4501046121750734
+"Jorge ""Chino"" Navarrete",Los Indolatinos,0.44948281893055314
+Sergio Freire,Óscar Gangas,0.4492550450750723
+Alison Mandel,Luis Slimming,0.4483910573865575
+Coco Legrand,Pedro Ruminot,0.44809372596782465
+Pamela Leiva,Álvaro Salas,0.4475771423977928
+"Daniela ""Chiqui"" Aguayo",Palta Meléndez,0.44647058348292246
+Alison Mandel,Jani Dueñas,0.4462354302642387
+Dino Gordillo,Pujillay,0.44616157235164244
+Bombo Fica,Jorge Alís,0.4460312614890129
+Melón y Melame,Rodrigo González,0.446003713333116
+Belén Mora,Bombo Fica,0.44567428188603175
+Bombo Fica,Hermógenes Conache,0.44564312535102923
+Edmundo Arrocet,Memo Bunke y Natalia Cuevas,0.445517890995584
+Fabrizio Copano,Ricardo Meruane,0.4450655605169553
+Dino Gordillo,El Pampero,0.44498225968419924
+Fabrizio Copano,Huaso Filomeno,0.44462580302636556
+"Paul Vásquez ""El Flaco""",Rodrigo González,0.4441430010752623
+Juan Pablo López,Ricardo Meruane,0.4436740227787427
+Coco Legrand,Jani Dueñas,0.44322384544535504
+El Pampero,Huaso Filomeno,0.44236188193875503
+Dinamita Show,Óscar Gangas,0.4422271337238124
+Hugo Goodman,Rodrigo González,0.4421719756629283
+Bastián Paz,El Pampero,0.44216603730596404
+Bombo Fica,Óscar Gangas,0.4412491709896417
+Juan Pablo López,Rodrigo Villegas,0.4410596108766143
+"Daniela ""Chiqui"" Aguayo",Los Indolatinos,0.43966922859244856
+Juan Pablo López,Pedro Ruminot,0.4394503910727038
+Natalia Cuevas,Payahop,0.43917152049598507
+Jenny Cavallo,Zip-Zup,0.4388897041852286
+Millenium Show,Sandy,0.43867667349778106
+Mauricio Palma,Rodrigo González,0.4385162217164581
+Fabrizio Copano,Jani Dueñas,0.4385000768453733
+Coco Legrand,"Paul Vásquez ""El Flaco""",0.43843469712413746
+Diego Urrutia,Javiera Contador,0.43814164035185654
+Memo Bunke,Nancho Parra,0.4380567794671778
+Diego Urrutia,Jorge Romero,0.4377786770007992
+Arturo Ruiz-Tagle,Fabrizio Copano,0.4373821042920836
+Hugo Goodman,Álvaro Salas,0.4372257756479527
+Felipe Avello,Huaso Filomeno,0.43708313281102956
+Diego Urrutia,Rodrigo Villegas,0.43685279972578595
+Luis Slimming,Sergio Freire,0.4365075360922335
+Jappening con ja,Nancho Parra,0.43614265811869324
+"Carlos ""El Mono"" Sánchez",Dino Gordillo,0.43547120006300133
+Rodrigo González,Sergio Freire,0.43547077449339877
+Bastián Paz,"Paul Vásquez ""El Flaco""",0.4354674204530435
+Hermógenes Conache,Lucho Miranda,0.43516560883454614
+Arturo Ruiz-Tagle,Memo Bunke,0.4350138804778735
+"Daniela ""Chiqui"" Aguayo",Dino Gordillo,0.43439394268027
+Coco Legrand,Paulo Iglesias,0.4335081322203043
+Natalia Valdebenito,Rodrigo González,0.4335023141558451
+Arturo Ruiz-Tagle,Los Acetatos,0.43336211116894147
+Alison Mandel,Coco Legrand,0.43321294047383313
+Hermógenes Conache,Jorge Alís,0.4320957138988444
+Fusión Humor,Pamela Leiva,0.4304687694790364
+Gigi Martin,Natalia Cuevas,0.4299119029353672
+Dinamita Show,Álvaro Salas,0.4291581236957498
+Dino Gordillo,Javiera Contador,0.4288163624813856
+Palta Meléndez,Pedro Ruminot,0.4287949363033122
+Los Locos del Humor,Álvaro Salas,0.4287590356427546
+Centella,Dinamita Show,0.4281361495021858
+Centella,Payahop,0.42784042383031756
+Dinamita Show,Hermógenes Conache,0.4271300529117652
+Fusión Humor,Lucho Miranda,0.4268779915020456
+Alejandra Azcárate,Belén Mora,0.4266918448328574
+Centella,Coco Legrand,0.42668940114031156
+"Juan Luis ""Jajá"" Calderón",Pedro Ruminot,0.42616151444816786
+Lucho Miranda,Rodrigo González,0.4260217656608841
+Bombo Fica,Dinamita Show,0.42595067827557037
+"Daniela ""Chiqui"" Aguayo",Luis Slimming,0.42594142704391225
+Centella,Edo Caroe,0.4257002690485335
+"Carlos ""El Mono"" Sánchez",Huaso Filomeno,0.42547238703019974
+Stefan Kramer,Álvaro Salas,0.4246700622489019
+"Daniel Muñoz ""El Carmelo""",Nancho Parra,0.42413140796167786
+Sandy,Stefan Kramer,0.42412868684781013
+León Murillo,Sandy,0.4240755991950501
+"Carlos ""El Mono"" Sánchez",Zip-Zup,0.4237321596419263
+Juan Pablo López,Rodrigo González,0.4237293136373171
+Fusión Humor,Hugo Goodman,0.4234318801562585
+Bastián Paz,Rodrigo Villegas,0.4225994333713047
+Huaso Filomeno,Óscar Gangas,0.4219648837693117
+Los Locos del Humor,Pamela Leiva,0.42144840686328466
+Felipe Avello,Álvaro Salas,0.421392200095809
+Jenny Cavallo,Jorge Alís,0.42069935485672355
+Fabrizio Copano,Jorge Romero,0.4205703135969686
+Alison Mandel,Javiera Contador,0.4205071308948163
+Hugo Goodman,"Jorge ""Chino"" Navarrete",0.42007152875577963
+Sergio Freire,Álvaro Salas,0.4200300385727584
+Hugo Varela,Natalia Valdebenito,0.4199407975057232
+Hermógenes Conache,Hugo Goodman,0.4197908450938327
+Coco Legrand,Luis Slimming,0.4196785670543042
+Fusión Humor,Hermógenes Conache,0.41959699710981707
+Centella,Fusión Humor,0.41951912737777125
+Edo Caroe,Luis Slimming,0.4191972245425175
+Natalia Valdebenito,Palta Meléndez,0.4183136723911404
+Nancho Parra,Rodrigo Villegas,0.41817422894334905
+Coco Legrand,Dinamita Show,0.4180552228015471
+"Paul Vásquez ""El Flaco""",Stefan Kramer,0.41785983038214974
+"Daniela ""Chiqui"" Aguayo","Paul Vásquez ""El Flaco""",0.4172022816632072
+Jenny Cavallo,Palta Meléndez,0.41670213739483136
+"Carlos ""El Mono"" Sánchez",Rodrigo González,0.41610784573400394
+Centella,"Paul Vásquez ""El Flaco""",0.41602467800365506
+Arturo Ruiz-Tagle,Rodrigo González,0.4159569903800369
+Diego Urrutia,Dinamita Show,0.41531779124946244
+Bombo Fica,Melón y Melame,0.4152400000729702
+Dinamita Show,Rodrigo Villegas,0.41500529488131993
+El Pampero,Jorge Romero,0.4149266788196708
+Natalia Cuevas,Ricardo Meruane,0.414904221584289
+Fabrizio Copano,Javiera Contador,0.41418237636940436
+"Juan Luis ""Jajá"" Calderón",Palta Meléndez,0.41409807354115086
+Los Acetatos,Rudy Rey,0.4138957157882453
+Arturo Ruiz-Tagle,Coco Legrand,0.4137665103385338
+Los Locos del Humor,Payahop,0.4136535728665076
+Coco Legrand,"Jorge ""Chino"" Navarrete",0.4126407810258045
+Julio Sabala,Rodrigo Villegas,0.4120984106763697
+Dinamita Show,Ricardo Meruane,0.41189876885534393
+Paulo Iglesias,Rodrigo González,0.4117796631642307
+Hermógenes Conache,Luis Slimming,0.41120330225909846
+Edo Caroe,Fabrizio Copano,0.4110319965076756
+Juan Pablo López,Paulo Iglesias,0.4109226397456637
+Los Indolatinos,Stefan Kramer,0.41085595776035105
+Fabrizio Copano,Rudy Rey,0.41061203979223
+Dino Gordillo,Los Indolatinos,0.41021284793648005
+Juan Pablo López,Natalia Valdebenito,0.4100802812504703
+Hermógenes Conache,Rodrigo González,0.409816364903413
+Felo,Jani Dueñas,0.4097607952882318
+Fusión Humor,Mauricio Palma,0.4094781256288147
+Edo Caroe,Rodrigo González,0.4090487678662086
+Felipe Avello,Sergio Freire,0.4090283127076438
+Palta Meléndez,Sergio Freire,0.4087093779095721
+Hermógenes Conache,Ricardo Meruane,0.40851032081169775
+Jorge Alís,Mauricio Palma,0.40838532225453356
+Ernesto Belloni,León Murillo,0.40819749234542846
+Bastián Paz,"Daniela ""Chiqui"" Aguayo",0.40794553335130196
+Bastián Paz,Óscar Gangas,0.407743318299821
+Hugo Varela,Álvaro Salas,0.4076785476620197
+Rodrigo Villegas,Ruperto,0.4076189588677886
+Melón y Melame,Rodrigo Villegas,0.40760672751383725
+Fusión Humor,Pedro Ruminot,0.40720351275667827
+Bombo Fica,Memo Bunke,0.40712323044235843
+Dinamita Show,Lucho Miranda,0.4070813072233317
+Sergio Freire,Zip-Zup,0.40692678466802007
+Juan Pablo López,Los Locos del Humor,0.4065058805499346
+Dino Gordillo,Lucho Miranda,0.4062942514597239
+Hugo Varela,Jani Dueñas,0.40616422275180536
+"Jorge ""Chino"" Navarrete",Óscar Gangas,0.4058728547882163
+Edo Caroe,León Murillo,0.40498797539833536
+Fabrizio Copano,Memo Bunke y Natalia Cuevas,0.4046589323331444
+Fabrizio Copano,Rodrigo Villegas,0.4042351878021415
+Bastián Paz,Diego Urrutia,0.4041331211741546
+Los Locos del Humor,Natalia Valdebenito,0.4040303361340452
+Natalia Valdebenito,Álvaro Salas,0.40361707754837306
+Coco Legrand,Fusión Humor,0.4033858486551301
+Bastián Paz,Nancho Parra,0.403207557975964
+Belén Mora,Felipe Avello,0.4025898400700435
+Fusión Humor,Payahop,0.4025545565495143
+Memo Bunke,"Paul Vásquez ""El Flaco""",0.402135017704376
+Pujillay,Óscar Gangas,0.40186224123895814
+Fusión Humor,Álvaro Salas,0.40147000456511883
+Coco Legrand,Sandy,0.4012020525886205
+El Pampero,Óscar Gangas,0.4007989477030629
+Carlos García,Hugo Goodman,0.40075569262752336
+Memo Bunke y Natalia Cuevas,Pujillay,0.4004775359524337
+El Pampero,Sandy,0.4003885212108112
+Bombo Fica,Edo Caroe,0.4001902213074579
+Fusión Humor,Nancho Parra,0.399987303206169
+Bastián Paz,"Jorge ""Chino"" Navarrete",0.3993105924367851
+Hermógenes Conache,Pujillay,0.3991573125867904
+Alejandra Azcárate,Los Indolatinos,0.39898310109229096
+Carlos García,Fabrizio Copano,0.39866335962481664
+Huaso Filomeno,Melón y Melame,0.3984382292752012
+Fusión Humor,Millenium Show,0.39837019683629843
+Jorge Alís,Rodrigo González,0.39793000012690827
+Edo Caroe,Óscar Gangas,0.3976888457559807
+Hugo Varela,Jenny Cavallo,0.39756996844421066
+Dino Gordillo,Ricardo Meruane,0.397523290227335
+"Jorge ""Chino"" Navarrete",Rodrigo Villegas,0.397066553796044
+Alex Ortiz,Belén Mora,0.3970649665136069
+Los Indolatinos,Rodrigo González,0.39692723474653185
+George Harris,Rodrigo González,0.39675195449702616
+Hermógenes Conache,Nancho Parra,0.3966807789997896
+Gloria Benavides,Millenium Show,0.39666699029761926
+Dino Gordillo,Jorge Alís,0.3966636469838669
+Huaso Filomeno,Juan Pablo López,0.3963901298220821
+"Carlos ""El Mono"" Sánchez",Coco Legrand,0.39612475215723736
+Dinamita Show,Gigi Martin,0.3959688067088104
+Fabrizio Copano,Hugo Varela,0.3958663874592768
+Coco Legrand,Hugo Varela,0.39575369315402475
+Centella,Hugo Goodman,0.3955425046598896
+Natalia Valdebenito,Óscar Gangas,0.3955059567425247
+Gigi Martin,Gilberto Gless,0.39493895722902456
+Edo Caroe,"Juan Luis ""Jajá"" Calderón",0.39486955668151646
+Paulo Iglesias,Pedro Ruminot,0.394287497793109
+Hugo Goodman,Los Indolatinos,0.39394823454675043
+Jani Dueñas,Los Acetatos,0.3937800432144242
+Memo Bunke y Natalia Cuevas,Rodrigo Villegas,0.39367428068610655
+"Daniela ""Chiqui"" Aguayo",Dinamita Show,0.3936543989025085
+Alison Mandel,Centella,0.39354080519580364
+"Paul Vásquez ""El Flaco""",Óscar Gangas,0.3935326162835091
+Javiera Contador,Rodrigo Villegas,0.3929873839800059
+El Pampero,Fabrizio Copano,0.3927784248940406
+Alison Mandel,Diego Urrutia,0.3922470371356675
+Arturo Ruiz-Tagle,Sergio Freire,0.3921718560115447
+Bombo Fica,Los Locos del Humor,0.3917168433068656
+"Daniel Muñoz ""El Carmelo""",Fabrizio Copano,0.39135676511317247
+Jenny Cavallo,Los Locos del Humor,0.3906543327300708
+Hermógenes Conache,Pamela Leiva,0.3906025944710064
+Alejandra Azcárate,Edo Caroe,0.39033099836704643
+Arturo Ruiz-Tagle,Hermógenes Conache,0.3899081829489718
+Fabrizio Copano,Mauricio Palma,0.38946107144520153
+Diego Urrutia,Melón y Melame,0.389329383742327
+Centella,Dino Gordillo,0.3892971597024717
+Fabrizio Copano,Julio Sabala,0.38922211424281816
+Pedro Ruminot,Rodrigo Villegas,0.38888565573949746
+Gigi Martin,Memo Bunke,0.3886320416968206
+Centella,Óscar Gangas,0.3882182381673393
+Fabrizio Copano,Payahop,0.3881202522419513
+Felipe Avello,Rudy Rey,0.38810099746949533
+Huaso Filomeno,Rodrigo Villegas,0.38807197728676224
+Felo,Sandy,0.38759816172956785
+Hugo Goodman,Pedro Ruminot,0.3869795013230487
+Arturo Ruiz-Tagle,Jani Dueñas,0.3869148868772812
+Jappening con ja,Millenium Show,0.3867506595284289
+Julio Sabala,Payahop,0.3866562729064035
+Centella,Felipe Avello,0.386440299279878
+Arturo Ruiz-Tagle,Los Indolatinos,0.386415069220296
+"Daniel Muñoz ""El Carmelo""",Gloria Benavides,0.38631482782011667
+Jani Dueñas,Millenium Show,0.38629685505692396
+Alison Mandel,Dino Gordillo,0.38612595374901704
+"Daniela ""Chiqui"" Aguayo",Lucho Miranda,0.3857442488136758
+Los Indolatinos,Natalia Valdebenito,0.3854943800461405
+Diego Urrutia,Hugo Goodman,0.38538736483515557
+Jorge Alís,Óscar Gangas,0.38530655836566186
+Javiera Contador,Sandy,0.3851990431297477
+Sandy,Zip-Zup,0.3849722012889492
+Diego Urrutia,Sandy,0.384927832482457
+Los Atletas de la Risa,Rodrigo González,0.3846792655245327
+Centella,"Daniela ""Chiqui"" Aguayo",0.3845251396819739
+Edmundo Arrocet,Pamela Leiva,0.3842037716893683
+Payahop,Rodrigo Villegas,0.3841412948747042
+"Daniel Muñoz ""El Carmelo""",Gilberto Gless,0.3833502290628226
+Gloria Benavides,Hugo Goodman,0.3828338325108329
+Los Indolatinos,Zip-Zup,0.38267560099733583
+"Carlos ""El Mono"" Sánchez",Memo Bunke,0.3826584908155087
+Bombo Fica,Dino Gordillo,0.38261748072456786
+Los Atletas de la Risa,Sergio Freire,0.38231861780685605
+"Daniela ""Chiqui"" Aguayo",Pujillay,0.3821824930010047
+Javiera Contador,"Juan Luis ""Jajá"" Calderón",0.38191836521283723
+Los Locos del Humor,Óscar Gangas,0.3815587516439476
+Bastián Paz,Los Indolatinos,0.3808444232533174
+El Pampero,"Jorge ""Chino"" Navarrete",0.38053067603897334
+Hugo Varela,Los Acetatos,0.38027848935504155
+Coco Legrand,Huaso Filomeno,0.3790981923549714
+"Carlos ""El Mono"" Sánchez","Daniela ""Chiqui"" Aguayo",0.378938340038775
+Luis Slimming,Natalia Valdebenito,0.3784549890583285
+Fabrizio Copano,Felipe Avello,0.3781227416952999
+Ricardo Meruane,Óscar Gangas,0.3779320306903297
+Pujillay,Rudy Rey,0.37748841285760554
+Edo Caroe,Felipe Avello,0.37741551381629557
+"Jorge ""Chino"" Navarrete",Juan Pablo López,0.37657782998712197
+Arturo Ruiz-Tagle,Sandy,0.3762464175817397
+Fusión Humor,Los Locos del Humor,0.37604261857703436
+Nancho Parra,Rudy Rey,0.3754294853827924
+Los Indolatinos,Ricardo Meruane,0.37528057552554744
+Pedro Ruminot,Stefan Kramer,0.3750507046337062
+Pamela Leiva,Ricardo Meruane,0.37498981610097165
+Los Locos del Humor,Zip-Zup,0.37491963579965043
+Rodrigo Villegas,Sergio Freire,0.37490362424744317
+Nancho Parra,Sandy,0.3747173696657024
+"Juan Luis ""Jajá"" Calderón",Sandy,0.37467055188716014
+Alison Mandel,Hugo Goodman,0.37460306234783747
+Fusión Humor,Ruperto,0.3741423255148899
+Huaso Filomeno,Pedro Ruminot,0.37391900815518936
+Jorge Alís,León Murillo,0.373813961843176
+"Jorge ""Chino"" Navarrete",Ricardo Meruane,0.37349757808567663
+Centella,Los Indolatinos,0.37335762611086426
+Bombo Fica,Hugo Goodman,0.37297382369790133
+Mauricio Palma,Pujillay,0.37291323777127533
+Fabrizio Copano,Zip-Zup,0.372748161935143
+"Carlos ""El Mono"" Sánchez",Dinamita Show,0.3726456114967397
+Lucho Miranda,"Paul Vásquez ""El Flaco""",0.37228306868938726
+Alison Mandel,Bombo Fica,0.37215839715985877
+Diego Urrutia,Juan Pablo López,0.37175377799071857
+Huaso Filomeno,Jorge Alís,0.37114160531075935
+Bastián Paz,León Murillo,0.37114008435745405
+Los Locos del Humor,Stefan Kramer,0.3711092681477979
+Palta Meléndez,Zip-Zup,0.37084607214536236
+"Daniela ""Chiqui"" Aguayo",Rodrigo Villegas,0.37079549686219543
+Edo Caroe,Lucho Miranda,0.3705836277315606
+Dino Gordillo,Millenium Show,0.37051365014538123
+Bastián Paz,Coco Legrand,0.3704246890997882
+Carlos García,Sandy,0.3698384628847653
+Jorge Alís,Juan Pablo López,0.36963628545041916
+Juan Pablo López,Los Atletas de la Risa,0.3691114503018391
+"Daniela ""Chiqui"" Aguayo",Paulo Iglesias,0.36846808490071653
+"Carlos ""El Mono"" Sánchez",Fabrizio Copano,0.36846525000034547
+Alison Mandel,Huaso Filomeno,0.36827524105689163
+Dino Gordillo,Nancho Parra,0.3681151501849492
+Centella,Edmundo Arrocet,0.3680964386828867
+Juan Pablo López,Pamela Leiva,0.36808730741278023
+Arturo Ruiz-Tagle,Hugo Goodman,0.36791467429146885
+Jani Dueñas,Rudy Rey,0.36780379552178905
+Bastián Paz,Rodrigo González,0.3677883672759476
+Edmundo Arrocet,Gigi Martin,0.3674723883541229
+Dino Gordillo,Palta Meléndez,0.3668495716487624
+Alejandra Azcárate,Coco Legrand,0.36643667509361577
+Jani Dueñas,Memo Bunke y Natalia Cuevas,0.3660565143369274
+Arturo Ruiz-Tagle,Óscar Gangas,0.36588110209924735
+Dino Gordillo,Sergio Freire,0.3657826687835428
+Diego Urrutia,Hugo Varela,0.36564699983765975
+Belén Mora,Pamela Leiva,0.36540262852288047
+Felo,Pujillay,0.36538495329896487
+Bombo Fica,Pamela Leiva,0.3653307047313602
+"Carlos ""El Mono"" Sánchez",Felo,0.3650886914350503
+Jorge Romero,Los Acetatos,0.36479384705158646
+Hugo Varela,Óscar Gangas,0.3643486539900354
+Los Indolatinos,Óscar Gangas,0.36415818665352345
+Melón y Melame,Nancho Parra,0.36400963868409153
+Coco Legrand,Rodrigo Villegas,0.36396662343560865
+Diego Urrutia,Edmundo Arrocet,0.36395551076325977
+Huaso Filomeno,Jenny Cavallo,0.3639253804619192
+Bombo Fica,Huaso Filomeno,0.3638804399827513
+Pamela Leiva,Pujillay,0.3637844637350803
+Payahop,Ricardo Meruane,0.36349405634561915
+Luis Slimming,Rodrigo Villegas,0.36336724946836535
+Edmundo Arrocet,Rodrigo Villegas,0.36309359958119614
+Palta Meléndez,Ricardo Meruane,0.3627396979927041
+Juan Pablo López,Nancho Parra,0.36269305937565466
+"Carlos ""El Mono"" Sánchez",Los Indolatinos,0.36269118847417636
+Jenny Cavallo,Juan Pablo López,0.36260343571322207
+Arturo Ruiz-Tagle,Dino Gordillo,0.36258364974138674
+"Juan Luis ""Jajá"" Calderón",Los Atletas de la Risa,0.36258346598907615
+Javiera Contador,"Jorge ""Chino"" Navarrete",0.3624171539608955
+Memo Bunke,Rodrigo Villegas,0.3619118820226035
+Ernesto Belloni,"Jorge ""Chino"" Navarrete",0.36171641565690615
+Palta Meléndez,Rodrigo Villegas,0.3617109260648627
+Huaso Filomeno,Javiera Contador,0.3616051476832986
+Jani Dueñas,León Murillo,0.3608920603661781
+Bombo Fica,Ricardo Meruane,0.3607869915631701
+Diego Urrutia,Felo,0.3605310869595961
+Arturo Ruiz-Tagle,Javiera Contador,0.3601946915156183
+Los Indolatinos,Sandy,0.36004846501458815
+Arturo Ruiz-Tagle,"Carlos ""El Mono"" Sánchez",0.36002976015977817
+Dino Gordillo,Los Atletas de la Risa,0.3594519167168095
+Los Indolatinos,Natalia Cuevas,0.3591126523775399
+Huaso Filomeno,Nancho Parra,0.3588668831383748
+Dino Gordillo,Pamela Leiva,0.35854543827558244
+Ernesto Belloni,Álvaro Salas,0.3585264703206838
+Zip-Zup,Álvaro Salas,0.3579927316522724
+Jani Dueñas,Mauricio Palma,0.3579857845174203
+Fabrizio Copano,Sandy,0.3577845430699636
+Luis Slimming,Óscar Gangas,0.3576121868848403
+Gigi Martin,Sandy,0.35700889202473735
+Los Indolatinos,Álvaro Salas,0.35655512182442967
+Lucho Miranda,Álvaro Salas,0.3563937586170194
+Millenium Show,Pujillay,0.3563813301989892
+Centella,Zip-Zup,0.3562206001496937
+Fabrizio Copano,Melón y Melame,0.3562186408974749
+Hermógenes Conache,Rodrigo Villegas,0.35545525147796747
+Pamela Leiva,Pedro Ruminot,0.3553419909164366
+Edo Caroe,Hugo Goodman,0.35528560870841136
+Carlos García,Mauricio Palma,0.3546565809078385
+Jappening con ja,Rudy Rey,0.3546157585486849
+"Daniela ""Chiqui"" Aguayo",Pamela Leiva,0.3544314942755866
+Felipe Avello,Stefan Kramer,0.35416676269915853
+Jenny Cavallo,Álvaro Salas,0.35305529920304735
+Felipe Avello,Los Indolatinos,0.3529448076275979
+Bombo Fica,Luis Slimming,0.352528468060909
+Edo Caroe,"Jorge ""Chino"" Navarrete",0.35246389966644215
+Dino Gordillo,"Jorge ""Chino"" Navarrete",0.351925312882325
+"Daniel Muñoz ""El Carmelo""",Diego Urrutia,0.3518339808620945
+Dinamita Show,Juan Pablo López,0.35171129121052125
+El Pampero,Rodrigo Villegas,0.35159780871001856
+Dinamita Show,Felipe Avello,0.35124370224327367
+Belén Mora,Pujillay,0.351142576333276
+"Juan Luis ""Jajá"" Calderón",Lucho Miranda,0.35060069860555504
+Millenium Show,Pedro Ruminot,0.35033774228375264
+Los Indolatinos,Pujillay,0.35026463472229646
+Bombo Fica,Gloria Benavides,0.3502392734075804
+Carlos García,Jappening con ja,0.350013315712854
+Hermógenes Conache,Palta Meléndez,0.3499609553743793
+Edmundo Arrocet,Los Indolatinos,0.34978225906120053
+Alison Mandel,Felipe Avello,0.349549816421915
+"Jorge ""Chino"" Navarrete",Sandy,0.3495036034175938
+Diego Urrutia,"Jorge ""Chino"" Navarrete",0.349468595246371
+Diego Urrutia,Memo Bunke y Natalia Cuevas,0.3494682007108184
+Arturo Ruiz-Tagle,Luis Slimming,0.3492079155953314
+Juan Pablo López,León Murillo,0.34910406720484066
+Edo Caroe,Natalia Valdebenito,0.34908644125410904
+Dino Gordillo,Stefan Kramer,0.3490779985612676
+Huaso Filomeno,Lucho Miranda,0.3489112127856336
+Jorge Alís,Paulo Iglesias,0.34880052037556925
+Ernesto Belloni,Los Indolatinos,0.34865878881471496
+Ruperto,Sandy,0.34846205377418726
+Coco Legrand,Mauricio Palma,0.3476064386476212
+Alison Mandel,Los Locos del Humor,0.34714835007778416
+Gigi Martin,Javiera Contador,0.3470201786365333
+Mauricio Palma,Óscar Gangas,0.3466623666288796
+Jappening con ja,Melón y Melame,0.34644994987858796
+Lucho Miranda,Rodrigo Villegas,0.3459001636245188
+Palta Meléndez,Paulo Iglesias,0.3457741138345828
+Hermógenes Conache,Los Locos del Humor,0.3457629375582584
+Millenium Show,Rodrigo Villegas,0.3455359796915325
+Edo Caroe,Juan Pablo López,0.3453312807147793
+Pedro Ruminot,Sandy,0.34524543689148063
+"Daniela ""Chiqui"" Aguayo",Jorge Alís,0.3452182582036845
+"Daniela ""Chiqui"" Aguayo",León Murillo,0.3451957014546566
+Ricardo Meruane,Rodrigo González,0.3449015332148481
+Melón y Melame,Stefan Kramer,0.3448383865453708
+Felipe Avello,Pamela Leiva,0.3441363435172156
+"Juan Luis ""Jajá"" Calderón",Álvaro Salas,0.34379236369810234
+Coco Legrand,Diego Urrutia,0.3437426077642829
+Javiera Contador,Pamela Leiva,0.3433489060980122
+Belén Mora,Rodrigo González,0.34324672274784057
+Huaso Filomeno,Natalia Valdebenito,0.34251610845817404
+Rodrigo Villegas,Sandy,0.34199139722532423
+Dinamita Show,Jani Dueñas,0.34199021994488893
+"Carlos ""El Mono"" Sánchez",Paulo Iglesias,0.3419635845409977
+Payahop,Stefan Kramer,0.34167401671694725
+Hugo Varela,Nancho Parra,0.34154099997910414
+Carlos García,Ruperto,0.34150954524638044
+Dino Gordillo,"Paul Vásquez ""El Flaco""",0.3407859629769297
+Bombo Fica,Fusión Humor,0.34033375235275787
+Diego Urrutia,Luis Slimming,0.34014596583810414
+"Daniel Muñoz ""El Carmelo""",Dinamita Show,0.3400909481713827
+Los Indolatinos,Rudy Rey,0.34008747942762474
+"Jorge ""Chino"" Navarrete",Los Acetatos,0.34001028359224533
+Belén Mora,Pedro Ruminot,0.33987879645952124
+Paulo Iglesias,Zip-Zup,0.3397692433685787
+Memo Bunke y Natalia Cuevas,Pamela Leiva,0.3397283732814353
+Ernesto Belloni,Ricardo Meruane,0.33943843587696537
+"Carlos ""El Mono"" Sánchez",Hugo Varela,0.3393740197566421
+Ernesto Belloni,Felipe Avello,0.33935976191769945
+Fabrizio Copano,Jenny Cavallo,0.3391015598049441
+Arturo Ruiz-Tagle,"Daniel Muñoz ""El Carmelo""",0.3391015000422256
+Fabrizio Copano,Stefan Kramer,0.3386616716021625
+Mauricio Palma,Álvaro Salas,0.33854624349571405
+Bombo Fica,Jappening con ja,0.3382280627588788
+Luis Slimming,Álvaro Salas,0.3381810090797329
+Gloria Benavides,Melón y Melame,0.3381012896421315
+Bastián Paz,Jenny Cavallo,0.33805904442635204
+Piña Colada,Rudy Rey,0.33799582174896925
+Fusión Humor,Juan Pablo López,0.33791532632284144
+Pujillay,Rodrigo Villegas,0.3378274351726284
+Jorge Romero,Pujillay,0.3370826096470746
+Los Indolatinos,Ruperto,0.33702789245113207
+Gloria Benavides,Jorge Romero,0.3368757947410872
+Edmundo Arrocet,Sandy,0.33673444394968016
+Diego Urrutia,Sergio Freire,0.3366133117895166
+"Carlos ""El Mono"" Sánchez",Diego Urrutia,0.33619958797500665
+Felipe Avello,Payahop,0.33601258606319334
+Arturo Ruiz-Tagle,Edo Caroe,0.33589228475529365
+Melón y Melame,Payahop,0.33577646695344315
+Carlos García,Stefan Kramer,0.33572142031080915
+Huaso Filomeno,Sergio Freire,0.3356920688101171
+"Carlos ""El Mono"" Sánchez",Los Locos del Humor,0.3354956796993141
+Alison Mandel,Hermógenes Conache,0.33547109345760845
+Felo,Hugo Goodman,0.33520692423874293
+Jorge Alís,Zip-Zup,0.3350146562368638
+Felipe Avello,Felo,0.3349431494313977
+Alison Mandel,Juan Pablo López,0.3347234441613084
+"Daniela ""Chiqui"" Aguayo",Felipe Avello,0.33457378402134363
+Palta Meléndez,"Paul Vásquez ""El Flaco""",0.33388215927972326
+Dino Gordillo,Natalia Valdebenito,0.3335150889082839
+Fusión Humor,Los Indolatinos,0.3334621380693258
+Alex Ortiz,Los Locos del Humor,0.3330392651858923
+Bastián Paz,Javiera Contador,0.3328351508299605
+Jani Dueñas,Jorge Romero,0.3325600337669611
+Fusión Humor,Javiera Contador,0.33234847179700977
+Javiera Contador,Rodrigo González,0.33215338029669605
+Arturo Ruiz-Tagle,Centella,0.3321374961927594
+Fabrizio Copano,Los Locos del Humor,0.33171156847517536
+Carlos García,Los Locos del Humor,0.33146066524927587
+Bastián Paz,Stefan Kramer,0.33139884147798443
+Jorge Alís,"Juan Luis ""Jajá"" Calderón",0.33120969591607885
+Jenny Cavallo,Pamela Leiva,0.3311826613979526
+Diego Urrutia,Rudy Rey,0.33094851320864194
+Fusión Humor,Sandy,0.33065494001454
+Alex Ortiz,Fabrizio Copano,0.3306445011840782
+Belén Mora,Dino Gordillo,0.3301820949578537
+Alison Mandel,Álvaro Salas,0.32995289201482836
+Huaso Filomeno,Hugo Varela,0.32990165195283283
+Bastián Paz,Pamela Leiva,0.3294700175876204
+Bombo Fica,Natalia Valdebenito,0.3293239800236655
+Fusión Humor,Zip-Zup,0.3293145701360255
+Los Acetatos,Memo Bunke y Natalia Cuevas,0.3290055749682222
+Los Indolatinos,Lucho Miranda,0.3287139657918939
+Mauricio Palma,Stefan Kramer,0.3285967722613432
+Los Indolatinos,Melón y Melame,0.32849234996111565
+"Carlos ""El Mono"" Sánchez",Rodrigo Villegas,0.32797962390331115
+Juan Pablo López,Mauricio Palma,0.3278895346669856
+Hermógenes Conache,Stefan Kramer,0.32786453566675594
+Fusión Humor,Los Acetatos,0.3278182687014689
+Carlos García,Jani Dueñas,0.32733236344173283
+Hugo Goodman,"Paul Vásquez ""El Flaco""",0.32725615021217086
+Dinamita Show,Memo Bunke,0.327078479833277
+"Daniel Muñoz ""El Carmelo""",Pujillay,0.3264985279333253
+Edmundo Arrocet,Felipe Avello,0.325966488737351
+Belén Mora,Jenny Cavallo,0.3258476907507306
+Los Locos del Humor,"Paul Vásquez ""El Flaco""",0.32584651139792165
+Ernesto Belloni,Jenny Cavallo,0.3256018916220749
+Gloria Benavides,Rodrigo Villegas,0.3255214120016187
+"Daniela ""Chiqui"" Aguayo",Fabrizio Copano,0.32546188407408627
+Dinamita Show,Javiera Contador,0.3254152964002588
+Felipe Avello,Natalia Cuevas,0.3251573359080019
+Jani Dueñas,Jorge Alís,0.32461972370590825
+Alex Ortiz,Pujillay,0.32449177222576236
+Diego Urrutia,Pujillay,0.3242723350563334
+Los Indolatinos,Luis Slimming,0.32397003909699745
+Rudy Rey,Ruperto,0.3238355541044658
+Luis Slimming,Rodrigo González,0.32383262608056834
+Dinamita Show,Edo Caroe,0.3235039567994321
+Bombo Fica,Millenium Show,0.3228893101218981
+Bombo Fica,Paulo Iglesias,0.3227658361789356
+Juan Pablo López,Stefan Kramer,0.3225454527866553
+Alison Mandel,Rodrigo Villegas,0.3224248822434789
+Diego Urrutia,Álvaro Salas,0.3213811494558048
+Jenny Cavallo,Óscar Gangas,0.32092202811164294
+Melón y Melame,Álvaro Salas,0.32087261789582777
+"Carlos ""El Mono"" Sánchez",Álvaro Salas,0.3208440836467665
+Luis Slimming,Pamela Leiva,0.32080308525109213
+Los Acetatos,Los Indolatinos,0.32077693371566735
+Hugo Varela,Julio Sabala,0.32061139645703046
+Gloria Benavides,Sandy,0.31984853814059705
+Memo Bunke y Natalia Cuevas,Natalia Cuevas,0.3197998061315002
+"Daniela ""Chiqui"" Aguayo",Los Locos del Humor,0.31963552841510373
+Melón y Melame,Sandy,0.3196160197154566
+Ernesto Belloni,Sandy,0.31947492376548686
+Melón y Melame,Memo Bunke,0.31918495746472375
+Hugo Varela,Jorge Romero,0.3188728363597011
+El Pampero,Fusión Humor,0.31880418409782796
+Fabrizio Copano,Millenium Show,0.3187827372979053
+Mauricio Palma,Pedro Ruminot,0.318721282873037
+Jani Dueñas,Álvaro Salas,0.31850817289323335
+"Daniel Muñoz ""El Carmelo""",Hugo Goodman,0.31840192728392513
+Memo Bunke,Rudy Rey,0.3182419822429198
+Luis Slimming,Pedro Ruminot,0.3181860667781889
+Ricardo Meruane,Zip-Zup,0.3181657535049407
+Felipe Avello,Hugo Goodman,0.31815296520916636
+Edo Caroe,Jani Dueñas,0.31765164548665065
+Alejandra Azcárate,Paulo Iglesias,0.31720651575690206
+"Daniela ""Chiqui"" Aguayo",Pedro Ruminot,0.3171667262447203
+Fabrizio Copano,Hermógenes Conache,0.31712806544104055
+Alejandra Azcárate,Pamela Leiva,0.31709886534100146
+Natalia Cuevas,Pamela Leiva,0.31692301767888675
+Alejandra Azcárate,Dinamita Show,0.3165102416311584
+Alex Ortiz,Palta Meléndez,0.31649242086928847
+Carlos García,Piña Colada,0.31602048962478213
+Bombo Fica,Mauricio Palma,0.3158893959375155
+Gilberto Gless,Memo Bunke y Natalia Cuevas,0.31579756387471575
+Alison Mandel,Paulo Iglesias,0.3156154784859703
+Felipe Avello,Pujillay,0.31551841914415496
+Los Atletas de la Risa,Zip-Zup,0.315390025514518
+Ernesto Belloni,Fusión Humor,0.3153671967196311
+Centella,Rodrigo González,0.31511642094492015
+Diego Urrutia,Jenny Cavallo,0.3150772975278585
+Pamela Leiva,Rodrigo Villegas,0.31505849100178396
+Arturo Ruiz-Tagle,Ricardo Meruane,0.3145853845846849
+Centella,Jani Dueñas,0.3144969973482809
+Luis Slimming,Palta Meléndez,0.3144065764648861
+Bastián Paz,Fabrizio Copano,0.3138325322518376
+Felipe Avello,Óscar Gangas,0.3135753875258815
+Natalia Valdebenito,Pamela Leiva,0.3130278173341843
+Felipe Avello,Lucho Miranda,0.3123613031545255
+Alex Ortiz,Rodrigo González,0.31229059171222934
+Bombo Fica,Nancho Parra,0.3120960991725078
+Carlos García,Pujillay,0.31200875358110364
+"Juan Luis ""Jajá"" Calderón",Los Indolatinos,0.31141949566819516
+"Daniel Muñoz ""El Carmelo""",Fusión Humor,0.31137238851791676
+Dinamita Show,Pedro Ruminot,0.3112160709484089
+Dino Gordillo,Rodrigo Villegas,0.31101172526488985
+Bastián Paz,Jappening con ja,0.31076741382665435
+"Carlos ""El Mono"" Sánchez",Ernesto Belloni,0.31075059197433896
+Jenny Cavallo,Luis Slimming,0.31061079346617826
+Alison Mandel,Bastián Paz,0.31048716363055673
+Centella,Rodrigo Villegas,0.31025712017519874
+Gigi Martin,Piña Colada,0.31005993132220544
+"Juan Luis ""Jajá"" Calderón",Pamela Leiva,0.30989803218067846
+Palta Meléndez,Óscar Gangas,0.30977839474993923
+"Juan Luis ""Jajá"" Calderón",Los Locos del Humor,0.30977249869592277
+Jorge Romero,Sandy,0.3094828613256235
+Felipe Avello,Rodrigo González,0.308930966947554
+Dinamita Show,Zip-Zup,0.30860809574921916
+Edo Caroe,Álvaro Salas,0.30801031091289865
+Los Acetatos,Stefan Kramer,0.3074322811048074
+"Daniela ""Chiqui"" Aguayo","Jorge ""Chino"" Navarrete",0.3073625060827029
+"Jorge ""Chino"" Navarrete",Rodrigo González,0.30727923530718104
+Rodrigo González,Zip-Zup,0.3070323170464481
+Dino Gordillo,Fusión Humor,0.30701565245841894
+Hugo Varela,Zip-Zup,0.30693237663142986
+Rodrigo Villegas,Óscar Gangas,0.30685881919278396
+"Jorge ""Chino"" Navarrete",Millenium Show,0.30675567306760143
+Melón y Melame,Pedro Ruminot,0.3066224680633598
+"Juan Luis ""Jajá"" Calderón",Óscar Gangas,0.30625232516060225
+Centella,Álvaro Salas,0.3059981039982542
+Juan Pablo López,Sandy,0.30597218862210124
+Huaso Filomeno,"Juan Luis ""Jajá"" Calderón",0.3058079420628329
+Jani Dueñas,Stefan Kramer,0.30574849725896025
+Dino Gordillo,Melón y Melame,0.30531217620857676
+Jani Dueñas,Pamela Leiva,0.3048413630447613
+Arturo Ruiz-Tagle,Pamela Leiva,0.3046718083680074
+Los Indolatinos,Palta Meléndez,0.3044767725159958
+Bastián Paz,Lucho Miranda,0.3042879338980963
+"Juan Luis ""Jajá"" Calderón",Sergio Freire,0.30404327285725335
+Arturo Ruiz-Tagle,Huaso Filomeno,0.30372333716476596
+Jenny Cavallo,Mauricio Palma,0.30370877523348827
+Millenium Show,Rudy Rey,0.3036388892745685
+Edo Caroe,"Paul Vásquez ""El Flaco""",0.3036024198847261
+Piña Colada,Pujillay,0.303455017623386
+Ernesto Belloni,Payahop,0.30318093312349975
+Bastián Paz,Centella,0.30307008752774567
+Javiera Contador,Stefan Kramer,0.30306552294467853
+Dinamita Show,Ernesto Belloni,0.30274346423068216
+"Daniela ""Chiqui"" Aguayo",Huaso Filomeno,0.3022777989952299
+Hugo Varela,Stefan Kramer,0.3022213871837433
+Belén Mora,Jani Dueñas,0.30218382209110706
+Coco Legrand,Lucho Miranda,0.30205263123816184
+Felo,Stefan Kramer,0.3019883043928218
+Bombo Fica,Stefan Kramer,0.30196498345455186
+George Harris,Sergio Freire,0.30172148295437723
+El Pampero,Luis Slimming,0.3014814447500696
+"Carlos ""El Mono"" Sánchez",Jani Dueñas,0.30141157887826275
+Los Locos del Humor,Luis Slimming,0.30120887717142864
+Palta Meléndez,Rodrigo González,0.3010789385828792
+Alejandra Azcárate,Rodrigo González,0.30043801932984243
+Bastián Paz,Los Locos del Humor,0.3002047077026506
+Carlos García,Fusión Humor,0.2995785343833663
+Gigi Martin,Hugo Goodman,0.2995552793006744
+Jenny Cavallo,"Paul Vásquez ""El Flaco""",0.2994146208463086
+León Murillo,Zip-Zup,0.2989334189000595
+Los Indolatinos,Millenium Show,0.29879983887825784
+Nancho Parra,Stefan Kramer,0.298708556192935
+Carlos García,El Pampero,0.29868981082669294
+Javiera Contador,Jorge Romero,0.29832762632007515
+Bombo Fica,Ernesto Belloni,0.29830892284471433
+Bastián Paz,Felipe Avello,0.29827299105205435
+Alex Ortiz,Huaso Filomeno,0.2980016782431391
+Dino Gordillo,Hermógenes Conache,0.2978358214085015
+Arturo Ruiz-Tagle,Lucho Miranda,0.2976713799974618
+Ernesto Belloni,Juan Pablo López,0.29723080107610655
+"Carlos ""El Mono"" Sánchez",Óscar Gangas,0.2969527131267476
+Sandy,Óscar Gangas,0.29693257715954646
+Gilberto Gless,Los Indolatinos,0.2965132227364155
+"Carlos ""El Mono"" Sánchez",El Pampero,0.2964177643581155
+Jorge Alís,Millenium Show,0.2963275447993751
+Huaso Filomeno,Zip-Zup,0.29617044270774534
+Gloria Benavides,Nancho Parra,0.29610250143118355
+Felo,Melón y Melame,0.2958162118030475
+Sandy,Álvaro Salas,0.2957758254830608
+"Daniel Muñoz ""El Carmelo""",Natalia Cuevas,0.2956703556161277
+El Pampero,Lucho Miranda,0.2950329387796593
+León Murillo,Natalia Valdebenito,0.2949681127652882
+Fabrizio Copano,Gigi Martin,0.2949624470583102
+Gloria Benavides,Payahop,0.29488288877776275
+Javiera Contador,Payahop,0.2942664486390723
+Los Acetatos,Melón y Melame,0.2939848187672356
+León Murillo,Stefan Kramer,0.2938911877553345
+Palta Meléndez,Sandy,0.29374264799077066
+Belén Mora,Los Locos del Humor,0.2932549998261456
+Natalia Valdebenito,Zip-Zup,0.2931009718149224
+Gloria Benavides,Pamela Leiva,0.2930070695726246
+Javiera Contador,Palta Meléndez,0.29291035358330986
+Bombo Fica,"Carlos ""El Mono"" Sánchez",0.2926377845132227
+Dino Gordillo,Felo,0.2926360935567747
+Julio Sabala,Melón y Melame,0.2922935701629082
+Bastián Paz,Carlos García,0.2922494830298611
+"Juan Luis ""Jajá"" Calderón",Rodrigo González,0.292198783359168
+Bombo Fica,Centella,0.29216992792689317
+George Harris,Natalia Valdebenito,0.29191697607232087
+Javiera Contador,Millenium Show,0.29180431021988873
+Gilberto Gless,Hugo Varela,0.2917850893615091
+Fabrizio Copano,Lucho Miranda,0.29177085185970586
+Alejandra Azcárate,Dino Gordillo,0.291693117362673
+Belén Mora,Sergio Freire,0.2916311606069322
+Los Acetatos,Sandy,0.2915675952420946
+Dinamita Show,Natalia Cuevas,0.29113496155787477
+Dino Gordillo,Pedro Ruminot,0.2908691812778983
+Bombo Fica,Zip-Zup,0.29084637062392327
+Felipe Avello,Sandy,0.29074211335230554
+Huaso Filomeno,Payahop,0.2904758331668454
+Jorge Romero,Ruperto,0.2903424687369773
+Bastián Paz,Gloria Benavides,0.2901691333618797
+Mauricio Palma,Natalia Valdebenito,0.29008322688287214
+Alejandra Azcárate,Zip-Zup,0.2898926223781053
+Fusión Humor,"Paul Vásquez ""El Flaco""",0.28968783193049535
+Alejandra Azcárate,Javiera Contador,0.2896229014764813
+Dinamita Show,Los Locos del Humor,0.28935143350220566
+Edmundo Arrocet,Hugo Varela,0.28888305473114134
+"Carlos ""El Mono"" Sánchez",Javiera Contador,0.2888591084657743
+Centella,Luis Slimming,0.2886961389714253
+Bombo Fica,"Jorge ""Chino"" Navarrete",0.2885513879149889
+Centella,Jenny Cavallo,0.288516383855603
+Bombo Fica,Piña Colada,0.28835408999066714
+Gigi Martin,Nancho Parra,0.2877806109365701
+Paulo Iglesias,Sandy,0.2876411883215157
+Jenny Cavallo,Paulo Iglesias,0.2873437988045129
+Bombo Fica,Sandy,0.2872032567950486
+Payahop,Pujillay,0.28713836396372305
+El Pampero,Javiera Contador,0.2867000314788768
+Sergio Freire,Stefan Kramer,0.2863085985865087
+Rodrigo Villegas,Stefan Kramer,0.28612589747649464
+"Daniela ""Chiqui"" Aguayo","Juan Luis ""Jajá"" Calderón",0.2860705372467342
+Huaso Filomeno,Paulo Iglesias,0.28606995096133025
+Dino Gordillo,Jani Dueñas,0.2860047857504689
+Luis Slimming,Stefan Kramer,0.28587019296654337
+Carlos García,Melón y Melame,0.2856336908631683
+Los Atletas de la Risa,Óscar Gangas,0.285629986460246
+Arturo Ruiz-Tagle,Julio Sabala,0.28555149771488186
+Edo Caroe,Los Indolatinos,0.2853842535069754
+Hugo Goodman,Pujillay,0.285338554334966
+Jani Dueñas,Julio Sabala,0.28516687251064166
+Luis Slimming,Ricardo Meruane,0.28478425743206176
+Los Indolatinos,Pedro Ruminot,0.2846850251925428
+Carlos García,Pamela Leiva,0.2845221576885521
+Edmundo Arrocet,Fabrizio Copano,0.2844348736016138
+Los Locos del Humor,Sergio Freire,0.2843241960275165
+Dino Gordillo,Paulo Iglesias,0.284142305876832
+"Jorge ""Chino"" Navarrete",Los Locos del Humor,0.284102125997686
+Belén Mora,"Paul Vásquez ""El Flaco""",0.28370028569302846
+Felipe Avello,Juan Pablo López,0.28362460891959224
+"Daniela ""Chiqui"" Aguayo",Diego Urrutia,0.2834761757114389
+Fusión Humor,Luis Slimming,0.2834404702355665
+Lucho Miranda,Ricardo Meruane,0.28308467390325126
+Edo Caroe,Hermógenes Conache,0.2829303158515505
+El Pampero,Hugo Varela,0.28291250310401506
+Felo,Los Indolatinos,0.28263297497507833
+Gigi Martin,Rodrigo González,0.28241099974285755
+Carlos García,Nancho Parra,0.28232661427612404
+Edmundo Arrocet,Ricardo Meruane,0.28229809655074484
+Coco Legrand,Nancho Parra,0.2817264997786648
+Centella,Diego Urrutia,0.28167882036138103
+Los Locos del Humor,Rodrigo Villegas,0.2809879873261706
+Hugo Goodman,Javiera Contador,0.2809813411383792
+Diego Urrutia,Hermógenes Conache,0.28092246834025236
+Coco Legrand,Jorge Alís,0.280546342982831
+Alejandra Azcárate,Hugo Varela,0.2803481850189596
+Ricardo Meruane,Álvaro Salas,0.2796536829718653
+Alex Ortiz,Diego Urrutia,0.2794271550682491
+Hugo Varela,Payahop,0.27920945430389604
+Hermógenes Conache,Mauricio Palma,0.2789870438615719
+El Pampero,Rodrigo González,0.2786155817247923
+"Daniel Muñoz ""El Carmelo""",Stefan Kramer,0.2785510796050607
+Los Acetatos,Payahop,0.278159954744022
+"Paul Vásquez ""El Flaco""",Pujillay,0.2779712638606062
+Dino Gordillo,Ernesto Belloni,0.277507619012179
+Carlos García,Millenium Show,0.277404688229812
+Bombo Fica,"Juan Luis ""Jajá"" Calderón",0.27673249356666585
+Hugo Goodman,Rodrigo Villegas,0.27658133001817875
+"Daniel Muñoz ""El Carmelo""",Sandy,0.27601493568537366
+Jani Dueñas,Javiera Contador,0.275874199153745
+Paulo Iglesias,Álvaro Salas,0.27578952610027724
+Palta Meléndez,Álvaro Salas,0.2755301757114234
+Jappening con ja,Rodrigo Villegas,0.2752977422902811
+"Carlos ""El Mono"" Sánchez",Piña Colada,0.27485658870795887
+Bombo Fica,Jani Dueñas,0.27467220393857
+Bastián Paz,Mauricio Palma,0.27455607542030763
+Bastián Paz,Zip-Zup,0.2743627678741153
+"Daniela ""Chiqui"" Aguayo",Sergio Freire,0.27385118518900536
+Melón y Melame,Piña Colada,0.2735694773568011
+Dinamita Show,León Murillo,0.2734921025477917
+Diego Urrutia,Jani Dueñas,0.27329710829957227
+Fusión Humor,Palta Meléndez,0.2730039228455401
+Belén Mora,Ernesto Belloni,0.2726265307415938
+Diego Urrutia,Los Indolatinos,0.2722441102739504
+"Daniela ""Chiqui"" Aguayo",Ernesto Belloni,0.2722294617572884
+Centella,León Murillo,0.27222288790878213
+"Jorge ""Chino"" Navarrete",Zip-Zup,0.27200270167850255
+Edmundo Arrocet,Óscar Gangas,0.2719153893454748
+Los Atletas de la Risa,Los Locos del Humor,0.2719102455438832
+Edo Caroe,Sandy,0.27185042630144834
+Ernesto Belloni,Natalia Cuevas,0.2714253020756791
+Centella,Fabrizio Copano,0.2712814886440761
+Alison Mandel,Hugo Varela,0.2712750478114522
+Javiera Contador,Los Locos del Humor,0.27083768737510616
+Diego Urrutia,Pedro Ruminot,0.27081293969681347
+Dino Gordillo,Gigi Martin,0.2707374233535614
+Natalia Cuevas,Ruperto,0.27066764433327345
+Jani Dueñas,Rodrigo Villegas,0.2706647908688765
+Arturo Ruiz-Tagle,"Daniela ""Chiqui"" Aguayo",0.2704852724505637
+Fusión Humor,Rodrigo Villegas,0.2700302620173066
+Gloria Benavides,Pujillay,0.2698185415576546
+Felipe Avello,Jorge Romero,0.2696820970802076
+Coco Legrand,El Pampero,0.2693360397334001
+Gigi Martin,Millenium Show,0.26924088431812365
+Alison Mandel,Fusión Humor,0.26920825755808514
+Hugo Goodman,Juan Pablo López,0.2691954791024612
+"Carlos ""El Mono"" Sánchez",León Murillo,0.2684996178393916
+Pujillay,Sandy,0.2684749406405873
+Alison Mandel,Zip-Zup,0.2681646642327078
+"Carlos ""El Mono"" Sánchez",Juan Pablo López,0.26809206055544055
+Fabrizio Copano,Pamela Leiva,0.26800421820115006
+Julio Sabala,Los Indolatinos,0.26786059286745384
+Memo Bunke y Natalia Cuevas,Stefan Kramer,0.26758436112807477
+Fusión Humor,León Murillo,0.2673379998004874
+Alejandra Azcárate,Álvaro Salas,0.2672546744112284
+Jani Dueñas,"Jorge ""Chino"" Navarrete",0.2671543521767017
+Huaso Filomeno,Los Indolatinos,0.26715270806485847
+"Carlos ""El Mono"" Sánchez",Sandy,0.26706300745693107
+Los Locos del Humor,Pedro Ruminot,0.26705778684313547
+Diego Urrutia,Felipe Avello,0.2669821718291546
+Juan Pablo López,Pujillay,0.2666506804906182
+Bombo Fica,Natalia Cuevas,0.2665159088798144
+Centella,Jorge Alís,0.2663026926048394
+Carlos García,Felipe Avello,0.2662492568752839
+"Paul Vásquez ""El Flaco""",Zip-Zup,0.2661967875793343
+Felo,Álvaro Salas,0.2661289750299907
+Natalia Valdebenito,Stefan Kramer,0.2660653383460291
+Edmundo Arrocet,Jani Dueñas,0.26577190812510676
+"Juan Luis ""Jajá"" Calderón",Pujillay,0.2652809186121774
+Edmundo Arrocet,Lucho Miranda,0.26514464097374507
+Hugo Goodman,Jorge Alís,0.26495206757444045
+Dino Gordillo,Mauricio Palma,0.2647070683697971
+Jani Dueñas,Nancho Parra,0.2644783746605164
+Coco Legrand,"Daniela ""Chiqui"" Aguayo",0.2640708740274638
+Bastián Paz,Edo Caroe,0.26406511275580713
+Rodrigo Villegas,Zip-Zup,0.2639577924545286
+Los Indolatinos,Paulo Iglesias,0.26387334536635154
+"Jorge ""Chino"" Navarrete",Sergio Freire,0.26385093723507164
+León Murillo,Los Indolatinos,0.2636153910372109
+Mauricio Palma,Zip-Zup,0.26355240630056637
+Arturo Ruiz-Tagle,Jorge Alís,0.26337785686758863
+Bombo Fica,Hugo Varela,0.26308984436467286
+"Daniel Muñoz ""El Carmelo""",Los Indolatinos,0.26301056927898314
+Jani Dueñas,"Paul Vásquez ""El Flaco""",0.2628839014878682
+Huaso Filomeno,Sandy,0.26279385316484966
+Javiera Contador,Pedro Ruminot,0.26270615991933094
+Dinamita Show,Edmundo Arrocet,0.2624982771170785
+Felo,Ruperto,0.2617640021372953
+Jani Dueñas,Pujillay,0.2615685385184437
+Felo,Millenium Show,0.26119475285360705
+Hermógenes Conache,Payahop,0.260636888575604
+León Murillo,Sergio Freire,0.26052705668199544
+Los Acetatos,Rodrigo Villegas,0.260179418694557
+Jorge Romero,Millenium Show,0.26011948788225
+Hugo Varela,Rodrigo González,0.25955137941525885
+"Jorge ""Chino"" Navarrete",Pedro Ruminot,0.25943556072052193
+Felo,Javiera Contador,0.2592774416589806
+Javiera Contador,Natalia Cuevas,0.2588229003995942
+Jani Dueñas,Payahop,0.25804023416550886
+Gilberto Gless,Rudy Rey,0.25802453406235737
+Fabrizio Copano,León Murillo,0.2578878677430033
+Dino Gordillo,León Murillo,0.25779421474627784
+Dino Gordillo,Natalia Cuevas,0.2577920125384312
+Nancho Parra,Álvaro Salas,0.25691831278105715
+Natalia Valdebenito,Pedro Ruminot,0.25589600065885443
+Edo Caroe,Melón y Melame,0.25582333944405183
+Dinamita Show,Payahop,0.25569744458184435
+Jani Dueñas,Los Indolatinos,0.255594194722547
+Alejandra Azcárate,Ernesto Belloni,0.25544480675568515
+Los Locos del Humor,Sandy,0.2551313502546284
+Hugo Varela,Rodrigo Villegas,0.2550367515345234
+Hugo Varela,Millenium Show,0.2546801364016959
+Bastián Paz,Ricardo Meruane,0.2541393579919861
+Edmundo Arrocet,Fusión Humor,0.2540540979088006
+Arturo Ruiz-Tagle,Felo,0.25395804942326494
+Los Locos del Humor,Ricardo Meruane,0.25389615311254343
+Fabrizio Copano,Los Atletas de la Risa,0.25376312974217174
+Felipe Avello,Javiera Contador,0.25353653451221564
+Dinamita Show,Huaso Filomeno,0.25353168360717876
+Payahop,Ruperto,0.2534481091314756
+Ernesto Belloni,Sergio Freire,0.25314625002760366
+"Juan Luis ""Jajá"" Calderón",Stefan Kramer,0.25313441482822346
+Edo Caroe,Jenny Cavallo,0.25242043797911035
+Diego Urrutia,Julio Sabala,0.2522396345337003
+Fusión Humor,Jani Dueñas,0.25223893104460665
+Javiera Contador,Ricardo Meruane,0.2521004898407569
+Felipe Avello,Ricardo Meruane,0.25197221500557004
+"Daniela ""Chiqui"" Aguayo",Sandy,0.25178763274793337
+"Carlos ""El Mono"" Sánchez",Julio Sabala,0.2514531634749499
+Diego Urrutia,"Paul Vásquez ""El Flaco""",0.2513263792145708
+Alison Mandel,Pujillay,0.2509493303933139
+Centella,Felo,0.25055094461200944
+Bombo Fica,Ruperto,0.2505471935811707
+Felipe Avello,Jappening con ja,0.25046196106009916
+Ernesto Belloni,Jorge Alís,0.25011355383997624
+Bombo Fica,Javiera Contador,0.24982975862696838
+Dino Gordillo,Felipe Avello,0.24968591403567575
+Jani Dueñas,Óscar Gangas,0.249332789307502
+Ernesto Belloni,Hugo Goodman,0.24917398393021004
+Alison Mandel,Arturo Ruiz-Tagle,0.24855646206172194
+"Jorge ""Chino"" Navarrete",León Murillo,0.24772367291072517
+Bombo Fica,Edmundo Arrocet,0.2475548026137469
+Carlos García,Memo Bunke,0.2475525415378013
+Dinamita Show,Jorge Alís,0.247463936986174
+Los Atletas de la Risa,Sandy,0.24738928028254298
+"Carlos ""El Mono"" Sánchez",Jorge Alís,0.24684578423159437
+Sandy,Sergio Freire,0.24653651406635593
+Julio Sabala,Memo Bunke,0.24641571922301253
+Hermógenes Conache,Sandy,0.24591877779928348
+Jenny Cavallo,Rodrigo González,0.24587363109598054
+Dinamita Show,Hugo Varela,0.24585703134916315
+Dino Gordillo,Payahop,0.24568822894886194
+Los Indolatinos,Payahop,0.24538608036520132
+Jani Dueñas,Sandy,0.24517409002921897
+Hugo Varela,Los Atletas de la Risa,0.24500364786601692
+Coco Legrand,Pujillay,0.24482014954455358
+"Paul Vásquez ""El Flaco""",Álvaro Salas,0.24435432714713173
+Alejandra Azcárate,Óscar Gangas,0.24431148581952386
+"Daniel Muñoz ""El Carmelo""",Gigi Martin,0.24413796196848075
+Javiera Contador,Los Indolatinos,0.2432545103045465
+Jani Dueñas,Ruperto,0.24309602742686445
+Bombo Fica,Gigi Martin,0.2430059396376996
+Hugo Varela,Luis Slimming,0.24292060119411976
+Centella,Natalia Valdebenito,0.2428871819651839
+Hermógenes Conache,Paulo Iglesias,0.2428051944828681
+Hugo Varela,Natalia Cuevas,0.24279546177444575
+Carlos García,Dinamita Show,0.2426603343500559
+Bastián Paz,Belén Mora,0.2425909447782752
+"Daniela ""Chiqui"" Aguayo",Melón y Melame,0.2425123118223376
+Alex Ortiz,Bombo Fica,0.2422200594951281
+Dinamita Show,Pujillay,0.24211958585166773
+Bombo Fica,Julio Sabala,0.24208327920476067
+Felipe Avello,Memo Bunke y Natalia Cuevas,0.24189726731864444
+Javiera Contador,Ruperto,0.2415896045468646
+Dinamita Show,Jappening con ja,0.24107471731097777
+El Pampero,Los Locos del Humor,0.24057966023356434
+Alison Mandel,Pedro Ruminot,0.2404743001104424
+Lucho Miranda,Palta Meléndez,0.23994669823391612
+Bastián Paz,Huaso Filomeno,0.23979627047378244
+Hugo Goodman,Jani Dueñas,0.23963055743157716
+Bastián Paz,Juan Pablo López,0.23940286699694446
+Fabrizio Copano,Los Indolatinos,0.2391511469040794
+Huaso Filomeno,Los Atletas de la Risa,0.23891651483450996
+Rodrigo González,Sandy,0.23884460669627938
+Los Atletas de la Risa,Los Indolatinos,0.23877318450697246
+Alex Ortiz,Alison Mandel,0.23865719727045648
+Hermógenes Conache,Sergio Freire,0.23849488306248762
+Felipe Avello,Jorge Alís,0.2382156775196356
+Diego Urrutia,"Juan Luis ""Jajá"" Calderón",0.23809050291489062
+Centella,Pedro Ruminot,0.23677406679301471
+Jorge Romero,Natalia Cuevas,0.23672872787657318
+Bombo Fica,León Murillo,0.23640666793015905
+Bastián Paz,Los Acetatos,0.2363084942352283
+Dinamita Show,Palta Meléndez,0.23602533601549358
+Bastián Paz,Luis Slimming,0.2359815955921276
+Bombo Fica,Carlos García,0.23597397845656562
+Alison Mandel,Ernesto Belloni,0.23588990130284052
+León Murillo,Pedro Ruminot,0.2356751302132213
+Alejandra Azcárate,León Murillo,0.23557191372470837
+"Paul Vásquez ""El Flaco""",Pedro Ruminot,0.23538932844444557
+Coco Legrand,Hugo Goodman,0.23538273897750034
+Diego Urrutia,Jorge Alís,0.23534846132368842
+Bastián Paz,Jorge Alís,0.2351928015964619
+Jenny Cavallo,Sandy,0.235030472917814
+Diego Urrutia,Los Atletas de la Risa,0.23487920134367354
+Arturo Ruiz-Tagle,Belén Mora,0.2348667243370972
+Jappening con ja,Natalia Cuevas,0.23481241988934196
+"Daniel Muñoz ""El Carmelo""",Felipe Avello,0.234732720459071
+Memo Bunke y Natalia Cuevas,Nancho Parra,0.23461953954093392
+Pamela Leiva,Piña Colada,0.23443548035832995
+Jani Dueñas,Juan Pablo López,0.23435621177520963
+Arturo Ruiz-Tagle,Jappening con ja,0.23402220525249048
+Dinamita Show,Mauricio Palma,0.23395569628824237
+Huaso Filomeno,Memo Bunke,0.23392274656859827
+Hugo Varela,"Jorge ""Chino"" Navarrete",0.23386987289713226
+Hugo Varela,Sergio Freire,0.23383894936792865
+Hugo Goodman,Ricardo Meruane,0.23355430712436842
+Bastián Paz,"Carlos ""El Mono"" Sánchez",0.2334040045648286
+Palta Meléndez,Pujillay,0.23334998624302014
+León Murillo,Paulo Iglesias,0.23313326331562453
+Los Locos del Humor,Lucho Miranda,0.23311031459676693
+Gilberto Gless,Payahop,0.23306114491378116
+Bastián Paz,Natalia Cuevas,0.2330301417687007
+Dino Gordillo,Ruperto,0.23282398065718848
+Carlos García,"Juan Luis ""Jajá"" Calderón",0.23277955115962487
+Carlos García,Coco Legrand,0.2327783629827564
+Arturo Ruiz-Tagle,Piña Colada,0.23265902236129365
+Edo Caroe,Palta Meléndez,0.23259514957171917
+Julio Sabala,Piña Colada,0.23245714668307782
+Bastián Paz,Hugo Goodman,0.23244072501808316
+Felo,Los Locos del Humor,0.23238227154274277
+Natalia Valdebenito,Rodrigo Villegas,0.23237300410060957
+Hermógenes Conache,Javiera Contador,0.23229079205582123
+Dinamita Show,Luis Slimming,0.23215081177917055
+Alison Mandel,Sergio Freire,0.23200800513717484
+Arturo Ruiz-Tagle,Pujillay,0.23192155812301185
+Melón y Melame,Óscar Gangas,0.23175944153494973
+Bombo Fica,Jenny Cavallo,0.2317287405922956
+Lucho Miranda,Pedro Ruminot,0.2316260269249212
+Felo,Huaso Filomeno,0.23147670670704537
+Gigi Martin,Ricardo Meruane,0.23146725873684987
+"Carlos ""El Mono"" Sánchez",Luis Slimming,0.2314407412274345
+Alex Ortiz,Bastián Paz,0.23113911895309505
+Felo,Pamela Leiva,0.23106252129116528
+Alex Ortiz,Pamela Leiva,0.23096894815204028
+Julio Sabala,Stefan Kramer,0.23081266946579457
+Pamela Leiva,Sandy,0.2306626864600493
+Arturo Ruiz-Tagle,Mauricio Palma,0.2306344323177284
+Coco Legrand,Felipe Avello,0.23021308912717864
+Felipe Avello,Fusión Humor,0.23003527488245296
+Alejandra Azcárate,Los Locos del Humor,0.22989056284395773
+Dino Gordillo,Los Acetatos,0.22987940224768197
+Lucho Miranda,Natalia Cuevas,0.2297421658074964
+"Paul Vásquez ""El Flaco""",Ricardo Meruane,0.22966470648523835
+Belén Mora,Melón y Melame,0.2295387580861498
+Arturo Ruiz-Tagle,Diego Urrutia,0.229184586925859
+Fusión Humor,Huaso Filomeno,0.2289575035103512
+Felipe Avello,Memo Bunke,0.22889297840626077
+"Juan Luis ""Jajá"" Calderón",Natalia Valdebenito,0.22863355338373795
+Javiera Contador,Nancho Parra,0.22858288207787783
+Hugo Varela,Sandy,0.22838232938282646
+Memo Bunke,Palta Meléndez,0.22800228331765274
+Ruperto,Álvaro Salas,0.2279963340666345
+Javiera Contador,Mauricio Palma,0.22734284477952024
+Los Atletas de la Risa,Ricardo Meruane,0.22706744722333405
+Memo Bunke y Natalia Cuevas,Ruperto,0.22690560258555645
+"Daniela ""Chiqui"" Aguayo",Hermógenes Conache,0.22687358414869954
+"Jorge ""Chino"" Navarrete",Melón y Melame,0.22673715270777411
+Los Locos del Humor,Memo Bunke y Natalia Cuevas,0.2265777173988167
+Diego Urrutia,Palta Meléndez,0.2259599530143989
+Jani Dueñas,Los Locos del Humor,0.22570466630575725
+Alejandra Azcárate,Jorge Alís,0.22565971007589303
+Alex Ortiz,Los Indolatinos,0.22541819356732276
+Dinamita Show,Fabrizio Copano,0.22539261052053697
+Paulo Iglesias,Pujillay,0.22534578638847147
+Nancho Parra,Payahop,0.2253378533078217
+Melón y Melame,Pujillay,0.22516315594487596
+Gigi Martin,Stefan Kramer,0.22509974698359403
+Millenium Show,Stefan Kramer,0.2248006258861577
+Juan Pablo López,Melón y Melame,0.22446787724915188
+Fabrizio Copano,Gloria Benavides,0.22433223517786302
+Alex Ortiz,Rodrigo Villegas,0.22424781976736968
+Natalia Cuevas,Rodrigo Villegas,0.22422944425159502
+Ernesto Belloni,Javiera Contador,0.22407196483299258
+Arturo Ruiz-Tagle,Paulo Iglesias,0.223946369570574
+Alison Mandel,Memo Bunke,0.22387984122204396
+Gloria Benavides,Javiera Contador,0.22374110606391995
+Alison Mandel,Fabrizio Copano,0.22349605752525992
+"Carlos ""El Mono"" Sánchez",Los Atletas de la Risa,0.22341041231458972
+Millenium Show,Payahop,0.22338714648382088
+Alison Mandel,León Murillo,0.223317593238705
+Jenny Cavallo,Pujillay,0.22319059042607076
+Hermógenes Conache,"Juan Luis ""Jajá"" Calderón",0.22306167057676754
+Alison Mandel,El Pampero,0.2229558598395118
+Natalia Valdebenito,Ricardo Meruane,0.22289597195448546
+"Jorge ""Chino"" Navarrete",Ruperto,0.222665720615189
+Felipe Avello,Jani Dueñas,0.22251199816037923
+Los Atletas de la Risa,Pamela Leiva,0.2222707953559685
+"Daniela ""Chiqui"" Aguayo",George Harris,0.22215541162344424
+León Murillo,Los Atletas de la Risa,0.22206974052173165
+Ernesto Belloni,Pedro Ruminot,0.22197378568443127
+Huaso Filomeno,Stefan Kramer,0.22183557180322885
+Dinamita Show,Gloria Benavides,0.2216171854915688
+Diego Urrutia,Edo Caroe,0.22095130764523582
+"Juan Luis ""Jajá"" Calderón",Nancho Parra,0.22059935888684096
+Ernesto Belloni,Gloria Benavides,0.22023480532494694
+Natalia Cuevas,Rudy Rey,0.22020333369400827
+Jani Dueñas,Melón y Melame,0.22008694110083396
+Bombo Fica,Diego Urrutia,0.21994853329238234
+Ernesto Belloni,Los Locos del Humor,0.2199074384898768
+Felo,Pedro Ruminot,0.21974999377520907
+Dinamita Show,Paulo Iglesias,0.21956718987802923
+"Jorge ""Chino"" Navarrete",Jorge Romero,0.21943815730117075
+Felipe Avello,Melón y Melame,0.21941768616093288
+Gloria Benavides,Los Locos del Humor,0.219416332304317
+Alejandra Azcárate,Diego Urrutia,0.21918218904516173
+Alison Mandel,Sandy,0.21871915079668172
+Felo,Natalia Valdebenito,0.21792639075268214
+Mauricio Palma,Sergio Freire,0.21786551640587012
+León Murillo,Pamela Leiva,0.21781241246162247
+Gigi Martin,Gloria Benavides,0.21779515432501972
+Julio Sabala,Pujillay,0.21776110928596953
+Carlos García,Ricardo Meruane,0.21770553779102328
+Diego Urrutia,Ernesto Belloni,0.2176730524411426
+"Juan Luis ""Jajá"" Calderón",Mauricio Palma,0.2176589386198178
+El Pampero,Ricardo Meruane,0.21747753152320912
+Edo Caroe,Rodrigo Villegas,0.21745081958117404
+Huaso Filomeno,Pamela Leiva,0.21734127161647554
+Nancho Parra,Piña Colada,0.2170376888091483
+Hugo Goodman,Millenium Show,0.2169178764447206
+León Murillo,Los Locos del Humor,0.21683977244642286
+Javiera Contador,Julio Sabala,0.21639042666774136
+Alejandra Azcárate,Fabrizio Copano,0.2162708807876364
+Carlos García,León Murillo,0.21596452330748558
+Ruperto,Stefan Kramer,0.21585548434362792
+Centella,Nancho Parra,0.21580310682665887
+Ernesto Belloni,Gilberto Gless,0.21576824964776672
+Juan Pablo López,Memo Bunke,0.21553206477237422
+Edmundo Arrocet,Ernesto Belloni,0.21532037373918986
+Fabrizio Copano,Hugo Goodman,0.215268453569335
+Gloria Benavides,Stefan Kramer,0.215246753230696
+Natalia Valdebenito,"Paul Vásquez ""El Flaco""",0.21507250515591628
+Fusión Humor,Natalia Valdebenito,0.2147805857463276
+Luis Slimming,Zip-Zup,0.21459879213336175
+Melón y Melame,Natalia Cuevas,0.21447400378615733
+Edo Caroe,Ernesto Belloni,0.2144647748889692
+Coco Legrand,Ernesto Belloni,0.21429123647950102
+Jorge Romero,Lucho Miranda,0.21394118059540249
+Hugo Goodman,Sandy,0.21364371302896012
+Huaso Filomeno,Jorge Romero,0.21361801690995044
+Jorge Alís,Ricardo Meruane,0.21329387234600358
+"Carlos ""El Mono"" Sánchez",Sergio Freire,0.21325880196405766
+Bastián Paz,Pedro Ruminot,0.21316886209805438
+Felipe Avello,Julio Sabala,0.2124416436321999
+Alison Mandel,Melón y Melame,0.21232231950555208
+Payahop,Zip-Zup,0.21222230138152107
+"Carlos ""El Mono"" Sánchez","Paul Vásquez ""El Flaco""",0.2121747200845169
+Bombo Fica,Lucho Miranda,0.21180697594901962
+Felo,Jenny Cavallo,0.21172881057924073
+Felo,Ricardo Meruane,0.21172548690896617
+Memo Bunke y Natalia Cuevas,Sandy,0.21157335174561964
+Gigi Martin,Rodrigo Villegas,0.21150217837175636
+"Daniela ""Chiqui"" Aguayo",Zip-Zup,0.21105641396398608
+Hermógenes Conache,Memo Bunke,0.21089665975078645
+Jenny Cavallo,Sergio Freire,0.21089022850246383
+Bastián Paz,Sergio Freire,0.2108832351417926
+Felo,Piña Colada,0.21076515102178542
+Bastián Paz,Hermógenes Conache,0.2107504789559638
+Bastián Paz,Los Atletas de la Risa,0.2107309731753448
+Paulo Iglesias,Óscar Gangas,0.21024247048562678
+Memo Bunke,Pamela Leiva,0.21020326866446648
+Lucho Miranda,Sergio Freire,0.2098776584496419
+Melón y Melame,Pamela Leiva,0.20976334861082363
+El Pampero,Los Atletas de la Risa,0.20974234320592675
+Lucho Miranda,Sandy,0.20972997855614095
+Felipe Avello,Millenium Show,0.2097129157056247
+Javiera Contador,Jenny Cavallo,0.20959910666659431
+"Daniela ""Chiqui"" Aguayo",Hugo Goodman,0.20927328765764297
+El Pampero,Payahop,0.20925277975892986
+Carlos García,Pedro Ruminot,0.20922867006461227
+Centella,Gigi Martin,0.20902008714820583
+Hugo Varela,Ruperto,0.2085507516489026
+Fusión Humor,Hugo Varela,0.20832714369332503
+Edmundo Arrocet,Javiera Contador,0.20831752522948568
+Bastián Paz,Pujillay,0.208127084276871
+Coco Legrand,Felo,0.20807881780878693
+Los Atletas de la Risa,Luis Slimming,0.20805080529005593
+Lucho Miranda,Melón y Melame,0.20799300534438422
+Piña Colada,Rodrigo González,0.2075930802831942
+Belén Mora,Dinamita Show,0.20720086066789248
+Lucho Miranda,Nancho Parra,0.20714829596378329
+"Daniel Muñoz ""El Carmelo""","Jorge ""Chino"" Navarrete",0.20712329126767848
+Huaso Filomeno,Palta Meléndez,0.2068770349771414
+Natalia Cuevas,Óscar Gangas,0.20672766422749828
+Javiera Contador,Sergio Freire,0.20670389091866634
+Luis Slimming,Memo Bunke,0.20662884796897982
+Alejandra Azcárate,Bombo Fica,0.20650405950330675
+Javiera Contador,Óscar Gangas,0.20645571131697066
+Gloria Benavides,Jani Dueñas,0.20634316951243156
+"Carlos ""El Mono"" Sánchez",Pamela Leiva,0.2058977444803727
+Rodrigo Villegas,Álvaro Salas,0.20580988639416967
+Jenny Cavallo,Los Indolatinos,0.20547056218937115
+Hugo Varela,Juan Pablo López,0.2054686183884476
+Hugo Goodman,Hugo Varela,0.20531364773557795
+Alejandra Azcárate,Centella,0.20515742644865775
+Fabrizio Copano,Paulo Iglesias,0.20500623316718067
+Melón y Melame,"Paul Vásquez ""El Flaco""",0.20494279397489398
+Memo Bunke y Natalia Cuevas,Millenium Show,0.20478006188672226
+Alejandra Azcárate,Luis Slimming,0.2045841287608167
+Millenium Show,Natalia Cuevas,0.2045109523054738
+Edmundo Arrocet,Rodrigo González,0.20445077700978706
+Dino Gordillo,Gloria Benavides,0.2044050841404013
+Los Atletas de la Risa,Palta Meléndez,0.2042549487152639
+Jenny Cavallo,Stefan Kramer,0.2041721727084255
+Pedro Ruminot,Rudy Rey,0.20400916830968877
+Arturo Ruiz-Tagle,Rudy Rey,0.20388567128926655
+Jenny Cavallo,Los Atletas de la Risa,0.20369910062759267
+Hugo Goodman,Melón y Melame,0.20360971025989427
+Belén Mora,Centella,0.20307733399929007
+El Pampero,Pedro Ruminot,0.20289425870891534
+Dinamita Show,Natalia Valdebenito,0.20277414362712137
+Nancho Parra,Ricardo Meruane,0.20271328219089546
+Memo Bunke,Rodrigo González,0.2026280929182733
+Millenium Show,Palta Meléndez,0.20260342443970208
+Hugo Goodman,Nancho Parra,0.2021792777197991
+Los Atletas de la Risa,Álvaro Salas,0.2020154421606147
+Alejandra Azcárate,Juan Pablo López,0.20199378044471578
+Diego Urrutia,Paulo Iglesias,0.20191909671127736
+Ernesto Belloni,Melón y Melame,0.20177090681127421
+Fusión Humor,Natalia Cuevas,0.2014987634657902
+Edo Caroe,Los Locos del Humor,0.20148930718247693
+Los Locos del Humor,Paulo Iglesias,0.2013300464921937
+El Pampero,Paulo Iglesias,0.20111041445615097
+Pedro Ruminot,Zip-Zup,0.20075408389103225
+Felo,Rodrigo González,0.2006686194045543
+Centella,Los Locos del Humor,0.2005984685255244
+Gilberto Gless,Jorge Romero,0.2005341806644632
+Alejandra Azcárate,Huaso Filomeno,0.2004120060514728
+Los Indolatinos,Sergio Freire,0.19991743905419695
+Bastián Paz,Natalia Valdebenito,0.19990959373151873
+"Daniel Muñoz ""El Carmelo""",Melón y Melame,0.1996669142836032
+"Juan Luis ""Jajá"" Calderón",Zip-Zup,0.1992718503556335
+Gloria Benavides,Álvaro Salas,0.19907575350014806
+Jappening con ja,Pamela Leiva,0.198977806453568
+El Pampero,Gloria Benavides,0.19881773551272666
+Centella,Paulo Iglesias,0.19871684796702366
+Hermógenes Conache,Natalia Valdebenito,0.19861487088177804
+Jorge Romero,Pedro Ruminot,0.19848679402859518
+Pujillay,Stefan Kramer,0.1981833526720372
+Dinamita Show,Piña Colada,0.19804269705109395
+Felo,Memo Bunke,0.19803846501897923
+Ernesto Belloni,Lucho Miranda,0.19800956161070868
+Mauricio Palma,Rodrigo Villegas,0.1978826158493838
+Mauricio Palma,Sandy,0.19742972541162945
+Diego Urrutia,Ricardo Meruane,0.19671625140521576
+Bastián Paz,Hugo Varela,0.19664932746985264
+Los Locos del Humor,Palta Meléndez,0.19664059322701055
+Fusión Humor,Gigi Martin,0.19654942784292165
+Diego Urrutia,Natalia Valdebenito,0.1964796517293387
+León Murillo,Luis Slimming,0.1962183208162582
+Carlos García,Dino Gordillo,0.19616664465261546
+"Daniela ""Chiqui"" Aguayo",Stefan Kramer,0.196142745355539
+Jani Dueñas,Rodrigo González,0.19598619041441062
+Arturo Ruiz-Tagle,Zip-Zup,0.1957586930940691
+"Carlos ""El Mono"" Sánchez",Gloria Benavides,0.19571512201350744
+Jani Dueñas,Pedro Ruminot,0.19551673910743356
+Pamela Leiva,Sergio Freire,0.1953228339045256
+Fabrizio Copano,Natalia Cuevas,0.195305361777196
+Luis Slimming,Pujillay,0.19511451031865912
+Mauricio Palma,"Paul Vásquez ""El Flaco""",0.19489230214722825
+"Daniela ""Chiqui"" Aguayo",Fusión Humor,0.19463016624561108
+Ricardo Meruane,Rodrigo Villegas,0.19455740191190077
+Pedro Ruminot,Piña Colada,0.19446211260139748
+Bastián Paz,Álvaro Salas,0.19425316449907273
+Felipe Avello,Gloria Benavides,0.19391261317093778
+Bombo Fica,Felo,0.1935563942726642
+Alison Mandel,Nancho Parra,0.19283693525232334
+"Daniela ""Chiqui"" Aguayo",Memo Bunke,0.19216002348666006
+Los Acetatos,Álvaro Salas,0.1919069500204649
+Diego Urrutia,Natalia Cuevas,0.19173805497263963
+Ernesto Belloni,Paulo Iglesias,0.19166013726516537
+"Daniel Muñoz ""El Carmelo""",Dino Gordillo,0.19100131966505385
+Alex Ortiz,Centella,0.19063022760143813
+León Murillo,Mauricio Palma,0.19037611037774518
+Arturo Ruiz-Tagle,Hugo Varela,0.1902168678917817
+Dino Gordillo,Edo Caroe,0.19020860103147233
+Javiera Contador,Álvaro Salas,0.18994553375697296
+Carlos García,Javiera Contador,0.18990982381558377
+Nancho Parra,Palta Meléndez,0.18981152351669492
+Arturo Ruiz-Tagle,Edmundo Arrocet,0.18966576137009974
+Dinamita Show,"Juan Luis ""Jajá"" Calderón",0.18961670623030072
+Centella,Los Atletas de la Risa,0.18956052686965727
+Edmundo Arrocet,Pedro Ruminot,0.18939486752699697
+Diego Urrutia,Gloria Benavides,0.189289901132787
+"Daniela ""Chiqui"" Aguayo",El Pampero,0.18922907685833326
+Felo,Óscar Gangas,0.1892058742892823
+Jappening con ja,"Paul Vásquez ""El Flaco""",0.1887014266265437
+Hermógenes Conache,Jenny Cavallo,0.18864104959765274
+Arturo Ruiz-Tagle,Natalia Valdebenito,0.18849805311713302
+Arturo Ruiz-Tagle,León Murillo,0.18828934786558454
+Felipe Avello,Ruperto,0.1882693298786158
+Gloria Benavides,Pedro Ruminot,0.18822068446902682
+Bastián Paz,"Daniel Muñoz ""El Carmelo""",0.1882004430487693
+Hugo Varela,Mauricio Palma,0.18796649320497372
+Carlos García,Huaso Filomeno,0.18793816822699919
+Julio Sabala,Pamela Leiva,0.1879296728943446
+Jappening con ja,Sandy,0.18787483311308717
+"Paul Vásquez ""El Flaco""",Sergio Freire,0.18765600369212956
+Arturo Ruiz-Tagle,"Juan Luis ""Jajá"" Calderón",0.18759478370566263
+Centella,Mauricio Palma,0.18735422904383442
+Ernesto Belloni,Nancho Parra,0.18731047057854827
+Bombo Fica,El Pampero,0.18728313578931127
+Hugo Varela,"Paul Vásquez ""El Flaco""",0.186626527580659
+Belén Mora,Álvaro Salas,0.18655790109496545
+"Daniela ""Chiqui"" Aguayo",Álvaro Salas,0.18645832201540807
+Lucho Miranda,Zip-Zup,0.18643905123790797
+Bombo Fica,Gilberto Gless,0.18627949106169253
+Juan Pablo López,Millenium Show,0.1857123959538823
+Rudy Rey,Stefan Kramer,0.18568034262679428
+Hermógenes Conache,León Murillo,0.18567364836605263
+Memo Bunke y Natalia Cuevas,Álvaro Salas,0.18511868296396775
+"Jorge ""Chino"" Navarrete",Pujillay,0.18496238112561084
+Edmundo Arrocet,George Harris,0.1849432525590391
+"Juan Luis ""Jajá"" Calderón",Paulo Iglesias,0.18492318916241438
+Alison Mandel,Edmundo Arrocet,0.18483025671237652
+Luis Slimming,Mauricio Palma,0.18459814096439545
+"Jorge ""Chino"" Navarrete",Payahop,0.18453081811949995
+"Carlos ""El Mono"" Sánchez","Jorge ""Chino"" Navarrete",0.18433329539701812
+Jenny Cavallo,"Jorge ""Chino"" Navarrete",0.18404841976012148
+Alejandra Azcárate,Stefan Kramer,0.18402390372340685
+Dino Gordillo,Hugo Goodman,0.18350487188902462
+Gilberto Gless,Stefan Kramer,0.18346024306947978
+Fabrizio Copano,Piña Colada,0.18341927605876376
+Nancho Parra,Pamela Leiva,0.18277204843117273
+Coco Legrand,George Harris,0.18274731038289252
+Edmundo Arrocet,Edo Caroe,0.1826691571587642
+Hugo Goodman,Memo Bunke y Natalia Cuevas,0.18259956849264763
+Fabrizio Copano,Ruperto,0.18241331346270293
+Centella,Sergio Freire,0.18227121446325892
+Dino Gordillo,Edmundo Arrocet,0.18208238797035636
+"Paul Vásquez ""El Flaco""",Sandy,0.18199515983322215
+Pujillay,Sergio Freire,0.1818337084542749
+Luis Slimming,Sandy,0.18172370041952107
+Edmundo Arrocet,"Jorge ""Chino"" Navarrete",0.18160839381076957
+Bombo Fica,Los Acetatos,0.18156375489397866
+Fabrizio Copano,Nancho Parra,0.18138397498204065
+Alex Ortiz,Jorge Romero,0.1807807742232364
+Carlos García,Gigi Martin,0.18063117649842955
+Julio Sabala,Rodrigo González,0.18057090462453335
+Carlos García,Los Atletas de la Risa,0.18039334266068724
+"Daniela ""Chiqui"" Aguayo",Mauricio Palma,0.1803716047648626
+El Pampero,Felo,0.18034373428419212
+George Harris,Gilberto Gless,0.18023196727959087
+Huaso Filomeno,Jani Dueñas,0.18008860678536895
+Hermógenes Conache,Millenium Show,0.17990085863854618
+Arturo Ruiz-Tagle,Gloria Benavides,0.1795030339751315
+"Daniela ""Chiqui"" Aguayo",Nancho Parra,0.1791114009343218
+Alison Mandel,Jorge Alís,0.17905301105189303
+Alison Mandel,Ricardo Meruane,0.1790327758288715
+Jappening con ja,Pujillay,0.1790232995100919
+Alex Ortiz,Sandy,0.17894057831268295
+Rudy Rey,Sandy,0.17892417076830286
+Felipe Avello,Los Locos del Humor,0.17871142487418626
+Coco Legrand,Memo Bunke,0.17814769622013665
+El Pampero,Mauricio Palma,0.17792926628751204
+Jorge Romero,Luis Slimming,0.17776150530926463
+Memo Bunke y Natalia Cuevas,Natalia Valdebenito,0.17726317330606986
+Nancho Parra,Zip-Zup,0.1772347401604341
+Millenium Show,Óscar Gangas,0.17708413918548985
+Belén Mora,Sandy,0.1770784375482831
+Jorge Alís,Sergio Freire,0.17707780032658732
+"Jorge ""Chino"" Navarrete",Natalia Valdebenito,0.17694348473240923
+Payahop,Rodrigo González,0.1769024716331118
+Gigi Martin,Jani Dueñas,0.17682569957847658
+Felipe Avello,Los Acetatos,0.17613218891741467
+Felipe Avello,Palta Meléndez,0.17609514603616508
+Dinamita Show,El Pampero,0.1758010767388578
+Los Acetatos,Pujillay,0.1757669789408948
+Ernesto Belloni,Ruperto,0.1756397402791071
+Pedro Ruminot,Ruperto,0.1754941693002426
+Edmundo Arrocet,"Paul Vásquez ""El Flaco""",0.17528568815263332
+"Jorge ""Chino"" Navarrete",Palta Meléndez,0.17511253083540695
+Gigi Martin,Payahop,0.17509320102526232
+Hugo Goodman,Palta Meléndez,0.17504463747258864
+Javiera Contador,"Paul Vásquez ""El Flaco""",0.1750196764194719
+Julio Sabala,Pedro Ruminot,0.17483958087062376
+Alex Ortiz,Edo Caroe,0.17464752601527664
+Alex Ortiz,El Pampero,0.1744635238696039
+Jani Dueñas,Paulo Iglesias,0.17445456842036938
+Palta Meléndez,Stefan Kramer,0.17442276464981638
+Alejandra Azcárate,Memo Bunke,0.1744055140245364
+Coco Legrand,Melón y Melame,0.17428135633515238
+El Pampero,Palta Meléndez,0.17417338043155292
+"Jorge ""Chino"" Navarrete",Memo Bunke,0.17398055195567733
+Alex Ortiz,Nancho Parra,0.17397156896664123
+Carlos García,Ernesto Belloni,0.1739433226350616
+Felipe Avello,Hugo Varela,0.17384648459194238
+"Carlos ""El Mono"" Sánchez",Lucho Miranda,0.17376783567716436
+Julio Sabala,Ruperto,0.17363411470345666
+Alex Ortiz,"Paul Vásquez ""El Flaco""",0.1736277231192781
+Belén Mora,Los Indolatinos,0.17342083995800003
+"Paul Vásquez ""El Flaco""",Rudy Rey,0.173388374303575
+Edmundo Arrocet,Pujillay,0.1733666406299504
+Alejandra Azcárate,Sergio Freire,0.1733172011948516
+"Juan Luis ""Jajá"" Calderón",Millenium Show,0.17326570834878552
+Arturo Ruiz-Tagle,Ernesto Belloni,0.17285567324357945
+Gilberto Gless,Sandy,0.1728417443285759
+Jorge Romero,Sergio Freire,0.17253757134026185
+Arturo Ruiz-Tagle,Los Locos del Humor,0.1725184773261779
+Hermógenes Conache,Melón y Melame,0.1724142423886252
+Jorge Alís,Natalia Valdebenito,0.17236432890934744
+Mauricio Palma,Paulo Iglesias,0.1723593911404721
+Alex Ortiz,Los Atletas de la Risa,0.17228408822872998
+"Daniel Muñoz ""El Carmelo""",El Pampero,0.17212656116317337
+Jani Dueñas,Luis Slimming,0.17137480544762407
+Arturo Ruiz-Tagle,Natalia Cuevas,0.17134180070395424
+Hugo Varela,Melón y Melame,0.17130226520801528
+Felo,Nancho Parra,0.1711311173009372
+Diego Urrutia,Los Acetatos,0.17104202010337013
+Edmundo Arrocet,Ruperto,0.1708303531782036
+Hugo Goodman,Rudy Rey,0.17071439825298523
+"Carlos ""El Mono"" Sánchez",Ruperto,0.17066182764161114
+Centella,"Juan Luis ""Jajá"" Calderón",0.17058718114657115
+Los Locos del Humor,Millenium Show,0.1705796697699811
+El Pampero,Los Indolatinos,0.17030379961838324
+George Harris,Juan Pablo López,0.17026029692685332
+Fusión Humor,"Juan Luis ""Jajá"" Calderón",0.17002092877097072
+Piña Colada,Rodrigo Villegas,0.16992722671742636
+Ernesto Belloni,Stefan Kramer,0.16992037075960145
+Edo Caroe,Natalia Cuevas,0.16990151648858023
+Alejandra Azcárate,Melón y Melame,0.16990094217358062
+Hermógenes Conache,Los Atletas de la Risa,0.1696020350093729
+Memo Bunke y Natalia Cuevas,Pedro Ruminot,0.1694519282533413
+"Daniela ""Chiqui"" Aguayo",Ricardo Meruane,0.16935084933311526
+Jorge Romero,Paulo Iglesias,0.16856735155503771
+Alison Mandel,Palta Meléndez,0.1680059705056889
+George Harris,Julio Sabala,0.16769595015622898
+Pamela Leiva,Rudy Rey,0.16738428268012664
+Fusión Humor,Pujillay,0.16725862743121944
+Edo Caroe,Nancho Parra,0.16690891961441254
+Edmundo Arrocet,Hermógenes Conache,0.166545296246127
+Dinamita Show,Felo,0.16611773343247183
+Felipe Avello,Mauricio Palma,0.16594198469188948
+Centella,Melón y Melame,0.16589726468974383
+Fabrizio Copano,"Paul Vásquez ""El Flaco""",0.16584341093205396
+Los Atletas de la Risa,Stefan Kramer,0.16581986449819322
+"Paul Vásquez ""El Flaco""",Paulo Iglesias,0.16581820656704666
+Julio Sabala,Millenium Show,0.16567151007075473
+Jani Dueñas,Natalia Cuevas,0.1656698288348736
+Los Locos del Humor,Nancho Parra,0.16562675655676473
+Javiera Contador,Memo Bunke,0.16531325454242005
+Ernesto Belloni,Felo,0.16505785632250172
+Dinamita Show,Jenny Cavallo,0.16494769093538714
+Felo,Mauricio Palma,0.16493644582491923
+Pujillay,Zip-Zup,0.16480819289582369
+Natalia Cuevas,Pedro Ruminot,0.1647106640675168
+Bombo Fica,Memo Bunke y Natalia Cuevas,0.1645103361609094
+Hermógenes Conache,Hugo Varela,0.164457013016236
+Jorge Alís,Natalia Cuevas,0.16420501119456274
+Memo Bunke,Pujillay,0.16419043830810934
+Fabrizio Copano,"Jorge ""Chino"" Navarrete",0.16392446650307627
+Fabrizio Copano,Los Acetatos,0.1639099103700078
+Jenny Cavallo,Lucho Miranda,0.163698983006031
+Jenny Cavallo,Memo Bunke y Natalia Cuevas,0.16343398758155211
+Gigi Martin,"Jorge ""Chino"" Navarrete",0.16340384143814124
+Dino Gordillo,Jorge Romero,0.1631564177384742
+Los Locos del Humor,Ruperto,0.16312075862559325
+Alex Ortiz,Melón y Melame,0.1628704207735455
+Los Indolatinos,Mauricio Palma,0.16285407215178177
+Los Atletas de la Risa,Pedro Ruminot,0.16275999031043512
+Gigi Martin,"Paul Vásquez ""El Flaco""",0.1625393757861086
+Carlos García,Zip-Zup,0.16248847358393056
+"Carlos ""El Mono"" Sánchez",Mauricio Palma,0.16230990511009566
+Natalia Valdebenito,Pujillay,0.16216383767167483
+Bastián Paz,Gigi Martin,0.16211070570987732
+Jorge Romero,Los Indolatinos,0.1620258833556354
+"Carlos ""El Mono"" Sánchez",Pujillay,0.16190004171007544
+Jani Dueñas,Sergio Freire,0.16185930997686376
+Ernesto Belloni,Fabrizio Copano,0.16167647876222602
+Memo Bunke,Zip-Zup,0.16164965785775384
+Pamela Leiva,Zip-Zup,0.16160992200415206
+Jappening con ja,Luis Slimming,0.16152000101076908
+Belén Mora,Hugo Goodman,0.16151476529548886
+Mauricio Palma,Memo Bunke y Natalia Cuevas,0.16131855560814132
+"Carlos ""El Mono"" Sánchez",Millenium Show,0.1612394155396304
+El Pampero,Natalia Valdebenito,0.16117605969510312
+Bombo Fica,Rudy Rey,0.1611324054931243
+George Harris,Pedro Ruminot,0.16088508898478526
+Carlos García,Edo Caroe,0.16044874410058935
+Carlos García,Rodrigo González,0.16019506443195855
+Ernesto Belloni,Julio Sabala,0.15967573241283567
+"Daniela ""Chiqui"" Aguayo",Óscar Gangas,0.1593850249072083
+Bastián Paz,Edmundo Arrocet,0.1591785759322094
+"Jorge ""Chino"" Navarrete",Paulo Iglesias,0.15878427208738716
+Alejandra Azcárate,Sandy,0.15849568858466803
+Bastián Paz,"Juan Luis ""Jajá"" Calderón",0.1582075269170966
+Fusión Humor,Rudy Rey,0.15814397995075583
+Coco Legrand,Memo Bunke y Natalia Cuevas,0.1581121588099321
+Ernesto Belloni,Los Acetatos,0.15797336665227366
+Mauricio Palma,Millenium Show,0.15766848905758357
+Dinamita Show,Los Atletas de la Risa,0.157637097224168
+Felipe Avello,Paulo Iglesias,0.1575581603417754
+Piña Colada,Álvaro Salas,0.1572294072470671
+Alison Mandel,Natalia Cuevas,0.15703418631018376
+"Daniel Muñoz ""El Carmelo""",Álvaro Salas,0.15697448457560814
+Gigi Martin,Hugo Varela,0.1568785967806005
+"Jorge ""Chino"" Navarrete",Natalia Cuevas,0.15683633180364398
+Jorge Romero,Stefan Kramer,0.15670472294294693
+Huaso Filomeno,Millenium Show,0.15581687335083896
+Luis Slimming,Rudy Rey,0.15503905807457882
+Fusión Humor,Gloria Benavides,0.15495390606542844
+Arturo Ruiz-Tagle,Jenny Cavallo,0.15481352192336187
+"Carlos ""El Mono"" Sánchez",Stefan Kramer,0.15468161270223107
+Felipe Avello,Jenny Cavallo,0.15452778933002626
+Alejandra Azcárate,"Paul Vásquez ""El Flaco""",0.15400585024857547
+Belén Mora,Paulo Iglesias,0.15382605803361127
+Julio Sabala,Nancho Parra,0.15382409194506774
+Belén Mora,Juan Pablo López,0.15373085067198164
+Melón y Melame,Palta Meléndez,0.15361697640382335
+Memo Bunke,Paulo Iglesias,0.15353324585559636
+Gigi Martin,Huaso Filomeno,0.15334968285441702
+Los Atletas de la Risa,Lucho Miranda,0.15328242237850775
+Coco Legrand,Javiera Contador,0.152887809397661
+Carlos García,Óscar Gangas,0.15288596935573928
+Jorge Romero,Nancho Parra,0.15239999409501906
+"Daniela ""Chiqui"" Aguayo",Los Atletas de la Risa,0.1520960234445344
+Luis Slimming,Melón y Melame,0.1514082959176484
+"Carlos ""El Mono"" Sánchez",Palta Meléndez,0.1511737686380536
+Melón y Melame,Ricardo Meruane,0.15114468311683826
+"Carlos ""El Mono"" Sánchez",Hermógenes Conache,0.15111172937115086
+Felipe Avello,Gilberto Gless,0.1509911643373534
+Natalia Cuevas,Rodrigo González,0.15065500722922198
+Jorge Alís,Piña Colada,0.15058955066169383
+Dino Gordillo,Memo Bunke y Natalia Cuevas,0.15054257014300837
+Hugo Goodman,Luis Slimming,0.15047454929265489
+Jappening con ja,Pedro Ruminot,0.1502084737146754
+Melón y Melame,Sergio Freire,0.1500163967091852
+Dinamita Show,Rudy Rey,0.14972118563812323
+Edmundo Arrocet,El Pampero,0.14967105123264593
+Nancho Parra,Pujillay,0.14964835828522666
+Bastián Paz,Ernesto Belloni,0.14952953955799364
+Luis Slimming,Paulo Iglesias,0.14950128432772342
+León Murillo,"Paul Vásquez ""El Flaco""",0.14948736462960643
+Alejandra Azcárate,Palta Meléndez,0.14944646532716083
+Belén Mora,Stefan Kramer,0.14938336022703375
+El Pampero,Pujillay,0.14921924627956054
+Gilberto Gless,Jani Dueñas,0.1486272334368059
+Millenium Show,Rodrigo González,0.1484756344891518
+Bastián Paz,Payahop,0.14830572954735582
+Jorge Alís,Rodrigo Villegas,0.1482817556098207
+Hugo Goodman,Mauricio Palma,0.14809155412476546
+George Harris,Palta Meléndez,0.148003752705962
+Dinamita Show,Sergio Freire,0.14786149538540488
+Edo Caroe,Los Atletas de la Risa,0.1477598506209345
+Hermógenes Conache,Jani Dueñas,0.14766452889881312
+El Pampero,Hermógenes Conache,0.14742651952645341
+Felo,Jorge Alís,0.147365419675783
+Hugo Varela,Pedro Ruminot,0.1470374494824512
+Carlos García,Sergio Freire,0.1467749599627663
+Alex Ortiz,Hugo Varela,0.14673641763901776
+Diego Urrutia,Ruperto,0.14651480781153062
+Gigi Martin,Ruperto,0.14640804368593807
+"Daniela ""Chiqui"" Aguayo",Jorge Romero,0.14630322361069817
+Hugo Varela,Lucho Miranda,0.14614695923585588
+Memo Bunke,Sandy,0.14586770385822156
+Natalia Cuevas,Álvaro Salas,0.14542886180798872
+Jorge Alís,Los Locos del Humor,0.14532625579379171
+Gloria Benavides,Huaso Filomeno,0.14504658894738212
+Memo Bunke,Pedro Ruminot,0.14497186445698312
+Melón y Melame,Natalia Valdebenito,0.1445859076178301
+Mauricio Palma,Pamela Leiva,0.14441554565315076
+Payahop,Pedro Ruminot,0.14436255365033462
+Gilberto Gless,Pamela Leiva,0.14430224602181047
+Diego Urrutia,León Murillo,0.14407976299534633
+Bombo Fica,George Harris,0.14384219551980104
+George Harris,Pujillay,0.1437043778208225
+Jenny Cavallo,"Juan Luis ""Jajá"" Calderón",0.14346497298423425
+"Daniel Muñoz ""El Carmelo""",Pedro Ruminot,0.1433195266962053
+"Juan Luis ""Jajá"" Calderón",Melón y Melame,0.14287822753393326
+Fusión Humor,Julio Sabala,0.14273450639094018
+Jorge Alís,"Paul Vásquez ""El Flaco""",0.14250194834643454
+Memo Bunke y Natalia Cuevas,Óscar Gangas,0.14236779151085838
+Jorge Alís,Luis Slimming,0.14225745665861117
+Fusión Humor,Los Atletas de la Risa,0.14190022355139936
+Palta Meléndez,Pamela Leiva,0.1417988542385509
+Javiera Contador,Zip-Zup,0.1417925232301543
+Edmundo Arrocet,Nancho Parra,0.1417780937570136
+"Juan Luis ""Jajá"" Calderón",Rodrigo Villegas,0.14161243116861927
+Carlos García,Palta Meléndez,0.14138955183433463
+Diego Urrutia,Nancho Parra,0.14126067698035066
+Palta Meléndez,Piña Colada,0.14098085830881124
+Diego Urrutia,Millenium Show,0.14075095233304594
+Alison Mandel,Los Atletas de la Risa,0.14067180463481277
+George Harris,Hugo Goodman,0.14017657894067403
+Lucho Miranda,Natalia Valdebenito,0.14016061026164628
+Arturo Ruiz-Tagle,Carlos García,0.1401583991819473
+Jani Dueñas,Zip-Zup,0.140105303712844
+George Harris,Los Acetatos,0.1399411680024004
+Hermógenes Conache,Natalia Cuevas,0.13974903209247036
+Alejandra Azcárate,Los Atletas de la Risa,0.13967185488135092
+Javiera Contador,Pujillay,0.13932304623098835
+Alex Ortiz,Sergio Freire,0.13930024006805386
+Edo Caroe,Paulo Iglesias,0.1389744553139271
+Belén Mora,Rodrigo Villegas,0.1389504543373294
+Belén Mora,Natalia Valdebenito,0.13851908783812855
+El Pampero,Memo Bunke y Natalia Cuevas,0.13822138792494543
+Belén Mora,Luis Slimming,0.13809088625494062
+El Pampero,Álvaro Salas,0.1380157882779608
+León Murillo,Nancho Parra,0.13773872566566966
+Gloria Benavides,Palta Meléndez,0.13769299236447616
+Alejandra Azcárate,Felo,0.13754252235422265
+Alejandra Azcárate,Mauricio Palma,0.13739445406686396
+El Pampero,León Murillo,0.137338851383672
+Jorge Romero,Los Locos del Humor,0.13706864301993063
+Fabrizio Copano,Memo Bunke,0.13700337473788615
+Nancho Parra,Pedro Ruminot,0.13688386381454049
+Edmundo Arrocet,Álvaro Salas,0.13667794808818065
+Hugo Goodman,Ruperto,0.13661228095705225
+Pujillay,Ruperto,0.13633775420829936
+Alex Ortiz,"Jorge ""Chino"" Navarrete",0.13627842873249488
+Nancho Parra,Natalia Cuevas,0.1361411119396444
+Coco Legrand,Edmundo Arrocet,0.13601610696967187
+Alison Mandel,Mauricio Palma,0.13566485010185592
+Javiera Contador,Jorge Alís,0.13540280808998886
+Belén Mora,Millenium Show,0.13531785375894329
+Dinamita Show,Julio Sabala,0.13526553501143027
+Los Atletas de la Risa,Nancho Parra,0.1344924356051751
+Alejandra Azcárate,Bastián Paz,0.13418570755104278
+Jorge Alís,Payahop,0.13412609899013522
+Alison Mandel,"Juan Luis ""Jajá"" Calderón",0.134021205852223
+Paulo Iglesias,Ricardo Meruane,0.13399454598978788
+Felipe Avello,"Juan Luis ""Jajá"" Calderón",0.13378947099343216
+Felo,Sergio Freire,0.13377337501623066
+Alejandra Azcárate,Felipe Avello,0.13376201978976818
+"Carlos ""El Mono"" Sánchez",Memo Bunke y Natalia Cuevas,0.13352554900498467
+Carlos García,George Harris,0.13341731415645997
+Huaso Filomeno,Piña Colada,0.13320702745263874
+Gigi Martin,Los Indolatinos,0.13243037097391525
+Edmundo Arrocet,Millenium Show,0.1317123756266184
+Fusión Humor,Memo Bunke y Natalia Cuevas,0.13146573177272172
+Alejandra Azcárate,Pedro Ruminot,0.1314578089444312
+Javiera Contador,Los Acetatos,0.13144411401081474
+George Harris,Natalia Cuevas,0.13103597026837624
+El Pampero,Jani Dueñas,0.13102475260854468
+"Jorge ""Chino"" Navarrete",Rudy Rey,0.13044143164659783
+Alison Mandel,Felo,0.1304321490348094
+Edmundo Arrocet,Palta Meléndez,0.13042007113799176
+Piña Colada,Sandy,0.13030234728598505
+El Pampero,Rudy Rey,0.1301125535980776
+Los Acetatos,"Paul Vásquez ""El Flaco""",0.1298280979518747
+"Daniela ""Chiqui"" Aguayo",Millenium Show,0.12939497893632246
+Mauricio Palma,Rudy Rey,0.12931576992948024
+Javiera Contador,Natalia Valdebenito,0.12924316217159895
+Belén Mora,Fabrizio Copano,0.1290212088223461
+Jorge Alís,Melón y Melame,0.1288474976906997
+León Murillo,Rodrigo González,0.12882218919259938
+Payahop,Álvaro Salas,0.12877054670265659
+Natalia Cuevas,Piña Colada,0.12862184571414206
+"Carlos ""El Mono"" Sánchez",Pedro Ruminot,0.12860887156947673
+Javiera Contador,Piña Colada,0.12857479130308333
+Alejandra Azcárate,Hermógenes Conache,0.12841894812633173
+Alejandra Azcárate,Memo Bunke y Natalia Cuevas,0.12838980686924717
+Gigi Martin,Álvaro Salas,0.1276988592509439
+Jappening con ja,Payahop,0.12767654804496137
+Mauricio Palma,Ricardo Meruane,0.12759797414492524
+Huaso Filomeno,Hugo Goodman,0.12744286747170938
+Hugo Goodman,Zip-Zup,0.12741317055393195
+Ernesto Belloni,Jappening con ja,0.12739473343028876
+"Daniel Muñoz ""El Carmelo""",Pamela Leiva,0.12726881692939757
+Edo Caroe,Pujillay,0.12719180963241275
+Gloria Benavides,"Jorge ""Chino"" Navarrete",0.1271455179848098
+Ernesto Belloni,Millenium Show,0.12713053982582057
+Belén Mora,Fusión Humor,0.12692651002430377
+Centella,Huaso Filomeno,0.1268102666491549
+Hugo Goodman,Jorge Romero,0.12653020120721084
+Belén Mora,Lucho Miranda,0.12648761015193744
+Belén Mora,Jorge Alís,0.12646160527146483
+Edmundo Arrocet,Juan Pablo López,0.1263901438375277
+Huaso Filomeno,Jappening con ja,0.1258970887559033
+Bastián Paz,Jorge Romero,0.12571630252214638
+Felo,Hermógenes Conache,0.12548869915180919
+Stefan Kramer,Zip-Zup,0.12526663065615776
+El Pampero,Jenny Cavallo,0.12511267824844624
+Jani Dueñas,Los Atletas de la Risa,0.12503287795293946
+Gloria Benavides,Óscar Gangas,0.1246536452500776
+Alex Ortiz,Felipe Avello,0.12454960333925413
+León Murillo,Álvaro Salas,0.1244864185464177
+El Pampero,Julio Sabala,0.12442948678400587
+Gilberto Gless,Piña Colada,0.12428125017658682
+Memo Bunke,Natalia Valdebenito,0.12425680883198556
+Belén Mora,Diego Urrutia,0.12399983569374379
+Felo,Luis Slimming,0.12394853479901848
+Jappening con ja,Los Locos del Humor,0.12380250851489143
+Hugo Goodman,"Juan Luis ""Jajá"" Calderón",0.12369996268022783
+Jenny Cavallo,Melón y Melame,0.12365385332762004
+Palta Meléndez,Payahop,0.12356293777277026
+Alejandra Azcárate,Lucho Miranda,0.12341937542204966
+Hermógenes Conache,Jappening con ja,0.12331946946418895
+Ernesto Belloni,Pamela Leiva,0.1230727112597338
+Millenium Show,Piña Colada,0.12302717036788853
+Huaso Filomeno,Rudy Rey,0.12298977099387418
+El Pampero,Juan Pablo López,0.12291647044420338
+Belén Mora,"Jorge ""Chino"" Navarrete",0.12278842805513947
+Natalia Cuevas,"Paul Vásquez ""El Flaco""",0.12272426367725493
+Hugo Varela,Palta Meléndez,0.12252847888446368
+Alejandra Azcárate,"Jorge ""Chino"" Navarrete",0.12217392968032266
+Natalia Cuevas,Palta Meléndez,0.12198519929867223
+Hugo Goodman,Payahop,0.12155471129856751
+Ruperto,Óscar Gangas,0.12116706350063118
+Huaso Filomeno,Memo Bunke y Natalia Cuevas,0.12089477647452121
+Arturo Ruiz-Tagle,Payahop,0.12087685226180137
+Belén Mora,Hugo Varela,0.12048964961538473
+Fusión Humor,Jappening con ja,0.11980823018333958
+Centella,Gilberto Gless,0.11975128217702048
+Coco Legrand,Millenium Show,0.11963042980478061
+Hugo Varela,Paulo Iglesias,0.1196082484268048
+Jappening con ja,Javiera Contador,0.11949699775028097
+Ernesto Belloni,Hugo Varela,0.11921540550387359
+"Jorge ""Chino"" Navarrete",Los Atletas de la Risa,0.11920496160642478
+Javiera Contador,Paulo Iglesias,0.11906342792665149
+Felipe Avello,Natalia Valdebenito,0.11899970362402702
+El Pampero,Los Acetatos,0.11897379139393145
+Pamela Leiva,Paulo Iglesias,0.11895967645045741
+Alex Ortiz,Millenium Show,0.11891915715250156
+Lucho Miranda,Pujillay,0.1184235202857886
+Alex Ortiz,Jenny Cavallo,0.1180423803284421
+Ernesto Belloni,Óscar Gangas,0.11799135082217296
+Gloria Benavides,Lucho Miranda,0.11789191153557681
+Jappening con ja,"Jorge ""Chino"" Navarrete",0.11774550310367546
+Belén Mora,George Harris,0.11761532511482838
+Los Atletas de la Risa,Mauricio Palma,0.11760199079131628
+Memo Bunke y Natalia Cuevas,Palta Meléndez,0.11733374423137263
+Edo Caroe,Jorge Alís,0.11701780222521127
+Felo,Juan Pablo López,0.11656857554878947
+"Daniel Muñoz ""El Carmelo""",Piña Colada,0.11647647519254055
+Javiera Contador,Los Atletas de la Risa,0.11639344211595765
+Ernesto Belloni,Rodrigo Villegas,0.11623738113468858
+Ernesto Belloni,Gigi Martin,0.11571560665022274
+Ernesto Belloni,Los Atletas de la Risa,0.11557005968675088
+Edo Caroe,Huaso Filomeno,0.11549835848170263
+Alison Mandel,Gloria Benavides,0.11515887855640154
+Jani Dueñas,Lucho Miranda,0.11496226869703367
+Gloria Benavides,Jenny Cavallo,0.11491526038228347
+Hugo Varela,"Juan Luis ""Jajá"" Calderón",0.11489417783683885
+"Daniel Muñoz ""El Carmelo""",Mauricio Palma,0.114768418018985
+Alex Ortiz,Pedro Ruminot,0.11476056955794516
+Jenny Cavallo,Rodrigo Villegas,0.11451429784633603
+Jappening con ja,Álvaro Salas,0.11445004502732374
+George Harris,Los Locos del Humor,0.11430622999515022
+"Jorge ""Chino"" Navarrete",Mauricio Palma,0.11427062665484124
+Felo,Zip-Zup,0.11399423536967526
+Fusión Humor,Jorge Romero,0.11375135497307695
+El Pampero,Melón y Melame,0.11370795991672258
+Jenny Cavallo,Pedro Ruminot,0.11364088229677034
+Lucho Miranda,Mauricio Palma,0.11317271381568113
+Felo,Los Atletas de la Risa,0.11298834165703248
+Jorge Romero,Mauricio Palma,0.11252431819927537
+Ernesto Belloni,Rodrigo González,0.11236371742325443
+"Daniel Muñoz ""El Carmelo""",Los Locos del Humor,0.11225881613540191
+Alejandra Azcárate,Pujillay,0.11221996183905751
+Felo,Paulo Iglesias,0.1121943082380147
+Melón y Melame,Zip-Zup,0.11187147802255834
+"Daniel Muñoz ""El Carmelo""",Javiera Contador,0.11185359454141298
+George Harris,Los Indolatinos,0.1117817126465314
+Payahop,Piña Colada,0.11139210177720185
+Alejandra Azcárate,Piña Colada,0.1113755175045809
+Gloria Benavides,Sergio Freire,0.11065737197206843
+Arturo Ruiz-Tagle,Jorge Romero,0.11059694049718995
+Gloria Benavides,Natalia Valdebenito,0.1105714138437937
+Javiera Contador,León Murillo,0.11050091543640933
+Felo,Fusión Humor,0.11043062936921835
+Gloria Benavides,Luis Slimming,0.11038800541678533
+Edmundo Arrocet,Melón y Melame,0.11017559700440882
+Edo Caroe,Millenium Show,0.11011965218461396
+Natalia Cuevas,Pujillay,0.10977838115300678
+George Harris,Gloria Benavides,0.10967124420832304
+Dinamita Show,Memo Bunke y Natalia Cuevas,0.10962702188059464
+Centella,George Harris,0.10935761831322234
+Centella,Memo Bunke,0.10925208231603165
+Gilberto Gless,Jappening con ja,0.10905504610628237
+"Carlos ""El Mono"" Sánchez",Centella,0.10895239700584149
+Nancho Parra,Óscar Gangas,0.10886842325112396
+Millenium Show,"Paul Vásquez ""El Flaco""",0.10854226999346772
+El Pampero,Gigi Martin,0.10844012544091652
+Hermógenes Conache,Rudy Rey,0.10801986677838918
+Jappening con ja,Palta Meléndez,0.1078440453354482
+Alex Ortiz,George Harris,0.10783757523700085
+Hugo Goodman,Paulo Iglesias,0.10702696657352141
+Memo Bunke y Natalia Cuevas,Sergio Freire,0.10699199665284109
+Ernesto Belloni,Luis Slimming,0.10685112476794202
+Bombo Fica,"Daniel Muñoz ""El Carmelo""",0.10643987003255376
+"Jorge ""Chino"" Navarrete","Juan Luis ""Jajá"" Calderón",0.10640015855244107
+Gilberto Gless,Ricardo Meruane,0.10637574363573683
+"Carlos ""El Mono"" Sánchez",Jappening con ja,0.1062608467548003
+Fabrizio Copano,Gilberto Gless,0.10626068650041137
+Alison Mandel,Memo Bunke y Natalia Cuevas,0.10598466388492159
+Gigi Martin,Palta Meléndez,0.10580031389561169
+Gloria Benavides,Ricardo Meruane,0.10549731971866799
+Ernesto Belloni,Palta Meléndez,0.10545978658878319
+Los Acetatos,Pamela Leiva,0.10530722948362027
+Jorge Alís,Stefan Kramer,0.10506946667283992
+Melón y Melame,Rudy Rey,0.10505664713863676
+Felo,George Harris,0.10495548959135045
+El Pampero,Stefan Kramer,0.10457602624237249
+Belén Mora,Nancho Parra,0.10440284715069932
+Arturo Ruiz-Tagle,El Pampero,0.10416914534970863
+Jappening con ja,Los Acetatos,0.10410263372914941
+Gilberto Gless,Rodrigo Villegas,0.10409044115639109
+Ernesto Belloni,"Paul Vásquez ""El Flaco""",0.10398756094285763
+Coco Legrand,Gigi Martin,0.10377700856390226
+Coco Legrand,Gloria Benavides,0.10350713645096865
+Juan Pablo López,Payahop,0.10345315142141949
+Palta Meléndez,Rudy Rey,0.10333433738910308
+"Daniela ""Chiqui"" Aguayo",Hugo Varela,0.10325302979867793
+Edo Caroe,Ruperto,0.10277804248461518
+Melón y Melame,Memo Bunke y Natalia Cuevas,0.1026510562301645
+"Daniela ""Chiqui"" Aguayo",Piña Colada,0.10262758744810373
+"Carlos ""El Mono"" Sánchez","Juan Luis ""Jajá"" Calderón",0.10260137077780321
+George Harris,Gigi Martin,0.10255120777589523
+Ernesto Belloni,Natalia Valdebenito,0.1025269653595306
+Felipe Avello,Gigi Martin,0.10236276517522384
+Bastián Paz,Rudy Rey,0.10207395124144357
+Julio Sabala,Sandy,0.10170340278141465
+Los Atletas de la Risa,Melón y Melame,0.1016410427022846
+Alex Ortiz,Gloria Benavides,0.10154598145371374
+Arturo Ruiz-Tagle,Memo Bunke y Natalia Cuevas,0.1013224171943248
+Edmundo Arrocet,Mauricio Palma,0.10131000118819236
+Pujillay,Ricardo Meruane,0.10074283914150925
+Belén Mora,Zip-Zup,0.10066505622753202
+Gigi Martin,Jorge Alís,0.10036991687235809
+Coco Legrand,Payahop,0.10033935077262954
+Memo Bunke,Natalia Cuevas,0.10033615531465084
+Edo Caroe,El Pampero,0.09957179525903703
+Edmundo Arrocet,Sergio Freire,0.09938561818008343
+Gilberto Gless,Memo Bunke,0.09917085392973024
+Javiera Contador,Memo Bunke y Natalia Cuevas,0.09897558795261356
+Lucho Miranda,Paulo Iglesias,0.09856881537230623
+Alejandra Azcárate,Hugo Goodman,0.09848722286699894
+Hugo Goodman,Sergio Freire,0.09847583741681545
+Hugo Goodman,Los Locos del Humor,0.09833559097658105
+Jorge Romero,Melón y Melame,0.0983148860671835
+Centella,Gloria Benavides,0.0981810513160611
+Jorge Romero,Palta Meléndez,0.09809236062860258
+Ernesto Belloni,Huaso Filomeno,0.09792541504722517
+Felipe Avello,Zip-Zup,0.09790385612391474
+Gigi Martin,Pedro Ruminot,0.09767106546666282
+El Pampero,Jorge Alís,0.0972240951075085
+León Murillo,Rodrigo Villegas,0.09689268949587505
+Mauricio Palma,Piña Colada,0.09643548711935127
+Edo Caroe,Julio Sabala,0.09643201322111881
+Paulo Iglesias,Stefan Kramer,0.09634996449414884
+Centella,Memo Bunke y Natalia Cuevas,0.09617404791566066
+"Daniel Muñoz ""El Carmelo""",George Harris,0.0961717220420543
+"Carlos ""El Mono"" Sánchez",Nancho Parra,0.09611736893701273
+Edmundo Arrocet,Zip-Zup,0.0960459241370894
+Arturo Ruiz-Tagle,Los Atletas de la Risa,0.09593128156742692
+"Daniel Muñoz ""El Carmelo""",Jappening con ja,0.09581304749281186
+Gilberto Gless,Nancho Parra,0.09563556130311374
+Javiera Contador,Rudy Rey,0.09552451259078418
+"Carlos ""El Mono"" Sánchez",Jorge Romero,0.09548014191883504
+Edo Caroe,Zip-Zup,0.09537569498506684
+Luis Slimming,Millenium Show,0.0953164748250132
+Los Acetatos,Los Locos del Humor,0.09507492975335818
+Belén Mora,Coco Legrand,0.0944528251319045
+George Harris,Pamela Leiva,0.09444858295337295
+Jani Dueñas,"Juan Luis ""Jajá"" Calderón",0.09392509662719728
+Mauricio Palma,Nancho Parra,0.09390025885505503
+El Pampero,Ernesto Belloni,0.09373991161058857
+Los Locos del Humor,Rudy Rey,0.09359008349624634
+Los Atletas de la Risa,Payahop,0.09336089828932873
+Alejandra Azcárate,"Juan Luis ""Jajá"" Calderón",0.09324070958956387
+Millenium Show,Paulo Iglesias,0.09321581727367914
+Luis Slimming,Memo Bunke y Natalia Cuevas,0.09263044268286956
+Payahop,Sergio Freire,0.09221236652326455
+Alex Ortiz,Coco Legrand,0.09208342833782046
+Huaso Filomeno,León Murillo,0.09206548218962506
+El Pampero,"Juan Luis ""Jajá"" Calderón",0.0920460239901965
+Alex Ortiz,León Murillo,0.09191450389666013
+Edmundo Arrocet,Jorge Alís,0.09178956974013248
+Alex Ortiz,Arturo Ruiz-Tagle,0.09175562808077116
+Felo,Palta Meléndez,0.09174761519940686
+Memo Bunke y Natalia Cuevas,Rodrigo González,0.091693564121374
+Jorge Alís,Los Indolatinos,0.09162185664678638
+Mauricio Palma,Memo Bunke,0.09149275211055231
+Alison Mandel,Jorge Romero,0.09130159140429542
+León Murillo,Lucho Miranda,0.09118898056719393
+"Daniela ""Chiqui"" Aguayo",Gigi Martin,0.09071745268420515
+Edo Caroe,Mauricio Palma,0.09047100052523198
+Memo Bunke,Payahop,0.09044411906071398
+Alex Ortiz,Jorge Alís,0.09043176038234604
+Payahop,Óscar Gangas,0.09039636456642085
+Los Locos del Humor,Memo Bunke,0.09026879571130011
+Belén Mora,León Murillo,0.09021470950026807
+Felo,"Paul Vásquez ""El Flaco""",0.09009083447078191
+Felo,"Jorge ""Chino"" Navarrete",0.08993890449600923
+Carlos García,Paulo Iglesias,0.08978219790847623
+Alison Mandel,Los Acetatos,0.08977610634439427
+Huaso Filomeno,Los Acetatos,0.08967922320173653
+Belén Mora,"Juan Luis ""Jajá"" Calderón",0.08934525276517646
+Ricardo Meruane,Ruperto,0.08901337295614771
+"Daniel Muñoz ""El Carmelo""",Memo Bunke,0.08882782584339471
+Gloria Benavides,Mauricio Palma,0.08882596970509311
+Alex Ortiz,Dinamita Show,0.08872875049254751
+"Paul Vásquez ""El Flaco""",Ruperto,0.0884492272090749
+Memo Bunke y Natalia Cuevas,Zip-Zup,0.08836725553903976
+Hugo Goodman,Piña Colada,0.08829302279767089
+Julio Sabala,Sergio Freire,0.08820954063944793
+Nancho Parra,Sergio Freire,0.08820149878195574
+Julio Sabala,Álvaro Salas,0.08819314269937907
+Piña Colada,Stefan Kramer,0.08819156397200367
+George Harris,"Paul Vásquez ""El Flaco""",0.08794532271801589
+Alejandra Azcárate,Gloria Benavides,0.08782541780191752
+Lucho Miranda,Millenium Show,0.0876750037333828
+Coco Legrand,Natalia Cuevas,0.08765018136994376
+Rudy Rey,Álvaro Salas,0.08761533557061454
+Lucho Miranda,Payahop,0.0875807786412921
+Jorge Romero,Pamela Leiva,0.08751813013722
+Dino Gordillo,George Harris,0.08748590702402388
+Carlos García,Álvaro Salas,0.08732918267285476
+Centella,Jorge Romero,0.08718411676233433
+Dino Gordillo,Memo Bunke,0.08684853278450112
+Gloria Benavides,Los Atletas de la Risa,0.08642738567181898
+Los Atletas de la Risa,Memo Bunke y Natalia Cuevas,0.08635383088957492
+"Jorge ""Chino"" Navarrete",Jorge Alís,0.08633445027812109
+Bombo Fica,Payahop,0.08620908174449247
+Alejandra Azcárate,Rodrigo Villegas,0.08601771573889146
+Melón y Melame,Paulo Iglesias,0.0859073220588546
+Felo,Lucho Miranda,0.08563974288311269
+Carlos García,Juan Pablo López,0.0856381334300058
+"Daniel Muñoz ""El Carmelo""",Ernesto Belloni,0.08534602832219954
+El Pampero,Memo Bunke,0.0850742738005133
+Coco Legrand,"Daniel Muñoz ""El Carmelo""",0.08499385569048154
+Julio Sabala,"Paul Vásquez ""El Flaco""",0.08472356540789555
+Huaso Filomeno,Julio Sabala,0.08470631226474945
+Nancho Parra,Rodrigo González,0.08468583109919474
+Bombo Fica,Los Atletas de la Risa,0.08466655682336763
+Alejandra Azcárate,El Pampero,0.0843621928451057
+George Harris,Huaso Filomeno,0.08428522533709154
+Millenium Show,Ricardo Meruane,0.08420279591879097
+Los Acetatos,Memo Bunke,0.08418522241612998
+Gilberto Gless,Pujillay,0.08415207214719218
+Alison Mandel,Piña Colada,0.08404513757316057
+Edo Caroe,Gloria Benavides,0.08391806702324778
+"Daniel Muñoz ""El Carmelo""",Sergio Freire,0.0838492787359052
+Alex Ortiz,Mauricio Palma,0.08362301575260023
+Juan Pablo López,Memo Bunke y Natalia Cuevas,0.08361929715532174
+Memo Bunke,Sergio Freire,0.08348988332945495
+Julio Sabala,Mauricio Palma,0.08335924994070679
+Felo,Jappening con ja,0.08334012428234909
+Lucho Miranda,Ruperto,0.08325009857545539
+George Harris,Hugo Varela,0.08271167131477843
+Jorge Romero,Piña Colada,0.08269486930992323
+Alison Mandel,George Harris,0.08261708610955348
+Fabrizio Copano,George Harris,0.08259811651186047
+"Daniel Muñoz ""El Carmelo""",Palta Meléndez,0.08210887501104736
+Memo Bunke,Stefan Kramer,0.08207038828923006
+Pamela Leiva,Ruperto,0.08190498804339058
+Pamela Leiva,Payahop,0.08183140438442413
+Belén Mora,Huaso Filomeno,0.08182418800306093
+Ernesto Belloni,Pujillay,0.0817795289999941
+Fusión Humor,Jorge Alís,0.08167210509214931
+Alex Ortiz,Ricardo Meruane,0.08160471416231188
+Memo Bunke y Natalia Cuevas,Paulo Iglesias,0.08151971254716266
+"Juan Luis ""Jajá"" Calderón","Paul Vásquez ""El Flaco""",0.08149416637092166
+Alex Ortiz,Paulo Iglesias,0.08130099312980092
+Felo,"Juan Luis ""Jajá"" Calderón",0.08111933467900366
+El Pampero,Pamela Leiva,0.08109306539082278
+Hugo Varela,Javiera Contador,0.08106312793799397
+Alex Ortiz,Zip-Zup,0.080768391564872
+Belén Mora,Óscar Gangas,0.08075000749335201
+"Carlos ""El Mono"" Sánchez",Felipe Avello,0.08067737543438723
+Bastián Paz,Paulo Iglesias,0.08051832934869332
+"Daniela ""Chiqui"" Aguayo",Edmundo Arrocet,0.07966027879137796
+Gloria Benavides,Juan Pablo López,0.07937769003890248
+Edo Caroe,George Harris,0.07936801717207452
+Belén Mora,Los Acetatos,0.07916675363726078
+Edo Caroe,Payahop,0.0790271890574747
+"Daniel Muñoz ""El Carmelo""","Paul Vásquez ""El Flaco""",0.07874883746418755
+Dinamita Show,Jorge Romero,0.07871491409944653
+Belén Mora,"Carlos ""El Mono"" Sánchez",0.07866735740435446
+El Pampero,Natalia Cuevas,0.07840116650631584
+Bastián Paz,George Harris,0.07785613512481299
+Jorge Alís,Pamela Leiva,0.07774958035382586
+Julio Sabala,Palta Meléndez,0.07771323170524569
+Los Atletas de la Risa,Pujillay,0.07770505412560443
+Gigi Martin,Juan Pablo López,0.07762369540845988
+Los Acetatos,Pedro Ruminot,0.07758184928808512
+Alejandra Azcárate,Arturo Ruiz-Tagle,0.07749515276767661
+George Harris,Jorge Romero,0.0771102621478119
+Gloria Benavides,Paulo Iglesias,0.07699314191719148
+Huaso Filomeno,Ricardo Meruane,0.07698819593009597
+Rudy Rey,Sergio Freire,0.07691222550213221
+"Carlos ""El Mono"" Sánchez",Los Acetatos,0.07682059370388483
+Edo Caroe,Rudy Rey,0.07667067246922613
+Los Atletas de la Risa,Millenium Show,0.07663460127716039
+Carlos García,Hermógenes Conache,0.07645341915705327
+Diego Urrutia,Gilberto Gless,0.07609960212403034
+Los Atletas de la Risa,"Paul Vásquez ""El Flaco""",0.07606796170192565
+Edo Caroe,Felo,0.07590454618601714
+Belén Mora,Gigi Martin,0.0758963632420103
+El Pampero,Piña Colada,0.07546019566267619
+Edmundo Arrocet,Paulo Iglesias,0.07546014311201958
+Los Atletas de la Risa,Ruperto,0.07517898966126221
+Gloria Benavides,Hermógenes Conache,0.07513129355505989
+León Murillo,Óscar Gangas,0.07506654216450383
+Carlos García,"Jorge ""Chino"" Navarrete",0.07494390794526025
+Jappening con ja,Stefan Kramer,0.07483471515152838
+Gigi Martin,Pujillay,0.0748262343931432
+Jappening con ja,Jorge Romero,0.07482363679276809
+Gilberto Gless,Javiera Contador,0.07476340403565832
+Ernesto Belloni,Jani Dueñas,0.07462029784147643
+Centella,Pujillay,0.07430911199866934
+El Pampero,Felipe Avello,0.07426269917628618
+Arturo Ruiz-Tagle,George Harris,0.07413878476792296
+Los Locos del Humor,Piña Colada,0.07380985864375261
+Lucho Miranda,Memo Bunke y Natalia Cuevas,0.07361154778299425
+Bombo Fica,Jorge Romero,0.07291321647260042
+Hermógenes Conache,Memo Bunke y Natalia Cuevas,0.07269662004360805
+Hermógenes Conache,Piña Colada,0.07266252433863937
+"Daniela ""Chiqui"" Aguayo",Natalia Cuevas,0.07232240463169672
+Memo Bunke,Millenium Show,0.07220099106812496
+Hugo Goodman,Memo Bunke,0.07218979086171579
+Los Acetatos,Mauricio Palma,0.07182704774771505
+Paulo Iglesias,Rudy Rey,0.07181221471696812
+Alex Ortiz,Carlos García,0.07174737630342383
+"Carlos ""El Mono"" Sánchez",Natalia Cuevas,0.07165388566469465
+Nancho Parra,Paulo Iglesias,0.07126277282358762
+Juan Pablo López,Natalia Cuevas,0.07116711311333887
+Hugo Goodman,Jenny Cavallo,0.07102995791362784
+"Daniela ""Chiqui"" Aguayo",Gloria Benavides,0.07096649289457846
+George Harris,Ricardo Meruane,0.07023748139514994
+Natalia Valdebenito,Sandy,0.07015602021568808
+Hermógenes Conache,Ruperto,0.0701285332381125
+"Carlos ""El Mono"" Sánchez",Carlos García,0.07008066453135219
+Gigi Martin,Pamela Leiva,0.0699236131495613
+"Daniel Muñoz ""El Carmelo""",Zip-Zup,0.06977842718616159
+Memo Bunke,Álvaro Salas,0.06902663932112121
+Ernesto Belloni,Memo Bunke y Natalia Cuevas,0.06902129641398497
+Belén Mora,Palta Meléndez,0.06901241155799828
+Gloria Benavides,Rodrigo González,0.06882070352454508
+El Pampero,Hugo Goodman,0.06849092113258826
+Los Acetatos,Piña Colada,0.06836249446809625
+Edo Caroe,Hugo Varela,0.06814558171368805
+Gloria Benavides,Zip-Zup,0.06809571806707408
+Jorge Romero,Ricardo Meruane,0.06777002850263343
+Carlos García,Luis Slimming,0.0677453739961022
+"Daniela ""Chiqui"" Aguayo",Payahop,0.06766371153589222
+Julio Sabala,Ricardo Meruane,0.06758043421663464
+Coco Legrand,Los Acetatos,0.06702061734408893
+George Harris,Stefan Kramer,0.06701442290902768
+Diego Urrutia,Piña Colada,0.06694530957446747
+Jorge Romero,Álvaro Salas,0.06690481113434978
+Los Acetatos,Luis Slimming,0.06688745740785927
+Dino Gordillo,Gilberto Gless,0.06665739600880197
+Los Locos del Humor,Natalia Cuevas,0.06631843803927859
+Alex Ortiz,"Carlos ""El Mono"" Sánchez",0.06627368602890736
+Fusión Humor,George Harris,0.06627215924907942
+Gloria Benavides,Jorge Alís,0.0660203903528285
+Alex Ortiz,Hugo Goodman,0.0659812102596865
+"Paul Vásquez ""El Flaco""",Payahop,0.06593317303912065
+"Daniel Muñoz ""El Carmelo""",Paulo Iglesias,0.06589346032454867
+Bastián Paz,Felo,0.06581195606697587
+Luis Slimming,Payahop,0.06575098914029691
+Gigi Martin,Sergio Freire,0.06566576586452101
+Bastián Paz,Memo Bunke,0.0656123650525079
+George Harris,Rudy Rey,0.06560570620485648
+Jani Dueñas,Piña Colada,0.06553728605415474
+Centella,El Pampero,0.06546346976450262
+Jorge Romero,Juan Pablo López,0.06538687115732819
+Piña Colada,Óscar Gangas,0.06529816194921496
+El Pampero,Ruperto,0.06521989352166573
+Centella,Hugo Varela,0.06518079111827849
+Memo Bunke y Natalia Cuevas,Ricardo Meruane,0.0650507583966657
+"Daniela ""Chiqui"" Aguayo",Rudy Rey,0.06503945851997642
+Natalia Valdebenito,Piña Colada,0.0646048295052448
+Belén Mora,Hermógenes Conache,0.0645929098857912
+Edo Caroe,Jappening con ja,0.06438033429213577
+Carlos García,"Daniela ""Chiqui"" Aguayo",0.06428631864515194
+Paulo Iglesias,Piña Colada,0.06419519036139194
+Dino Gordillo,Jappening con ja,0.06418803231403124
+Alison Mandel,Carlos García,0.06416990352727119
+Belén Mora,"Daniel Muñoz ""El Carmelo""",0.06383743780564097
+León Murillo,Payahop,0.06378770767399522
+El Pampero,"Paul Vásquez ""El Flaco""",0.06373303615537512
+Edmundo Arrocet,Los Locos del Humor,0.06367215916708648
+Jenny Cavallo,Millenium Show,0.06363371783408198
+Alison Mandel,Julio Sabala,0.063512752884157
+Millenium Show,Pamela Leiva,0.06340022625857844
+Edo Caroe,Memo Bunke y Natalia Cuevas,0.06335247242719257
+Fabrizio Copano,Jappening con ja,0.06303761006911901
+Jorge Romero,"Juan Luis ""Jajá"" Calderón",0.06293999912434083
+"Jorge ""Chino"" Navarrete",Memo Bunke y Natalia Cuevas,0.06293840899080182
+"Carlos ""El Mono"" Sánchez",George Harris,0.062424852007903105
+Paulo Iglesias,Payahop,0.062420391468025235
+Jorge Alís,Memo Bunke,0.06225128279797945
+Belén Mora,Ruperto,0.06173181468706867
+Jani Dueñas,Ricardo Meruane,0.061692585387517124
+Memo Bunke,Ricardo Meruane,0.061632452698382884
+Memo Bunke,Óscar Gangas,0.06152579934891419
+El Pampero,Nancho Parra,0.06148830365632224
+Alejandra Azcárate,Alex Ortiz,0.06111705885593058
+Mauricio Palma,Natalia Cuevas,0.06105726904936461
+Jani Dueñas,Memo Bunke,0.060842738785758424
+Felipe Avello,Los Atletas de la Risa,0.06061967427301845
+Gigi Martin,Memo Bunke y Natalia Cuevas,0.06054145766792917
+Coco Legrand,Julio Sabala,0.06039977278542709
+George Harris,Zip-Zup,0.06031514344891947
+George Harris,Sandy,0.060239962469471775
+Diego Urrutia,Gigi Martin,0.06018498491768173
+George Harris,Payahop,0.059985057463970815
+Jappening con ja,Juan Pablo López,0.0599517208172406
+"Daniela ""Chiqui"" Aguayo",Los Acetatos,0.05987376602459158
+Jorge Alís,Jorge Romero,0.05986131668887054
+Edo Caroe,Gigi Martin,0.05967032359868443
+Carlos García,Jorge Alís,0.058834671975265034
+Jorge Alís,Los Atletas de la Risa,0.058719955850190034
+Alex Ortiz,Natalia Valdebenito,0.058630665254228054
+George Harris,Memo Bunke y Natalia Cuevas,0.058397599576779056
+Juan Pablo López,Ruperto,0.05786361827738487
+Gigi Martin,León Murillo,0.057831598322552205
+Felipe Avello,Piña Colada,0.05772176650394526
+Gilberto Gless,Ruperto,0.057467810175890914
+"Carlos ""El Mono"" Sánchez",Fusión Humor,0.057162405929226806
+"Daniela ""Chiqui"" Aguayo",Julio Sabala,0.057136086106420673
+Edmundo Arrocet,Luis Slimming,0.05710026440243997
+Coco Legrand,Ruperto,0.056980014269484375
+Alex Ortiz,Piña Colada,0.05688014165875949
+Felipe Avello,George Harris,0.056636282774050764
+Dinamita Show,George Harris,0.0565701013981822
+Alejandra Azcárate,Millenium Show,0.05654458929561561
+Memo Bunke y Natalia Cuevas,"Paul Vásquez ""El Flaco""",0.056469758079957875
+Millenium Show,Sergio Freire,0.056344366433370575
+Alex Ortiz,Gigi Martin,0.056280426458098304
+Alex Ortiz,Óscar Gangas,0.05626365189368589
+Belén Mora,Ricardo Meruane,0.05625846905581598
+Julio Sabala,Óscar Gangas,0.05620898932095654
+Edmundo Arrocet,Memo Bunke,0.05619658970001255
+Alejandra Azcárate,Fusión Humor,0.05572499034785534
+Dinamita Show,Gilberto Gless,0.05505054164196891
+Julio Sabala,Los Locos del Humor,0.05489067616097156
+"Jorge ""Chino"" Navarrete",Julio Sabala,0.05478303216400492
+Ernesto Belloni,George Harris,0.05463045734442325
+Carlos García,"Paul Vásquez ""El Flaco""",0.054527456021036126
+Carlos García,Centella,0.05437609470399011
+Felipe Avello,León Murillo,0.05415359085600982
+León Murillo,Melón y Melame,0.05400880310870235
+"Paul Vásquez ""El Flaco""",Piña Colada,0.0536938940107943
+Centella,Millenium Show,0.05350281225525592
+Diego Urrutia,Memo Bunke,0.05328638850133839
+Fusión Humor,Piña Colada,0.053233353929334336
+"Daniel Muñoz ""El Carmelo""",Óscar Gangas,0.0531779658096284
+Jorge Alís,Lucho Miranda,0.05305905890694232
+León Murillo,Pujillay,0.05297362287921368
+Edmundo Arrocet,Los Atletas de la Risa,0.05295936706173224
+Hugo Goodman,León Murillo,0.05277155620772072
+Alison Mandel,Millenium Show,0.0524637963103154
+Jenny Cavallo,Nancho Parra,0.05244224076608682
+Juan Pablo López,Rudy Rey,0.05236036737483076
+"Carlos ""El Mono"" Sánchez",Edo Caroe,0.05206778167138377
+Alex Ortiz,Álvaro Salas,0.052005037061740984
+"Carlos ""El Mono"" Sánchez",Hugo Goodman,0.05168179258722766
+Gilberto Gless,Millenium Show,0.051648530402098214
+Alex Ortiz,Jani Dueñas,0.0516323120061382
+Millenium Show,Natalia Valdebenito,0.05151021921118445
+Diego Urrutia,George Harris,0.05147112682433111
+Gigi Martin,Los Atletas de la Risa,0.05111558329374267
+Jappening con ja,Julio Sabala,0.051086103093710804
+Coco Legrand,Rudy Rey,0.05104690705474812
+Alison Mandel,Jappening con ja,0.050985917976905895
+Hugo Varela,Ricardo Meruane,0.05077171148597125
+Alex Ortiz,Jappening con ja,0.050457607999995165
+Jorge Alís,Rudy Rey,0.04928028886260559
+Gigi Martin,Natalia Valdebenito,0.049267806848424175
+Palta Meléndez,Ruperto,0.04920096225973683
+Edo Caroe,Jorge Romero,0.04916339535592679
+Alison Mandel,Rudy Rey,0.04859864906091477
+Los Acetatos,Paulo Iglesias,0.04855105661056783
+Gigi Martin,Los Locos del Humor,0.04853999971591784
+"Daniela ""Chiqui"" Aguayo",Felo,0.04821817179772064
+George Harris,León Murillo,0.048139732644578555
+Gilberto Gless,Palta Meléndez,0.0480896146648471
+Hermógenes Conache,Julio Sabala,0.047989191001866785
+Jorge Romero,León Murillo,0.04788024012799718
+Alex Ortiz,Memo Bunke y Natalia Cuevas,0.047356507994372195
+Juan Pablo López,Julio Sabala,0.04728417927664256
+"Daniel Muñoz ""El Carmelo""",Los Atletas de la Risa,0.04679746678954557
+"Daniel Muñoz ""El Carmelo""",Rodrigo González,0.046767575217540124
+Julio Sabala,Lucho Miranda,0.04666656680345497
+Ernesto Belloni,Rudy Rey,0.04660216708092624
+Gigi Martin,Jenny Cavallo,0.04652113493988246
+Jappening con ja,Óscar Gangas,0.0462370789256212
+Alex Ortiz,Memo Bunke,0.046035838210578814
+"Juan Luis ""Jajá"" Calderón",Memo Bunke y Natalia Cuevas,0.04591179404628733
+Alison Mandel,Gilberto Gless,0.04589120328239145
+Julio Sabala,Paulo Iglesias,0.04575519915869013
+Jorge Romero,Memo Bunke,0.04568086227624609
+Ernesto Belloni,"Juan Luis ""Jajá"" Calderón",0.04565828581500609
+Luis Slimming,Natalia Cuevas,0.04564596999311531
+George Harris,Jani Dueñas,0.04540329974976256
+Edmundo Arrocet,Piña Colada,0.04530739069160407
+Fusión Humor,Memo Bunke,0.04528475746798357
+El Pampero,George Harris,0.044938732758654946
+Gigi Martin,"Juan Luis ""Jajá"" Calderón",0.04489607345050721
+Gigi Martin,Zip-Zup,0.04477319861037188
+Bastián Paz,Julio Sabala,0.04473410571111797
+"Carlos ""El Mono"" Sánchez",Ricardo Meruane,0.044650505834402526
+Jenny Cavallo,Natalia Cuevas,0.044383996218457254
+"Daniel Muñoz ""El Carmelo""",Ricardo Meruane,0.044378307914029705
+"Daniela ""Chiqui"" Aguayo",Jappening con ja,0.04433862633610201
+Nancho Parra,Natalia Valdebenito,0.04399320854140646
+Gigi Martin,Mauricio Palma,0.043989594753508415
+"Juan Luis ""Jajá"" Calderón",Piña Colada,0.04378609138930841
+George Harris,Jorge Alís,0.04376429960898975
+Jorge Alís,Nancho Parra,0.043700582203061236
+"Daniel Muñoz ""El Carmelo""",Juan Pablo López,0.0433439955802037
+Rodrigo González,Ruperto,0.043241298240312864
+El Pampero,Millenium Show,0.043155186888615825
+Centella,Julio Sabala,0.043121371070452885
+Los Acetatos,Sergio Freire,0.04295006458954651
+Gilberto Gless,Pedro Ruminot,0.04281334969175921
+Gloria Benavides,"Juan Luis ""Jajá"" Calderón",0.04266212652421959
+Alex Ortiz,Stefan Kramer,0.042626633371927236
+León Murillo,Millenium Show,0.04241439639542184
+Coco Legrand,Piña Colada,0.0424079086770347
+Los Acetatos,Palta Meléndez,0.04225357307763147
+Julio Sabala,Luis Slimming,0.042028304557279184
+"Daniel Muñoz ""El Carmelo""",Edo Caroe,0.04180725925115459
+Carlos García,Lucho Miranda,0.04172968993040273
+Gilberto Gless,Jorge Alís,0.041681198531621444
+Gigi Martin,Luis Slimming,0.041227783915508076
+Los Acetatos,Lucho Miranda,0.041222013382119754
+Gigi Martin,Jorge Romero,0.04085357237906305
+Ernesto Belloni,Mauricio Palma,0.04068489654387114
+El Pampero,Gilberto Gless,0.040519991410617504
+Alison Mandel,Gigi Martin,0.04025670181008381
+Piña Colada,Ruperto,0.04001804102989293
+Jenny Cavallo,Ricardo Meruane,0.03990763252528845
+Mauricio Palma,Ruperto,0.0397405468152208
+Gloria Benavides,"Paul Vásquez ""El Flaco""",0.03927493738668125
+Ernesto Belloni,Jorge Romero,0.03920824642126197
+Jenny Cavallo,Memo Bunke,0.03913725779749664
+Natalia Cuevas,Sergio Freire,0.039121497077288604
+George Harris,Melón y Melame,0.038782040027807156
+Fusión Humor,Paulo Iglesias,0.038773257400234226
+Alex Ortiz,Fusión Humor,0.03862019755822633
+Carlos García,Natalia Valdebenito,0.03860813042062547
+Gigi Martin,Óscar Gangas,0.038536576196471294
+Bastián Paz,Memo Bunke y Natalia Cuevas,0.03832023037467385
+Jappening con ja,Mauricio Palma,0.03822934592755878
+Hugo Varela,Jorge Alís,0.03794403109823786
+Jorge Romero,Rodrigo González,0.037931190032900276
+George Harris,Óscar Gangas,0.0378817375928771
+Belén Mora,Edmundo Arrocet,0.03785823798591037
+"Daniel Muñoz ""El Carmelo""",Hermógenes Conache,0.03772325548014878
+Jorge Alís,Memo Bunke y Natalia Cuevas,0.03763962273909952
+Jorge Romero,Los Atletas de la Risa,0.03758641445750002
+Los Acetatos,Ricardo Meruane,0.03731756570706589
+"Daniel Muñoz ""El Carmelo""","Daniela ""Chiqui"" Aguayo",0.03728717917492312
+Dino Gordillo,Piña Colada,0.03694876947221195
+Edo Caroe,Memo Bunke,0.03691198222457179
+Rodrigo González,Rudy Rey,0.03676384959843339
+"Carlos ""El Mono"" Sánchez","Daniel Muñoz ""El Carmelo""",0.036624932959100305
+Fusión Humor,Jenny Cavallo,0.03643658614891514
+"Carlos ""El Mono"" Sánchez",Payahop,0.03598132793619357
+Juan Pablo López,Los Acetatos,0.03588885601022682
+Los Acetatos,Rodrigo González,0.03572943355720349
+Alison Mandel,Ruperto,0.03572618486279097
+Gilberto Gless,Melón y Melame,0.035679342553728434
+Jappening con ja,Los Atletas de la Risa,0.03553284168744688
+Los Atletas de la Risa,Natalia Cuevas,0.03520210428080569
+Jenny Cavallo,Jorge Romero,0.0348214210651916
+George Harris,Luis Slimming,0.0347472325223634
+Centella,Ruperto,0.0344169800655622
+Jappening con ja,Lucho Miranda,0.03432760847987767
+Jappening con ja,Ricardo Meruane,0.03410188660675693
+Julio Sabala,León Murillo,0.03381908016988495
+Dino Gordillo,Rudy Rey,0.03374998849977618
+Hugo Goodman,Jappening con ja,0.033597112257908374
+George Harris,Hermógenes Conache,0.033541783081595326
+Julio Sabala,Natalia Valdebenito,0.033461369147006426
+Edmundo Arrocet,Jappening con ja,0.03344805030124637
+George Harris,"Juan Luis ""Jajá"" Calderón",0.033360065462057595
+"Juan Luis ""Jajá"" Calderón",Rudy Rey,0.03306340238819041
+Millenium Show,Zip-Zup,0.032794300992159624
+"Daniela ""Chiqui"" Aguayo",Memo Bunke y Natalia Cuevas,0.03257926625231
+Juan Pablo López,Piña Colada,0.032172529318610796
+Ruperto,Sergio Freire,0.03185512628265519
+Edo Caroe,Los Acetatos,0.03177184321851289
+Ricardo Meruane,Rudy Rey,0.03156504940805822
+Hugo Goodman,Los Atletas de la Risa,0.031486675714610016
+Gilberto Gless,Álvaro Salas,0.03144072746216196
+Memo Bunke,Ruperto,0.031315301157772465
+Gigi Martin,Rudy Rey,0.0313082684955844
+George Harris,Jenny Cavallo,0.031176172821377537
+Los Acetatos,Natalia Valdebenito,0.031009482796213707
+Hermógenes Conache,Jorge Romero,0.030592023128993086
+Gloria Benavides,León Murillo,0.03053828083153129
+Natalia Valdebenito,Payahop,0.03053557992057888
+Lucho Miranda,Memo Bunke,0.03047656136688651
+Hermógenes Conache,Los Acetatos,0.03007374342840617
+Gigi Martin,Lucho Miranda,0.029867502789249833
+Alejandra Azcárate,Los Acetatos,0.029691015762715614
+Carlos García,Jenny Cavallo,0.029295724814115277
+Alejandra Azcárate,Carlos García,0.02922236934289227
+George Harris,Javiera Contador,0.029217858663325012
+Alejandra Azcárate,Natalia Cuevas,0.028966135166580555
+Jappening con ja,Jorge Alís,0.02889374937794498
+"Daniel Muñoz ""El Carmelo""",Natalia Valdebenito,0.028725940450108393
+Alison Mandel,"Daniel Muñoz ""El Carmelo""",0.02863705457750728
+Fusión Humor,Gilberto Gless,0.02862954041058085
+Alison Mandel,Payahop,0.028623394849033323
+Los Acetatos,Los Atletas de la Risa,0.02858659835440337
+Hugo Goodman,Natalia Valdebenito,0.028026608178951792
+Huaso Filomeno,Natalia Cuevas,0.027598877100522775
+Jorge Alís,Julio Sabala,0.02753228218342186
+Edo Caroe,Gilberto Gless,0.0269899163920934
+Alex Ortiz,Los Acetatos,0.026777891503548538
+Edmundo Arrocet,"Juan Luis ""Jajá"" Calderón",0.026376044154855317
+Rudy Rey,Óscar Gangas,0.026191445566976404
+León Murillo,Natalia Cuevas,0.025831271701652295
+George Harris,Álvaro Salas,0.02563942728945021
+Arturo Ruiz-Tagle,Gilberto Gless,0.02525324473673274
+"Daniel Muñoz ""El Carmelo""",Huaso Filomeno,0.025218549131218015
+Belén Mora,Natalia Cuevas,0.025174132606961327
+Coco Legrand,Jappening con ja,0.024956331026169405
+Centella,Jappening con ja,0.024949333685583323
+Natalia Cuevas,Paulo Iglesias,0.024729489913092238
+"Juan Luis ""Jajá"" Calderón",Memo Bunke,0.024698537150100116
+"Juan Luis ""Jajá"" Calderón",Julio Sabala,0.02462860040655852
+Gilberto Gless,Mauricio Palma,0.0244240392730362
+George Harris,Nancho Parra,0.024420403439061114
+Belén Mora,Carlos García,0.024308880829049275
+El Pampero,Jappening con ja,0.024076366564568567
+Belén Mora,Los Atletas de la Risa,0.023996442763479783
+George Harris,Ruperto,0.023964756254473307
+Belén Mora,Gloria Benavides,0.023960306451615128
+Edmundo Arrocet,Huaso Filomeno,0.02375003531530868
+"Carlos ""El Mono"" Sánchez",Edmundo Arrocet,0.023686855902643685
+Ernesto Belloni,Memo Bunke,0.023656899812973788
+"Daniela ""Chiqui"" Aguayo",Ruperto,0.02352125636621142
+Piña Colada,Sergio Freire,0.02346177709565419
+"Juan Luis ""Jajá"" Calderón",Payahop,0.023242930606891067
+León Murillo,Rudy Rey,0.02295879762895771
+Belén Mora,Mauricio Palma,0.02294678431162895
+Jappening con ja,Sergio Freire,0.02273432284177808
+Natalia Cuevas,Natalia Valdebenito,0.02262500822005
+Jenny Cavallo,Payahop,0.02201769182209821
+Gigi Martin,Hermógenes Conache,0.02199141061069974
+Coco Legrand,Jorge Romero,0.021984330250093345
+Jani Dueñas,Jappening con ja,0.021892941212194223
+"Daniel Muñoz ""El Carmelo""",Jenny Cavallo,0.021836476904425993
+Diego Urrutia,Jappening con ja,0.021431138343991244
+George Harris,Mauricio Palma,0.021326807904252003
+Gigi Martin,Paulo Iglesias,0.02131875229357303
+Belén Mora,Memo Bunke,0.021039395168738192
+Centella,Rudy Rey,0.020984792556872394
+Alejandra Azcárate,Nancho Parra,0.020838667746997476
+Ruperto,Zip-Zup,0.020772693203488568
+"Jorge ""Chino"" Navarrete",Piña Colada,0.020765164879605526
+Bastián Paz,Piña Colada,0.020632655473776778
+Alejandra Azcárate,Jappening con ja,0.020490677093229853
+Jorge Romero,Óscar Gangas,0.020455049070660272
+George Harris,Millenium Show,0.02043127091501649
+Alex Ortiz,Hermógenes Conache,0.02020057131241276
+Natalia Cuevas,Zip-Zup,0.02013039587795525
+Piña Colada,Zip-Zup,0.020098290394224384
+George Harris,"Jorge ""Chino"" Navarrete",0.020089389191572014
+Alex Ortiz,Rudy Rey,0.01960002196598808
+Luis Slimming,Piña Colada,0.01941657904234657
+Paulo Iglesias,Ruperto,0.019203580011888273
+Alex Ortiz,Felo,0.018885331473573075
+Gilberto Gless,Los Locos del Humor,0.018786780383505647
+Alejandra Azcárate,Ricardo Meruane,0.018610042023514267
+Alejandra Azcárate,Edmundo Arrocet,0.018111820364901048
+León Murillo,Los Acetatos,0.017949036250247956
+Centella,"Daniel Muñoz ""El Carmelo""",0.01710153076272806
+George Harris,Memo Bunke,0.016367302444763275
+Jappening con ja,Zip-Zup,0.01631585704507398
+Edmundo Arrocet,Jenny Cavallo,0.01627320577168264
+Edmundo Arrocet,Natalia Valdebenito,0.015804936292324493
+Alex Ortiz,Edmundo Arrocet,0.015696323542217488
+Alejandra Azcárate,"Daniel Muñoz ""El Carmelo""",0.01569220528448948
+Alejandra Azcárate,George Harris,0.015378365209780935
+Lucho Miranda,Rudy Rey,0.014950411969874297
+Huaso Filomeno,Ruperto,0.014823472259501884
+Hugo Varela,León Murillo,0.01429410253041561
+Julio Sabala,Zip-Zup,0.013993628615841
+Rudy Rey,Zip-Zup,0.013947786625945334
+"Daniel Muñoz ""El Carmelo""",Jorge Alís,0.013947776906499438
+"Daniela ""Chiqui"" Aguayo",Gilberto Gless,0.01390559154604559
+Alex Ortiz,Payahop,0.013867894158506906
+Luis Slimming,Ruperto,0.013863784417984968
+George Harris,Piña Colada,0.013565644495119754
+Los Atletas de la Risa,Rudy Rey,0.013507621974749315
+Jenny Cavallo,Los Acetatos,0.013501319789654697
+Jappening con ja,Rodrigo González,0.012785783644061204
+Alex Ortiz,"Daniel Muñoz ""El Carmelo""",0.012675151743970615
+Gilberto Gless,Paulo Iglesias,0.012625672395604639
+Alex Ortiz,Natalia Cuevas,0.012472158006401524
+Jappening con ja,Paulo Iglesias,0.011865819597280124
+Jenny Cavallo,Julio Sabala,0.011862524031165448
+Gilberto Gless,Hermógenes Conache,0.011781172588761055
+Los Atletas de la Risa,Memo Bunke,0.011758289532442127
+Jappening con ja,Jenny Cavallo,0.011553087821623722
+Gilberto Gless,Sergio Freire,0.011470869027855943
+Jenny Cavallo,Rudy Rey,0.011367276206422904
+Gilberto Gless,"Jorge ""Chino"" Navarrete",0.011291927976198263
+Dino Gordillo,Julio Sabala,0.011090444786413725
+"Daniel Muñoz ""El Carmelo""",Luis Slimming,0.010943816036577106
+"Daniel Muñoz ""El Carmelo""",Lucho Miranda,0.010867749251950458
+Natalia Valdebenito,Rudy Rey,0.010718735834783064
+"Juan Luis ""Jajá"" Calderón",Natalia Cuevas,0.01068333925135759
+Gilberto Gless,Rodrigo González,0.010497356159659705
+Belén Mora,Jappening con ja,0.010442216171809557
+Jenny Cavallo,Piña Colada,0.010241773652839656
+"Daniel Muñoz ""El Carmelo""",León Murillo,0.010180254108337346
+Jorge Romero,Zip-Zup,0.010001700512391512
+Gilberto Gless,"Paul Vásquez ""El Flaco""",0.009903562071557343
+"Carlos ""El Mono"" Sánchez",Rudy Rey,0.009870184808093442
+Alejandra Azcárate,Gigi Martin,0.009781562243489693
+Piña Colada,Ricardo Meruane,0.009698875690688318
+Alex Ortiz,Ruperto,0.009623528423533858
+"Daniel Muñoz ""El Carmelo""","Juan Luis ""Jajá"" Calderón",0.009429879178617841
+Gilberto Gless,Jenny Cavallo,0.009345601573275223
+Alex Ortiz,Ernesto Belloni,0.009143890890849831
+"Carlos ""El Mono"" Sánchez",Gilberto Gless,0.009062305240879571
+Jorge Romero,"Paul Vásquez ""El Flaco""",0.008905398645179889
+Alejandra Azcárate,Ruperto,0.00882934844626258
+Belén Mora,Jorge Romero,0.00863785862325444
+León Murillo,Memo Bunke,0.008630260318557018
+Bastián Paz,Gilberto Gless,0.008604051309590783
+George Harris,Lucho Miranda,0.00855453751055159
+Jorge Romero,Natalia Valdebenito,0.008454143432081562
+Edo Caroe,Piña Colada,0.008028610876645133
+Los Acetatos,Óscar Gangas,0.00794031362729023
+Gilberto Gless,Lucho Miranda,0.007908562638943389
+Coco Legrand,Gilberto Gless,0.007651215072175524
+Alex Ortiz,Gilberto Gless,0.007530915862116658
+Gilberto Gless,Luis Slimming,0.007354860826018281
+George Harris,Jappening con ja,0.007281560933890591
+Belén Mora,Felo,0.00685561533358094
+Alejandra Azcárate,Rudy Rey,0.006794342299406875
+Alejandra Azcárate,Payahop,0.006736397370965654
+Jorge Alís,Ruperto,0.006399199901211077
+León Murillo,Ruperto,0.006340792378270445
+Gilberto Gless,Natalia Valdebenito,0.00628139534490174
+Belén Mora,Memo Bunke y Natalia Cuevas,0.006205376880297384
+Natalia Valdebenito,Ruperto,0.005999027024356385
+Gilberto Gless,Juan Pablo López,0.005860580171465333
+Belén Mora,Julio Sabala,0.005536878944027433
+Centella,Los Acetatos,0.005503202832198733
+Belén Mora,Rudy Rey,0.005493419255757762
+Gilberto Gless,Huaso Filomeno,0.005420974114225566
+Alejandra Azcárate,Julio Sabala,0.005344065335836464
+Belén Mora,Payahop,0.005166277994550981
+Belén Mora,El Pampero,0.0051309723792987184
+Felo,León Murillo,0.00501779135497652
+"Juan Luis ""Jajá"" Calderón",Ruperto,0.004953190990419304
+Julio Sabala,Los Atletas de la Risa,0.004765882909949624
+Jorge Alís,Los Acetatos,0.004694758658240012
+Los Atletas de la Risa,Piña Colada,0.004500294318981371
+Jappening con ja,"Juan Luis ""Jajá"" Calderón",0.0044055039548503774
+Edmundo Arrocet,León Murillo,0.0038730125098404024
+Gilberto Gless,Los Atletas de la Risa,0.003848680296922418
+Ernesto Belloni,Piña Colada,0.003099475873777854
+Alejandra Azcárate,Gilberto Gless,0.0028601043299612467
+Jenny Cavallo,Ruperto,0.002828293107333335
+Jappening con ja,Natalia Valdebenito,0.002643502752579031
+Los Acetatos,Zip-Zup,0.0025477922600673974
+León Murillo,Piña Colada,0.0021931010928824173
+Jappening con ja,León Murillo,0.0018223690680101603
+Belén Mora,Piña Colada,0.0013025508058192548
+Alex Ortiz,Julio Sabala,0.0012897192334392438
+Centella,Piña Colada,0.0009708838432921736
+Lucho Miranda,Piña Colada,0.0006621795294225582
+Gilberto Gless,Zip-Zup,0.0004726477667987389
+Gigi Martin,Jappening con ja,0.0004592802262347365
+León Murillo,Memo Bunke y Natalia Cuevas,0.00026541605240462223
+Gilberto Gless,Óscar Gangas,0.0
+Belén Mora,Gilberto Gless,0.0
+Gilberto Gless,León Murillo,0.0
+Gilberto Gless,"Juan Luis ""Jajá"" Calderón",0.0
+Alejandra Azcárate,Jorge Romero,0.0
+"Juan Luis ""Jajá"" Calderón",Los Acetatos,0.0

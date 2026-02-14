@@ -233,18 +233,12 @@
     }
   ],
   "multi_topic_summary": {
-    "n_segments_with_soft_topics": 2229,
-    "n_segments_multi_topic": 114,
-    "share_multi_topic_over_soft": 0.05114401076716016,
-    "multi_topic_threshold": 0.08,
+    "n_segments_with_soft_topics": 2153,
+    "n_segments_multi_topic": 108,
+    "share_multi_topic_over_soft": 0.05016256386437529,
+    "multi_topic_threshold": 0.1,
     "multi_topic_min_topics": 2,
-    "topic_id_source": "topic_id_assumed",
-    "excluded_topics_applied": [
-      3,
-      6,
-      17,
-      22
-    ]
+    "topic_id_source": "topic_id_assumed"
   },
   "note": "Influence analysis intentionally removed due to insufficient evidence for causal claims."
 }

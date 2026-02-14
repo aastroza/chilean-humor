@@ -1,0 +1,1 @@
+segment_row_idx,n_topics_above_threshold,probability_mass_above_threshold,top1_topic_id,top1_topic_name,top1_p_topic,top2_topic_id,top2_topic_name,top2_p_topic,show,year,decade,topic_final,topic_name_final,text_preview,topic_prob_gap_top1_top2

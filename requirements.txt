@@ -3,6 +3,8 @@ numpy
 datasets
 python-dotenv
 requests
+google-genai
+pydantic>=2
 bertopic>=0.17.4
 jupyter
 nltk
