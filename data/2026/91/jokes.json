@@ -1,0 +1,12 @@
+{
+  "source_file": "data\\2026\\91\\91_transcript.json",
+  "model": "gemini-3-flash-preview",
+  "window_count": 2,
+  "failed_window_count": 0,
+  "fallback_window_count": 0,
+  "joke_count": 2,
+  "jokes": [
+    "Ahora mismo llegué, me preguntaron: «Mickey, ¿por qué eres tan sexy?». Digo: «Yo creo que a las chicas les gusta la manera como bailo». ¿Puedo? Ya. Ya.",
+    "Y tengo otro mejor. No más que para este chiste debo meter un poquito la mano, ¿puedo? Ya me voy. Es necesario, imprescindible, irremediable."
+  ]
+}

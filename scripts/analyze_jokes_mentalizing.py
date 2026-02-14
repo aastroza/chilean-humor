@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI wrapper for joke extraction pipeline."""
+"""CLI wrapper for joke mentalizing analysis pipeline."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ SRC_DIR = PROJECT_ROOT / "src"
 if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
-from chilean_humor_processing.extract_jokes_gemini import main
+from chilean_humor_processing.analyze_jokes_mentalizing import main
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+{
+  "source_file": "data\\2026\\24\\24_transcript.json",
+  "model": "gemini-3-flash-preview",
+  "window_count": 1,
+  "failed_window_count": 0,
+  "fallback_window_count": 0,
+  "joke_count": 0,
+  "jokes": []
+}
