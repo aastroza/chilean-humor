@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -36,8 +37,9 @@ class JokeItem(BaseModel):
     )
     cleaned_transcript: str = Field(
         description=(
-            "Cleaned version of the joke transcript. Fix spelling and punctuation "
-            "while preserving meaning and comedic voice."
+            "Lightly cleaned version of transcript with minimal edits only. "
+            "Apply minor spelling/punctuation fixes when clearly needed, but do "
+            "not paraphrase, summarize, neutralize slang, or change regional words."
         )
     )
 
@@ -58,12 +60,23 @@ Rules:
   * Award segments, applause-only moments, credits, promos, commercial breaks.
   * Music or singing that is not explicitly part of the joke.
 - Include ONLY completed jokes. If the punchline is cut off, do NOT include it as a joke.
-- Clean the text in cleaned_transcript (spelling/punctuation), but preserve meaning and comedic voice.
+- cleaned_transcript must be MINIMALLY edited:
+  * Keep local/regional vocabulary exactly as spoken (e.g., Chilean slang/chilenismos).
+  * Do NOT paraphrase, summarize, shorten, or merge dialogues.
+  * Keep character voices and sentence structure.
+  * Only fix minor spelling/punctuation issues when clearly appropriate.
+  * If in doubt, keep cleaned_transcript equal to transcript.
+- To keep JSON valid:
+  * Prefer guillemets « » for quoted dialogue inside transcript fields.
+  * Avoid raw double quotes inside transcript strings; if unavoidable, escape them as \\".
+  * Return strictly valid JSON (parseable without fixes).
 
 Respond in Spanish.
 """
 
 USER_TASK = """Extract the jokes from the following text. Remember to mark as non_joke anything that is intro/awards/host/promo/applause.
+For cleaned_transcript, make only minimal corrections and preserve local wording and full dialogue.
+Prefer « » for dialogue quotes so JSON stays valid.
 Text:
 """
 
@@ -110,6 +123,15 @@ def parse_args() -> argparse.Namespace:
         type=float,
         default=0.0,
         help="Sampling temperature for Gemini generation.",
+    )
+    parser.add_argument(
+        "--json-retries",
+        type=int,
+        default=2,
+        help=(
+            "Number of retries for a window when Gemini returns invalid JSON "
+            "(default: 2)."
+        ),
     )
     parser.add_argument(
         "--max-chars",
@@ -165,6 +187,20 @@ def parse_args() -> argparse.Namespace:
         "--force-reprocess",
         action="store_true",
         help="Reprocess routines even if output file already exists.",
+    )
+    parser.add_argument(
+        "--disable-locking",
+        action="store_true",
+        help="Disable per-file lock claiming (not recommended for parallel runs).",
+    )
+    parser.add_argument(
+        "--lock-stale-seconds",
+        type=float,
+        default=21600.0,
+        help=(
+            "Consider lock files older than this as stale and reclaim them "
+            "(default: 21600 = 6 hours). Set 0 to never reclaim."
+        ),
     )
     parser.add_argument(
         "--dry-run",
@@ -254,32 +290,102 @@ def call_gemini_structured(
     client: Any,
     model: str,
     temperature: float,
+    json_retries: int,
 ) -> Repertoire:
     prompt = f"{USER_TASK}\n\n{text_window}\n\nRespond in Spanish."
+    retries = max(0, json_retries)
+    last_error: Exception | None = None
 
-    response = client.models.generate_content(
-        model=model,
-        contents=[
+    for attempt in range(1, retries + 2):
+        contents = [
             {"role": "user", "parts": [{"text": SYSTEM_INSTRUCTIONS}]},
             {"role": "user", "parts": [{"text": prompt}]},
-        ],
-        config={
-            "temperature": temperature,
-            "response_mime_type": "application/json",
-            "response_json_schema": Repertoire.model_json_schema(),
-        },
-    )
+        ]
+        if attempt > 1:
+            contents.append(
+                {
+                    "role": "user",
+                    "parts": [
+                        {
+                            "text": (
+                                "Your previous output was invalid JSON. Return ONLY valid JSON "
+                                "for the same content. Prefer « » in dialogues and avoid raw "
+                                "double quotes inside string values."
+                            )
+                        }
+                    ],
+                }
+            )
 
-    response_text = response.text or ""
-    if not response_text.strip():
-        raise ValueError("Gemini returned an empty response.")
-    return Repertoire.model_validate_json(response_text)
+        response = client.models.generate_content(
+            model=model,
+            contents=contents,
+            config={
+                "temperature": temperature,
+                "response_mime_type": "application/json",
+                "response_json_schema": Repertoire.model_json_schema(),
+            },
+        )
+
+        response_text = response.text or ""
+        if not response_text.strip():
+            last_error = ValueError("Gemini returned an empty response.")
+            continue
+
+        try:
+            return Repertoire.model_validate_json(response_text)
+        except Exception as exc:
+            last_error = exc
+            continue
+
+    assert last_error is not None
+    raise last_error
 
 
 def fingerprint(text: str) -> str:
     text = text.lower()
     text = re.sub(r"\W+", " ", text)
     return text[:200]
+
+
+def tokenize_compare(text: str) -> List[str]:
+    return re.findall(r"[a-z0-9áéíóúüñ]+", text.lower())
+
+
+def select_minimal_cleaned_text(item: JokeItem) -> str:
+    original = normalize_text(item.transcript)
+    cleaned = normalize_text(item.cleaned_transcript)
+
+    if not cleaned:
+        return original
+    if not original:
+        return cleaned
+    if cleaned == original:
+        return cleaned
+
+    original_tokens = tokenize_compare(original)
+    cleaned_tokens = tokenize_compare(cleaned)
+    if not original_tokens or not cleaned_tokens:
+        return original
+
+    len_ratio = len(cleaned_tokens) / max(1, len(original_tokens))
+    if len_ratio < 0.85 or len_ratio > 1.20:
+        return original
+
+    original_vocab = set(original_tokens)
+    cleaned_vocab = set(cleaned_tokens)
+    vocab_retention = len(original_vocab & cleaned_vocab) / max(1, len(original_vocab))
+    if vocab_retention < 0.72:
+        return original
+
+    similarity = difflib.SequenceMatcher(
+        a=original.lower(),
+        b=cleaned.lower(),
+    ).ratio()
+    if similarity < 0.78:
+        return original
+
+    return cleaned
 
 
 def postprocess(items: List[JokeItem]) -> List[str]:
@@ -289,7 +395,7 @@ def postprocess(items: List[JokeItem]) -> List[str]:
     for item in items:
         if item.kind != "joke":
             continue
-        cleaned = normalize_text(item.cleaned_transcript)
+        cleaned = select_minimal_cleaned_text(item)
         if not cleaned:
             continue
         fp = fingerprint(cleaned)
@@ -308,6 +414,7 @@ def extract_jokes_from_transcript_json(
     max_chars: int,
     overlap_chars: int,
     temperature: float,
+    json_retries: int,
 ) -> tuple[List[str], int, int]:
     segments = transcript_json.get("segments", [])
     windows = build_segment_windows(
@@ -325,6 +432,7 @@ def extract_jokes_from_transcript_json(
                 client=client,
                 model=model,
                 temperature=temperature,
+                json_retries=json_retries,
             )
             all_items.extend(repertoire.jokes)
         except Exception as exc:
@@ -375,6 +483,64 @@ def summarize_error(exc: Exception, max_chars: int = 260) -> str:
     return text[: max_chars - 3].rstrip() + "..."
 
 
+def lock_file_for_output(source_file: Path, output_filename: str) -> Path:
+    return source_file.parent / f".{output_filename}.lock"
+
+
+def try_acquire_lock(lock_path: Path, stale_seconds: float) -> tuple[bool, str]:
+    def create_lock_file() -> bool:
+        try:
+            fd = os.open(
+                str(lock_path),
+                os.O_CREAT | os.O_EXCL | os.O_WRONLY,
+            )
+        except FileExistsError:
+            return False
+
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(
+                json.dumps(
+                    {
+                        "pid": os.getpid(),
+                        "created_at_unix": time.time(),
+                    }
+                )
+            )
+        return True
+
+    if create_lock_file():
+        return True, "acquired"
+
+    if stale_seconds > 0:
+        try:
+            age = time.time() - lock_path.stat().st_mtime
+        except FileNotFoundError:
+            if create_lock_file():
+                return True, "acquired"
+            return False, f"lock busy: {lock_path.name}"
+
+        if age >= stale_seconds:
+            try:
+                lock_path.unlink()
+            except FileNotFoundError:
+                pass
+            except OSError:
+                return False, f"lock busy: {lock_path.name}"
+            if create_lock_file():
+                return True, f"reclaimed stale lock ({age:.0f}s)"
+
+    return False, f"lock busy: {lock_path.name}"
+
+
+def release_lock(lock_path: Path) -> None:
+    try:
+        lock_path.unlink()
+    except FileNotFoundError:
+        return
+    except OSError:
+        return
+
+
 def write_routine_output(
     source_file: Path,
     output_filename: str,
@@ -405,6 +571,10 @@ def main() -> None:
 
     if args.max_chars <= 0:
         raise ValueError("--max-chars must be > 0")
+    if args.json_retries < 0:
+        raise ValueError("--json-retries must be >= 0")
+    if args.lock_stale_seconds < 0:
+        raise ValueError("--lock-stale-seconds must be >= 0")
     if args.overlap_chars < 0:
         raise ValueError("--overlap-chars must be >= 0")
     if args.limit is not None and args.limit <= 0:
@@ -440,6 +610,7 @@ def main() -> None:
     total_jokes = 0
     failed = 0
     skipped = 0
+    locked = 0
 
     for idx, transcript_path in enumerate(files, start=1):
         abs_path = transcript_path.resolve()
@@ -449,6 +620,11 @@ def main() -> None:
         except ValueError:
             rel_path = transcript_path
         print(f"\n[{idx}/{len(files)}] {rel_path}")
+        lock_path = lock_file_for_output(
+            source_file=transcript_path,
+            output_filename=args.output_filename,
+        )
+        lock_acquired = False
         try:
             output_path = transcript_path.parent / args.output_filename
             if (
@@ -460,6 +636,16 @@ def main() -> None:
                 skipped += 1
                 print(f"  skipped | already exists: {output_path}")
                 continue
+
+            if not args.dry_run and not args.disable_locking:
+                lock_acquired, lock_msg = try_acquire_lock(
+                    lock_path=lock_path,
+                    stale_seconds=args.lock_stale_seconds,
+                )
+                if not lock_acquired:
+                    locked += 1
+                    print(f"  skipped | {lock_msg}")
+                    continue
 
             with transcript_path.open("r", encoding="utf-8") as f:
                 transcript_data = json.load(f)
@@ -494,6 +680,7 @@ def main() -> None:
                 max_chars=args.max_chars,
                 overlap_chars=args.overlap_chars,
                 temperature=args.temperature,
+                json_retries=args.json_retries,
             )
             elapsed = time.perf_counter() - started
 
@@ -534,12 +721,15 @@ def main() -> None:
             print(f"  error | {exc}", file=sys.stderr)
             if args.fail_fast:
                 raise
+        finally:
+            if lock_acquired:
+                release_lock(lock_path)
 
-    processed = len(files) - failed - skipped
+    processed = len(files) - failed - skipped - locked
     mode = "dry-run" if args.dry_run else "live"
     print(
         "\nFinished "
-        f"({mode}): processed={processed} skipped={skipped} failed={failed} total_files={len(files)} "
+        f"({mode}): processed={processed} skipped={skipped} locked={locked} failed={failed} total_files={len(files)} "
         f"total_jokes={total_jokes}"
     )
 
