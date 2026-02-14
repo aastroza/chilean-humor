@@ -119,6 +119,19 @@ def parse_args() -> argparse.Namespace:
         help="Gemini model name.",
     )
     parser.add_argument(
+        "--fallback-model",
+        default="gemini-3-pro-preview",
+        help=(
+            "Fallback Gemini model used per window for API/service or invalid-JSON "
+            "output errors (default: gemini-3-pro-preview)."
+        ),
+    )
+    parser.add_argument(
+        "--disable-fallback-model",
+        action="store_true",
+        help="Disable fallback retry with a secondary model.",
+    )
+    parser.add_argument(
         "--temperature",
         type=float,
         default=0.0,
@@ -411,11 +424,12 @@ def extract_jokes_from_transcript_json(
     transcript_json: Dict[str, Any],
     client: Any,
     model: str,
+    fallback_model: str | None,
     max_chars: int,
     overlap_chars: int,
     temperature: float,
     json_retries: int,
-) -> tuple[List[str], int, int]:
+) -> tuple[List[str], int, int, int]:
     segments = transcript_json.get("segments", [])
     windows = build_segment_windows(
         segments=segments,
@@ -425,6 +439,7 @@ def extract_jokes_from_transcript_json(
 
     all_items: List[JokeItem] = []
     failed_windows = 0
+    fallback_windows = 0
     for window_idx, window in enumerate(windows, start=1):
         try:
             repertoire = call_gemini_structured(
@@ -436,6 +451,32 @@ def extract_jokes_from_transcript_json(
             )
             all_items.extend(repertoire.jokes)
         except Exception as exc:
+            if (
+                fallback_model
+                and fallback_model != model
+                and (
+                    is_probable_gemini_api_error(exc)
+                    or is_probable_invalid_json_output_error(exc)
+                )
+            ):
+                try:
+                    print(
+                        f"  window_retry_fallback | {window_idx}/{len(windows)} | model={fallback_model}",
+                        file=sys.stderr,
+                    )
+                    repertoire = call_gemini_structured(
+                        text_window=window,
+                        client=client,
+                        model=fallback_model,
+                        temperature=temperature,
+                        json_retries=json_retries,
+                    )
+                    all_items.extend(repertoire.jokes)
+                    fallback_windows += 1
+                    continue
+                except Exception as fallback_exc:
+                    exc = fallback_exc
+
             failed_windows += 1
             print(
                 f"  window_error | {window_idx}/{len(windows)} | {summarize_error(exc)}",
@@ -443,7 +484,7 @@ def extract_jokes_from_transcript_json(
             )
 
     jokes = postprocess(all_items)
-    return jokes, len(windows), failed_windows
+    return jokes, len(windows), failed_windows, fallback_windows
 
 
 def parse_ids(raw_ids: str) -> set[str]:
@@ -481,6 +522,50 @@ def summarize_error(exc: Exception, max_chars: int = 260) -> str:
     if len(text) <= max_chars:
         return text
     return text[: max_chars - 3].rstrip() + "..."
+
+
+def is_probable_gemini_api_error(exc: Exception) -> bool:
+    status_code = getattr(exc, "status_code", None)
+    if isinstance(status_code, int):
+        if status_code >= 500 or status_code in {408, 409, 429}:
+            return True
+
+    message = str(exc).lower()
+    if "validation error for repertoire" in message or "invalid json" in message:
+        return False
+
+    api_markers = (
+        "api error",
+        "rate limit",
+        "resource exhausted",
+        "quota",
+        "deadline exceeded",
+        "service unavailable",
+        "internal error",
+        "temporarily unavailable",
+        "timed out",
+        "timeout",
+        "connection reset",
+        "too many requests",
+        "503",
+        "502",
+        "504",
+        "500",
+        "429",
+    )
+    return any(marker in message for marker in api_markers)
+
+
+def is_probable_invalid_json_output_error(exc: Exception) -> bool:
+    message = str(exc).lower()
+    json_markers = (
+        "validation error for repertoire",
+        "invalid json",
+        "json_invalid",
+        "eof while parsing",
+        "unterminated string",
+    )
+    return any(marker in message for marker in json_markers)
 
 
 def lock_file_for_output(source_file: Path, output_filename: str) -> Path:
@@ -547,6 +632,7 @@ def write_routine_output(
     model: str,
     window_count: int,
     failed_window_count: int,
+    fallback_window_count: int,
     jokes: List[str],
 ) -> Path:
     output_path = source_file.parent / output_filename
@@ -556,6 +642,7 @@ def write_routine_output(
         "model": model,
         "window_count": window_count,
         "failed_window_count": failed_window_count,
+        "fallback_window_count": fallback_window_count,
         "joke_count": len(jokes),
         "jokes": jokes,
     }
@@ -600,6 +687,13 @@ def main() -> None:
     print(f"Found {len(files)} transcript file(s).")
     if routine_ids:
         print(f"Routine id filter: {sorted(routine_ids)}")
+    fallback_model = (
+        None
+        if args.disable_fallback_model or not args.fallback_model.strip()
+        else args.fallback_model.strip()
+    )
+    if fallback_model and fallback_model != args.model:
+        print(f"Fallback model for API/JSON-output errors: {fallback_model}")
 
     client: Any = None
     if not args.dry_run and genai is None:
@@ -673,10 +767,16 @@ def main() -> None:
                 client = genai.Client(api_key=api_key)
 
             started = time.perf_counter()
-            jokes, window_count, failed_window_count = extract_jokes_from_transcript_json(
+            (
+                jokes,
+                window_count,
+                failed_window_count,
+                fallback_window_count,
+            ) = extract_jokes_from_transcript_json(
                 transcript_json=transcript_data,
                 client=client,
                 model=args.model,
+                fallback_model=fallback_model,
                 max_chars=args.max_chars,
                 overlap_chars=args.overlap_chars,
                 temperature=args.temperature,
@@ -693,7 +793,8 @@ def main() -> None:
             print(
                 "  success | "
                 f"segments={len(segments)} windows={window_count} jokes={len(jokes)} "
-                f"failed_windows={failed_window_count} elapsed={elapsed:.1f}s"
+                f"failed_windows={failed_window_count} fallback_windows={fallback_window_count} "
+                f"elapsed={elapsed:.1f}s"
             )
 
             for joke_idx, joke in enumerate(jokes[: args.max_jokes_print], start=1):
@@ -709,6 +810,7 @@ def main() -> None:
                     model=args.model,
                     window_count=window_count,
                     failed_window_count=failed_window_count,
+                    fallback_window_count=fallback_window_count,
                     jokes=jokes,
                 )
                 print(f"  wrote: {output_path}")
