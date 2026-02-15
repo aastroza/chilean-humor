@@ -51,6 +51,7 @@ def safe_numeric(series: pd.Series, default: float = np.nan) -> pd.Series:
 class Config:
     input_tables_dir: Path
     output_dir: Path
+    topic_labels_csv: Path | None = None
     min_segments_per_show: int = 15
     birth_threshold_pct: float = 1.0
     similarity_top_k: int = 50
@@ -77,6 +78,53 @@ class AdvancedTopicAnalyzer:
         self.multi_topic_long = None
         self.n_excluded_topics_segments = 0
 
+    @staticmethod
+    def _load_topic_label_map(path: Path | None) -> dict[int, str]:
+        if path is None:
+            return {}
+        if not path.exists():
+            raise FileNotFoundError(f"Topic labels CSV not found: {path}")
+
+        df = pd.read_csv(path)
+        topic_col = None
+        for candidate in ["topic_id", "Topic", "topic", "topic_final"]:
+            if candidate in df.columns:
+                topic_col = candidate
+                break
+        if topic_col is None:
+            raise ValueError(
+                "Topic labels CSV must contain a topic id column: "
+                "topic_id (preferred), Topic, topic, or topic_final."
+            )
+
+        label_col = None
+        for candidate in ["nuevo_nombre", "new_name", "label", "topic_label"]:
+            if candidate in df.columns:
+                label_col = candidate
+                break
+        if label_col is None:
+            raise ValueError(
+                "Topic labels CSV must contain a label column: "
+                "nuevo_nombre (preferred), new_name, label, or topic_label."
+            )
+
+        tmp = df[[topic_col, label_col]].copy()
+        tmp[topic_col] = pd.to_numeric(tmp[topic_col], errors="coerce")
+        tmp[label_col] = tmp[label_col].astype(str).str.strip()
+        tmp = tmp.dropna(subset=[topic_col])
+        tmp = tmp[
+            (tmp[label_col] != "")
+            & (tmp[label_col].str.upper() != "[PENDIENTE]")
+            & (tmp[label_col].str.upper() != "PENDIENTE")
+        ].copy()
+
+        if tmp.empty:
+            return {}
+
+        tmp[topic_col] = tmp[topic_col].astype(int)
+        tmp = tmp.drop_duplicates(subset=[topic_col], keep="last")
+        return dict(zip(tmp[topic_col], tmp[label_col], strict=False))
+
     def load(self):
         tdir = self.cfg.input_tables_dir
         self.segments_topics = read_csv(tdir / "segments_topics.csv", required=True)
@@ -87,6 +135,38 @@ class AdvancedTopicAnalyzer:
         self.show_year_topic_distribution = read_csv(
             tdir / "show_year_topic_distribution.csv", required=False
         )
+        topic_label_map = self._load_topic_label_map(self.cfg.topic_labels_csv)
+        if topic_label_map:
+            if "topic_final" in self.segments_topics.columns:
+                topic_final_numeric = pd.to_numeric(
+                    self.segments_topics["topic_final"], errors="coerce"
+                )
+                mapped_final = topic_final_numeric.map(topic_label_map)
+                if "topic_name_final" not in self.segments_topics.columns:
+                    self.segments_topics["topic_name_final"] = np.nan
+                self.segments_topics["topic_name_final"] = mapped_final.where(
+                    mapped_final.notna(), self.segments_topics["topic_name_final"]
+                )
+
+            if "topic_initial" in self.segments_topics.columns:
+                topic_initial_numeric = pd.to_numeric(
+                    self.segments_topics["topic_initial"], errors="coerce"
+                )
+                mapped_initial = topic_initial_numeric.map(topic_label_map)
+                if "topic_name_initial" not in self.segments_topics.columns:
+                    self.segments_topics["topic_name_initial"] = np.nan
+                self.segments_topics["topic_name_initial"] = mapped_initial.where(
+                    mapped_initial.notna(), self.segments_topics["topic_name_initial"]
+                )
+
+            if self.topic_info is not None and {"Topic", "Name"}.issubset(
+                self.topic_info.columns
+            ):
+                topic_numeric = pd.to_numeric(self.topic_info["Topic"], errors="coerce")
+                mapped_info = topic_numeric.map(topic_label_map)
+                self.topic_info["Name"] = mapped_info.where(
+                    mapped_info.notna(), self.topic_info["Name"]
+                )
 
         for col in ["show", "year", "topic_final"]:
             if col not in self.segments_topics.columns:
@@ -137,17 +217,15 @@ class AdvancedTopicAnalyzer:
 
     def _topic_short_label(self, topic_id: int, topic_name: object, max_terms: int = 3) -> str:
         if pd.isna(topic_name):
-            return f"T{int(topic_id)}"
+            return str(int(topic_id))
         text = str(topic_name).strip()
         prefix = f"{int(topic_id)}_"
         if text.startswith(prefix):
             text = text[len(prefix) :]
         text = " ".join(text.replace("_", " ").split())
         if not text:
-            return f"T{int(topic_id)}"
-        terms = text.split()
-        short = " ".join(terms[:max_terms])
-        return f"T{int(topic_id)} {short}"
+            return str(int(topic_id))
+        return text
 
     @staticmethod
     def _brand_cmap() -> LinearSegmentedColormap:
@@ -245,11 +323,9 @@ class AdvancedTopicAnalyzer:
             axis=1,
         )
 
-        brand_cmap = self._brand_cmap()
-
         top_topics = (
-            t.groupby("topic_final")["weighted_mass"]
-            .sum()
+            self.work.groupby("topic_final")
+            .size()
             .sort_values(ascending=False)
             .head(top_n)
             .index.tolist()
@@ -257,12 +333,14 @@ class AdvancedTopicAnalyzer:
         p = t[t["topic_final"].isin(top_topics)].pivot_table(
             index="decade", columns="topic_final", values="prevalence_pct", fill_value=0.0
         )
+        p = p.sort_index()
         label_map = (
             t[["topic_final", "topic_short"]]
             .drop_duplicates("topic_final")
             .set_index("topic_final")["topic_short"]
             .to_dict()
         )
+        topic_counts = self.work.groupby("topic_final").size().to_dict()
 
         fig, ax = plt.subplots(figsize=(13, 7), facecolor="#eff8f7")
         ax.set_facecolor("#ffffff")
@@ -272,30 +350,35 @@ class AdvancedTopicAnalyzer:
         ax.spines["left"].set_color("#bdddd9")
         ax.spines["bottom"].set_color("#bdddd9")
 
-        color_positions = np.linspace(0.18, 0.98, max(len(top_topics), 1))
-        color_lookup = {
-            topic_id: brand_cmap(pos) for topic_id, pos in zip(top_topics, color_positions, strict=False)
-        }
-        for topic_id in top_topics:
+        # Fixed categorical palette for strong color contrast across 10 series.
+        palette = plt.cm.tab10(np.linspace(0.0, 1.0, max(len(top_topics), 1)))
+        color_lookup = {topic_id: palette[idx] for idx, topic_id in enumerate(top_topics)}
+
+        # Draw low-ending lines first so higher-ending lines remain visible on top.
+        plot_order = sorted(
+            top_topics,
+            key=lambda topic_id: (
+                float(p[topic_id].iloc[-1]),
+                float(p[topic_id].mean()),
+            ),
+        )
+
+        handles = []
+        legend_labels = []
+        for topic_id in plot_order:
             series = p[topic_id].sort_index()
-            ax.plot(
+            (line,) = ax.step(
                 series.index,
                 series.values,
                 color=color_lookup[topic_id],
-                linewidth=2.2,
-                marker="o",
-                markersize=5,
-                alpha=0.95,
+                linewidth=2.6,
+                where="post",
+                alpha=0.98,
             )
-            if len(series):
-                ax.text(
-                    float(series.index.max()) + 0.3,
-                    float(series.iloc[-1]),
-                    label_map.get(topic_id, f"T{topic_id}"),
-                    fontsize=9,
-                    color="#155b58",
-                    va="center",
-                )
+            handles.append(line)
+            legend_labels.append(
+                f"{label_map.get(topic_id, str(topic_id))} (n={int(topic_counts.get(topic_id, 0))})"
+            )
 
         ax.set_title(
             f"Temas mas relevantes por decada (top {top_n})",
@@ -307,11 +390,40 @@ class AdvancedTopicAnalyzer:
         ax.set_xlabel("Decada", fontsize=12, color="#2d3d3f")
         ax.set_ylabel("Prevalencia (%)", fontsize=12, color="#2d3d3f")
         ax.tick_params(colors="#2d3d3f")
+        ax.set_xticks(p.index.to_numpy())
         ax.margins(x=0.03)
+
+        decade_counts = (
+            self.work.groupby("decade").size().reindex(p.index, fill_value=0).astype(int)
+        )
+        decade_count_text = " | ".join(
+            f"{int(dec)}: n={int(count)}"
+            for dec, count in zip(p.index.tolist(), decade_counts.tolist(), strict=False)
+        )
+        ax.text(
+            0.0,
+            1.02,
+            f"Top 10 definidos por volumen total de chistes. Base por decada -> {decade_count_text}",
+            transform=ax.transAxes,
+            fontsize=9,
+            color="#587272",
+            va="bottom",
+        )
+
+        ax.legend(
+            handles=handles[::-1],
+            labels=legend_labels[::-1],
+            title="Topicos (n chistes)",
+            loc="center left",
+            bbox_to_anchor=(1.01, 0.5),
+            frameon=False,
+            fontsize=9.5,
+            title_fontsize=10,
+        )
         fig.text(
             0.5,
             0.015,
-            "Cada linea representa un topico. Etiquetas al extremo derecho para lectura rapida.",
+            "Serie en escalones para reflejar periodos por decada.",
             ha="center",
             fontsize=10,
             color="#587272",
@@ -321,7 +433,53 @@ class AdvancedTopicAnalyzer:
             self.cfg.output_dir
             / "figures"
             / "soft_topic_prevalence_by_decade_top_topics.png",
-            layout_rect=(0.0, 0.06, 1.0, 1.0),
+            layout_rect=(0.0, 0.06, 0.80, 1.0),
+        )
+
+        top_mat = p[top_topics].T.copy()
+        top_mat_labels = [label_map.get(int(topic_id), str(int(topic_id))) for topic_id in top_mat.index]
+
+        fig_top_h, ax_top_h = plt.subplots(figsize=(13.5, 6.2), facecolor="#eff8f7")
+        ax_top_h.set_facecolor("#ffffff")
+        im_top = ax_top_h.imshow(
+            top_mat.values,
+            aspect="auto",
+            cmap="YlGnBu",
+            interpolation="nearest",
+        )
+        ax_top_h.set_xticks(np.arange(len(top_mat.columns)))
+        ax_top_h.set_xticklabels([int(v) for v in top_mat.columns.to_list()], fontsize=10, color="#2d3d3f")
+        ax_top_h.set_yticks(np.arange(len(top_mat_labels)))
+        ax_top_h.set_yticklabels(top_mat_labels, fontsize=10, color="#2d3d3f")
+        ax_top_h.set_xlabel("Decada", fontsize=12, color="#2d3d3f")
+        ax_top_h.set_ylabel("Topicos (top 10 por volumen total)", fontsize=12, color="#2d3d3f")
+        ax_top_h.set_title(
+            "Top 10 temas por decada (heatmap de prevalencia)",
+            fontsize=18,
+            color="#0f6661",
+            pad=16,
+            fontweight="bold",
+        )
+        for side in ["top", "right", "left", "bottom"]:
+            ax_top_h.spines[side].set_visible(False)
+        cbar_top = fig_top_h.colorbar(im_top, ax=ax_top_h, pad=0.012)
+        cbar_top.set_label("Prevalencia (%)", color="#2d3d3f")
+        cbar_top.ax.yaxis.set_tick_params(color="#2d3d3f")
+        plt.setp(cbar_top.ax.get_yticklabels(), color="#2d3d3f")
+        fig_top_h.text(
+            0.5,
+            0.015,
+            "Filas ordenadas por cantidad total de chistes en todo el periodo.",
+            ha="center",
+            fontsize=10,
+            color="#587272",
+        )
+        save_plot(
+            fig_top_h,
+            self.cfg.output_dir
+            / "figures"
+            / "soft_topic_prevalence_by_decade_top_topics_heatmap.png",
+            layout_rect=(0.0, 0.05, 1.0, 1.0),
         )
 
         all_topics = (
@@ -341,7 +499,7 @@ class AdvancedTopicAnalyzer:
         )
 
         y_labels = [
-            label_map.get(int(topic_id), f"T{int(topic_id)}")
+            label_map.get(int(topic_id), str(int(topic_id)))
             for topic_id in all_topics.index.to_list()
         ]
         mat = all_topics.to_numpy()
@@ -350,7 +508,9 @@ class AdvancedTopicAnalyzer:
         heat_h = max(8.5, 0.34 * len(y_labels) + 2.2)
         fig_h, ax_h = plt.subplots(figsize=(15, heat_h), facecolor="#eff8f7")
         ax_h.set_facecolor("#ffffff")
-        im = ax_h.imshow(mat, aspect="auto", cmap=brand_cmap, interpolation="nearest")
+        im = ax_h.imshow(
+            mat, aspect="auto", cmap=self._brand_cmap(), interpolation="nearest"
+        )
         ax_h.set_xticks(np.arange(len(decades)))
         ax_h.set_xticklabels(decades, fontsize=10, color="#2d3d3f")
         ax_h.set_yticks(np.arange(len(y_labels)))
@@ -1005,6 +1165,9 @@ class AdvancedTopicAnalyzer:
             "decade_max": int(self.work["decade"].max()),
             "n_shows": int(self.work["show"].nunique()),
             "topic_birth_threshold_pct": float(self.cfg.birth_threshold_pct),
+            "topic_labels_csv": (
+                str(self.cfg.topic_labels_csv) if self.cfg.topic_labels_csv else None
+            ),
             "top_similarity_pairs_preview": pairs.head(10).to_dict(orient="records"),
             "topic_lifecycle_preview": lifecycle.head(10).to_dict(orient="records"),
             "topic_lifecycle_decade_preview": lifecycle_decade.head(10).to_dict(
@@ -1056,6 +1219,15 @@ def parse_args():
     )
     p.add_argument("--input-tables-dir", type=str, default="outputs/topic_modeling/tables")
     p.add_argument("--output-dir", type=str, default="outputs/advanced_analysis")
+    p.add_argument(
+        "--topic-labels-csv",
+        type=str,
+        default=None,
+        help=(
+            "Optional CSV with custom topic labels. Supported columns: "
+            "topic_id + nuevo_nombre (preferred)."
+        ),
+    )
     p.add_argument("--min-segments-per-show", type=int, default=15)
     p.add_argument("--birth-threshold-pct", type=float, default=1.0)
     p.add_argument("--similarity-top-k", type=int, default=50)
@@ -1101,6 +1273,7 @@ def main():
     cfg = Config(
         input_tables_dir=Path(a.input_tables_dir),
         output_dir=Path(a.output_dir),
+        topic_labels_csv=Path(a.topic_labels_csv) if a.topic_labels_csv else None,
         min_segments_per_show=a.min_segments_per_show,
         birth_threshold_pct=a.birth_threshold_pct,
         similarity_top_k=a.similarity_top_k,

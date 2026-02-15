@@ -1,0 +1,241 @@
+{
+  "n_segments_total": 4242,
+  "n_segments_assigned_topic": 4242,
+  "excluded_topics": [],
+  "n_segments_excluded_topics": 0,
+  "n_segments_analyzed": 4242,
+  "n_topics_detected": 32,
+  "year_min": 1973,
+  "year_max": 2025,
+  "decade_min": 1970,
+  "decade_max": 2020,
+  "n_shows": 90,
+  "topic_birth_threshold_pct": 1.0,
+  "topic_labels_csv": "outputs\\topic_modeling_jokes\\topic_labels.csv",
+  "top_similarity_pairs_preview": [
+    {
+      "show_a": "Felo",
+      "show_b": "Rudy Rey",
+      "cosine_similarity": 0.9103657401833507
+    },
+    {
+      "show_a": "El Pampero",
+      "show_b": "Profesor Salomón y Tutu-Tutu",
+      "cosine_similarity": 0.8582806310174129
+    },
+    {
+      "show_a": "Bombo Fica",
+      "show_b": "Carlos Helo",
+      "cosine_similarity": 0.8494992113530876
+    },
+    {
+      "show_a": "Bastián Paz",
+      "show_b": "Ruperto",
+      "cosine_similarity": 0.8358666173500717
+    },
+    {
+      "show_a": "Julio Sabala",
+      "show_b": "Rudy Rey",
+      "cosine_similarity": 0.8355494985791361
+    },
+    {
+      "show_a": "Alejandra Azcárate",
+      "show_b": "Jenny Cavallo",
+      "cosine_similarity": 0.8341140900792201
+    },
+    {
+      "show_a": "Memo Bunke y Natalia Cuevas",
+      "show_b": "Payahop",
+      "cosine_similarity": 0.8165840199203639
+    },
+    {
+      "show_a": "Los Atletas de la Risa",
+      "show_b": "Paulo Iglesias",
+      "cosine_similarity": 0.7700843858954768
+    },
+    {
+      "show_a": "Julio Sabala",
+      "show_b": "Mauricio Palma",
+      "cosine_similarity": 0.76337070559182
+    },
+    {
+      "show_a": "Payahop",
+      "show_b": "Rodrigo Villegas",
+      "cosine_similarity": 0.7508928036109014
+    }
+  ],
+  "topic_lifecycle_preview": [
+    {
+      "topic_final": 1,
+      "birth_year": 1973,
+      "active_years": 33,
+      "volatility_mean_abs_diff": 7.413787097914471,
+      "mean_prevalence_pct": 7.725765625826627,
+      "max_prevalence_pct": 52.57638682783703
+    },
+    {
+      "topic_final": 10,
+      "birth_year": 1973,
+      "active_years": 19,
+      "volatility_mean_abs_diff": 10.126874463894339,
+      "mean_prevalence_pct": 6.802258587225779,
+      "max_prevalence_pct": 100.0
+    },
+    {
+      "topic_final": 2,
+      "birth_year": 1973,
+      "active_years": 32,
+      "volatility_mean_abs_diff": 6.468769956662512,
+      "mean_prevalence_pct": 5.918717951788966,
+      "max_prevalence_pct": 36.78260059292434
+    },
+    {
+      "topic_final": 16,
+      "birth_year": 1973,
+      "active_years": 23,
+      "volatility_mean_abs_diff": 6.719513502647441,
+      "mean_prevalence_pct": 5.883577806928394,
+      "max_prevalence_pct": 40.435201162757764
+    },
+    {
+      "topic_final": 15,
+      "birth_year": 1973,
+      "active_years": 21,
+      "volatility_mean_abs_diff": 4.907405027076832,
+      "mean_prevalence_pct": 5.5655900680045844,
+      "max_prevalence_pct": 25.399631447770904
+    },
+    {
+      "topic_final": 0,
+      "birth_year": 1973,
+      "active_years": 31,
+      "volatility_mean_abs_diff": 3.827030554256797,
+      "mean_prevalence_pct": 4.420289629078841,
+      "max_prevalence_pct": 16.192892683504137
+    },
+    {
+      "topic_final": 11,
+      "birth_year": 1973,
+      "active_years": 26,
+      "volatility_mean_abs_diff": 2.9427671271313915,
+      "mean_prevalence_pct": 3.1158336312477535,
+      "max_prevalence_pct": 11.582240201117994
+    },
+    {
+      "topic_final": 21,
+      "birth_year": 1974,
+      "active_years": 23,
+      "volatility_mean_abs_diff": 7.855234118609784,
+      "mean_prevalence_pct": 7.2634363610340165,
+      "max_prevalence_pct": 47.38439591041551
+    },
+    {
+      "topic_final": 13,
+      "birth_year": 1974,
+      "active_years": 18,
+      "volatility_mean_abs_diff": 7.578614300688526,
+      "mean_prevalence_pct": 5.8737956931566755,
+      "max_prevalence_pct": 63.01403712172082
+    },
+    {
+      "topic_final": 26,
+      "birth_year": 1974,
+      "active_years": 19,
+      "volatility_mean_abs_diff": 6.194293030101062,
+      "mean_prevalence_pct": 4.229847971087513,
+      "max_prevalence_pct": 47.6986152929773
+    }
+  ],
+  "topic_lifecycle_decade_preview": [
+    {
+      "topic_final": 21,
+      "birth_decade": 1970,
+      "active_decades": 6,
+      "volatility_mean_abs_diff": 3.6970371648992923,
+      "mean_prevalence_pct": 8.438363417694172,
+      "max_prevalence_pct": 19.299495960523444
+    },
+    {
+      "topic_final": 20,
+      "birth_decade": 1970,
+      "active_decades": 5,
+      "volatility_mean_abs_diff": 7.004067641212953,
+      "mean_prevalence_pct": 6.165692417990261,
+      "max_prevalence_pct": 19.54188577414964
+    },
+    {
+      "topic_final": 1,
+      "birth_decade": 1970,
+      "active_decades": 6,
+      "volatility_mean_abs_diff": 2.556374184585413,
+      "mean_prevalence_pct": 5.756837868860718,
+      "max_prevalence_pct": 7.607253781143897
+    },
+    {
+      "topic_final": 15,
+      "birth_decade": 1970,
+      "active_decades": 5,
+      "volatility_mean_abs_diff": 4.121043150133011,
+      "mean_prevalence_pct": 4.836750187962314,
+      "max_prevalence_pct": 13.863521840193327
+    },
+    {
+      "topic_final": 2,
+      "birth_decade": 1970,
+      "active_decades": 5,
+      "volatility_mean_abs_diff": 3.828069851823777,
+      "mean_prevalence_pct": 4.543491559178386,
+      "max_prevalence_pct": 6.712682349562871
+    },
+    {
+      "topic_final": 16,
+      "birth_decade": 1970,
+      "active_decades": 6,
+      "volatility_mean_abs_diff": 3.3086692866812655,
+      "mean_prevalence_pct": 4.4687102319048835,
+      "max_prevalence_pct": 9.649747980261722
+    },
+    {
+      "topic_final": 13,
+      "birth_decade": 1970,
+      "active_decades": 5,
+      "volatility_mean_abs_diff": 2.5218397433579955,
+      "mean_prevalence_pct": 4.062392852720637,
+      "max_prevalence_pct": 7.3279800566951945
+    },
+    {
+      "topic_final": 5,
+      "birth_decade": 1970,
+      "active_decades": 4,
+      "volatility_mean_abs_diff": 3.4576582932829094,
+      "mean_prevalence_pct": 3.757334515115339,
+      "max_prevalence_pct": 8.403582410520766
+    },
+    {
+      "topic_final": 10,
+      "birth_decade": 1970,
+      "active_decades": 6,
+      "volatility_mean_abs_diff": 3.983097648628589,
+      "mean_prevalence_pct": 3.493746039356134,
+      "max_prevalence_pct": 9.649747980261722
+    },
+    {
+      "topic_final": 0,
+      "birth_decade": 1970,
+      "active_decades": 5,
+      "volatility_mean_abs_diff": 1.8521227466402999,
+      "mean_prevalence_pct": 3.33735339030171,
+      "max_prevalence_pct": 5.052995966911255
+    }
+  ],
+  "multi_topic_summary": {
+    "n_segments_with_soft_topics": 2149,
+    "n_segments_multi_topic": 185,
+    "share_multi_topic_over_soft": 0.08608655188459749,
+    "multi_topic_threshold": 0.08,
+    "multi_topic_min_topics": 2,
+    "topic_id_source": "topic_id_assumed",
+    "excluded_topics_applied": []
+  },
+  "note": "Influence analysis intentionally removed due to insufficient evidence for causal claims."
+}
