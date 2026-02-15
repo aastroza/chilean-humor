@@ -1,0 +1,32 @@
+Parent_ID,Parent_Name,Topics,Child_Left_ID,Child_Left_Name,Child_Right_ID,Child_Right_Name,Distance
+62,día_dije_ahora_dijo_bueno,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]",59,chico_pam_cabro_niño_agua,61,bueno_día_mira_va_bien,0.9211266597508294
+61,bueno_día_mira_va_bien,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 26, 27, 28, 29]",54,doctor_señor_auto_pesos_plata,60,mamá_mira_bien_chile_amor,0.8850639034476775
+60,mamá_mira_bien_chile_amor,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 23, 27, 28, 29]",52,show_fome_dichato_ciudad_oh oh,56,mamá_mira_amor_mujer_bien,0.8758592726296041
+59,chico_pam_cabro_niño_agua,"[21, 25, 30, 31]",30,maestro_foto_llené_comentar_fanfarria,58,chico_pam_cabro_niño_agua,0.8653772501472673
+58,chico_pam_cabro_niño_agua,"[21, 25, 31]",57,chico_cabro_niño_cabro chico_agua,21,pam_pam pam_luna_tenis_toallita,0.8551372314567336
+57,chico_cabro_niño_cabro chico_agua,"[25, 31]",31,niño_cabro chico_cabro_chico_play,25,agua_pez_pueblo_nadar_ahí pez,0.8381460155230608
+56,mamá_mira_amor_mujer_bien,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 16, 17, 19, 23, 27, 28, 29]",55,mamá_mira_amor_bien_ser,27,espejo_hermana_bonita_ropa_andrés,0.8240670702684748
+55,mamá_mira_amor_bien_ser,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 16, 17, 19, 23, 28, 29]",28,terremoto_noticias_ta_grado_ta ta,53,mamá_amor_mira_ser_mujer,0.8206994999006699
+54,doctor_señor_auto_pesos_plata,"[7, 12, 14, 20, 22, 24, 26]",46,doctor_farmacia_viagra_médico_viejito,50,pesos_loro_auto_plata_carabinero,0.8109890381006419
+53,mamá_amor_mira_ser_mujer,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 16, 17, 19, 23, 29]",51,mamá_amor_mira_ser_mujer,16,cielo_pi_san pedro_pérez_juan pérez,0.8005041439573879
+52,show_fome_dichato_ciudad_oh oh,"[15, 18]",15,fome_show_oh oh_dichato_stand,18,ciudad_temuco_emocionante_buenas noches_noches,0.7936142513460368
+51,mamá_amor_mira_ser_mujer,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 17, 19, 23, 29]",47,almas_celular_amiga_teléfono_tele,49,mamá_amor_mujer_ser_mira,0.7885895795268775
+50,pesos_loro_auto_plata_carabinero,"[7, 12, 14, 24, 26]",48,loro_pesos_auto_carabinero_micro,12,marihuana_jimmy_droga_vino_fumar,0.7776843070317311
+49,mamá_amor_mujer_ser_mira,"[0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 19, 23]",42,mujer_ser_chile_amor_mujeres,43,colegio_mamá_tac_profe_papá,0.7673669658785423
+48,loro_pesos_auto_carabinero_micro,"[7, 14, 24, 26]",44,pesos_plata_lucas_pagar_bolsa,38,loro_carabinero_auto_avión_micro,0.7659289558925276
+47,almas_celular_amiga_teléfono_tele,"[13, 17, 29]",17,celular_teléfono_momia_aló_alvarito,45,almas_amiga_tele_casting_martín,0.7640590865971428
+46,doctor_farmacia_viagra_médico_viejito,"[20, 22]",20,farmacia_viagra_viejito_cajas_bebé,22,doctor_médico_doctor doctor_hospital_dice doctor,0.7462789710719937
+45,almas_amiga_tele_casting_martín,"[13, 29]",29,amiga_mira mira_amigas_tenés hacer_grupo whatsapp,13,almas_tele_casting_martín_canal,0.7427080966109931
+44,pesos_plata_lucas_pagar_bolsa,"[24, 26]",24,plata_bolsa_crédito_chino_colorín,26,pesos_banco_lucas_crisis_tarjeta,0.7335297695273386
+43,colegio_mamá_tac_profe_papá,"[9, 19, 23]",9,comida_comió_pan_olla_mamá,40,colegio_tac_profe_tac tac_niños,0.7246934035704967
+42,mujer_ser_chile_amor_mujeres,"[0, 1, 2, 3, 4, 5, 6, 8, 10, 11]",8,amante_mujer_marido_matrimonio_soltera,41,chile_ser_ay_mujeres_salta,0.7242842739508761
+41,chile_ser_ay_mujeres_salta,"[0, 1, 2, 3, 4, 5, 6, 10, 11]",39,chile_ser_mujeres_ay_chileno,10,salta salta_salta_bailar_baile_chao,0.7197813881958541
+40,colegio_tac_profe_tac tac_niños,"[19, 23]",23,tac_tac tac_hijos_papá_hija,19,colegio_profe_profesor_profesora_matemáticas,0.7134540212069401
+39,chile_ser_mujeres_ay_chileno,"[0, 1, 2, 3, 4, 5, 6, 11]",37,mujeres_mujer_hombre_hombres_perro,34,chile_chileno_canción_presidente_país,0.6936504325776508
+38,loro_carabinero_auto_avión_micro,"[7, 14]",7,avión_auto_micro_chofer_chancho,14,loro_carabineros_cartero_carabinero_popó,0.6893902606888271
+37,mujeres_mujer_hombre_hombres_perro,"[0, 4, 5, 6, 11]",36,perro_vieja_abuela_abuelita_suegra,33,mujeres_hombres_mujer_hombre_hijos,0.6754619139096194
+36,perro_vieja_abuela_abuelita_suegra,"[0, 4, 11]",35,perro_abuela_vieja_abuelita_suegra,11,jorge_cama_dormir_pa_pa pa,0.6675933380017424
+35,perro_abuela_vieja_abuelita_suegra,"[0, 4]",4,abuela_vieja_abuelita_suegra_años,0,perro_perrito_mono_gallo_maní,0.6387252234413587
+34,chile_chileno_canción_presidente_país,"[1, 2, 3]",1,canción_pegado_música_luis_maestro,32,chile_chileno_presidente_país_chilenos,0.63490809235126
+33,mujeres_hombres_mujer_hombre_hijos,"[5, 6]",5,mujeres_hombres_mujer_hombre_baño,6,hijos_guagua_hija_mamá_maternidad,0.6295954643199968
+32,chile_chileno_presidente_país_chilenos,"[2, 3]",2,chileno_chile_chilenos_argentino_gringo,3,presidente_checho_piñera_chile_gobierno,0.5979403375242627
