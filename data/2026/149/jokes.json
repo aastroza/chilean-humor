@@ -3,6 +3,7 @@
   "model": "gemini-3-flash-preview",
   "window_count": 2,
   "failed_window_count": 1,
+  "fallback_window_count": 0,
   "joke_count": 28,
   "jokes": [
     "Bastián, yo tengo muchas preguntas para ti esta noche y quiero que tú me las contestes, pero con esa picardía que solo Bastián tiene. ¿Te querés sentar? Ah, ya, nos sentamos. Por ejemplo, respóndeme: ¿por qué los pitufos se ríen cuando caminan por el bosque? Porque el pasto les hace cosquillas en las bolitas.",

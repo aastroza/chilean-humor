@@ -91,6 +91,8 @@ def load_clean_documents(
         documents.append(text)
         decades.append(decade)
         modeled_row = dict(row)
+        if "show" not in modeled_row and "comedian" in modeled_row:
+            modeled_row["show"] = modeled_row.get("comedian")
         modeled_row["source_row_index"] = row_index
         modeled_row["model_text"] = text
         modeled_row["model_decade"] = decade

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run deterministic BERTopic analysis for Chilean humor transcripts."""
+"""Run deterministic BERTopic analysis for Chilean humor jokes."""
 
 from __future__ import annotations
 
@@ -39,12 +39,12 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--repo-id",
-        default="astroza/chilean-humor-raw-transcripts",
+        default="astroza/chilean-humor-jokes",
         help="Hugging Face dataset repo id.",
     )
     parser.add_argument(
         "--config-name",
-        default="segments",
+        default="jokes",
         help="Dataset config name inside the HF repo.",
     )
     parser.add_argument(
@@ -55,7 +55,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--text-column",
         default="text",
-        help="Column containing segment text.",
+        help="Column containing joke text.",
     )
     parser.add_argument(
         "--date-column",
@@ -71,19 +71,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--min-text-chars",
         type=int,
-        default=25,
-        help="Drop segments shorter than this number of characters.",
+        default=10,
+        help="Drop jokes shorter than this number of characters.",
     )
     parser.add_argument(
         "--min-text-tokens",
         type=int,
-        default=5,
-        help="Drop segments shorter than this number of whitespace tokens.",
+        default=2,
+        help="Drop jokes shorter than this number of whitespace tokens.",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("outputs/topic_modeling"),
+        default=Path("outputs/topic_modeling_jokes"),
         help="Directory where charts, tables and run report will be written.",
     )
     parser.add_argument(
