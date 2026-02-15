@@ -1,0 +1,6491 @@
+{
+  "chart_id": "show_topic_space_pca",
+  "version": "frontend_v3_cosine_only",
+  "generated_at_utc": "2026-02-15T16:01:39.839279+00:00",
+  "source_files": {
+    "show_topic_space_pca_csv": "outputs\\advanced_analysis_jokes_labeled\\tables\\show_topic_space_pca.csv",
+    "show_similarity_matrix_csv": "outputs\\advanced_analysis_jokes_labeled\\tables\\show_similarity_matrix.csv",
+    "show_similarity_pairs_topk_csv": "outputs\\advanced_analysis_jokes_labeled\\tables\\show_similarity_pairs_topk.csv"
+  },
+  "axes": {
+    "x_label": "Eje tematico 1 (PCA)",
+    "y_label": "Eje tematico 2 (PCA)"
+  },
+  "summary": {
+    "n_shows": 70,
+    "n_edges_top_similarity": 50,
+    "neighbor_k": 5,
+    "neighbor_metric": "cosine_distance",
+    "neighbor_list_key": "top5_nearest",
+    "center": {
+      "x": 3.221629312528356e-17,
+      "y": 6.938893903907228e-18
+    },
+    "x_range": {
+      "min": -0.1728216865122792,
+      "max": 0.6558393880974296
+    },
+    "y_range": {
+      "min": -0.2907448741399202,
+      "max": 0.4041842038830182
+    }
+  },
+  "style": {
+    "point_size_formula": "45 + sqrt(n_segments) * 13",
+    "point_color_metric": "n_segments",
+    "edge_style": {
+      "color": "#22b8ad",
+      "dash": [
+        5,
+        4
+      ],
+      "similarity_column": "cosine_similarity"
+    }
+  },
+  "edges_top_similarity": [
+    {
+      "show_a": "Fabrizio Copano",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.9497716072470916,
+      "cosine_distance": 0.05022839275290836,
+      "a": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.9331297425996908,
+      "cosine_distance": 0.06687025740030916,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Pedro Ruminot",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.9290607672668024,
+      "cosine_distance": 0.07093923273319758,
+      "a": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Fabrizio Copano",
+      "cosine_similarity": 0.9230272364173608,
+      "cosine_distance": 0.07697276358263916,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      }
+    },
+    {
+      "show_a": "Fabrizio Copano",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.9027162042832932,
+      "cosine_distance": 0.09728379571670676,
+      "a": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.8974371896310376,
+      "cosine_distance": 0.10256281036896242,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Hermógenes Conache",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.8790371075753468,
+      "cosine_distance": 0.12096289242465319,
+      "a": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.864458600224566,
+      "cosine_distance": 0.135541399775434,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Alejandra Azcárate",
+      "show_b": "Jenny Cavallo",
+      "cosine_similarity": 0.8515829087948761,
+      "cosine_distance": 0.14841709120512392,
+      "a": {
+        "x": 0.3941823064236752,
+        "y": -0.0339512536171485
+      },
+      "b": {
+        "x": 0.6558393880974296,
+        "y": 0.017716206347647
+      }
+    },
+    {
+      "show_a": "Hermógenes Conache",
+      "show_b": "Juan Pablo López",
+      "cosine_similarity": 0.8471961466776464,
+      "cosine_distance": 0.15280385332235358,
+      "a": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      },
+      "b": {
+        "x": -0.1044216723939969,
+        "y": 0.099873909349792
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Edo Caroe",
+      "cosine_similarity": 0.8340877943447885,
+      "cosine_distance": 0.16591220565521148,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Álvaro Salas",
+      "cosine_similarity": 0.8332636378953862,
+      "cosine_distance": 0.16673636210461384,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.0121383328155526,
+        "y": 0.0438545645714632
+      }
+    },
+    {
+      "show_a": "Jorge Alís",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.8328043962264399,
+      "cosine_distance": 0.16719560377356013,
+      "a": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "George Harris",
+      "show_b": "Hermógenes Conache",
+      "cosine_similarity": 0.8317434387179045,
+      "cosine_distance": 0.16825656128209554,
+      "a": {
+        "x": -0.1203932847168772,
+        "y": 0.4041842038830182
+      },
+      "b": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      }
+    },
+    {
+      "show_a": "George Harris",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.8301880446081163,
+      "cosine_distance": 0.16981195539188365,
+      "a": {
+        "x": -0.1203932847168772,
+        "y": 0.4041842038830182
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.8281011999369557,
+      "cosine_distance": 0.17189880006304425,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Rodrigo González",
+      "cosine_similarity": 0.826887156771695,
+      "cosine_distance": 0.173112843228305,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.0905272546199068,
+        "y": 0.1080634141463781
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Fabrizio Copano",
+      "cosine_similarity": 0.8239279024253026,
+      "cosine_distance": 0.17607209757469744,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      }
+    },
+    {
+      "show_a": "Bastián Paz",
+      "show_b": "Javiera Contador",
+      "cosine_similarity": 0.8233116577066318,
+      "cosine_distance": 0.17668834229336816,
+      "a": {
+        "x": 0.2243523551105986,
+        "y": 0.0694309094841566
+      },
+      "b": {
+        "x": 0.2627765864836291,
+        "y": 0.1231075512848991
+      }
+    },
+    {
+      "show_a": "Hermógenes Conache",
+      "show_b": "Jorge Alís",
+      "cosine_similarity": 0.822917859176602,
+      "cosine_distance": 0.17708214082339802,
+      "a": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      },
+      "b": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      }
+    },
+    {
+      "show_a": "Belén Mora",
+      "show_b": "Jenny Cavallo",
+      "cosine_similarity": 0.8210238763927458,
+      "cosine_distance": 0.17897612360725423,
+      "a": {
+        "x": 0.399541236787911,
+        "y": -0.0236709951625436
+      },
+      "b": {
+        "x": 0.6558393880974296,
+        "y": 0.017716206347647
+      }
+    },
+    {
+      "show_a": "Luis Slimming",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.8172067851353894,
+      "cosine_distance": 0.18279321486461064,
+      "a": {
+        "x": 0.0516539414201661,
+        "y": 0.1587132007870889
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Hermógenes Conache",
+      "cosine_similarity": 0.8159825507307841,
+      "cosine_distance": 0.18401744926921593,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      }
+    },
+    {
+      "show_a": "Coco Legrand",
+      "show_b": "Juan Luis \"Jajá\" Calderón",
+      "cosine_similarity": 0.810131054082667,
+      "cosine_distance": 0.18986894591733305,
+      "a": {
+        "x": -0.063576399142059,
+        "y": -0.0120844339396279
+      },
+      "b": {
+        "x": -0.0505599662137477,
+        "y": -0.0040759517063507
+      }
+    },
+    {
+      "show_a": "Luis Slimming",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.8089887411934775,
+      "cosine_distance": 0.19101125880652248,
+      "a": {
+        "x": 0.0516539414201661,
+        "y": 0.1587132007870889
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Coco Legrand",
+      "show_b": "Ricardo Meruane",
+      "cosine_similarity": 0.8086715891929227,
+      "cosine_distance": 0.1913284108070773,
+      "a": {
+        "x": -0.063576399142059,
+        "y": -0.0120844339396279
+      },
+      "b": {
+        "x": -0.0730640189817344,
+        "y": -0.0064221679211693
+      }
+    },
+    {
+      "show_a": "Bombo Fica",
+      "show_b": "Jorge Alís",
+      "cosine_similarity": 0.8079798690251683,
+      "cosine_distance": 0.19202013097483173,
+      "a": {
+        "x": -0.0382364065094185,
+        "y": 0.0893457512834228
+      },
+      "b": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Luis Slimming",
+      "cosine_similarity": 0.8076218280068116,
+      "cosine_distance": 0.1923781719931884,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": 0.0516539414201661,
+        "y": 0.1587132007870889
+      }
+    },
+    {
+      "show_a": "Palta Meléndez",
+      "show_b": "Álvaro Salas",
+      "cosine_similarity": 0.807265477373298,
+      "cosine_distance": 0.192734522626702,
+      "a": {
+        "x": -0.0717814491924767,
+        "y": 0.0443392309153471
+      },
+      "b": {
+        "x": -0.0121383328155526,
+        "y": 0.0438545645714632
+      }
+    },
+    {
+      "show_a": "Fabrizio Copano",
+      "show_b": "Hermógenes Conache",
+      "cosine_similarity": 0.8053386059483044,
+      "cosine_distance": 0.19466139405169558,
+      "a": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      },
+      "b": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      }
+    },
+    {
+      "show_a": "Pedro Ruminot",
+      "show_b": "Rodrigo González",
+      "cosine_similarity": 0.8039579023483289,
+      "cosine_distance": 0.19604209765167113,
+      "a": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      },
+      "b": {
+        "x": -0.0905272546199068,
+        "y": 0.1080634141463781
+      }
+    },
+    {
+      "show_a": "Jorge Alís",
+      "show_b": "Óscar Gangas",
+      "cosine_similarity": 0.8033829420739358,
+      "cosine_distance": 0.1966170579260642,
+      "a": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      },
+      "b": {
+        "x": -0.0419577439289932,
+        "y": 0.1200479343101014
+      }
+    },
+    {
+      "show_a": "George Harris",
+      "show_b": "Óscar Gangas",
+      "cosine_similarity": 0.8031482828373004,
+      "cosine_distance": 0.19685171716269956,
+      "a": {
+        "x": -0.1203932847168772,
+        "y": 0.4041842038830182
+      },
+      "b": {
+        "x": -0.0419577439289932,
+        "y": 0.1200479343101014
+      }
+    },
+    {
+      "show_a": "Dino Gordillo",
+      "show_b": "Javiera Contador",
+      "cosine_similarity": 0.8014455502313421,
+      "cosine_distance": 0.19855444976865788,
+      "a": {
+        "x": 0.0844831747420809,
+        "y": 0.0869053847128914
+      },
+      "b": {
+        "x": 0.2627765864836291,
+        "y": 0.1231075512848991
+      }
+    },
+    {
+      "show_a": "Fabrizio Copano",
+      "show_b": "Rodrigo González",
+      "cosine_similarity": 0.7988977357417536,
+      "cosine_distance": 0.2011022642582464,
+      "a": {
+        "x": -0.1217186044124301,
+        "y": 0.1713335086288371
+      },
+      "b": {
+        "x": -0.0905272546199068,
+        "y": 0.1080634141463781
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Jorge Alís",
+      "cosine_similarity": 0.7987629213665791,
+      "cosine_distance": 0.20123707863342088,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Hermógenes Conache",
+      "cosine_similarity": 0.7962850996289722,
+      "cosine_distance": 0.2037149003710278,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.0976953687271352,
+        "y": 0.2016742079833534
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Dino Gordillo",
+      "cosine_similarity": 0.7947749786672013,
+      "cosine_distance": 0.20522502133279874,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": 0.0844831747420809,
+        "y": 0.0869053847128914
+      }
+    },
+    {
+      "show_a": "Javiera Contador",
+      "show_b": "Jenny Cavallo",
+      "cosine_similarity": 0.7936123837651325,
+      "cosine_distance": 0.20638761623486745,
+      "a": {
+        "x": 0.2627765864836291,
+        "y": 0.1231075512848991
+      },
+      "b": {
+        "x": 0.6558393880974296,
+        "y": 0.017716206347647
+      }
+    },
+    {
+      "show_a": "Arturo Ruiz-Tagle",
+      "show_b": "Jorge Alís",
+      "cosine_similarity": 0.7928414142392798,
+      "cosine_distance": 0.20715858576072022,
+      "a": {
+        "x": -0.0213109051157522,
+        "y": 0.1011167586128231
+      },
+      "b": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      }
+    },
+    {
+      "show_a": "Alejandra Azcárate",
+      "show_b": "Javiera Contador",
+      "cosine_similarity": 0.7925240256277285,
+      "cosine_distance": 0.2074759743722715,
+      "a": {
+        "x": 0.3941823064236752,
+        "y": -0.0339512536171485
+      },
+      "b": {
+        "x": 0.2627765864836291,
+        "y": 0.1231075512848991
+      }
+    },
+    {
+      "show_a": "Jorge Alís",
+      "show_b": "Sergio Freire",
+      "cosine_similarity": 0.7878237461105705,
+      "cosine_distance": 0.2121762538894295,
+      "a": {
+        "x": -0.0397100320644454,
+        "y": 0.2111534756616008
+      },
+      "b": {
+        "x": -0.0191208588690167,
+        "y": 0.1769549603185574
+      }
+    },
+    {
+      "show_a": "Juan Pablo López",
+      "show_b": "Pedro Ruminot",
+      "cosine_similarity": 0.7876556058276315,
+      "cosine_distance": 0.2123443941723685,
+      "a": {
+        "x": -0.1044216723939969,
+        "y": 0.099873909349792
+      },
+      "b": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      }
+    },
+    {
+      "show_a": "Luis Slimming",
+      "show_b": "Álvaro Salas",
+      "cosine_similarity": 0.7843839766169454,
+      "cosine_distance": 0.21561602338305463,
+      "a": {
+        "x": 0.0516539414201661,
+        "y": 0.1587132007870889
+      },
+      "b": {
+        "x": -0.0121383328155526,
+        "y": 0.0438545645714632
+      }
+    },
+    {
+      "show_a": "Edo Caroe",
+      "show_b": "Álvaro Salas",
+      "cosine_similarity": 0.7834784184695618,
+      "cosine_distance": 0.2165215815304382,
+      "a": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      },
+      "b": {
+        "x": -0.0121383328155526,
+        "y": 0.0438545645714632
+      }
+    },
+    {
+      "show_a": "Dino Gordillo",
+      "show_b": "Hugo Goodman",
+      "cosine_similarity": 0.7824963449984432,
+      "cosine_distance": 0.21750365500155677,
+      "a": {
+        "x": 0.0844831747420809,
+        "y": 0.0869053847128914
+      },
+      "b": {
+        "x": 0.1727497113916145,
+        "y": 0.1659012748568815
+      }
+    },
+    {
+      "show_a": "Pedro Ruminot",
+      "show_b": "Álvaro Salas",
+      "cosine_similarity": 0.7813125262384137,
+      "cosine_distance": 0.21868747376158626,
+      "a": {
+        "x": -0.1047480793111173,
+        "y": 0.2370700263864459
+      },
+      "b": {
+        "x": -0.0121383328155526,
+        "y": 0.0438545645714632
+      }
+    },
+    {
+      "show_a": "Diego Urrutia",
+      "show_b": "Julio Sabala",
+      "cosine_similarity": 0.7800094299893762,
+      "cosine_distance": 0.21999057001062383,
+      "a": {
+        "x": -0.1129279647556122,
+        "y": 0.137431425089799
+      },
+      "b": {
+        "x": -0.1269555758028351,
+        "y": 0.1313841320499149
+      }
+    },
+    {
+      "show_a": "Dino Gordillo",
+      "show_b": "Edo Caroe",
+      "cosine_similarity": 0.7781004423933404,
+      "cosine_distance": 0.22189955760665958,
+      "a": {
+        "x": 0.0844831747420809,
+        "y": 0.0869053847128914
+      },
+      "b": {
+        "x": -0.0635313570701652,
+        "y": 0.1577428850078061
+      }
+    },
+    {
+      "show_a": "Javiera Contador",
+      "show_b": "Sarah Sanders",
+      "cosine_similarity": 0.7779853687673142,
+      "cosine_distance": 0.22201463123268583,
+      "a": {
+        "x": 0.2627765864836291,
+        "y": 0.1231075512848991
+      },
+      "b": {
+        "x": 0.2436075378975593,
+        "y": 0.1969929989491051
+      }
+    }
+  ],
+  "points": [
+    {
+      "show": "Alejandra Azcárate",
+      "x": 0.3941823064236752,
+      "y": -0.0339512536171485,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.3956417297501163,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.8515829087948761,
+          "cosine_distance": 0.14841709120512392
+        },
+        {
+          "rank": 2,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7925240256277285,
+          "cosine_distance": 0.2074759743722715
+        },
+        {
+          "rank": 3,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.7294109371037527,
+          "cosine_distance": 0.2705890628962473
+        },
+        {
+          "rank": 4,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.7234275787868123,
+          "cosine_distance": 0.2765724212131877
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6938483206979672,
+          "cosine_distance": 0.3061516793020328
+        }
+      ]
+    },
+    {
+      "show": "Alex Ortiz",
+      "x": 0.0995706246536004,
+      "y": -0.1164102329667605,
+      "n_segments": 30,
+      "point_size": 116.20393247567159,
+      "distance_center": 0.15318502418083701,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.533193223147954,
+          "cosine_distance": 0.46680677685204597
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5022263515793337,
+          "cosine_distance": 0.4977736484206663
+        },
+        {
+          "rank": 3,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.4702666261685734,
+          "cosine_distance": 0.5297333738314266
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo Villegas",
+          "cosine_similarity": 0.4471902149998221,
+          "cosine_distance": 0.5528097850001779
+        },
+        {
+          "rank": 5,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.3279219362073086,
+          "cosine_distance": 0.6720780637926914
+        }
+      ]
+    },
+    {
+      "show": "Alison Mandel",
+      "x": 0.0906556615869845,
+      "y": -0.0283378885654256,
+      "n_segments": 52,
+      "point_size": 138.7443331620637,
+      "distance_center": 0.09498149770413358,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.6605898997230112,
+          "cosine_distance": 0.3394101002769888
+        },
+        {
+          "rank": 2,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6563092101402458,
+          "cosine_distance": 0.3436907898597542
+        },
+        {
+          "rank": 3,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.6224248720409301,
+          "cosine_distance": 0.3775751279590699
+        },
+        {
+          "rank": 4,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.5930054291450696,
+          "cosine_distance": 0.4069945708549304
+        },
+        {
+          "rank": 5,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.5603009460850498,
+          "cosine_distance": 0.43969905391495023
+        }
+      ]
+    },
+    {
+      "show": "Arturo Ruiz-Tagle",
+      "x": -0.0213109051157522,
+      "y": 0.1011167586128231,
+      "n_segments": 76,
+      "point_size": 158.33137253205751,
+      "distance_center": 0.10333805470017582,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.864458600224566,
+          "cosine_distance": 0.135541399775434
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8340877943447885,
+          "cosine_distance": 0.16591220565521148
+        },
+        {
+          "rank": 3,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.8332636378953862,
+          "cosine_distance": 0.16673636210461384
+        },
+        {
+          "rank": 4,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8281011999369557,
+          "cosine_distance": 0.17189880006304425
+        },
+        {
+          "rank": 5,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.8239279024253026,
+          "cosine_distance": 0.17607209757469744
+        }
+      ]
+    },
+    {
+      "show": "Bastián Paz",
+      "x": 0.2243523551105986,
+      "y": 0.0694309094841566,
+      "n_segments": 26,
+      "point_size": 111.2872536767062,
+      "distance_center": 0.23485022979650086,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.8233116577066318,
+          "cosine_distance": 0.17668834229336816
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7523265967794155,
+          "cosine_distance": 0.2476734032205845
+        },
+        {
+          "rank": 3,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.7346632418010404,
+          "cosine_distance": 0.26533675819895963
+        },
+        {
+          "rank": 4,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7312101094815434,
+          "cosine_distance": 0.2687898905184566
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.6947006533575935,
+          "cosine_distance": 0.30529934664240654
+        }
+      ]
+    },
+    {
+      "show": "Belén Mora",
+      "x": 0.399541236787911,
+      "y": -0.0236709951625436,
+      "n_segments": 40,
+      "point_size": 127.21921916437786,
+      "distance_center": 0.40024182178527856,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.8210238763927458,
+          "cosine_distance": 0.17897612360725423
+        },
+        {
+          "rank": 2,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7690176819227769,
+          "cosine_distance": 0.23098231807722314
+        },
+        {
+          "rank": 3,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7294109371037527,
+          "cosine_distance": 0.2705890628962473
+        },
+        {
+          "rank": 4,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7197032668194221,
+          "cosine_distance": 0.2802967331805779
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.65989257430536,
+          "cosine_distance": 0.34010742569464003
+        }
+      ]
+    },
+    {
+      "show": "Bombo Fica",
+      "x": -0.0382364065094185,
+      "y": 0.0893457512834228,
+      "n_segments": 80,
+      "point_size": 161.27553482998906,
+      "distance_center": 0.0971837746496438,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.8079798690251683,
+          "cosine_distance": 0.19202013097483173
+        },
+        {
+          "rank": 2,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.7519742279278389,
+          "cosine_distance": 0.24802577207216114
+        },
+        {
+          "rank": 3,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7367961159320187,
+          "cosine_distance": 0.26320388406798134
+        },
+        {
+          "rank": 4,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.7320826691885735,
+          "cosine_distance": 0.26791733081142655
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7318981768676766,
+          "cosine_distance": 0.26810182313232345
+        }
+      ]
+    },
+    {
+      "show": "Carlos \"El Mono\" Sánchez",
+      "x": -0.0633482445852019,
+      "y": 0.0352620594431412,
+      "n_segments": 43,
+      "point_size": 130.246700815926,
+      "distance_center": 0.07250112363403886,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.6775353207467043,
+          "cosine_distance": 0.3224646792532957
+        },
+        {
+          "rank": 2,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6272042650098965,
+          "cosine_distance": 0.37279573499010354
+        },
+        {
+          "rank": 3,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5748794836641116,
+          "cosine_distance": 0.42512051633588843
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5617696181192513,
+          "cosine_distance": 0.4382303818807487
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5559545475652711,
+          "cosine_distance": 0.4440454524347289
+        }
+      ]
+    },
+    {
+      "show": "Carlos García",
+      "x": -0.0342237789874732,
+      "y": -0.140766189507958,
+      "n_segments": 24,
+      "point_size": 108.68673331236263,
+      "distance_center": 0.1448667910764015,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.524895682577422,
+          "cosine_distance": 0.47510431742257797
+        },
+        {
+          "rank": 2,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.485936609055992,
+          "cosine_distance": 0.514063390944008
+        },
+        {
+          "rank": 3,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.4732670254710622,
+          "cosine_distance": 0.5267329745289377
+        },
+        {
+          "rank": 4,
+          "show": "Felipe Avello",
+          "cosine_similarity": 0.4652538529569742,
+          "cosine_distance": 0.5347461470430258
+        },
+        {
+          "rank": 5,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.4511654375241928,
+          "cosine_distance": 0.5488345624758072
+        }
+      ]
+    },
+    {
+      "show": "Centella",
+      "x": -0.0685525398817432,
+      "y": 0.1087306212650145,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.1285371492017542,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7560717969100045,
+          "cosine_distance": 0.24392820308999552
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7369663161682063,
+          "cosine_distance": 0.2630336838317937
+        },
+        {
+          "rank": 3,
+          "show": "El Pampero",
+          "cosine_similarity": 0.6594260865623587,
+          "cosine_distance": 0.3405739134376413
+        },
+        {
+          "rank": 4,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.6143837506784036,
+          "cosine_distance": 0.38561624932159644
+        },
+        {
+          "rank": 5,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5587086382488827,
+          "cosine_distance": 0.4412913617511173
+        }
+      ]
+    },
+    {
+      "show": "Coco Legrand",
+      "x": -0.063576399142059,
+      "y": -0.0120844339396279,
+      "n_segments": 106,
+      "point_size": 178.843191832831,
+      "distance_center": 0.06471469749223614,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Juan Luis \"Jajá\" Calderón",
+          "cosine_similarity": 0.810131054082667,
+          "cosine_distance": 0.18986894591733305
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.8086715891929227,
+          "cosine_distance": 0.1913284108070773
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.7007945127318198,
+          "cosine_distance": 0.2992054872681802
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.613385976779538,
+          "cosine_distance": 0.386614023220462
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6056591278191185,
+          "cosine_distance": 0.39434087218088154
+        }
+      ]
+    },
+    {
+      "show": "Daniel Muñoz \"El Carmelo\"",
+      "x": -0.0676881109096844,
+      "y": -0.2261133559700655,
+      "n_segments": 22,
+      "point_size": 105.97540487770459,
+      "distance_center": 0.23602739270382853,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.7039358096301382,
+          "cosine_distance": 0.29606419036986176
+        },
+        {
+          "rank": 2,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.6059440121755306,
+          "cosine_distance": 0.3940559878244694
+        },
+        {
+          "rank": 3,
+          "show": "Rudy Rey",
+          "cosine_similarity": 0.5404810660402207,
+          "cosine_distance": 0.4595189339597793
+        },
+        {
+          "rank": 4,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5347127739572224,
+          "cosine_distance": 0.4652872260427776
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4515266362464072,
+          "cosine_distance": 0.5484733637535928
+        }
+      ]
+    },
+    {
+      "show": "Daniela \"Chiqui\" Aguayo",
+      "x": 0.1202436583426027,
+      "y": 0.022539095659628,
+      "n_segments": 79,
+      "point_size": 160.54652742510265,
+      "distance_center": 0.12233784453212515,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.688232317673992,
+          "cosine_distance": 0.31176768232600804
+        },
+        {
+          "rank": 2,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.6840549828663123,
+          "cosine_distance": 0.3159450171336877
+        },
+        {
+          "rank": 3,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.6605898997230112,
+          "cosine_distance": 0.3394101002769888
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.6489370316756133,
+          "cosine_distance": 0.35106296832438666
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.6347686221287395,
+          "cosine_distance": 0.3652313778712605
+        }
+      ]
+    },
+    {
+      "show": "Diego Urrutia",
+      "x": -0.1129279647556122,
+      "y": 0.137431425089799,
+      "n_segments": 28,
+      "point_size": 113.78953408767936,
+      "distance_center": 0.17787670400043348,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Julio Sabala",
+          "cosine_similarity": 0.7800094299893762,
+          "cosine_distance": 0.21999057001062383
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6999330948304989,
+          "cosine_distance": 0.3000669051695011
+        },
+        {
+          "rank": 3,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.6677217243365163,
+          "cosine_distance": 0.33227827566348367
+        },
+        {
+          "rank": 4,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6365545584495912,
+          "cosine_distance": 0.3634454415504088
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6275023860357767,
+          "cosine_distance": 0.3724976139642233
+        }
+      ]
+    },
+    {
+      "show": "Dinamita Show",
+      "x": -0.073637428208107,
+      "y": -0.0913492351270421,
+      "n_segments": 119,
+      "point_size": 186.81325749026428,
+      "distance_center": 0.1173335143571509,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Rodrigo Villegas",
+          "cosine_similarity": 0.6499083316323214,
+          "cosine_distance": 0.3500916683676786
+        },
+        {
+          "rank": 2,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5970640706855713,
+          "cosine_distance": 0.4029359293144287
+        },
+        {
+          "rank": 3,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.5797319457681985,
+          "cosine_distance": 0.42026805423180147
+        },
+        {
+          "rank": 4,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.5396117507800803,
+          "cosine_distance": 0.4603882492199197
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5348457480496135,
+          "cosine_distance": 0.4651542519503865
+        }
+      ]
+    },
+    {
+      "show": "Dino Gordillo",
+      "x": 0.0844831747420809,
+      "y": 0.0869053847128914,
+      "n_segments": 126,
+      "point_size": 190.92463808418373,
+      "distance_center": 0.12120211510776793,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.8014455502313421,
+          "cosine_distance": 0.19855444976865788
+        },
+        {
+          "rank": 2,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7947749786672013,
+          "cosine_distance": 0.20522502133279874
+        },
+        {
+          "rank": 3,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7824963449984432,
+          "cosine_distance": 0.21750365500155677
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7781004423933404,
+          "cosine_distance": 0.22189955760665958
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.7676746610362287,
+          "cosine_distance": 0.23232533896377128
+        }
+      ]
+    },
+    {
+      "show": "Edo Caroe",
+      "x": -0.0635313570701652,
+      "y": 0.1577428850078061,
+      "n_segments": 138,
+      "point_size": 197.71542161811948,
+      "distance_center": 0.17005602342099727,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9331297425996908,
+          "cosine_distance": 0.06687025740030916
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9230272364173608,
+          "cosine_distance": 0.07697276358263916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8974371896310376,
+          "cosine_distance": 0.10256281036896242
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8340877943447885,
+          "cosine_distance": 0.16591220565521148
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.826887156771695,
+          "cosine_distance": 0.173112843228305
+        }
+      ]
+    },
+    {
+      "show": "El Pampero",
+      "x": -0.1661925728553441,
+      "y": 0.2061402642836413,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.2647900674708331,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7662074539823213,
+          "cosine_distance": 0.23379254601767874
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7297134928284851,
+          "cosine_distance": 0.2702865071715149
+        },
+        {
+          "rank": 3,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6998960852144192,
+          "cosine_distance": 0.30010391478558085
+        },
+        {
+          "rank": 4,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6811326904900362,
+          "cosine_distance": 0.3188673095099638
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6626439553296163,
+          "cosine_distance": 0.3373560446703837
+        }
+      ]
+    },
+    {
+      "show": "Ernesto Belloni",
+      "x": -0.0326229324660012,
+      "y": -0.1478985161478928,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.15145371174530448,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.5631242542792976,
+          "cosine_distance": 0.4368757457207024
+        },
+        {
+          "rank": 2,
+          "show": "Payahop",
+          "cosine_similarity": 0.5235293460178605,
+          "cosine_distance": 0.4764706539821395
+        },
+        {
+          "rank": 3,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.4964526930403745,
+          "cosine_distance": 0.5035473069596255
+        },
+        {
+          "rank": 4,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.4786719982230594,
+          "cosine_distance": 0.5213280017769406
+        },
+        {
+          "rank": 5,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4399095271325177,
+          "cosine_distance": 0.5600904728674823
+        }
+      ]
+    },
+    {
+      "show": "Fabrizio Copano",
+      "x": -0.1217186044124301,
+      "y": 0.1713335086288371,
+      "n_segments": 100,
+      "point_size": 175.0,
+      "distance_center": 0.2101680038425865,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9497716072470916,
+          "cosine_distance": 0.05022839275290836
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.9230272364173608,
+          "cosine_distance": 0.07697276358263916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.9027162042832932,
+          "cosine_distance": 0.09728379571670676
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8239279024253026,
+          "cosine_distance": 0.17607209757469744
+        },
+        {
+          "rank": 5,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8053386059483044,
+          "cosine_distance": 0.19466139405169558
+        }
+      ]
+    },
+    {
+      "show": "Felipe Avello",
+      "x": 0.0014738548732016,
+      "y": -0.1127320181502269,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.1127416523047731,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4652538529569742,
+          "cosine_distance": 0.5347461470430258
+        },
+        {
+          "rank": 2,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.4016425495089223,
+          "cosine_distance": 0.5983574504910777
+        },
+        {
+          "rank": 3,
+          "show": "Paul Vásquez \"El Flaco\"",
+          "cosine_similarity": 0.3953332461208733,
+          "cosine_distance": 0.6046667538791267
+        },
+        {
+          "rank": 4,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3532454127913953,
+          "cosine_distance": 0.6467545872086047
+        },
+        {
+          "rank": 5,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3519720700881534,
+          "cosine_distance": 0.6480279299118465
+        }
+      ]
+    },
+    {
+      "show": "Fusión Humor",
+      "x": -0.0362272081997967,
+      "y": -0.1367064813680427,
+      "n_segments": 61,
+      "point_size": 146.5332457867865,
+      "distance_center": 0.14142514861926936,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.6570094742614929,
+          "cosine_distance": 0.3429905257385071
+        },
+        {
+          "rank": 2,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.4973602197263304,
+          "cosine_distance": 0.5026397802736696
+        },
+        {
+          "rank": 3,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.4882050170601706,
+          "cosine_distance": 0.5117949829398294
+        },
+        {
+          "rank": 4,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4856363669938541,
+          "cosine_distance": 0.5143636330061458
+        },
+        {
+          "rank": 5,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.4474245077351528,
+          "cosine_distance": 0.5525754922648471
+        }
+      ]
+    },
+    {
+      "show": "George Harris",
+      "x": -0.1203932847168772,
+      "y": 0.4041842038830182,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.42173381850815367,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8317434387179045,
+          "cosine_distance": 0.16825656128209554
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8301880446081163,
+          "cosine_distance": 0.16981195539188365
+        },
+        {
+          "rank": 3,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.8031482828373004,
+          "cosine_distance": 0.19685171716269956
+        },
+        {
+          "rank": 4,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7643227507327114,
+          "cosine_distance": 0.2356772492672886
+        },
+        {
+          "rank": 5,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.7555849084481391,
+          "cosine_distance": 0.24441509155186092
+        }
+      ]
+    },
+    {
+      "show": "Gigi Martin",
+      "x": -0.1076654567850482,
+      "y": -0.2242227390500745,
+      "n_segments": 20,
+      "point_size": 103.13776741499453,
+      "distance_center": 0.24873215974588186,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Ruperto",
+          "cosine_similarity": 0.7078842694206423,
+          "cosine_distance": 0.2921157305793577
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.5914141760698206,
+          "cosine_distance": 0.4085858239301794
+        },
+        {
+          "rank": 3,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.4973602197263304,
+          "cosine_distance": 0.5026397802736696
+        },
+        {
+          "rank": 4,
+          "show": "Stefan Kramer",
+          "cosine_similarity": 0.4893529352931746,
+          "cosine_distance": 0.5106470647068254
+        },
+        {
+          "rank": 5,
+          "show": "Sandy",
+          "cosine_similarity": 0.4782594350804126,
+          "cosine_distance": 0.5217405649195874
+        }
+      ]
+    },
+    {
+      "show": "Gloria Benavides",
+      "x": -0.0628281255321284,
+      "y": -0.1471528455173459,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.16000416651366536,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.7039358096301382,
+          "cosine_distance": 0.29606419036986176
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.5437206978826248,
+          "cosine_distance": 0.4562793021173752
+        },
+        {
+          "rank": 3,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.53420221929267,
+          "cosine_distance": 0.46579778070733
+        },
+        {
+          "rank": 4,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.5184144120956834,
+          "cosine_distance": 0.4815855879043166
+        },
+        {
+          "rank": 5,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5169347997546789,
+          "cosine_distance": 0.48306520024532107
+        }
+      ]
+    },
+    {
+      "show": "Hermógenes Conache",
+      "x": -0.0976953687271352,
+      "y": 0.2016742079833534,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.22409121186794406,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8790371075753468,
+          "cosine_distance": 0.12096289242465319
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.8471961466776464,
+          "cosine_distance": 0.15280385332235358
+        },
+        {
+          "rank": 3,
+          "show": "George Harris",
+          "cosine_similarity": 0.8317434387179045,
+          "cosine_distance": 0.16825656128209554
+        },
+        {
+          "rank": 4,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.822917859176602,
+          "cosine_distance": 0.17708214082339802
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8159825507307841,
+          "cosine_distance": 0.18401744926921593
+        }
+      ]
+    },
+    {
+      "show": "Huaso Filomeno",
+      "x": -0.0297998164994011,
+      "y": -0.0634765373603683,
+      "n_segments": 21,
+      "point_size": 104.57348403442592,
+      "distance_center": 0.07012346154219866,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.5642342934652897,
+          "cosine_distance": 0.43576570653471025
+        },
+        {
+          "rank": 2,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.5374642561756301,
+          "cosine_distance": 0.4625357438243699
+        },
+        {
+          "rank": 3,
+          "show": "Carlos García",
+          "cosine_similarity": 0.485936609055992,
+          "cosine_distance": 0.514063390944008
+        },
+        {
+          "rank": 4,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.4811992787564547,
+          "cosine_distance": 0.5188007212435453
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.4554586503483549,
+          "cosine_distance": 0.5445413496516451
+        }
+      ]
+    },
+    {
+      "show": "Hugo Goodman",
+      "x": 0.1727497113916145,
+      "y": 0.1659012748568815,
+      "n_segments": 21,
+      "point_size": 104.57348403442592,
+      "distance_center": 0.2395113688012004,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7824963449984432,
+          "cosine_distance": 0.21750365500155677
+        },
+        {
+          "rank": 2,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.7690176819227769,
+          "cosine_distance": 0.23098231807722314
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7628411992763412,
+          "cosine_distance": 0.2371588007236588
+        },
+        {
+          "rank": 4,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.7568017544403641,
+          "cosine_distance": 0.24319824555963587
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.7365958762291542,
+          "cosine_distance": 0.26340412377084577
+        }
+      ]
+    },
+    {
+      "show": "Hugo Varela",
+      "x": -0.0982284850221972,
+      "y": -0.1163367030516395,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.15225985599192382,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Carlos García",
+          "cosine_similarity": 0.524895682577422,
+          "cosine_distance": 0.47510431742257797
+        },
+        {
+          "rank": 2,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.4878194606029118,
+          "cosine_distance": 0.5121805393970882
+        },
+        {
+          "rank": 3,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.4445238103171739,
+          "cosine_distance": 0.5554761896828261
+        },
+        {
+          "rank": 4,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.4146284384638498,
+          "cosine_distance": 0.5853715615361502
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.4080022129762872,
+          "cosine_distance": 0.5919977870237128
+        }
+      ]
+    },
+    {
+      "show": "Jani Dueñas",
+      "x": 0.1102028802136507,
+      "y": 0.0128345886832604,
+      "n_segments": 23,
+      "point_size": 107.34580980306535,
+      "distance_center": 0.11094774208632059,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.6667568150083286,
+          "cosine_distance": 0.3332431849916714
+        },
+        {
+          "rank": 2,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.6224248720409301,
+          "cosine_distance": 0.3775751279590699
+        },
+        {
+          "rank": 3,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.605757743711927,
+          "cosine_distance": 0.39424225628807297
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5880962694496862,
+          "cosine_distance": 0.4119037305503138
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.5291086281327545,
+          "cosine_distance": 0.4708913718672455
+        }
+      ]
+    },
+    {
+      "show": "Javiera Contador",
+      "x": 0.2627765864836291,
+      "y": 0.1231075512848991,
+      "n_segments": 59,
+      "point_size": 144.8548947222919,
+      "distance_center": 0.2901844302979611,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.8233116577066318,
+          "cosine_distance": 0.17668834229336816
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.8014455502313421,
+          "cosine_distance": 0.19855444976865788
+        },
+        {
+          "rank": 3,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.7936123837651325,
+          "cosine_distance": 0.20638761623486745
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7925240256277285,
+          "cosine_distance": 0.2074759743722715
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.7779853687673142,
+          "cosine_distance": 0.22201463123268583
+        }
+      ]
+    },
+    {
+      "show": "Jenny Cavallo",
+      "x": 0.6558393880974296,
+      "y": 0.017716206347647,
+      "n_segments": 27,
+      "point_size": 112.54998149518622,
+      "distance_center": 0.6560786286317847,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.8515829087948761,
+          "cosine_distance": 0.14841709120512392
+        },
+        {
+          "rank": 2,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.8210238763927458,
+          "cosine_distance": 0.17897612360725423
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7936123837651325,
+          "cosine_distance": 0.20638761623486745
+        },
+        {
+          "rank": 4,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.7346632418010404,
+          "cosine_distance": 0.26533675819895963
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.6700223623897335,
+          "cosine_distance": 0.32997763761026655
+        }
+      ]
+    },
+    {
+      "show": "Jorge \"Chino\" Navarrete",
+      "x": -0.063527650316949,
+      "y": -0.0200109853667543,
+      "n_segments": 39,
+      "point_size": 126.18497397917918,
+      "distance_center": 0.06660481882072053,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pujillay",
+          "cosine_similarity": 0.6339663242547847,
+          "cosine_distance": 0.3660336757452153
+        },
+        {
+          "rank": 2,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.6289185551718497,
+          "cosine_distance": 0.3710814448281503
+        },
+        {
+          "rank": 3,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.6276786110633187,
+          "cosine_distance": 0.3723213889366813
+        },
+        {
+          "rank": 4,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.6248627423775152,
+          "cosine_distance": 0.37513725762248484
+        },
+        {
+          "rank": 5,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.582462179542549,
+          "cosine_distance": 0.417537820457451
+        }
+      ]
+    },
+    {
+      "show": "Jorge Alís",
+      "x": -0.0397100320644454,
+      "y": 0.2111534756616008,
+      "n_segments": 48,
+      "point_size": 135.0666419935816,
+      "distance_center": 0.21485501374306706,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8328043962264399,
+          "cosine_distance": 0.16719560377356013
+        },
+        {
+          "rank": 2,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.822917859176602,
+          "cosine_distance": 0.17708214082339802
+        },
+        {
+          "rank": 3,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.8079798690251683,
+          "cosine_distance": 0.19202013097483173
+        },
+        {
+          "rank": 4,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.8033829420739358,
+          "cosine_distance": 0.1966170579260642
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7987629213665791,
+          "cosine_distance": 0.20123707863342088
+        }
+      ]
+    },
+    {
+      "show": "Juan Luis \"Jajá\" Calderón",
+      "x": -0.0505599662137477,
+      "y": -0.0040759517063507,
+      "n_segments": 98,
+      "point_size": 173.69343417595164,
+      "distance_center": 0.05072399398556679,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.810131054082667,
+          "cosine_distance": 0.18986894591733305
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.7026100169775548,
+          "cosine_distance": 0.29738998302244524
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.6928019887249945,
+          "cosine_distance": 0.30719801127500546
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6356880890747281,
+          "cosine_distance": 0.36431191092527193
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5695949448087596,
+          "cosine_distance": 0.4304050551912404
+        }
+      ]
+    },
+    {
+      "show": "Juan Pablo López",
+      "x": -0.1044216723939969,
+      "y": 0.099873909349792,
+      "n_segments": 112,
+      "point_size": 182.5790681753587,
+      "distance_center": 0.14449457925600423,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8471961466776464,
+          "cosine_distance": 0.15280385332235358
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7876556058276315,
+          "cosine_distance": 0.2123443941723685
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7764627597085065,
+          "cosine_distance": 0.22353724029149347
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7703119746568994,
+          "cosine_distance": 0.22968802534310062
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7553450600965306,
+          "cosine_distance": 0.24465493990346943
+        }
+      ]
+    },
+    {
+      "show": "Julio Sabala",
+      "x": -0.1269555758028351,
+      "y": 0.1313841320499149,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.18270059765074356,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Diego Urrutia",
+          "cosine_similarity": 0.7800094299893762,
+          "cosine_distance": 0.21999057001062383
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6028107715334111,
+          "cosine_distance": 0.3971892284665889
+        },
+        {
+          "rank": 3,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5995083975424524,
+          "cosine_distance": 0.40049160245754756
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5784693966935941,
+          "cosine_distance": 0.4215306033064059
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5779685629186911,
+          "cosine_distance": 0.42203143708130886
+        }
+      ]
+    },
+    {
+      "show": "León Murillo",
+      "x": -0.1013799961466721,
+      "y": 0.149793736030521,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.18087583302553348,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7020347062177519,
+          "cosine_distance": 0.2979652937822481
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.7013932200248617,
+          "cosine_distance": 0.2986067799751383
+        },
+        {
+          "rank": 3,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.700897323522934,
+          "cosine_distance": 0.299102676477066
+        },
+        {
+          "rank": 4,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.7007945127318198,
+          "cosine_distance": 0.2992054872681802
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.693269080360031,
+          "cosine_distance": 0.306730919639969
+        }
+      ]
+    },
+    {
+      "show": "Los Atletas de la Risa",
+      "x": -0.0013266856255763,
+      "y": -0.1325578025648247,
+      "n_segments": 38,
+      "point_size": 125.13738203859668,
+      "distance_center": 0.13256444136933612,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.6813360207764875,
+          "cosine_distance": 0.31866397922351253
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.4263723818376892,
+          "cosine_distance": 0.5736276181623108
+        },
+        {
+          "rank": 3,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3239412216656959,
+          "cosine_distance": 0.6760587783343042
+        },
+        {
+          "rank": 4,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.2741388065927689,
+          "cosine_distance": 0.7258611934072311
+        },
+        {
+          "rank": 5,
+          "show": "Los Locos del Humor",
+          "cosine_similarity": 0.2671262289133928,
+          "cosine_distance": 0.7328737710866071
+        }
+      ]
+    },
+    {
+      "show": "Los Indolatinos",
+      "x": 0.073526099099664,
+      "y": -0.087355529511424,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.11418001482323811,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.5970640706855713,
+          "cosine_distance": 0.4029359293144287
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.5848435894191113,
+          "cosine_distance": 0.4151564105808887
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.5684853820327156,
+          "cosine_distance": 0.4315146179672844
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.5580571335886249,
+          "cosine_distance": 0.44194286641137515
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.5433002708685509,
+          "cosine_distance": 0.4566997291314491
+        }
+      ]
+    },
+    {
+      "show": "Los Locos del Humor",
+      "x": -0.0673974340663496,
+      "y": -0.0264806833496897,
+      "n_segments": 83,
+      "point_size": 163.43563652887588,
+      "distance_center": 0.07241298715972487,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.650648757173412,
+          "cosine_distance": 0.349351242826588
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6144643892345062,
+          "cosine_distance": 0.3855356107654938
+        },
+        {
+          "rank": 3,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5699922608321334,
+          "cosine_distance": 0.4300077391678666
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5623387447022046,
+          "cosine_distance": 0.4376612552977954
+        },
+        {
+          "rank": 5,
+          "show": "Julio Sabala",
+          "cosine_similarity": 0.5613579866375573,
+          "cosine_distance": 0.4386420133624427
+        }
+      ]
+    },
+    {
+      "show": "Lucho Miranda",
+      "x": 0.0547475561894026,
+      "y": -0.0944685254593891,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.10918606692789624,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.5289973879526445,
+          "cosine_distance": 0.4710026120473555
+        },
+        {
+          "rank": 2,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.4802411208027873,
+          "cosine_distance": 0.5197588791972128
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.400946878122044,
+          "cosine_distance": 0.599053121877956
+        },
+        {
+          "rank": 4,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.3576750905974291,
+          "cosine_distance": 0.6423249094025709
+        },
+        {
+          "rank": 5,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3308698280609429,
+          "cosine_distance": 0.6691301719390571
+        }
+      ]
+    },
+    {
+      "show": "Luis Slimming",
+      "x": 0.0516539414201661,
+      "y": 0.1587132007870889,
+      "n_segments": 54,
+      "point_size": 140.53009996854394,
+      "distance_center": 0.1669071890851941,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8172067851353894,
+          "cosine_distance": 0.18279321486461064
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8089887411934775,
+          "cosine_distance": 0.19101125880652248
+        },
+        {
+          "rank": 3,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8076218280068116,
+          "cosine_distance": 0.1923781719931884
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.7843839766169454,
+          "cosine_distance": 0.21561602338305463
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.76181049364995,
+          "cosine_distance": 0.23818950635004998
+        }
+      ]
+    },
+    {
+      "show": "Mauricio Palma",
+      "x": -0.1193189167924755,
+      "y": 0.0629046201842533,
+      "n_segments": 56,
+      "point_size": 142.28309205612248,
+      "distance_center": 0.13488511832316738,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7421496481840407,
+          "cosine_distance": 0.2578503518159593
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7279976504898992,
+          "cosine_distance": 0.2720023495101008
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7248393618926448,
+          "cosine_distance": 0.27516063810735525
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6906313543794358,
+          "cosine_distance": 0.3093686456205642
+        },
+        {
+          "rank": 5,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6868005722178774,
+          "cosine_distance": 0.3131994277821226
+        }
+      ]
+    },
+    {
+      "show": "Melón y Melame",
+      "x": -0.0563315137032762,
+      "y": -0.1592625261955238,
+      "n_segments": 49,
+      "point_size": 136.0,
+      "distance_center": 0.16893132239547023,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.6570094742614929,
+          "cosine_distance": 0.3429905257385071
+        },
+        {
+          "rank": 2,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.4948273760401358,
+          "cosine_distance": 0.5051726239598642
+        },
+        {
+          "rank": 3,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.4515266362464072,
+          "cosine_distance": 0.5484733637535928
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.4407081738334008,
+          "cosine_distance": 0.5592918261665992
+        },
+        {
+          "rank": 5,
+          "show": "Payahop",
+          "cosine_similarity": 0.4191874887785091,
+          "cosine_distance": 0.5808125112214909
+        }
+      ]
+    },
+    {
+      "show": "Memo Bunke",
+      "x": -0.0536948631833843,
+      "y": -0.0426960463073458,
+      "n_segments": 27,
+      "point_size": 112.54998149518622,
+      "distance_center": 0.06860095263596112,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.4021051095042628,
+          "cosine_distance": 0.5978948904957372
+        },
+        {
+          "rank": 2,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3995079046714739,
+          "cosine_distance": 0.6004920953285261
+        },
+        {
+          "rank": 3,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.3714049356209568,
+          "cosine_distance": 0.6285950643790432
+        },
+        {
+          "rank": 4,
+          "show": "Diego Urrutia",
+          "cosine_similarity": 0.3432024423192751,
+          "cosine_distance": 0.6567975576807249
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.3150480497353092,
+          "cosine_distance": 0.6849519502646908
+        }
+      ]
+    },
+    {
+      "show": "Millenium Show",
+      "x": -0.1728216865122792,
+      "y": -0.1179735520432605,
+      "n_segments": 15,
+      "point_size": 95.34878350069641,
+      "distance_center": 0.20924888126499605,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sandy",
+          "cosine_similarity": 0.6920438853131718,
+          "cosine_distance": 0.30795611468682815
+        },
+        {
+          "rank": 2,
+          "show": "Ruperto",
+          "cosine_similarity": 0.688868865675324,
+          "cosine_distance": 0.311131134324676
+        },
+        {
+          "rank": 3,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.6579586397018231,
+          "cosine_distance": 0.3420413602981769
+        },
+        {
+          "rank": 4,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.5914141760698206,
+          "cosine_distance": 0.4085858239301794
+        },
+        {
+          "rank": 5,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.5437206978826248,
+          "cosine_distance": 0.4562793021173752
+        }
+      ]
+    },
+    {
+      "show": "Natalia Valdebenito",
+      "x": 0.008040383996234,
+      "y": -0.0712035375601553,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.07165606419478633,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Centella",
+          "cosine_similarity": 0.5372698780934617,
+          "cosine_distance": 0.4627301219065383
+        },
+        {
+          "rank": 2,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.4853495820463092,
+          "cosine_distance": 0.5146504179536908
+        },
+        {
+          "rank": 3,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.4639819440678207,
+          "cosine_distance": 0.5360180559321793
+        },
+        {
+          "rank": 4,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4101178599246451,
+          "cosine_distance": 0.5898821400753549
+        },
+        {
+          "rank": 5,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.334076815191799,
+          "cosine_distance": 0.665923184808201
+        }
+      ]
+    },
+    {
+      "show": "Palta Meléndez",
+      "x": -0.0717814491924767,
+      "y": 0.0443392309153471,
+      "n_segments": 109,
+      "point_size": 180.72398461583717,
+      "distance_center": 0.0843714634597302,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.807265477373298,
+          "cosine_distance": 0.192734522626702
+        },
+        {
+          "rank": 2,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7050325148764425,
+          "cosine_distance": 0.2949674851235575
+        },
+        {
+          "rank": 3,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7026325460443652,
+          "cosine_distance": 0.2973674539556348
+        },
+        {
+          "rank": 4,
+          "show": "George Harris",
+          "cosine_similarity": 0.6860898255910496,
+          "cosine_distance": 0.3139101744089504
+        },
+        {
+          "rank": 5,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6767587286044301,
+          "cosine_distance": 0.3232412713955699
+        }
+      ]
+    },
+    {
+      "show": "Pam Pam",
+      "x": 0.164165471708426,
+      "y": -0.1098620088441046,
+      "n_segments": 20,
+      "point_size": 103.13776741499453,
+      "distance_center": 0.19753471362905337,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.5752289171831714,
+          "cosine_distance": 0.4247710828168286
+        },
+        {
+          "rank": 2,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.5378508843365049,
+          "cosine_distance": 0.46214911566349515
+        },
+        {
+          "rank": 3,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.5022263515793337,
+          "cosine_distance": 0.4977736484206663
+        },
+        {
+          "rank": 4,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.4931077130254376,
+          "cosine_distance": 0.5068922869745625
+        },
+        {
+          "rank": 5,
+          "show": "Los Atletas de la Risa",
+          "cosine_similarity": 0.4263723818376892,
+          "cosine_distance": 0.5736276181623108
+        }
+      ]
+    },
+    {
+      "show": "Pamela Leiva",
+      "x": -0.0064878310787102,
+      "y": -0.0481993751357845,
+      "n_segments": 47,
+      "point_size": 134.1235098052136,
+      "distance_center": 0.0486340592135384,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.5765729909208567,
+          "cosine_distance": 0.4234270090791433
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5752289171831714,
+          "cosine_distance": 0.4247710828168286
+        },
+        {
+          "rank": 3,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.5701548417704734,
+          "cosine_distance": 0.4298451582295266
+        },
+        {
+          "rank": 4,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5302729105504793,
+          "cosine_distance": 0.4697270894495207
+        },
+        {
+          "rank": 5,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.4702666261685734,
+          "cosine_distance": 0.5297333738314266
+        }
+      ]
+    },
+    {
+      "show": "Pancho del Sur",
+      "x": -0.0658543751903597,
+      "y": -0.0569063433179195,
+      "n_segments": 19,
+      "point_size": 101.66568626602876,
+      "distance_center": 0.08703522644038787,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.6059440121755306,
+          "cosine_distance": 0.3940559878244694
+        },
+        {
+          "rank": 2,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.5452481004582079,
+          "cosine_distance": 0.45475189954179207
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.53420221929267,
+          "cosine_distance": 0.46579778070733
+        },
+        {
+          "rank": 4,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.5029988656902135,
+          "cosine_distance": 0.49700113430978654
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4948273760401358,
+          "cosine_distance": 0.5051726239598642
+        }
+      ]
+    },
+    {
+      "show": "Paul Vásquez \"El Flaco\"",
+      "x": -0.0714611039784413,
+      "y": -0.0427738789887447,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.08328441694315557,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.577802516096367,
+          "cosine_distance": 0.422197483903633
+        },
+        {
+          "rank": 2,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5653796063741421,
+          "cosine_distance": 0.4346203936258579
+        },
+        {
+          "rank": 3,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5540391007958897,
+          "cosine_distance": 0.4459608992041103
+        },
+        {
+          "rank": 4,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.5238682733754768,
+          "cosine_distance": 0.4761317266245232
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.5219682305277629,
+          "cosine_distance": 0.47803176947223713
+        }
+      ]
+    },
+    {
+      "show": "Paulo Iglesias",
+      "x": 0.0228343663429714,
+      "y": -0.0935387691228104,
+      "n_segments": 79,
+      "point_size": 160.54652742510265,
+      "distance_center": 0.09628556286014768,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Los Atletas de la Risa",
+          "cosine_similarity": 0.6813360207764875,
+          "cosine_distance": 0.31866397922351253
+        },
+        {
+          "rank": 2,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.5765729909208567,
+          "cosine_distance": 0.4234270090791433
+        },
+        {
+          "rank": 3,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5378508843365049,
+          "cosine_distance": 0.46214911566349515
+        },
+        {
+          "rank": 4,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.4964526930403745,
+          "cosine_distance": 0.5035473069596255
+        },
+        {
+          "rank": 5,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.429684129795259,
+          "cosine_distance": 0.5703158702047411
+        }
+      ]
+    },
+    {
+      "show": "Payahop",
+      "x": 0.0586226137001027,
+      "y": -0.0748299134330191,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.09505854396857023,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.5235293460178605,
+          "cosine_distance": 0.4764706539821395
+        },
+        {
+          "rank": 2,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.437530886217707,
+          "cosine_distance": 0.562469113782293
+        },
+        {
+          "rank": 3,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.4307993357486503,
+          "cosine_distance": 0.5692006642513496
+        },
+        {
+          "rank": 4,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4191874887785091,
+          "cosine_distance": 0.5808125112214909
+        },
+        {
+          "rank": 5,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.4188638306305283,
+          "cosine_distance": 0.5811361693694717
+        }
+      ]
+    },
+    {
+      "show": "Pedro Ruminot",
+      "x": -0.1047480793111173,
+      "y": 0.2370700263864459,
+      "n_segments": 178,
+      "point_size": 218.44163283364236,
+      "distance_center": 0.2591801642299007,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9497716072470916,
+          "cosine_distance": 0.05022839275290836
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.9331297425996908,
+          "cosine_distance": 0.06687025740030916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.9290607672668024,
+          "cosine_distance": 0.07093923273319758
+        },
+        {
+          "rank": 4,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8790371075753468,
+          "cosine_distance": 0.12096289242465319
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.864458600224566,
+          "cosine_distance": 0.135541399775434
+        }
+      ]
+    },
+    {
+      "show": "Profesor Salomón y Tutu-Tutu",
+      "x": -0.1588706335367855,
+      "y": -0.0613850040793771,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.17031734182462085,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.6579586397018231,
+          "cosine_distance": 0.3420413602981769
+        },
+        {
+          "rank": 2,
+          "show": "El Pampero",
+          "cosine_similarity": 0.5749901409226275,
+          "cosine_distance": 0.42500985907737254
+        },
+        {
+          "rank": 3,
+          "show": "Stefan Kramer",
+          "cosine_similarity": 0.4770528834845541,
+          "cosine_distance": 0.5229471165154459
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.4770089603821452,
+          "cosine_distance": 0.5229910396178548
+        },
+        {
+          "rank": 5,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.4445238103171739,
+          "cosine_distance": 0.5554761896828261
+        }
+      ]
+    },
+    {
+      "show": "Pujillay",
+      "x": -0.0593034530194218,
+      "y": -0.1603510439808772,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.17096595229981904,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sandy",
+          "cosine_similarity": 0.7266022218988278,
+          "cosine_distance": 0.27339777810117216
+        },
+        {
+          "rank": 2,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.6339663242547847,
+          "cosine_distance": 0.3660336757452153
+        },
+        {
+          "rank": 3,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.449142208641505,
+          "cosine_distance": 0.550857791358495
+        },
+        {
+          "rank": 4,
+          "show": "Ruperto",
+          "cosine_similarity": 0.4154510461878648,
+          "cosine_distance": 0.5845489538121351
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.34399721774693,
+          "cosine_distance": 0.6560027822530701
+        }
+      ]
+    },
+    {
+      "show": "Ricardo Meruane",
+      "x": -0.0730640189817344,
+      "y": -0.0064221679211693,
+      "n_segments": 48,
+      "point_size": 135.0666419935816,
+      "distance_center": 0.07334572319209173,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.8086715891929227,
+          "cosine_distance": 0.1913284108070773
+        },
+        {
+          "rank": 2,
+          "show": "Juan Luis \"Jajá\" Calderón",
+          "cosine_similarity": 0.7026100169775548,
+          "cosine_distance": 0.29738998302244524
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.7013932200248617,
+          "cosine_distance": 0.2986067799751383
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5187685260905311,
+          "cosine_distance": 0.48123147390946885
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.500547191514053,
+          "cosine_distance": 0.499452808485947
+        }
+      ]
+    },
+    {
+      "show": "Rodrigo González",
+      "x": -0.0905272546199068,
+      "y": 0.1080634141463781,
+      "n_segments": 50,
+      "point_size": 136.92388155425118,
+      "distance_center": 0.14097122155244693,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.826887156771695,
+          "cosine_distance": 0.173112843228305
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8039579023483289,
+          "cosine_distance": 0.19604209765167113
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7988977357417536,
+          "cosine_distance": 0.2011022642582464
+        },
+        {
+          "rank": 4,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7413384527597673,
+          "cosine_distance": 0.2586615472402327
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7301642815188394,
+          "cosine_distance": 0.2698357184811606
+        }
+      ]
+    },
+    {
+      "show": "Rodrigo Villegas",
+      "x": -0.0153651973589488,
+      "y": -0.1118284331706583,
+      "n_segments": 65,
+      "point_size": 149.80935072788114,
+      "distance_center": 0.11287908466710668,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.6499083316323214,
+          "cosine_distance": 0.3500916683676786
+        },
+        {
+          "rank": 2,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.4471902149998221,
+          "cosine_distance": 0.5528097850001779
+        },
+        {
+          "rank": 3,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4366646391885839,
+          "cosine_distance": 0.5633353608114161
+        },
+        {
+          "rank": 4,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3920165230648208,
+          "cosine_distance": 0.6079834769351792
+        },
+        {
+          "rank": 5,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.3829377080978995,
+          "cosine_distance": 0.6170622919021005
+        }
+      ]
+    },
+    {
+      "show": "Rudy Rey",
+      "x": -0.0595645997077793,
+      "y": -0.1611290190914241,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.17178621112217504,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.5404810660402207,
+          "cosine_distance": 0.4595189339597793
+        },
+        {
+          "rank": 2,
+          "show": "Paul Vásquez \"El Flaco\"",
+          "cosine_similarity": 0.5212859633194523,
+          "cosine_distance": 0.4787140366805477
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4648986528720724,
+          "cosine_distance": 0.5351013471279276
+        },
+        {
+          "rank": 4,
+          "show": "Payahop",
+          "cosine_similarity": 0.3944846024417279,
+          "cosine_distance": 0.6055153975582721
+        },
+        {
+          "rank": 5,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.3898581458163144,
+          "cosine_distance": 0.6101418541836856
+        }
+      ]
+    },
+    {
+      "show": "Ruperto",
+      "x": -0.1240951524760252,
+      "y": -0.2907448741399202,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.31612052876503605,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.7078842694206423,
+          "cosine_distance": 0.2921157305793577
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.688868865675324,
+          "cosine_distance": 0.311131134324676
+        },
+        {
+          "rank": 3,
+          "show": "Sandy",
+          "cosine_similarity": 0.630279133744365,
+          "cosine_distance": 0.36972086625563505
+        },
+        {
+          "rank": 4,
+          "show": "Pujillay",
+          "cosine_similarity": 0.4154510461878648,
+          "cosine_distance": 0.5845489538121351
+        },
+        {
+          "rank": 5,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.3869714002123412,
+          "cosine_distance": 0.6130285997876588
+        }
+      ]
+    },
+    {
+      "show": "Sandy",
+      "x": 0.0480876681627754,
+      "y": -0.1020749657633685,
+      "n_segments": 84,
+      "point_size": 164.14696806885183,
+      "distance_center": 0.11283493459441561,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pujillay",
+          "cosine_similarity": 0.7266022218988278,
+          "cosine_distance": 0.27339777810117216
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.6920438853131718,
+          "cosine_distance": 0.30795611468682815
+        },
+        {
+          "rank": 3,
+          "show": "Ruperto",
+          "cosine_similarity": 0.630279133744365,
+          "cosine_distance": 0.36972086625563505
+        },
+        {
+          "rank": 4,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.5386667672990555,
+          "cosine_distance": 0.4613332327009445
+        },
+        {
+          "rank": 5,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.5335697339780515,
+          "cosine_distance": 0.4664302660219485
+        }
+      ]
+    },
+    {
+      "show": "Sarah Sanders",
+      "x": 0.2436075378975593,
+      "y": 0.1969929989491051,
+      "n_segments": 19,
+      "point_size": 101.66568626602876,
+      "distance_center": 0.3132903990796285,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7779853687673142,
+          "cosine_distance": 0.22201463123268583
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7676746610362287,
+          "cosine_distance": 0.23232533896377128
+        },
+        {
+          "rank": 3,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7268042854739812,
+          "cosine_distance": 0.27319571452601876
+        },
+        {
+          "rank": 4,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6947006533575935,
+          "cosine_distance": 0.30529934664240654
+        },
+        {
+          "rank": 5,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.6700223623897335,
+          "cosine_distance": 0.32997763761026655
+        }
+      ]
+    },
+    {
+      "show": "Sergio Freire",
+      "x": -0.0191208588690167,
+      "y": 0.1769549603185574,
+      "n_segments": 46,
+      "point_size": 133.17028978062848,
+      "distance_center": 0.17798501404677608,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9290607672668024,
+          "cosine_distance": 0.07093923273319758
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9027162042832932,
+          "cosine_distance": 0.09728379571670676
+        },
+        {
+          "rank": 3,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8974371896310376,
+          "cosine_distance": 0.10256281036896242
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8281011999369557,
+          "cosine_distance": 0.17189880006304425
+        },
+        {
+          "rank": 5,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.8172067851353894,
+          "cosine_distance": 0.18279321486461064
+        }
+      ]
+    },
+    {
+      "show": "Stefan Kramer",
+      "x": -0.1023670480244198,
+      "y": -0.0929069532948197,
+      "n_segments": 68,
+      "point_size": 152.20074626605918,
+      "distance_center": 0.1382415078468102,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5555845335271199,
+          "cosine_distance": 0.4444154664728801
+        },
+        {
+          "rank": 2,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.4893529352931746,
+          "cosine_distance": 0.5106470647068254
+        },
+        {
+          "rank": 3,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.4827097804381153,
+          "cosine_distance": 0.5172902195618847
+        },
+        {
+          "rank": 4,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.4770528834845541,
+          "cosine_distance": 0.5229471165154459
+        },
+        {
+          "rank": 5,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4594078867976085,
+          "cosine_distance": 0.5405921132023914
+        }
+      ]
+    },
+    {
+      "show": "Zip-Zup",
+      "x": 0.1732010380689748,
+      "y": -0.062295584319912,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.18406341139381752,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7234275787868123,
+          "cosine_distance": 0.2765724212131877
+        },
+        {
+          "rank": 2,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.688232317673992,
+          "cosine_distance": 0.31176768232600804
+        },
+        {
+          "rank": 3,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.5473425415953583,
+          "cosine_distance": 0.45265745840464167
+        },
+        {
+          "rank": 4,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.5336759400959613,
+          "cosine_distance": 0.4663240599040387
+        },
+        {
+          "rank": 5,
+          "show": "Lucho Miranda",
+          "cosine_similarity": 0.5289973879526445,
+          "cosine_distance": 0.4710026120473555
+        }
+      ]
+    },
+    {
+      "show": "Álvaro Salas",
+      "x": -0.0121383328155526,
+      "y": 0.0438545645714632,
+      "n_segments": 110,
+      "point_size": 181.3451502621197,
+      "distance_center": 0.04550342797299734,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8332636378953862,
+          "cosine_distance": 0.16673636210461384
+        },
+        {
+          "rank": 2,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.807265477373298,
+          "cosine_distance": 0.192734522626702
+        },
+        {
+          "rank": 3,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.7843839766169454,
+          "cosine_distance": 0.21561602338305463
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7834784184695618,
+          "cosine_distance": 0.2165215815304382
+        },
+        {
+          "rank": 5,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7813125262384137,
+          "cosine_distance": 0.21868747376158626
+        }
+      ]
+    },
+    {
+      "show": "Óscar Gangas",
+      "x": -0.0419577439289932,
+      "y": 0.1200479343101014,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.12716901669720257,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.8033829420739358,
+          "cosine_distance": 0.1966170579260642
+        },
+        {
+          "rank": 2,
+          "show": "George Harris",
+          "cosine_similarity": 0.8031482828373004,
+          "cosine_distance": 0.19685171716269956
+        },
+        {
+          "rank": 3,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.7519742279278389,
+          "cosine_distance": 0.24802577207216114
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.7474819664047645,
+          "cosine_distance": 0.2525180335952355
+        },
+        {
+          "rank": 5,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7389354344979385,
+          "cosine_distance": 0.2610645655020615
+        }
+      ]
+    }
+  ],
+  "points_by_show": {
+    "Alejandra Azcárate": {
+      "show": "Alejandra Azcárate",
+      "x": 0.3941823064236752,
+      "y": -0.0339512536171485,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.3956417297501163,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.8515829087948761,
+          "cosine_distance": 0.14841709120512392
+        },
+        {
+          "rank": 2,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7925240256277285,
+          "cosine_distance": 0.2074759743722715
+        },
+        {
+          "rank": 3,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.7294109371037527,
+          "cosine_distance": 0.2705890628962473
+        },
+        {
+          "rank": 4,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.7234275787868123,
+          "cosine_distance": 0.2765724212131877
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6938483206979672,
+          "cosine_distance": 0.3061516793020328
+        }
+      ]
+    },
+    "Alex Ortiz": {
+      "show": "Alex Ortiz",
+      "x": 0.0995706246536004,
+      "y": -0.1164102329667605,
+      "n_segments": 30,
+      "point_size": 116.20393247567159,
+      "distance_center": 0.15318502418083701,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.533193223147954,
+          "cosine_distance": 0.46680677685204597
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5022263515793337,
+          "cosine_distance": 0.4977736484206663
+        },
+        {
+          "rank": 3,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.4702666261685734,
+          "cosine_distance": 0.5297333738314266
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo Villegas",
+          "cosine_similarity": 0.4471902149998221,
+          "cosine_distance": 0.5528097850001779
+        },
+        {
+          "rank": 5,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.3279219362073086,
+          "cosine_distance": 0.6720780637926914
+        }
+      ]
+    },
+    "Alison Mandel": {
+      "show": "Alison Mandel",
+      "x": 0.0906556615869845,
+      "y": -0.0283378885654256,
+      "n_segments": 52,
+      "point_size": 138.7443331620637,
+      "distance_center": 0.09498149770413358,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.6605898997230112,
+          "cosine_distance": 0.3394101002769888
+        },
+        {
+          "rank": 2,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6563092101402458,
+          "cosine_distance": 0.3436907898597542
+        },
+        {
+          "rank": 3,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.6224248720409301,
+          "cosine_distance": 0.3775751279590699
+        },
+        {
+          "rank": 4,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.5930054291450696,
+          "cosine_distance": 0.4069945708549304
+        },
+        {
+          "rank": 5,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.5603009460850498,
+          "cosine_distance": 0.43969905391495023
+        }
+      ]
+    },
+    "Arturo Ruiz-Tagle": {
+      "show": "Arturo Ruiz-Tagle",
+      "x": -0.0213109051157522,
+      "y": 0.1011167586128231,
+      "n_segments": 76,
+      "point_size": 158.33137253205751,
+      "distance_center": 0.10333805470017582,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.864458600224566,
+          "cosine_distance": 0.135541399775434
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8340877943447885,
+          "cosine_distance": 0.16591220565521148
+        },
+        {
+          "rank": 3,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.8332636378953862,
+          "cosine_distance": 0.16673636210461384
+        },
+        {
+          "rank": 4,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8281011999369557,
+          "cosine_distance": 0.17189880006304425
+        },
+        {
+          "rank": 5,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.8239279024253026,
+          "cosine_distance": 0.17607209757469744
+        }
+      ]
+    },
+    "Bastián Paz": {
+      "show": "Bastián Paz",
+      "x": 0.2243523551105986,
+      "y": 0.0694309094841566,
+      "n_segments": 26,
+      "point_size": 111.2872536767062,
+      "distance_center": 0.23485022979650086,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.8233116577066318,
+          "cosine_distance": 0.17668834229336816
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7523265967794155,
+          "cosine_distance": 0.2476734032205845
+        },
+        {
+          "rank": 3,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.7346632418010404,
+          "cosine_distance": 0.26533675819895963
+        },
+        {
+          "rank": 4,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7312101094815434,
+          "cosine_distance": 0.2687898905184566
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.6947006533575935,
+          "cosine_distance": 0.30529934664240654
+        }
+      ]
+    },
+    "Belén Mora": {
+      "show": "Belén Mora",
+      "x": 0.399541236787911,
+      "y": -0.0236709951625436,
+      "n_segments": 40,
+      "point_size": 127.21921916437786,
+      "distance_center": 0.40024182178527856,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.8210238763927458,
+          "cosine_distance": 0.17897612360725423
+        },
+        {
+          "rank": 2,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7690176819227769,
+          "cosine_distance": 0.23098231807722314
+        },
+        {
+          "rank": 3,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7294109371037527,
+          "cosine_distance": 0.2705890628962473
+        },
+        {
+          "rank": 4,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7197032668194221,
+          "cosine_distance": 0.2802967331805779
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.65989257430536,
+          "cosine_distance": 0.34010742569464003
+        }
+      ]
+    },
+    "Bombo Fica": {
+      "show": "Bombo Fica",
+      "x": -0.0382364065094185,
+      "y": 0.0893457512834228,
+      "n_segments": 80,
+      "point_size": 161.27553482998906,
+      "distance_center": 0.0971837746496438,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.8079798690251683,
+          "cosine_distance": 0.19202013097483173
+        },
+        {
+          "rank": 2,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.7519742279278389,
+          "cosine_distance": 0.24802577207216114
+        },
+        {
+          "rank": 3,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7367961159320187,
+          "cosine_distance": 0.26320388406798134
+        },
+        {
+          "rank": 4,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.7320826691885735,
+          "cosine_distance": 0.26791733081142655
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7318981768676766,
+          "cosine_distance": 0.26810182313232345
+        }
+      ]
+    },
+    "Carlos \"El Mono\" Sánchez": {
+      "show": "Carlos \"El Mono\" Sánchez",
+      "x": -0.0633482445852019,
+      "y": 0.0352620594431412,
+      "n_segments": 43,
+      "point_size": 130.246700815926,
+      "distance_center": 0.07250112363403886,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.6775353207467043,
+          "cosine_distance": 0.3224646792532957
+        },
+        {
+          "rank": 2,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6272042650098965,
+          "cosine_distance": 0.37279573499010354
+        },
+        {
+          "rank": 3,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5748794836641116,
+          "cosine_distance": 0.42512051633588843
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5617696181192513,
+          "cosine_distance": 0.4382303818807487
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5559545475652711,
+          "cosine_distance": 0.4440454524347289
+        }
+      ]
+    },
+    "Carlos García": {
+      "show": "Carlos García",
+      "x": -0.0342237789874732,
+      "y": -0.140766189507958,
+      "n_segments": 24,
+      "point_size": 108.68673331236263,
+      "distance_center": 0.1448667910764015,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.524895682577422,
+          "cosine_distance": 0.47510431742257797
+        },
+        {
+          "rank": 2,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.485936609055992,
+          "cosine_distance": 0.514063390944008
+        },
+        {
+          "rank": 3,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.4732670254710622,
+          "cosine_distance": 0.5267329745289377
+        },
+        {
+          "rank": 4,
+          "show": "Felipe Avello",
+          "cosine_similarity": 0.4652538529569742,
+          "cosine_distance": 0.5347461470430258
+        },
+        {
+          "rank": 5,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.4511654375241928,
+          "cosine_distance": 0.5488345624758072
+        }
+      ]
+    },
+    "Centella": {
+      "show": "Centella",
+      "x": -0.0685525398817432,
+      "y": 0.1087306212650145,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.1285371492017542,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7560717969100045,
+          "cosine_distance": 0.24392820308999552
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7369663161682063,
+          "cosine_distance": 0.2630336838317937
+        },
+        {
+          "rank": 3,
+          "show": "El Pampero",
+          "cosine_similarity": 0.6594260865623587,
+          "cosine_distance": 0.3405739134376413
+        },
+        {
+          "rank": 4,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.6143837506784036,
+          "cosine_distance": 0.38561624932159644
+        },
+        {
+          "rank": 5,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5587086382488827,
+          "cosine_distance": 0.4412913617511173
+        }
+      ]
+    },
+    "Coco Legrand": {
+      "show": "Coco Legrand",
+      "x": -0.063576399142059,
+      "y": -0.0120844339396279,
+      "n_segments": 106,
+      "point_size": 178.843191832831,
+      "distance_center": 0.06471469749223614,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Juan Luis \"Jajá\" Calderón",
+          "cosine_similarity": 0.810131054082667,
+          "cosine_distance": 0.18986894591733305
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.8086715891929227,
+          "cosine_distance": 0.1913284108070773
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.7007945127318198,
+          "cosine_distance": 0.2992054872681802
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.613385976779538,
+          "cosine_distance": 0.386614023220462
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6056591278191185,
+          "cosine_distance": 0.39434087218088154
+        }
+      ]
+    },
+    "Daniel Muñoz \"El Carmelo\"": {
+      "show": "Daniel Muñoz \"El Carmelo\"",
+      "x": -0.0676881109096844,
+      "y": -0.2261133559700655,
+      "n_segments": 22,
+      "point_size": 105.97540487770459,
+      "distance_center": 0.23602739270382853,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.7039358096301382,
+          "cosine_distance": 0.29606419036986176
+        },
+        {
+          "rank": 2,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.6059440121755306,
+          "cosine_distance": 0.3940559878244694
+        },
+        {
+          "rank": 3,
+          "show": "Rudy Rey",
+          "cosine_similarity": 0.5404810660402207,
+          "cosine_distance": 0.4595189339597793
+        },
+        {
+          "rank": 4,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5347127739572224,
+          "cosine_distance": 0.4652872260427776
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4515266362464072,
+          "cosine_distance": 0.5484733637535928
+        }
+      ]
+    },
+    "Daniela \"Chiqui\" Aguayo": {
+      "show": "Daniela \"Chiqui\" Aguayo",
+      "x": 0.1202436583426027,
+      "y": 0.022539095659628,
+      "n_segments": 79,
+      "point_size": 160.54652742510265,
+      "distance_center": 0.12233784453212515,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.688232317673992,
+          "cosine_distance": 0.31176768232600804
+        },
+        {
+          "rank": 2,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.6840549828663123,
+          "cosine_distance": 0.3159450171336877
+        },
+        {
+          "rank": 3,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.6605898997230112,
+          "cosine_distance": 0.3394101002769888
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.6489370316756133,
+          "cosine_distance": 0.35106296832438666
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.6347686221287395,
+          "cosine_distance": 0.3652313778712605
+        }
+      ]
+    },
+    "Diego Urrutia": {
+      "show": "Diego Urrutia",
+      "x": -0.1129279647556122,
+      "y": 0.137431425089799,
+      "n_segments": 28,
+      "point_size": 113.78953408767936,
+      "distance_center": 0.17787670400043348,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Julio Sabala",
+          "cosine_similarity": 0.7800094299893762,
+          "cosine_distance": 0.21999057001062383
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6999330948304989,
+          "cosine_distance": 0.3000669051695011
+        },
+        {
+          "rank": 3,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.6677217243365163,
+          "cosine_distance": 0.33227827566348367
+        },
+        {
+          "rank": 4,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6365545584495912,
+          "cosine_distance": 0.3634454415504088
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6275023860357767,
+          "cosine_distance": 0.3724976139642233
+        }
+      ]
+    },
+    "Dinamita Show": {
+      "show": "Dinamita Show",
+      "x": -0.073637428208107,
+      "y": -0.0913492351270421,
+      "n_segments": 119,
+      "point_size": 186.81325749026428,
+      "distance_center": 0.1173335143571509,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Rodrigo Villegas",
+          "cosine_similarity": 0.6499083316323214,
+          "cosine_distance": 0.3500916683676786
+        },
+        {
+          "rank": 2,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5970640706855713,
+          "cosine_distance": 0.4029359293144287
+        },
+        {
+          "rank": 3,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.5797319457681985,
+          "cosine_distance": 0.42026805423180147
+        },
+        {
+          "rank": 4,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.5396117507800803,
+          "cosine_distance": 0.4603882492199197
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5348457480496135,
+          "cosine_distance": 0.4651542519503865
+        }
+      ]
+    },
+    "Dino Gordillo": {
+      "show": "Dino Gordillo",
+      "x": 0.0844831747420809,
+      "y": 0.0869053847128914,
+      "n_segments": 126,
+      "point_size": 190.92463808418373,
+      "distance_center": 0.12120211510776793,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.8014455502313421,
+          "cosine_distance": 0.19855444976865788
+        },
+        {
+          "rank": 2,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7947749786672013,
+          "cosine_distance": 0.20522502133279874
+        },
+        {
+          "rank": 3,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7824963449984432,
+          "cosine_distance": 0.21750365500155677
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7781004423933404,
+          "cosine_distance": 0.22189955760665958
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.7676746610362287,
+          "cosine_distance": 0.23232533896377128
+        }
+      ]
+    },
+    "Edo Caroe": {
+      "show": "Edo Caroe",
+      "x": -0.0635313570701652,
+      "y": 0.1577428850078061,
+      "n_segments": 138,
+      "point_size": 197.71542161811948,
+      "distance_center": 0.17005602342099727,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9331297425996908,
+          "cosine_distance": 0.06687025740030916
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9230272364173608,
+          "cosine_distance": 0.07697276358263916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8974371896310376,
+          "cosine_distance": 0.10256281036896242
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8340877943447885,
+          "cosine_distance": 0.16591220565521148
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.826887156771695,
+          "cosine_distance": 0.173112843228305
+        }
+      ]
+    },
+    "El Pampero": {
+      "show": "El Pampero",
+      "x": -0.1661925728553441,
+      "y": 0.2061402642836413,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.2647900674708331,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7662074539823213,
+          "cosine_distance": 0.23379254601767874
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7297134928284851,
+          "cosine_distance": 0.2702865071715149
+        },
+        {
+          "rank": 3,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6998960852144192,
+          "cosine_distance": 0.30010391478558085
+        },
+        {
+          "rank": 4,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6811326904900362,
+          "cosine_distance": 0.3188673095099638
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6626439553296163,
+          "cosine_distance": 0.3373560446703837
+        }
+      ]
+    },
+    "Ernesto Belloni": {
+      "show": "Ernesto Belloni",
+      "x": -0.0326229324660012,
+      "y": -0.1478985161478928,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.15145371174530448,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.5631242542792976,
+          "cosine_distance": 0.4368757457207024
+        },
+        {
+          "rank": 2,
+          "show": "Payahop",
+          "cosine_similarity": 0.5235293460178605,
+          "cosine_distance": 0.4764706539821395
+        },
+        {
+          "rank": 3,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.4964526930403745,
+          "cosine_distance": 0.5035473069596255
+        },
+        {
+          "rank": 4,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.4786719982230594,
+          "cosine_distance": 0.5213280017769406
+        },
+        {
+          "rank": 5,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4399095271325177,
+          "cosine_distance": 0.5600904728674823
+        }
+      ]
+    },
+    "Fabrizio Copano": {
+      "show": "Fabrizio Copano",
+      "x": -0.1217186044124301,
+      "y": 0.1713335086288371,
+      "n_segments": 100,
+      "point_size": 175.0,
+      "distance_center": 0.2101680038425865,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9497716072470916,
+          "cosine_distance": 0.05022839275290836
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.9230272364173608,
+          "cosine_distance": 0.07697276358263916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.9027162042832932,
+          "cosine_distance": 0.09728379571670676
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8239279024253026,
+          "cosine_distance": 0.17607209757469744
+        },
+        {
+          "rank": 5,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8053386059483044,
+          "cosine_distance": 0.19466139405169558
+        }
+      ]
+    },
+    "Felipe Avello": {
+      "show": "Felipe Avello",
+      "x": 0.0014738548732016,
+      "y": -0.1127320181502269,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.1127416523047731,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4652538529569742,
+          "cosine_distance": 0.5347461470430258
+        },
+        {
+          "rank": 2,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.4016425495089223,
+          "cosine_distance": 0.5983574504910777
+        },
+        {
+          "rank": 3,
+          "show": "Paul Vásquez \"El Flaco\"",
+          "cosine_similarity": 0.3953332461208733,
+          "cosine_distance": 0.6046667538791267
+        },
+        {
+          "rank": 4,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3532454127913953,
+          "cosine_distance": 0.6467545872086047
+        },
+        {
+          "rank": 5,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3519720700881534,
+          "cosine_distance": 0.6480279299118465
+        }
+      ]
+    },
+    "Fusión Humor": {
+      "show": "Fusión Humor",
+      "x": -0.0362272081997967,
+      "y": -0.1367064813680427,
+      "n_segments": 61,
+      "point_size": 146.5332457867865,
+      "distance_center": 0.14142514861926936,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.6570094742614929,
+          "cosine_distance": 0.3429905257385071
+        },
+        {
+          "rank": 2,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.4973602197263304,
+          "cosine_distance": 0.5026397802736696
+        },
+        {
+          "rank": 3,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.4882050170601706,
+          "cosine_distance": 0.5117949829398294
+        },
+        {
+          "rank": 4,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4856363669938541,
+          "cosine_distance": 0.5143636330061458
+        },
+        {
+          "rank": 5,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.4474245077351528,
+          "cosine_distance": 0.5525754922648471
+        }
+      ]
+    },
+    "George Harris": {
+      "show": "George Harris",
+      "x": -0.1203932847168772,
+      "y": 0.4041842038830182,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.42173381850815367,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8317434387179045,
+          "cosine_distance": 0.16825656128209554
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8301880446081163,
+          "cosine_distance": 0.16981195539188365
+        },
+        {
+          "rank": 3,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.8031482828373004,
+          "cosine_distance": 0.19685171716269956
+        },
+        {
+          "rank": 4,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7643227507327114,
+          "cosine_distance": 0.2356772492672886
+        },
+        {
+          "rank": 5,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.7555849084481391,
+          "cosine_distance": 0.24441509155186092
+        }
+      ]
+    },
+    "Gigi Martin": {
+      "show": "Gigi Martin",
+      "x": -0.1076654567850482,
+      "y": -0.2242227390500745,
+      "n_segments": 20,
+      "point_size": 103.13776741499453,
+      "distance_center": 0.24873215974588186,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Ruperto",
+          "cosine_similarity": 0.7078842694206423,
+          "cosine_distance": 0.2921157305793577
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.5914141760698206,
+          "cosine_distance": 0.4085858239301794
+        },
+        {
+          "rank": 3,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.4973602197263304,
+          "cosine_distance": 0.5026397802736696
+        },
+        {
+          "rank": 4,
+          "show": "Stefan Kramer",
+          "cosine_similarity": 0.4893529352931746,
+          "cosine_distance": 0.5106470647068254
+        },
+        {
+          "rank": 5,
+          "show": "Sandy",
+          "cosine_similarity": 0.4782594350804126,
+          "cosine_distance": 0.5217405649195874
+        }
+      ]
+    },
+    "Gloria Benavides": {
+      "show": "Gloria Benavides",
+      "x": -0.0628281255321284,
+      "y": -0.1471528455173459,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.16000416651366536,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.7039358096301382,
+          "cosine_distance": 0.29606419036986176
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.5437206978826248,
+          "cosine_distance": 0.4562793021173752
+        },
+        {
+          "rank": 3,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.53420221929267,
+          "cosine_distance": 0.46579778070733
+        },
+        {
+          "rank": 4,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.5184144120956834,
+          "cosine_distance": 0.4815855879043166
+        },
+        {
+          "rank": 5,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.5169347997546789,
+          "cosine_distance": 0.48306520024532107
+        }
+      ]
+    },
+    "Hermógenes Conache": {
+      "show": "Hermógenes Conache",
+      "x": -0.0976953687271352,
+      "y": 0.2016742079833534,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.22409121186794406,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8790371075753468,
+          "cosine_distance": 0.12096289242465319
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.8471961466776464,
+          "cosine_distance": 0.15280385332235358
+        },
+        {
+          "rank": 3,
+          "show": "George Harris",
+          "cosine_similarity": 0.8317434387179045,
+          "cosine_distance": 0.16825656128209554
+        },
+        {
+          "rank": 4,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.822917859176602,
+          "cosine_distance": 0.17708214082339802
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8159825507307841,
+          "cosine_distance": 0.18401744926921593
+        }
+      ]
+    },
+    "Huaso Filomeno": {
+      "show": "Huaso Filomeno",
+      "x": -0.0297998164994011,
+      "y": -0.0634765373603683,
+      "n_segments": 21,
+      "point_size": 104.57348403442592,
+      "distance_center": 0.07012346154219866,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.5642342934652897,
+          "cosine_distance": 0.43576570653471025
+        },
+        {
+          "rank": 2,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.5374642561756301,
+          "cosine_distance": 0.4625357438243699
+        },
+        {
+          "rank": 3,
+          "show": "Carlos García",
+          "cosine_similarity": 0.485936609055992,
+          "cosine_distance": 0.514063390944008
+        },
+        {
+          "rank": 4,
+          "show": "Los Indolatinos",
+          "cosine_similarity": 0.4811992787564547,
+          "cosine_distance": 0.5188007212435453
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.4554586503483549,
+          "cosine_distance": 0.5445413496516451
+        }
+      ]
+    },
+    "Hugo Goodman": {
+      "show": "Hugo Goodman",
+      "x": 0.1727497113916145,
+      "y": 0.1659012748568815,
+      "n_segments": 21,
+      "point_size": 104.57348403442592,
+      "distance_center": 0.2395113688012004,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7824963449984432,
+          "cosine_distance": 0.21750365500155677
+        },
+        {
+          "rank": 2,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.7690176819227769,
+          "cosine_distance": 0.23098231807722314
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7628411992763412,
+          "cosine_distance": 0.2371588007236588
+        },
+        {
+          "rank": 4,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.7568017544403641,
+          "cosine_distance": 0.24319824555963587
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.7365958762291542,
+          "cosine_distance": 0.26340412377084577
+        }
+      ]
+    },
+    "Hugo Varela": {
+      "show": "Hugo Varela",
+      "x": -0.0982284850221972,
+      "y": -0.1163367030516395,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.15225985599192382,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Carlos García",
+          "cosine_similarity": 0.524895682577422,
+          "cosine_distance": 0.47510431742257797
+        },
+        {
+          "rank": 2,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.4878194606029118,
+          "cosine_distance": 0.5121805393970882
+        },
+        {
+          "rank": 3,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.4445238103171739,
+          "cosine_distance": 0.5554761896828261
+        },
+        {
+          "rank": 4,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.4146284384638498,
+          "cosine_distance": 0.5853715615361502
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.4080022129762872,
+          "cosine_distance": 0.5919977870237128
+        }
+      ]
+    },
+    "Jani Dueñas": {
+      "show": "Jani Dueñas",
+      "x": 0.1102028802136507,
+      "y": 0.0128345886832604,
+      "n_segments": 23,
+      "point_size": 107.34580980306535,
+      "distance_center": 0.11094774208632059,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.6667568150083286,
+          "cosine_distance": 0.3332431849916714
+        },
+        {
+          "rank": 2,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.6224248720409301,
+          "cosine_distance": 0.3775751279590699
+        },
+        {
+          "rank": 3,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.605757743711927,
+          "cosine_distance": 0.39424225628807297
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.5880962694496862,
+          "cosine_distance": 0.4119037305503138
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.5291086281327545,
+          "cosine_distance": 0.4708913718672455
+        }
+      ]
+    },
+    "Javiera Contador": {
+      "show": "Javiera Contador",
+      "x": 0.2627765864836291,
+      "y": 0.1231075512848991,
+      "n_segments": 59,
+      "point_size": 144.8548947222919,
+      "distance_center": 0.2901844302979611,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.8233116577066318,
+          "cosine_distance": 0.17668834229336816
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.8014455502313421,
+          "cosine_distance": 0.19855444976865788
+        },
+        {
+          "rank": 3,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.7936123837651325,
+          "cosine_distance": 0.20638761623486745
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7925240256277285,
+          "cosine_distance": 0.2074759743722715
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.7779853687673142,
+          "cosine_distance": 0.22201463123268583
+        }
+      ]
+    },
+    "Jenny Cavallo": {
+      "show": "Jenny Cavallo",
+      "x": 0.6558393880974296,
+      "y": 0.017716206347647,
+      "n_segments": 27,
+      "point_size": 112.54998149518622,
+      "distance_center": 0.6560786286317847,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.8515829087948761,
+          "cosine_distance": 0.14841709120512392
+        },
+        {
+          "rank": 2,
+          "show": "Belén Mora",
+          "cosine_similarity": 0.8210238763927458,
+          "cosine_distance": 0.17897612360725423
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7936123837651325,
+          "cosine_distance": 0.20638761623486745
+        },
+        {
+          "rank": 4,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.7346632418010404,
+          "cosine_distance": 0.26533675819895963
+        },
+        {
+          "rank": 5,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.6700223623897335,
+          "cosine_distance": 0.32997763761026655
+        }
+      ]
+    },
+    "Jorge \"Chino\" Navarrete": {
+      "show": "Jorge \"Chino\" Navarrete",
+      "x": -0.063527650316949,
+      "y": -0.0200109853667543,
+      "n_segments": 39,
+      "point_size": 126.18497397917918,
+      "distance_center": 0.06660481882072053,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pujillay",
+          "cosine_similarity": 0.6339663242547847,
+          "cosine_distance": 0.3660336757452153
+        },
+        {
+          "rank": 2,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.6289185551718497,
+          "cosine_distance": 0.3710814448281503
+        },
+        {
+          "rank": 3,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.6276786110633187,
+          "cosine_distance": 0.3723213889366813
+        },
+        {
+          "rank": 4,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.6248627423775152,
+          "cosine_distance": 0.37513725762248484
+        },
+        {
+          "rank": 5,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.582462179542549,
+          "cosine_distance": 0.417537820457451
+        }
+      ]
+    },
+    "Jorge Alís": {
+      "show": "Jorge Alís",
+      "x": -0.0397100320644454,
+      "y": 0.2111534756616008,
+      "n_segments": 48,
+      "point_size": 135.0666419935816,
+      "distance_center": 0.21485501374306706,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8328043962264399,
+          "cosine_distance": 0.16719560377356013
+        },
+        {
+          "rank": 2,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.822917859176602,
+          "cosine_distance": 0.17708214082339802
+        },
+        {
+          "rank": 3,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.8079798690251683,
+          "cosine_distance": 0.19202013097483173
+        },
+        {
+          "rank": 4,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.8033829420739358,
+          "cosine_distance": 0.1966170579260642
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7987629213665791,
+          "cosine_distance": 0.20123707863342088
+        }
+      ]
+    },
+    "Juan Luis \"Jajá\" Calderón": {
+      "show": "Juan Luis \"Jajá\" Calderón",
+      "x": -0.0505599662137477,
+      "y": -0.0040759517063507,
+      "n_segments": 98,
+      "point_size": 173.69343417595164,
+      "distance_center": 0.05072399398556679,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.810131054082667,
+          "cosine_distance": 0.18986894591733305
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.7026100169775548,
+          "cosine_distance": 0.29738998302244524
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.6928019887249945,
+          "cosine_distance": 0.30719801127500546
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6356880890747281,
+          "cosine_distance": 0.36431191092527193
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5695949448087596,
+          "cosine_distance": 0.4304050551912404
+        }
+      ]
+    },
+    "Juan Pablo López": {
+      "show": "Juan Pablo López",
+      "x": -0.1044216723939969,
+      "y": 0.099873909349792,
+      "n_segments": 112,
+      "point_size": 182.5790681753587,
+      "distance_center": 0.14449457925600423,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8471961466776464,
+          "cosine_distance": 0.15280385332235358
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7876556058276315,
+          "cosine_distance": 0.2123443941723685
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7764627597085065,
+          "cosine_distance": 0.22353724029149347
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7703119746568994,
+          "cosine_distance": 0.22968802534310062
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7553450600965306,
+          "cosine_distance": 0.24465493990346943
+        }
+      ]
+    },
+    "Julio Sabala": {
+      "show": "Julio Sabala",
+      "x": -0.1269555758028351,
+      "y": 0.1313841320499149,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.18270059765074356,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Diego Urrutia",
+          "cosine_similarity": 0.7800094299893762,
+          "cosine_distance": 0.21999057001062383
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.6028107715334111,
+          "cosine_distance": 0.3971892284665889
+        },
+        {
+          "rank": 3,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5995083975424524,
+          "cosine_distance": 0.40049160245754756
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5784693966935941,
+          "cosine_distance": 0.4215306033064059
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5779685629186911,
+          "cosine_distance": 0.42203143708130886
+        }
+      ]
+    },
+    "León Murillo": {
+      "show": "León Murillo",
+      "x": -0.1013799961466721,
+      "y": 0.149793736030521,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.18087583302553348,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7020347062177519,
+          "cosine_distance": 0.2979652937822481
+        },
+        {
+          "rank": 2,
+          "show": "Ricardo Meruane",
+          "cosine_similarity": 0.7013932200248617,
+          "cosine_distance": 0.2986067799751383
+        },
+        {
+          "rank": 3,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.700897323522934,
+          "cosine_distance": 0.299102676477066
+        },
+        {
+          "rank": 4,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.7007945127318198,
+          "cosine_distance": 0.2992054872681802
+        },
+        {
+          "rank": 5,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.693269080360031,
+          "cosine_distance": 0.306730919639969
+        }
+      ]
+    },
+    "Los Atletas de la Risa": {
+      "show": "Los Atletas de la Risa",
+      "x": -0.0013266856255763,
+      "y": -0.1325578025648247,
+      "n_segments": 38,
+      "point_size": 125.13738203859668,
+      "distance_center": 0.13256444136933612,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.6813360207764875,
+          "cosine_distance": 0.31866397922351253
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.4263723818376892,
+          "cosine_distance": 0.5736276181623108
+        },
+        {
+          "rank": 3,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3239412216656959,
+          "cosine_distance": 0.6760587783343042
+        },
+        {
+          "rank": 4,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.2741388065927689,
+          "cosine_distance": 0.7258611934072311
+        },
+        {
+          "rank": 5,
+          "show": "Los Locos del Humor",
+          "cosine_similarity": 0.2671262289133928,
+          "cosine_distance": 0.7328737710866071
+        }
+      ]
+    },
+    "Los Indolatinos": {
+      "show": "Los Indolatinos",
+      "x": 0.073526099099664,
+      "y": -0.087355529511424,
+      "n_segments": 67,
+      "point_size": 151.40958603434186,
+      "distance_center": 0.11418001482323811,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.5970640706855713,
+          "cosine_distance": 0.4029359293144287
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.5848435894191113,
+          "cosine_distance": 0.4151564105808887
+        },
+        {
+          "rank": 3,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.5684853820327156,
+          "cosine_distance": 0.4315146179672844
+        },
+        {
+          "rank": 4,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.5580571335886249,
+          "cosine_distance": 0.44194286641137515
+        },
+        {
+          "rank": 5,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.5433002708685509,
+          "cosine_distance": 0.4566997291314491
+        }
+      ]
+    },
+    "Los Locos del Humor": {
+      "show": "Los Locos del Humor",
+      "x": -0.0673974340663496,
+      "y": -0.0264806833496897,
+      "n_segments": 83,
+      "point_size": 163.43563652887588,
+      "distance_center": 0.07241298715972487,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.650648757173412,
+          "cosine_distance": 0.349351242826588
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6144643892345062,
+          "cosine_distance": 0.3855356107654938
+        },
+        {
+          "rank": 3,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.5699922608321334,
+          "cosine_distance": 0.4300077391678666
+        },
+        {
+          "rank": 4,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5623387447022046,
+          "cosine_distance": 0.4376612552977954
+        },
+        {
+          "rank": 5,
+          "show": "Julio Sabala",
+          "cosine_similarity": 0.5613579866375573,
+          "cosine_distance": 0.4386420133624427
+        }
+      ]
+    },
+    "Lucho Miranda": {
+      "show": "Lucho Miranda",
+      "x": 0.0547475561894026,
+      "y": -0.0944685254593891,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.10918606692789624,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Zip-Zup",
+          "cosine_similarity": 0.5289973879526445,
+          "cosine_distance": 0.4710026120473555
+        },
+        {
+          "rank": 2,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.4802411208027873,
+          "cosine_distance": 0.5197588791972128
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.400946878122044,
+          "cosine_distance": 0.599053121877956
+        },
+        {
+          "rank": 4,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.3576750905974291,
+          "cosine_distance": 0.6423249094025709
+        },
+        {
+          "rank": 5,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3308698280609429,
+          "cosine_distance": 0.6691301719390571
+        }
+      ]
+    },
+    "Luis Slimming": {
+      "show": "Luis Slimming",
+      "x": 0.0516539414201661,
+      "y": 0.1587132007870889,
+      "n_segments": 54,
+      "point_size": 140.53009996854394,
+      "distance_center": 0.1669071890851941,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.8172067851353894,
+          "cosine_distance": 0.18279321486461064
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8089887411934775,
+          "cosine_distance": 0.19101125880652248
+        },
+        {
+          "rank": 3,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8076218280068116,
+          "cosine_distance": 0.1923781719931884
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.7843839766169454,
+          "cosine_distance": 0.21561602338305463
+        },
+        {
+          "rank": 5,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.76181049364995,
+          "cosine_distance": 0.23818950635004998
+        }
+      ]
+    },
+    "Mauricio Palma": {
+      "show": "Mauricio Palma",
+      "x": -0.1193189167924755,
+      "y": 0.0629046201842533,
+      "n_segments": 56,
+      "point_size": 142.28309205612248,
+      "distance_center": 0.13488511832316738,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7421496481840407,
+          "cosine_distance": 0.2578503518159593
+        },
+        {
+          "rank": 2,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7279976504898992,
+          "cosine_distance": 0.2720023495101008
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7248393618926448,
+          "cosine_distance": 0.27516063810735525
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.6906313543794358,
+          "cosine_distance": 0.3093686456205642
+        },
+        {
+          "rank": 5,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.6868005722178774,
+          "cosine_distance": 0.3131994277821226
+        }
+      ]
+    },
+    "Melón y Melame": {
+      "show": "Melón y Melame",
+      "x": -0.0563315137032762,
+      "y": -0.1592625261955238,
+      "n_segments": 49,
+      "point_size": 136.0,
+      "distance_center": 0.16893132239547023,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.6570094742614929,
+          "cosine_distance": 0.3429905257385071
+        },
+        {
+          "rank": 2,
+          "show": "Pancho del Sur",
+          "cosine_similarity": 0.4948273760401358,
+          "cosine_distance": 0.5051726239598642
+        },
+        {
+          "rank": 3,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.4515266362464072,
+          "cosine_distance": 0.5484733637535928
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.4407081738334008,
+          "cosine_distance": 0.5592918261665992
+        },
+        {
+          "rank": 5,
+          "show": "Payahop",
+          "cosine_similarity": 0.4191874887785091,
+          "cosine_distance": 0.5808125112214909
+        }
+      ]
+    },
+    "Memo Bunke": {
+      "show": "Memo Bunke",
+      "x": -0.0536948631833843,
+      "y": -0.0426960463073458,
+      "n_segments": 27,
+      "point_size": 112.54998149518622,
+      "distance_center": 0.06860095263596112,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.4021051095042628,
+          "cosine_distance": 0.5978948904957372
+        },
+        {
+          "rank": 2,
+          "show": "Huaso Filomeno",
+          "cosine_similarity": 0.3995079046714739,
+          "cosine_distance": 0.6004920953285261
+        },
+        {
+          "rank": 3,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.3714049356209568,
+          "cosine_distance": 0.6285950643790432
+        },
+        {
+          "rank": 4,
+          "show": "Diego Urrutia",
+          "cosine_similarity": 0.3432024423192751,
+          "cosine_distance": 0.6567975576807249
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.3150480497353092,
+          "cosine_distance": 0.6849519502646908
+        }
+      ]
+    },
+    "Millenium Show": {
+      "show": "Millenium Show",
+      "x": -0.1728216865122792,
+      "y": -0.1179735520432605,
+      "n_segments": 15,
+      "point_size": 95.34878350069641,
+      "distance_center": 0.20924888126499605,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sandy",
+          "cosine_similarity": 0.6920438853131718,
+          "cosine_distance": 0.30795611468682815
+        },
+        {
+          "rank": 2,
+          "show": "Ruperto",
+          "cosine_similarity": 0.688868865675324,
+          "cosine_distance": 0.311131134324676
+        },
+        {
+          "rank": 3,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.6579586397018231,
+          "cosine_distance": 0.3420413602981769
+        },
+        {
+          "rank": 4,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.5914141760698206,
+          "cosine_distance": 0.4085858239301794
+        },
+        {
+          "rank": 5,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.5437206978826248,
+          "cosine_distance": 0.4562793021173752
+        }
+      ]
+    },
+    "Natalia Valdebenito": {
+      "show": "Natalia Valdebenito",
+      "x": 0.008040383996234,
+      "y": -0.0712035375601553,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.07165606419478633,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Centella",
+          "cosine_similarity": 0.5372698780934617,
+          "cosine_distance": 0.4627301219065383
+        },
+        {
+          "rank": 2,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.4853495820463092,
+          "cosine_distance": 0.5146504179536908
+        },
+        {
+          "rank": 3,
+          "show": "Jani Dueñas",
+          "cosine_similarity": 0.4639819440678207,
+          "cosine_distance": 0.5360180559321793
+        },
+        {
+          "rank": 4,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4101178599246451,
+          "cosine_distance": 0.5898821400753549
+        },
+        {
+          "rank": 5,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.334076815191799,
+          "cosine_distance": 0.665923184808201
+        }
+      ]
+    },
+    "Palta Meléndez": {
+      "show": "Palta Meléndez",
+      "x": -0.0717814491924767,
+      "y": 0.0443392309153471,
+      "n_segments": 109,
+      "point_size": 180.72398461583717,
+      "distance_center": 0.0843714634597302,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.807265477373298,
+          "cosine_distance": 0.192734522626702
+        },
+        {
+          "rank": 2,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.7050325148764425,
+          "cosine_distance": 0.2949674851235575
+        },
+        {
+          "rank": 3,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7026325460443652,
+          "cosine_distance": 0.2973674539556348
+        },
+        {
+          "rank": 4,
+          "show": "George Harris",
+          "cosine_similarity": 0.6860898255910496,
+          "cosine_distance": 0.3139101744089504
+        },
+        {
+          "rank": 5,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.6767587286044301,
+          "cosine_distance": 0.3232412713955699
+        }
+      ]
+    },
+    "Pam Pam": {
+      "show": "Pam Pam",
+      "x": 0.164165471708426,
+      "y": -0.1098620088441046,
+      "n_segments": 20,
+      "point_size": 103.13776741499453,
+      "distance_center": 0.19753471362905337,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.5752289171831714,
+          "cosine_distance": 0.4247710828168286
+        },
+        {
+          "rank": 2,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.5378508843365049,
+          "cosine_distance": 0.46214911566349515
+        },
+        {
+          "rank": 3,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.5022263515793337,
+          "cosine_distance": 0.4977736484206663
+        },
+        {
+          "rank": 4,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.4931077130254376,
+          "cosine_distance": 0.5068922869745625
+        },
+        {
+          "rank": 5,
+          "show": "Los Atletas de la Risa",
+          "cosine_similarity": 0.4263723818376892,
+          "cosine_distance": 0.5736276181623108
+        }
+      ]
+    },
+    "Pamela Leiva": {
+      "show": "Pamela Leiva",
+      "x": -0.0064878310787102,
+      "y": -0.0481993751357845,
+      "n_segments": 47,
+      "point_size": 134.1235098052136,
+      "distance_center": 0.0486340592135384,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Paulo Iglesias",
+          "cosine_similarity": 0.5765729909208567,
+          "cosine_distance": 0.4234270090791433
+        },
+        {
+          "rank": 2,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5752289171831714,
+          "cosine_distance": 0.4247710828168286
+        },
+        {
+          "rank": 3,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.5701548417704734,
+          "cosine_distance": 0.4298451582295266
+        },
+        {
+          "rank": 4,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5302729105504793,
+          "cosine_distance": 0.4697270894495207
+        },
+        {
+          "rank": 5,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.4702666261685734,
+          "cosine_distance": 0.5297333738314266
+        }
+      ]
+    },
+    "Pancho del Sur": {
+      "show": "Pancho del Sur",
+      "x": -0.0658543751903597,
+      "y": -0.0569063433179195,
+      "n_segments": 19,
+      "point_size": 101.66568626602876,
+      "distance_center": 0.08703522644038787,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.6059440121755306,
+          "cosine_distance": 0.3940559878244694
+        },
+        {
+          "rank": 2,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.5452481004582079,
+          "cosine_distance": 0.45475189954179207
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.53420221929267,
+          "cosine_distance": 0.46579778070733
+        },
+        {
+          "rank": 4,
+          "show": "Óscar Gangas",
+          "cosine_similarity": 0.5029988656902135,
+          "cosine_distance": 0.49700113430978654
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4948273760401358,
+          "cosine_distance": 0.5051726239598642
+        }
+      ]
+    },
+    "Paul Vásquez \"El Flaco\"": {
+      "show": "Paul Vásquez \"El Flaco\"",
+      "x": -0.0714611039784413,
+      "y": -0.0427738789887447,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.08328441694315557,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.577802516096367,
+          "cosine_distance": 0.422197483903633
+        },
+        {
+          "rank": 2,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.5653796063741421,
+          "cosine_distance": 0.4346203936258579
+        },
+        {
+          "rank": 3,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5540391007958897,
+          "cosine_distance": 0.4459608992041103
+        },
+        {
+          "rank": 4,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.5238682733754768,
+          "cosine_distance": 0.4761317266245232
+        },
+        {
+          "rank": 5,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.5219682305277629,
+          "cosine_distance": 0.47803176947223713
+        }
+      ]
+    },
+    "Paulo Iglesias": {
+      "show": "Paulo Iglesias",
+      "x": 0.0228343663429714,
+      "y": -0.0935387691228104,
+      "n_segments": 79,
+      "point_size": 160.54652742510265,
+      "distance_center": 0.09628556286014768,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Los Atletas de la Risa",
+          "cosine_similarity": 0.6813360207764875,
+          "cosine_distance": 0.31866397922351253
+        },
+        {
+          "rank": 2,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.5765729909208567,
+          "cosine_distance": 0.4234270090791433
+        },
+        {
+          "rank": 3,
+          "show": "Pam Pam",
+          "cosine_similarity": 0.5378508843365049,
+          "cosine_distance": 0.46214911566349515
+        },
+        {
+          "rank": 4,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.4964526930403745,
+          "cosine_distance": 0.5035473069596255
+        },
+        {
+          "rank": 5,
+          "show": "Carlos \"El Mono\" Sánchez",
+          "cosine_similarity": 0.429684129795259,
+          "cosine_distance": 0.5703158702047411
+        }
+      ]
+    },
+    "Payahop": {
+      "show": "Payahop",
+      "x": 0.0586226137001027,
+      "y": -0.0748299134330191,
+      "n_segments": 32,
+      "point_size": 118.53910524340095,
+      "distance_center": 0.09505854396857023,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Ernesto Belloni",
+          "cosine_similarity": 0.5235293460178605,
+          "cosine_distance": 0.4764706539821395
+        },
+        {
+          "rank": 2,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.437530886217707,
+          "cosine_distance": 0.562469113782293
+        },
+        {
+          "rank": 3,
+          "show": "Fusión Humor",
+          "cosine_similarity": 0.4307993357486503,
+          "cosine_distance": 0.5692006642513496
+        },
+        {
+          "rank": 4,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.4191874887785091,
+          "cosine_distance": 0.5808125112214909
+        },
+        {
+          "rank": 5,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.4188638306305283,
+          "cosine_distance": 0.5811361693694717
+        }
+      ]
+    },
+    "Pedro Ruminot": {
+      "show": "Pedro Ruminot",
+      "x": -0.1047480793111173,
+      "y": 0.2370700263864459,
+      "n_segments": 178,
+      "point_size": 218.44163283364236,
+      "distance_center": 0.2591801642299007,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9497716072470916,
+          "cosine_distance": 0.05022839275290836
+        },
+        {
+          "rank": 2,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.9331297425996908,
+          "cosine_distance": 0.06687025740030916
+        },
+        {
+          "rank": 3,
+          "show": "Sergio Freire",
+          "cosine_similarity": 0.9290607672668024,
+          "cosine_distance": 0.07093923273319758
+        },
+        {
+          "rank": 4,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.8790371075753468,
+          "cosine_distance": 0.12096289242465319
+        },
+        {
+          "rank": 5,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.864458600224566,
+          "cosine_distance": 0.135541399775434
+        }
+      ]
+    },
+    "Profesor Salomón y Tutu-Tutu": {
+      "show": "Profesor Salomón y Tutu-Tutu",
+      "x": -0.1588706335367855,
+      "y": -0.0613850040793771,
+      "n_segments": 35,
+      "point_size": 121.90903718029502,
+      "distance_center": 0.17031734182462085,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.6579586397018231,
+          "cosine_distance": 0.3420413602981769
+        },
+        {
+          "rank": 2,
+          "show": "El Pampero",
+          "cosine_similarity": 0.5749901409226275,
+          "cosine_distance": 0.42500985907737254
+        },
+        {
+          "rank": 3,
+          "show": "Stefan Kramer",
+          "cosine_similarity": 0.4770528834845541,
+          "cosine_distance": 0.5229471165154459
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.4770089603821452,
+          "cosine_distance": 0.5229910396178548
+        },
+        {
+          "rank": 5,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.4445238103171739,
+          "cosine_distance": 0.5554761896828261
+        }
+      ]
+    },
+    "Pujillay": {
+      "show": "Pujillay",
+      "x": -0.0593034530194218,
+      "y": -0.1603510439808772,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.17096595229981904,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Sandy",
+          "cosine_similarity": 0.7266022218988278,
+          "cosine_distance": 0.27339777810117216
+        },
+        {
+          "rank": 2,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.6339663242547847,
+          "cosine_distance": 0.3660336757452153
+        },
+        {
+          "rank": 3,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.449142208641505,
+          "cosine_distance": 0.550857791358495
+        },
+        {
+          "rank": 4,
+          "show": "Ruperto",
+          "cosine_similarity": 0.4154510461878648,
+          "cosine_distance": 0.5845489538121351
+        },
+        {
+          "rank": 5,
+          "show": "Melón y Melame",
+          "cosine_similarity": 0.34399721774693,
+          "cosine_distance": 0.6560027822530701
+        }
+      ]
+    },
+    "Ricardo Meruane": {
+      "show": "Ricardo Meruane",
+      "x": -0.0730640189817344,
+      "y": -0.0064221679211693,
+      "n_segments": 48,
+      "point_size": 135.0666419935816,
+      "distance_center": 0.07334572319209173,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Coco Legrand",
+          "cosine_similarity": 0.8086715891929227,
+          "cosine_distance": 0.1913284108070773
+        },
+        {
+          "rank": 2,
+          "show": "Juan Luis \"Jajá\" Calderón",
+          "cosine_similarity": 0.7026100169775548,
+          "cosine_distance": 0.29738998302244524
+        },
+        {
+          "rank": 3,
+          "show": "León Murillo",
+          "cosine_similarity": 0.7013932200248617,
+          "cosine_distance": 0.2986067799751383
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.5187685260905311,
+          "cosine_distance": 0.48123147390946885
+        },
+        {
+          "rank": 5,
+          "show": "Rodrigo González",
+          "cosine_similarity": 0.500547191514053,
+          "cosine_distance": 0.499452808485947
+        }
+      ]
+    },
+    "Rodrigo González": {
+      "show": "Rodrigo González",
+      "x": -0.0905272546199068,
+      "y": 0.1080634141463781,
+      "n_segments": 50,
+      "point_size": 136.92388155425118,
+      "distance_center": 0.14097122155244693,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.826887156771695,
+          "cosine_distance": 0.173112843228305
+        },
+        {
+          "rank": 2,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.8039579023483289,
+          "cosine_distance": 0.19604209765167113
+        },
+        {
+          "rank": 3,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.7988977357417536,
+          "cosine_distance": 0.2011022642582464
+        },
+        {
+          "rank": 4,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7413384527597673,
+          "cosine_distance": 0.2586615472402327
+        },
+        {
+          "rank": 5,
+          "show": "Juan Pablo López",
+          "cosine_similarity": 0.7301642815188394,
+          "cosine_distance": 0.2698357184811606
+        }
+      ]
+    },
+    "Rodrigo Villegas": {
+      "show": "Rodrigo Villegas",
+      "x": -0.0153651973589488,
+      "y": -0.1118284331706583,
+      "n_segments": 65,
+      "point_size": 149.80935072788114,
+      "distance_center": 0.11287908466710668,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.6499083316323214,
+          "cosine_distance": 0.3500916683676786
+        },
+        {
+          "rank": 2,
+          "show": "Alex Ortiz",
+          "cosine_similarity": 0.4471902149998221,
+          "cosine_distance": 0.5528097850001779
+        },
+        {
+          "rank": 3,
+          "show": "Carlos García",
+          "cosine_similarity": 0.4366646391885839,
+          "cosine_distance": 0.5633353608114161
+        },
+        {
+          "rank": 4,
+          "show": "Pamela Leiva",
+          "cosine_similarity": 0.3920165230648208,
+          "cosine_distance": 0.6079834769351792
+        },
+        {
+          "rank": 5,
+          "show": "Alison Mandel",
+          "cosine_similarity": 0.3829377080978995,
+          "cosine_distance": 0.6170622919021005
+        }
+      ]
+    },
+    "Rudy Rey": {
+      "show": "Rudy Rey",
+      "x": -0.0595645997077793,
+      "y": -0.1611290190914241,
+      "n_segments": 17,
+      "point_size": 98.60037313302959,
+      "distance_center": 0.17178621112217504,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Daniel Muñoz \"El Carmelo\"",
+          "cosine_similarity": 0.5404810660402207,
+          "cosine_distance": 0.4595189339597793
+        },
+        {
+          "rank": 2,
+          "show": "Paul Vásquez \"El Flaco\"",
+          "cosine_similarity": 0.5212859633194523,
+          "cosine_distance": 0.4787140366805477
+        },
+        {
+          "rank": 3,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4648986528720724,
+          "cosine_distance": 0.5351013471279276
+        },
+        {
+          "rank": 4,
+          "show": "Payahop",
+          "cosine_similarity": 0.3944846024417279,
+          "cosine_distance": 0.6055153975582721
+        },
+        {
+          "rank": 5,
+          "show": "Hugo Varela",
+          "cosine_similarity": 0.3898581458163144,
+          "cosine_distance": 0.6101418541836856
+        }
+      ]
+    },
+    "Ruperto": {
+      "show": "Ruperto",
+      "x": -0.1240951524760252,
+      "y": -0.2907448741399202,
+      "n_segments": 16,
+      "point_size": 97.0,
+      "distance_center": 0.31612052876503605,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.7078842694206423,
+          "cosine_distance": 0.2921157305793577
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.688868865675324,
+          "cosine_distance": 0.311131134324676
+        },
+        {
+          "rank": 3,
+          "show": "Sandy",
+          "cosine_similarity": 0.630279133744365,
+          "cosine_distance": 0.36972086625563505
+        },
+        {
+          "rank": 4,
+          "show": "Pujillay",
+          "cosine_similarity": 0.4154510461878648,
+          "cosine_distance": 0.5845489538121351
+        },
+        {
+          "rank": 5,
+          "show": "Dinamita Show",
+          "cosine_similarity": 0.3869714002123412,
+          "cosine_distance": 0.6130285997876588
+        }
+      ]
+    },
+    "Sandy": {
+      "show": "Sandy",
+      "x": 0.0480876681627754,
+      "y": -0.1020749657633685,
+      "n_segments": 84,
+      "point_size": 164.14696806885183,
+      "distance_center": 0.11283493459441561,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pujillay",
+          "cosine_similarity": 0.7266022218988278,
+          "cosine_distance": 0.27339777810117216
+        },
+        {
+          "rank": 2,
+          "show": "Millenium Show",
+          "cosine_similarity": 0.6920438853131718,
+          "cosine_distance": 0.30795611468682815
+        },
+        {
+          "rank": 3,
+          "show": "Ruperto",
+          "cosine_similarity": 0.630279133744365,
+          "cosine_distance": 0.36972086625563505
+        },
+        {
+          "rank": 4,
+          "show": "Sarah Sanders",
+          "cosine_similarity": 0.5386667672990555,
+          "cosine_distance": 0.4613332327009445
+        },
+        {
+          "rank": 5,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.5335697339780515,
+          "cosine_distance": 0.4664302660219485
+        }
+      ]
+    },
+    "Sarah Sanders": {
+      "show": "Sarah Sanders",
+      "x": 0.2436075378975593,
+      "y": 0.1969929989491051,
+      "n_segments": 19,
+      "point_size": 101.66568626602876,
+      "distance_center": 0.3132903990796285,
+      "is_outlier_top10": true,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Javiera Contador",
+          "cosine_similarity": 0.7779853687673142,
+          "cosine_distance": 0.22201463123268583
+        },
+        {
+          "rank": 2,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.7676746610362287,
+          "cosine_distance": 0.23232533896377128
+        },
+        {
+          "rank": 3,
+          "show": "Hugo Goodman",
+          "cosine_similarity": 0.7268042854739812,
+          "cosine_distance": 0.27319571452601876
+        },
+        {
+          "rank": 4,
+          "show": "Bastián Paz",
+          "cosine_similarity": 0.6947006533575935,
+          "cosine_distance": 0.30529934664240654
+        },
+        {
+          "rank": 5,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.6700223623897335,
+          "cosine_distance": 0.32997763761026655
+        }
+      ]
+    },
+    "Sergio Freire": {
+      "show": "Sergio Freire",
+      "x": -0.0191208588690167,
+      "y": 0.1769549603185574,
+      "n_segments": 46,
+      "point_size": 133.17028978062848,
+      "distance_center": 0.17798501404677608,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.9290607672668024,
+          "cosine_distance": 0.07093923273319758
+        },
+        {
+          "rank": 2,
+          "show": "Fabrizio Copano",
+          "cosine_similarity": 0.9027162042832932,
+          "cosine_distance": 0.09728379571670676
+        },
+        {
+          "rank": 3,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.8974371896310376,
+          "cosine_distance": 0.10256281036896242
+        },
+        {
+          "rank": 4,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8281011999369557,
+          "cosine_distance": 0.17189880006304425
+        },
+        {
+          "rank": 5,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.8172067851353894,
+          "cosine_distance": 0.18279321486461064
+        }
+      ]
+    },
+    "Stefan Kramer": {
+      "show": "Stefan Kramer",
+      "x": -0.1023670480244198,
+      "y": -0.0929069532948197,
+      "n_segments": 68,
+      "point_size": 152.20074626605918,
+      "distance_center": 0.1382415078468102,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Mauricio Palma",
+          "cosine_similarity": 0.5555845335271199,
+          "cosine_distance": 0.4444154664728801
+        },
+        {
+          "rank": 2,
+          "show": "Gigi Martin",
+          "cosine_similarity": 0.4893529352931746,
+          "cosine_distance": 0.5106470647068254
+        },
+        {
+          "rank": 3,
+          "show": "Jorge \"Chino\" Navarrete",
+          "cosine_similarity": 0.4827097804381153,
+          "cosine_distance": 0.5172902195618847
+        },
+        {
+          "rank": 4,
+          "show": "Profesor Salomón y Tutu-Tutu",
+          "cosine_similarity": 0.4770528834845541,
+          "cosine_distance": 0.5229471165154459
+        },
+        {
+          "rank": 5,
+          "show": "Gloria Benavides",
+          "cosine_similarity": 0.4594078867976085,
+          "cosine_distance": 0.5405921132023914
+        }
+      ]
+    },
+    "Zip-Zup": {
+      "show": "Zip-Zup",
+      "x": 0.1732010380689748,
+      "y": -0.062295584319912,
+      "n_segments": 34,
+      "point_size": 120.80237463298891,
+      "distance_center": 0.18406341139381752,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Alejandra Azcárate",
+          "cosine_similarity": 0.7234275787868123,
+          "cosine_distance": 0.2765724212131877
+        },
+        {
+          "rank": 2,
+          "show": "Daniela \"Chiqui\" Aguayo",
+          "cosine_similarity": 0.688232317673992,
+          "cosine_distance": 0.31176768232600804
+        },
+        {
+          "rank": 3,
+          "show": "Dino Gordillo",
+          "cosine_similarity": 0.5473425415953583,
+          "cosine_distance": 0.45265745840464167
+        },
+        {
+          "rank": 4,
+          "show": "Jenny Cavallo",
+          "cosine_similarity": 0.5336759400959613,
+          "cosine_distance": 0.4663240599040387
+        },
+        {
+          "rank": 5,
+          "show": "Lucho Miranda",
+          "cosine_similarity": 0.5289973879526445,
+          "cosine_distance": 0.4710026120473555
+        }
+      ]
+    },
+    "Álvaro Salas": {
+      "show": "Álvaro Salas",
+      "x": -0.0121383328155526,
+      "y": 0.0438545645714632,
+      "n_segments": 110,
+      "point_size": 181.3451502621197,
+      "distance_center": 0.04550342797299734,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Arturo Ruiz-Tagle",
+          "cosine_similarity": 0.8332636378953862,
+          "cosine_distance": 0.16673636210461384
+        },
+        {
+          "rank": 2,
+          "show": "Palta Meléndez",
+          "cosine_similarity": 0.807265477373298,
+          "cosine_distance": 0.192734522626702
+        },
+        {
+          "rank": 3,
+          "show": "Luis Slimming",
+          "cosine_similarity": 0.7843839766169454,
+          "cosine_distance": 0.21561602338305463
+        },
+        {
+          "rank": 4,
+          "show": "Edo Caroe",
+          "cosine_similarity": 0.7834784184695618,
+          "cosine_distance": 0.2165215815304382
+        },
+        {
+          "rank": 5,
+          "show": "Pedro Ruminot",
+          "cosine_similarity": 0.7813125262384137,
+          "cosine_distance": 0.21868747376158626
+        }
+      ]
+    },
+    "Óscar Gangas": {
+      "show": "Óscar Gangas",
+      "x": -0.0419577439289932,
+      "y": 0.1200479343101014,
+      "n_segments": 29,
+      "point_size": 115.00714249274854,
+      "distance_center": 0.12716901669720257,
+      "is_outlier_top10": false,
+      "top5_nearest": [
+        {
+          "rank": 1,
+          "show": "Jorge Alís",
+          "cosine_similarity": 0.8033829420739358,
+          "cosine_distance": 0.1966170579260642
+        },
+        {
+          "rank": 2,
+          "show": "George Harris",
+          "cosine_similarity": 0.8031482828373004,
+          "cosine_distance": 0.19685171716269956
+        },
+        {
+          "rank": 3,
+          "show": "Bombo Fica",
+          "cosine_similarity": 0.7519742279278389,
+          "cosine_distance": 0.24802577207216114
+        },
+        {
+          "rank": 4,
+          "show": "Álvaro Salas",
+          "cosine_similarity": 0.7474819664047645,
+          "cosine_distance": 0.2525180335952355
+        },
+        {
+          "rank": 5,
+          "show": "Hermógenes Conache",
+          "cosine_similarity": 0.7389354344979385,
+          "cosine_distance": 0.2610645655020615
+        }
+      ]
+    }
+  }
+}

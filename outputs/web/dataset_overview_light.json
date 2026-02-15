@@ -1,0 +1,135 @@
+{
+  "dataset_id": "chilean_humor_jokes",
+  "generated_at_utc": "2026-02-15T16:08:18.262677+00:00",
+  "totals": {
+    "n_jokes_total": 4242,
+    "n_comedians_unique": 90,
+    "n_shows_unique": 90,
+    "n_routines_unique": 134,
+    "n_festivals_unique": 44
+  },
+  "time_coverage": {
+    "year_min": 1973,
+    "year_max": 2025,
+    "n_years_covered": 44,
+    "date_min": "1973-02-02",
+    "date_max": "2025-03-01"
+  },
+  "topic_summary": {
+    "n_topics_final_total_including_outlier": 38,
+    "n_topics_final_assigned_excluding_outlier": 38,
+    "n_outlier_jokes_final_topic_minus_1": 0,
+    "n_topics_initial_total_including_outlier": 39,
+    "n_outlier_jokes_initial_topic_minus_1": 1591
+  },
+  "top_comedians_by_jokes": [
+    {
+      "comedian": "Pedro Ruminot",
+      "joke_count": 187
+    },
+    {
+      "comedian": "Dinamita Show",
+      "joke_count": 167
+    },
+    {
+      "comedian": "Edo Caroe",
+      "joke_count": 151
+    },
+    {
+      "comedian": "Dino Gordillo",
+      "joke_count": 135
+    },
+    {
+      "comedian": "Álvaro Salas",
+      "joke_count": 132
+    },
+    {
+      "comedian": "Juan Pablo López",
+      "joke_count": 125
+    },
+    {
+      "comedian": "Coco Legrand",
+      "joke_count": 122
+    },
+    {
+      "comedian": "Palta Meléndez",
+      "joke_count": 121
+    },
+    {
+      "comedian": "Fabrizio Copano",
+      "joke_count": 108
+    },
+    {
+      "comedian": "Daniela \"Chiqui\" Aguayo",
+      "joke_count": 102
+    }
+  ],
+  "top_shows_by_jokes": [
+    {
+      "show": "Pedro Ruminot",
+      "joke_count": 187
+    },
+    {
+      "show": "Dinamita Show",
+      "joke_count": 167
+    },
+    {
+      "show": "Edo Caroe",
+      "joke_count": 151
+    },
+    {
+      "show": "Dino Gordillo",
+      "joke_count": 135
+    },
+    {
+      "show": "Álvaro Salas",
+      "joke_count": 132
+    },
+    {
+      "show": "Juan Pablo López",
+      "joke_count": 125
+    },
+    {
+      "show": "Coco Legrand",
+      "joke_count": 122
+    },
+    {
+      "show": "Palta Meléndez",
+      "joke_count": 121
+    },
+    {
+      "show": "Fabrizio Copano",
+      "joke_count": 108
+    },
+    {
+      "show": "Daniela \"Chiqui\" Aguayo",
+      "joke_count": 102
+    }
+  ],
+  "coverage_by_decade": [
+    {
+      "decade": 1970,
+      "joke_count": 77
+    },
+    {
+      "decade": 1980,
+      "joke_count": 36
+    },
+    {
+      "decade": 1990,
+      "joke_count": 654
+    },
+    {
+      "decade": 2000,
+      "joke_count": 777
+    },
+    {
+      "decade": 2010,
+      "joke_count": 1787
+    },
+    {
+      "decade": 2020,
+      "joke_count": 911
+    }
+  ]
+}

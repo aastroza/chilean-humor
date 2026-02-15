@@ -295,25 +295,136 @@ class AdvancedTopicAnalyzer:
 
     def plot_top_topics_over_time(self, top_n: int = 10):
         t = self.weighted_topic_year.copy()
-        top_topics = (
-            t.groupby("topic_final")["weighted_mass"]
-            .sum()
-            .sort_values(ascending=False)
-            .head(top_n)
-            .index.tolist()
+        if t.empty:
+            return
+
+        topic_popularity = (
+            t.groupby("topic_final")["weighted_mass"].sum().sort_values(ascending=False)
         )
-        p = t[t["topic_final"].isin(top_topics)].pivot_table(
-            index="year", columns="topic_final", values="prevalence_pct", fill_value=0.0
+        if topic_popularity.empty:
+            return
+
+        top_topic_id = int(topic_popularity.index[0])
+
+        year_min = int(t["year"].min())
+        year_max = int(t["year"].max())
+        all_years = pd.Index(range(year_min, year_max + 1), name="year")
+
+        raw = (
+            t.pivot_table(
+                index="year",
+                columns="topic_final",
+                values="prevalence_pct",
+                aggfunc="sum",
+            )
+            .sort_index()
+            .reindex(all_years)
         )
-        fig, ax = plt.subplots(figsize=(12, 5))
-        p.plot(ax=ax)
-        ax.set_title(f"Soft topic prevalence over time (top {top_n})")
-        ax.set_xlabel("Year")
-        ax.set_ylabel("Prevalence (%)")
-        ax.grid(alpha=0.25)
+
+        smooth = {}
+        for topic_id in raw.columns.to_list():
+            s = pd.to_numeric(raw[topic_id], errors="coerce")
+            s = s.interpolate(method="linear", limit_direction="both")
+            s = s.rolling(window=3, center=True, min_periods=1).mean()
+            smooth[int(topic_id)] = s
+        smooth_df = pd.DataFrame(smooth, index=all_years)
+
+        topic_name_map = {}
+        if "topic_name_final" in t.columns:
+            topic_name_map = (
+                t[["topic_final", "topic_name_final"]]
+                .dropna(subset=["topic_name_final"])
+                .drop_duplicates("topic_final")
+                .set_index("topic_final")["topic_name_final"]
+                .to_dict()
+            )
+        top_topic_label = self._topic_short_label(
+            top_topic_id,
+            topic_name_map.get(top_topic_id),
+        )
+
+        fig, ax = plt.subplots(figsize=(13, 6), facecolor="#eff8f7")
+        ax.set_facecolor("#ffffff")
+        ax.grid(color="#d6ecea", alpha=0.8, linewidth=0.8)
+        for side in ["top", "right"]:
+            ax.spines[side].set_visible(False)
+        ax.spines["left"].set_color("#bdddd9")
+        ax.spines["bottom"].set_color("#bdddd9")
+
+        for topic_id in smooth_df.columns.to_list():
+            if int(topic_id) == top_topic_id:
+                continue
+            ax.plot(
+                smooth_df.index,
+                smooth_df[topic_id],
+                color="#b8c3c2",
+                linewidth=1.0,
+                alpha=0.45,
+                zorder=1,
+            )
+
+        ax.plot(
+            smooth_df.index,
+            smooth_df[top_topic_id],
+            color="#22b8ad",
+            linewidth=3.4,
+            alpha=0.98,
+            zorder=3,
+            label=f"{top_topic_label} (tema mas popular)",
+        )
+        # Mark only observed (non-interpolated) points for the highlighted topic.
+        observed_mask = pd.to_numeric(raw[top_topic_id], errors="coerce").notna()
+        observed_years = smooth_df.index[observed_mask.to_numpy()]
+        observed_vals = smooth_df.loc[observed_years, top_topic_id]
+        ax.scatter(
+            observed_years,
+            observed_vals,
+            s=24,
+            marker="o",
+            facecolor="#ffffff",
+            edgecolor="#22b8ad",
+            linewidth=1.1,
+            alpha=0.95,
+            zorder=4,
+            label="Dato real",
+        )
+
+        ax.set_title(
+            "Relevancia temática por año",
+            fontsize=18,
+            color="#0f6661",
+            pad=26,
+            fontweight="bold",
+        )
+        ax.set_xlabel("Año", fontsize=12, color="#2d3d3f")
+        ax.set_ylabel("Prevalencia (%)", fontsize=12, color="#2d3d3f")
+        ax.tick_params(colors="#2d3d3f")
+        ax.legend(loc="upper right", frameon=False, fontsize=10)
+
+        ax.text(
+            0.0,
+            1.02,
+            (
+                "Marcadores: años con dato real."
+            ),
+            transform=ax.transAxes,
+            fontsize=9,
+            color="#587272",
+            va="bottom",
+        )
+        fig.text(
+            0.5,
+            0.015,
+            "Suavizado: interpolación lineal de años faltantes + media movil de 3 años.",
+            ha="center",
+            fontsize=10,
+            color="#587272",
+        )
+
         save_plot(
             fig,
             self.cfg.output_dir / "figures" / "soft_topic_prevalence_top_topics.png",
+            layout_rect=(0.0, 0.04, 1.0, 0.94),
         )
 
     def plot_top_topics_over_decades(self, top_n: int = 10):

@@ -1,0 +1,626 @@
+{
+  "dataset_id": "chilean_humor_jokes",
+  "generated_at_utc": "2026-02-15T16:08:18.262677+00:00",
+  "source_files": {
+    "segments_topics_csv": "outputs\\topic_modeling_jokes\\tables\\segments_topics.csv"
+  },
+  "totals": {
+    "n_jokes_total": 4242,
+    "n_comedians_unique": 90,
+    "n_shows_unique": 90,
+    "n_routines_unique": 134,
+    "n_festivals_unique": 44
+  },
+  "time_coverage": {
+    "year_min": 1973,
+    "year_max": 2025,
+    "n_years_covered": 44,
+    "date_min": "1973-02-02",
+    "date_max": "2025-03-01"
+  },
+  "topic_summary": {
+    "n_topics_final_total_including_outlier": 38,
+    "n_topics_final_assigned_excluding_outlier": 38,
+    "n_outlier_jokes_final_topic_minus_1": 0,
+    "n_topics_initial_total_including_outlier": 39,
+    "n_outlier_jokes_initial_topic_minus_1": 1591
+  },
+  "coverage_by_year": [
+    {
+      "year": 1973,
+      "joke_count": 12
+    },
+    {
+      "year": 1974,
+      "joke_count": 25
+    },
+    {
+      "year": 1976,
+      "joke_count": 1
+    },
+    {
+      "year": 1977,
+      "joke_count": 10
+    },
+    {
+      "year": 1978,
+      "joke_count": 13
+    },
+    {
+      "year": 1979,
+      "joke_count": 16
+    },
+    {
+      "year": 1980,
+      "joke_count": 2
+    },
+    {
+      "year": 1984,
+      "joke_count": 5
+    },
+    {
+      "year": 1988,
+      "joke_count": 14
+    },
+    {
+      "year": 1989,
+      "joke_count": 15
+    },
+    {
+      "year": 1990,
+      "joke_count": 33
+    },
+    {
+      "year": 1991,
+      "joke_count": 82
+    },
+    {
+      "year": 1992,
+      "joke_count": 10
+    },
+    {
+      "year": 1993,
+      "joke_count": 42
+    },
+    {
+      "year": 1994,
+      "joke_count": 46
+    },
+    {
+      "year": 1995,
+      "joke_count": 76
+    },
+    {
+      "year": 1996,
+      "joke_count": 87
+    },
+    {
+      "year": 1997,
+      "joke_count": 84
+    },
+    {
+      "year": 1998,
+      "joke_count": 105
+    },
+    {
+      "year": 1999,
+      "joke_count": 89
+    },
+    {
+      "year": 2000,
+      "joke_count": 144
+    },
+    {
+      "year": 2001,
+      "joke_count": 53
+    },
+    {
+      "year": 2002,
+      "joke_count": 47
+    },
+    {
+      "year": 2003,
+      "joke_count": 16
+    },
+    {
+      "year": 2004,
+      "joke_count": 72
+    },
+    {
+      "year": 2005,
+      "joke_count": 85
+    },
+    {
+      "year": 2006,
+      "joke_count": 114
+    },
+    {
+      "year": 2007,
+      "joke_count": 126
+    },
+    {
+      "year": 2008,
+      "joke_count": 75
+    },
+    {
+      "year": 2009,
+      "joke_count": 45
+    },
+    {
+      "year": 2010,
+      "joke_count": 34
+    },
+    {
+      "year": 2011,
+      "joke_count": 71
+    },
+    {
+      "year": 2012,
+      "joke_count": 133
+    },
+    {
+      "year": 2013,
+      "joke_count": 118
+    },
+    {
+      "year": 2014,
+      "joke_count": 183
+    },
+    {
+      "year": 2015,
+      "joke_count": 192
+    },
+    {
+      "year": 2016,
+      "joke_count": 344
+    },
+    {
+      "year": 2017,
+      "joke_count": 379
+    },
+    {
+      "year": 2018,
+      "joke_count": 201
+    },
+    {
+      "year": 2019,
+      "joke_count": 132
+    },
+    {
+      "year": 2020,
+      "joke_count": 257
+    },
+    {
+      "year": 2023,
+      "joke_count": 201
+    },
+    {
+      "year": 2024,
+      "joke_count": 194
+    },
+    {
+      "year": 2025,
+      "joke_count": 259
+    }
+  ],
+  "coverage_by_decade": [
+    {
+      "decade": 1970,
+      "joke_count": 77
+    },
+    {
+      "decade": 1980,
+      "joke_count": 36
+    },
+    {
+      "decade": 1990,
+      "joke_count": 654
+    },
+    {
+      "decade": 2000,
+      "joke_count": 777
+    },
+    {
+      "decade": 2010,
+      "joke_count": 1787
+    },
+    {
+      "decade": 2020,
+      "joke_count": 911
+    }
+  ],
+  "top_comedians_by_jokes": [
+    {
+      "comedian": "Pedro Ruminot",
+      "joke_count": 187
+    },
+    {
+      "comedian": "Dinamita Show",
+      "joke_count": 167
+    },
+    {
+      "comedian": "Edo Caroe",
+      "joke_count": 151
+    },
+    {
+      "comedian": "Dino Gordillo",
+      "joke_count": 135
+    },
+    {
+      "comedian": "Álvaro Salas",
+      "joke_count": 132
+    },
+    {
+      "comedian": "Juan Pablo López",
+      "joke_count": 125
+    },
+    {
+      "comedian": "Coco Legrand",
+      "joke_count": 122
+    },
+    {
+      "comedian": "Palta Meléndez",
+      "joke_count": 121
+    },
+    {
+      "comedian": "Fabrizio Copano",
+      "joke_count": 108
+    },
+    {
+      "comedian": "Daniela \"Chiqui\" Aguayo",
+      "joke_count": 102
+    },
+    {
+      "comedian": "Juan Luis \"Jajá\" Calderón",
+      "joke_count": 102
+    },
+    {
+      "comedian": "Los Locos del Humor",
+      "joke_count": 100
+    },
+    {
+      "comedian": "Paulo Iglesias",
+      "joke_count": 90
+    },
+    {
+      "comedian": "Bombo Fica",
+      "joke_count": 89
+    },
+    {
+      "comedian": "Sandy",
+      "joke_count": 88
+    },
+    {
+      "comedian": "Arturo Ruiz-Tagle",
+      "joke_count": 85
+    },
+    {
+      "comedian": "Los Indolatinos",
+      "joke_count": 81
+    },
+    {
+      "comedian": "Hermógenes Conache",
+      "joke_count": 77
+    },
+    {
+      "comedian": "Gloria Benavides",
+      "joke_count": 74
+    },
+    {
+      "comedian": "Stefan Kramer",
+      "joke_count": 74
+    }
+  ],
+  "top_shows_by_jokes": [
+    {
+      "show": "Pedro Ruminot",
+      "joke_count": 187
+    },
+    {
+      "show": "Dinamita Show",
+      "joke_count": 167
+    },
+    {
+      "show": "Edo Caroe",
+      "joke_count": 151
+    },
+    {
+      "show": "Dino Gordillo",
+      "joke_count": 135
+    },
+    {
+      "show": "Álvaro Salas",
+      "joke_count": 132
+    },
+    {
+      "show": "Juan Pablo López",
+      "joke_count": 125
+    },
+    {
+      "show": "Coco Legrand",
+      "joke_count": 122
+    },
+    {
+      "show": "Palta Meléndez",
+      "joke_count": 121
+    },
+    {
+      "show": "Fabrizio Copano",
+      "joke_count": 108
+    },
+    {
+      "show": "Daniela \"Chiqui\" Aguayo",
+      "joke_count": 102
+    },
+    {
+      "show": "Juan Luis \"Jajá\" Calderón",
+      "joke_count": 102
+    },
+    {
+      "show": "Los Locos del Humor",
+      "joke_count": 100
+    },
+    {
+      "show": "Paulo Iglesias",
+      "joke_count": 90
+    },
+    {
+      "show": "Bombo Fica",
+      "joke_count": 89
+    },
+    {
+      "show": "Sandy",
+      "joke_count": 88
+    },
+    {
+      "show": "Arturo Ruiz-Tagle",
+      "joke_count": 85
+    },
+    {
+      "show": "Los Indolatinos",
+      "joke_count": 81
+    },
+    {
+      "show": "Hermógenes Conache",
+      "joke_count": 77
+    },
+    {
+      "show": "Gloria Benavides",
+      "joke_count": 74
+    },
+    {
+      "show": "Stefan Kramer",
+      "joke_count": 74
+    }
+  ],
+  "topic_distribution_final_assigned": [
+    {
+      "topic_id": 0,
+      "topic_name": "0_chile_chileno_chilenos_país",
+      "joke_count": 545,
+      "share_pct": 12.847713342762848
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "1_mamá_papá_hija_hijos",
+      "joke_count": 342,
+      "share_pct": 8.062234794908061
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "3_mujeres_hombres_mujer_hombre",
+      "joke_count": 256,
+      "share_pct": 6.034889203206035
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "2_doctor_médico_farmacia_chino",
+      "joke_count": 222,
+      "share_pct": 5.233380480905233
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "4_huevones_huevada_hueones_pues huevón",
+      "joke_count": 185,
+      "share_pct": 4.3611504007543616
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "5_matrimonio_amante_pareja_marido",
+      "joke_count": 156,
+      "share_pct": 3.6775106082036775
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "8_festival_famosa_pez_fidel",
+      "joke_count": 147,
+      "share_pct": 3.4653465346534658
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "10_auto_chofer_micro_compadre",
+      "joke_count": 131,
+      "share_pct": 3.088165959453088
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "9_loro_presidente_políticos_política",
+      "joke_count": 123,
+      "share_pct": 2.8995756718528995
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "7_oh oh_chao_chao chao_oh",
+      "joke_count": 116,
+      "share_pct": 2.7345591702027345
+    },
+    {
+      "topic_id": 12,
+      "topic_name": "12_reggaeton_canción_gusta_luis miguel",
+      "joke_count": 115,
+      "share_pct": 2.710985384252711
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "6_selva_cucaracha_toalla_vamos vamos",
+      "joke_count": 110,
+      "share_pct": 2.593116454502593
+    },
+    {
+      "topic_id": 11,
+      "topic_name": "11_pesos_tarjeta_cajero_000",
+      "joke_count": 109,
+      "share_pct": 2.5695426685525695
+    },
+    {
+      "topic_id": 14,
+      "topic_name": "14_celular_teléfono_facebook_redes",
+      "joke_count": 108,
+      "share_pct": 2.545968882602546
+    },
+    {
+      "topic_id": 15,
+      "topic_name": "15_profe_profesor_educación_matemáticas",
+      "joke_count": 100,
+      "share_pct": 2.3573785950023574
+    },
+    {
+      "topic_id": 16,
+      "topic_name": "16_papa_pastor_iglesia_padre",
+      "joke_count": 94,
+      "share_pct": 2.215935879302216
+    },
+    {
+      "topic_id": 13,
+      "topic_name": "13_mono_checho_colorín_colorín colorín",
+      "joke_count": 92,
+      "share_pct": 2.1687883074021688
+    },
+    {
+      "topic_id": 18,
+      "topic_name": "18_baño_cama_ducha_dormitorio",
+      "joke_count": 87,
+      "share_pct": 2.050919377652051
+    },
+    {
+      "topic_id": 21,
+      "topic_name": "21_abuela_vieja_abuelo_momia",
+      "joke_count": 84,
+      "share_pct": 1.9801980198019802
+    },
+    {
+      "topic_id": 17,
+      "topic_name": "17_teniente_conejo_vino_copete",
+      "joke_count": 83,
+      "share_pct": 1.9566242338519568
+    },
+    {
+      "topic_id": 19,
+      "topic_name": "19_anthony_tata_grado_francisco",
+      "joke_count": 76,
+      "share_pct": 1.7916077322017916
+    },
+    {
+      "topic_id": 20,
+      "topic_name": "20_almas_mira mira_diana_caperucita",
+      "joke_count": 76,
+      "share_pct": 1.7916077322017916
+    },
+    {
+      "topic_id": 27,
+      "topic_name": "27_martín_cumpleaños_universidad_edad",
+      "joke_count": 71,
+      "share_pct": 1.6737388024516737
+    },
+    {
+      "topic_id": 22,
+      "topic_name": "22_toallita_bombero_marihuana_fumar",
+      "joke_count": 70,
+      "share_pct": 1.65016501650165
+    },
+    {
+      "topic_id": 26,
+      "topic_name": "26_lobo_burro_gallina_pollos",
+      "joke_count": 66,
+      "share_pct": 1.5558698727015559
+    },
+    {
+      "topic_id": 30,
+      "topic_name": "30_jimmy_dieta_gordo_sartén",
+      "joke_count": 63,
+      "share_pct": 1.4851485148514851
+    },
+    {
+      "topic_id": 29,
+      "topic_name": "29_jorge_pam_pam pam_chimbombo",
+      "joke_count": 60,
+      "share_pct": 1.4144271570014144
+    },
+    {
+      "topic_id": 28,
+      "topic_name": "28_presidente_piñera_sebastián_ser presidente",
+      "joke_count": 59,
+      "share_pct": 1.3908533710513908
+    },
+    {
+      "topic_id": 24,
+      "topic_name": "24_tele_película_casting_toto",
+      "joke_count": 58,
+      "share_pct": 1.3672795851013673
+    },
+    {
+      "topic_id": 23,
+      "topic_name": "23_perro_perrito_rocky_sale sale",
+      "joke_count": 57,
+      "share_pct": 1.3437057991513437
+    },
+    {
+      "topic_id": 25,
+      "topic_name": "25_pegado_cartero_canción_ten",
+      "joke_count": 55,
+      "share_pct": 1.2965582272512965
+    },
+    {
+      "topic_id": 31,
+      "topic_name": "31_permiso permiso_permiso_bailemos_salsoteca",
+      "joke_count": 51,
+      "share_pct": 1.2022630834512023
+    },
+    {
+      "topic_id": 32,
+      "topic_name": "32_pan_mayonesa_pasando_tomate",
+      "joke_count": 48,
+      "share_pct": 1.1315417256011315
+    },
+    {
+      "topic_id": 35,
+      "topic_name": "35_guitarra_play_mosca_ta",
+      "joke_count": 48,
+      "share_pct": 1.1315417256011315
+    },
+    {
+      "topic_id": 37,
+      "topic_name": "37_salta salta_salta_gimnasio_san antonio",
+      "joke_count": 48,
+      "share_pct": 1.1315417256011315
+    },
+    {
+      "topic_id": 33,
+      "topic_name": "33_sueño_sueños_oso_anoche",
+      "joke_count": 47,
+      "share_pct": 1.107967939651108
+    },
+    {
+      "topic_id": 36,
+      "topic_name": "36_avión_helicóptero_cinturón_aviones",
+      "joke_count": 46,
+      "share_pct": 1.0843941537010844
+    },
+    {
+      "topic_id": 34,
+      "topic_name": "34_abogado_salí_cayó suelo_ascensor",
+      "joke_count": 38,
+      "share_pct": 0.8958038661008958
+    }
+  ]
+}
