@@ -263,6 +263,16 @@ def run_slug(cfg: SweepConfig) -> str:
     )
 
 
+def config_slug(cfg: SweepConfig) -> str:
+    min_dist = str(cfg.umap_min_dist).replace(".", "p")
+    return (
+        f"u{cfg.umap_n_neighbors}_d{min_dist}_"
+        f"cs{cfg.hdbscan_min_cluster_size}_"
+        f"ms{cfg.hdbscan_min_samples}_"
+        f"{cfg.hdbscan_cluster_selection_method}"
+    )
+
+
 def safe_float(value: Any) -> float | None:
     try:
         if value is None:
@@ -452,6 +462,7 @@ def run_single(
 
     elapsed_seconds = time.perf_counter() - started
     row: dict[str, Any] = {
+        "config_id": config_slug(cfg),
         "run_id": run_id,
         "status": status,
         "reused_existing": reused_existing,
@@ -521,6 +532,86 @@ def topic_count_score(series: pd.Series, target: float) -> pd.Series:
         distance = abs(float(value) - target) / max(1.0, target)
         out.append(math.exp(-distance))
     return pd.Series(out, index=series.index)
+
+
+def aggregate_by_config(
+    ranked_runs: pd.DataFrame,
+    rank_multi_topic_threshold: float,
+    target_topic_count: float,
+) -> pd.DataFrame:
+    rt_key = threshold_key(rank_multi_topic_threshold)
+    multi_col = f"multi_share_{rt_key}"
+
+    successful = ranked_runs[ranked_runs["status"] == "success"].copy()
+    if successful.empty:
+        return pd.DataFrame()
+
+    group_cols = [
+        "config_id",
+        "umap_n_neighbors",
+        "umap_min_dist",
+        "hdbscan_min_cluster_size",
+        "hdbscan_min_samples",
+        "hdbscan_cluster_selection_method",
+    ]
+
+    agg_spec: dict[str, list[str]] = {
+        "seed": ["count", "nunique"],
+        "score": ["mean", "std"],
+        "topic_diversity_topk": ["mean", "std"],
+        "outlier_rate_final": ["mean", "std"],
+        "n_topics_final": ["mean", "std"],
+        multi_col: ["mean", "std"],
+        "elapsed_seconds": ["mean"],
+    }
+
+    grouped = successful.groupby(group_cols, dropna=False).agg(agg_spec).reset_index()
+    grouped.columns = [
+        "_".join(part for part in col if part).rstrip("_") for col in grouped.columns
+    ]
+    grouped = grouped.rename(
+        columns={
+            "seed_count": "n_runs_success",
+            "seed_nunique": "n_seeds_success",
+            "score_mean": "score_mean_runs",
+            "score_std": "score_std_runs",
+            "topic_diversity_topk_mean": "topic_diversity_mean",
+            "topic_diversity_topk_std": "topic_diversity_std",
+            "outlier_rate_final_mean": "outlier_rate_final_mean",
+            "outlier_rate_final_std": "outlier_rate_final_std",
+            "n_topics_final_mean": "n_topics_final_mean",
+            "n_topics_final_std": "n_topics_final_std",
+            f"{multi_col}_mean": f"{multi_col}_mean",
+            f"{multi_col}_std": f"{multi_col}_std",
+            "elapsed_seconds_mean": "elapsed_seconds_mean",
+        }
+    )
+
+    grouped["score_topic_diversity"] = minmax_scale(grouped["topic_diversity_mean"])
+    grouped["score_multi_topic"] = minmax_scale(grouped[f"{multi_col}_mean"])
+    grouped["score_outlier"] = 1.0 - minmax_scale(grouped["outlier_rate_final_mean"])
+    grouped["score_topic_count"] = topic_count_score(
+        grouped["n_topics_final_mean"], target_topic_count
+    )
+
+    score_std_series = pd.to_numeric(grouped["score_std_runs"], errors="coerce")
+    grouped["score_stability"] = 1.0 - minmax_scale(score_std_series.fillna(score_std_series.max()))
+    grouped["score_stability"] = grouped["score_stability"].fillna(0.5)
+
+    grouped["score_config"] = (
+        0.30 * grouped["score_topic_diversity"].fillna(0.0)
+        + 0.25 * grouped["score_multi_topic"].fillna(0.0)
+        + 0.20 * grouped["score_outlier"].fillna(0.0)
+        + 0.15 * grouped["score_topic_count"].fillna(0.0)
+        + 0.10 * grouped["score_stability"].fillna(0.0)
+    )
+
+    grouped = grouped.sort_values(
+        by=["score_config", "topic_diversity_mean", f"{multi_col}_mean"],
+        ascending=[False, False, False],
+        na_position="last",
+    )
+    return grouped
 
 
 def main() -> None:
@@ -608,6 +699,14 @@ def main() -> None:
     )
     ranked.to_csv(leaderboard_path, index=False)
 
+    config_leaderboard = aggregate_by_config(
+        ranked_runs=ranked,
+        rank_multi_topic_threshold=args.rank_multi_topic_threshold,
+        target_topic_count=args.target_topic_count,
+    )
+    config_leaderboard_path = args.output_root / "leaderboard_configs.csv"
+    config_leaderboard.to_csv(config_leaderboard_path, index=False)
+
     best_path = args.output_root / "best_config.json"
     best_row = ranked[ranked["status"] == "success"].head(1)
     if not best_row.empty:
@@ -618,7 +717,22 @@ def main() -> None:
     else:
         print("No successful runs to rank.")
 
+    best_cfg_path = args.output_root / "best_config_aggregated.json"
+    if not config_leaderboard.empty:
+        best_cfg = config_leaderboard.head(1).iloc[0].to_dict()
+        best_cfg_path.write_text(
+            json.dumps(best_cfg, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(
+            "Best aggregated config: "
+            f"{best_cfg.get('config_id')} (score_config={best_cfg.get('score_config'):.4f})"
+        )
+        print(f"Best aggregated config saved to: {best_cfg_path}")
+    else:
+        print("No successful configs to aggregate.")
+
     print(f"Leaderboard saved to: {leaderboard_path}")
+    print(f"Config leaderboard saved to: {config_leaderboard_path}")
 
 
 if __name__ == "__main__":
