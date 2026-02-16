@@ -1,6 +1,6 @@
 {
   "dataset_id": "chilean_humor_jokes",
-  "generated_at_utc": "2026-02-15T16:08:18.262677+00:00",
+  "generated_at_utc": "2026-02-16T03:20:22.639830+00:00",
   "totals": {
     "n_jokes_total": 4242,
     "n_comedians_unique": 90,
@@ -64,48 +64,6 @@
       "joke_count": 102
     }
   ],
-  "top_shows_by_jokes": [
-    {
-      "show": "Pedro Ruminot",
-      "joke_count": 187
-    },
-    {
-      "show": "Dinamita Show",
-      "joke_count": 167
-    },
-    {
-      "show": "Edo Caroe",
-      "joke_count": 151
-    },
-    {
-      "show": "Dino Gordillo",
-      "joke_count": 135
-    },
-    {
-      "show": "Álvaro Salas",
-      "joke_count": 132
-    },
-    {
-      "show": "Juan Pablo López",
-      "joke_count": 125
-    },
-    {
-      "show": "Coco Legrand",
-      "joke_count": 122
-    },
-    {
-      "show": "Palta Meléndez",
-      "joke_count": 121
-    },
-    {
-      "show": "Fabrizio Copano",
-      "joke_count": 108
-    },
-    {
-      "show": "Daniela \"Chiqui\" Aguayo",
-      "joke_count": 102
-    }
-  ],
   "coverage_by_decade": [
     {
       "decade": 1970,
@@ -130,6 +88,68 @@
     {
       "decade": 2020,
       "joke_count": 911
+    }
+  ],
+  "top_topics_by_jokes": [
+    {
+      "topic_id": 0,
+      "topic_name": "Chilenidad",
+      "topic_description": "Humor sobre Chile y chilenos.",
+      "joke_count": 545
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "Familia",
+      "topic_description": "Chistes de padres e hijos.",
+      "joke_count": 342
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Sexos",
+      "topic_description": "Choques entre hombres y mujeres.",
+      "joke_count": 256
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Médicos",
+      "topic_description": "Consultas y enredos de salud.",
+      "joke_count": 222
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Huevones",
+      "topic_description": "Crítica social en clave coloquial.",
+      "joke_count": 185
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Matrimonio",
+      "topic_description": "Parejas, celos e infidelidades.",
+      "joke_count": 156
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "Festival",
+      "topic_description": "Referencias a Viña y famosos.",
+      "joke_count": 147
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "Transporte",
+      "topic_description": "Autos, micros y choferes.",
+      "joke_count": 131
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "Política",
+      "topic_description": "Sátira de políticos y poder.",
+      "joke_count": 123
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "Remates",
+      "topic_description": "Juegos de palabras y remates.",
+      "joke_count": 116
     }
   ]
 }

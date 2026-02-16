@@ -1,33 +1,39 @@
-topic_id,nombre_actual,nuevo_nombre
-0,0_perro_perrito_mono_gallo,ANIMALES
-1,1_canción_pegado_música_luis,MÚSICA Y CANCIONES
-2,2_chileno_chile_chilenos_argentino,CHILENOS vs OTRAS NACIONALIDADES
-3,3_presidente_checho_piñera_chile,POLÍTICA
-4,4_abuela_vieja_abuelita_suegra,LA ABUELITA
-5,5_mujeres_hombres_mujer_hombre,HOMBRES vs MUJERES
-6,6_hijos_guagua_hija_mamá,MATERNIDAD Y PATERNIDAD
-7,7_avión_auto_micro_chofer,MEDIOS DE TRANSPORTE
-8,8_amante_mujer_marido_matrimonio,MATRIMONIOS Y AMANTES
-9,9_comida_comió_pan_olla,COMIDA
-10,10_salta salta_salta_bailar_baile,BAILAR
-11,11_jorge_cama_dormir_pa,DORMIR
-12,12_marihuana_jimmy_droga_vino,ALCOHOL Y DROGAS
-13,13_almas_tele_casting_martín,CINE Y TV
-14,14_loro_carabineros_cartero_carabinero,CARABINEROS
-15,15_fome_show_oh oh_dichato,ESCENARIO
-16,16_cielo_pi_san pedro_pérez,RELIGIÓN
-17,17_celular_teléfono_momia_aló,TELÉFONOS
-18,18_ciudad_temuco_emocionante_buenas noches,GEOGRAFÍA DE CHILE
-19,19_colegio_profe_profesor_profesora,PROFESORES
-20,20_farmacia_viagra_viejito_cajas,FARMACIAS
-21,21_pam_pam pam_luna_tenis,VIAJES
-22,22_doctor_médico_doctor doctor_hospital,MÉDICOS Y HOSPITALES
-23,23_tac_tac tac_hijos_papá,HIJOS
-24,24_plata_bolsa_crédito_chino,DINERO
-25,25_agua_pez_pueblo_nadar,EL MAR
-26,26_pesos_banco_lucas_crisis,FINANZAS
-27,27_espejo_hermana_bonita_ropa,RELACIONES SEXUALES
-28,28_terremoto_noticias_ta_grado,TERREMOTOS
-29,29_amiga_mira mira_amigas_tenés hacer,RELACIONES AMOROSAS
-30,30_maestro_foto_llené_comentar,DOBLE SENTIDO
-31,31_niño_cabro chico_cabro_chico,NIÑEZ
+﻿"topic_id","nombre_actual","nuevo_nombre","descripcion"
+"0","0_chile_chileno_chilenos_país","Chilenidad","Humor sobre Chile y chilenos."
+"1","1_mamá_papá_hija_hijos","Familia","Chistes de padres e hijos."
+"2","2_doctor_médico_farmacia_chino","Médicos","Consultas y enredos de salud."
+"3","3_mujeres_hombres_mujer_hombre","Sexos","Choques entre hombres y mujeres."
+"4","4_huevones_huevada_hueones_pues huevón","Huevones","Crítica social en clave coloquial."
+"5","5_matrimonio_amante_pareja_marido","Matrimonio","Parejas, celos e infidelidades."
+"6","6_selva_cucaracha_toalla_vamos vamos","Picardía","Chistes cortos de doble sentido."
+"7","7_oh oh_chao_chao chao_oh","Remates","Juegos de palabras y remates."
+"8","8_festival_famosa_pez_fidel","Festival","Referencias a Viña y famosos."
+"9","9_loro_presidente_políticos_política","Política","Sátira de políticos y poder."
+"10","10_auto_chofer_micro_compadre","Transporte","Autos, micros y choferes."
+"11","11_pesos_tarjeta_cajero_000","Dinero","Plata, cajeros y tarjetas."
+"12","12_reggaeton_canción_gusta_luis miguel","Reggaeton","Música popular y letras."
+"13","13_mono_checho_colorín_colorín colorín","Desvaríos","Rutinas absurdas y nonsense."
+"14","14_celular_teléfono_facebook_redes","Redes","Telefonos, celular y redes sociales."
+"15","15_profe_profesor_educación_matemáticas","Escuela","Profesores, clases y alumnos."
+"16","16_papa_pastor_iglesia_padre","Religión","Iglesia, curas y fe."
+"17","17_teniente_conejo_vino_copete","Copete","Alcohol y descontrol."
+"18","18_baño_cama_ducha_dormitorio","Intimidad","Baño, cama y dormitorio."
+"19","19_anthony_tata_grado_francisco","Copuchas","Tallitas de farándula y escenario."
+"20","20_almas_mira mira_diana_caperucita","Boleros","Canciones románticas y parodias."
+"21","21_abuela_vieja_abuelo_momia","Abuelos","Vejez y humor generacional."
+"22","22_toallita_bombero_marihuana_fumar","Vicios","Fumar, marihuana y excesos."
+"23","23_perro_perrito_rocky_sale sale","Perritos","Humor con perros y mascotas."
+"24","24_tele_película_casting_toto","Pantalla","Television, cine y casting."
+"25","25_pegado_cartero_canción_ten","Pegados","Canciones repetitivas y pegajosas."
+"26","26_lobo_burro_gallina_pollos","Granja","Animales de campo y fabulas."
+"27","27_martín_cumpleaños_universidad_edad","Edad","Vejez, apariencia y anos."
+"28","28_presidente_piñera_sebastián_ser presidente","Presidencia","Chistes sobre el poder presidencial."
+"29","29_jorge_pam_pam pam_chimbombo","Personajes","Imitaciones y personajes escenicos."
+"30","30_jimmy_dieta_gordo_sartén","Dieta","Gordura, comida y cuerpo."
+"31","31_permiso permiso_permiso_bailemos_salsoteca","Coqueteo","Baile, pareja y malentendidos."
+"32","32_pan_mayonesa_pasando_tomate","Disparates","Chistes breves y absurdos."
+"33","33_sueño_sueños_oso_anoche","Sueños","Sueños y situaciones nocturnas."
+"34","34_abogado_salí_cayó suelo_ascensor","Torpezas","Metidas de pata cotidianas."
+"35","35_guitarra_play_mosca_ta","Guitarra","Humor musical con instrumentos."
+"36","36_avión_helicóptero_cinturón_aviones","Aviación","Aviones, vuelo y aterrizajes."
+"37","37_salta salta_salta_gimnasio_san antonio","Deportes","Juego físico y gimnasios."

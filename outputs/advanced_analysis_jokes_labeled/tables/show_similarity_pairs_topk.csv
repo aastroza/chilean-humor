@@ -1,51 +1,51 @@
 show_a,show_b,cosine_similarity
-Felo,Rudy Rey,0.9103657401833507
-El Pampero,Profesor Salomón y Tutu-Tutu,0.8582806310174129
-Bombo Fica,Carlos Helo,0.8494992113530876
-Bastián Paz,Ruperto,0.8358666173500717
-Julio Sabala,Rudy Rey,0.8355494985791361
-Alejandra Azcárate,Jenny Cavallo,0.8341140900792201
-Memo Bunke y Natalia Cuevas,Payahop,0.8165840199203639
-Los Atletas de la Risa,Paulo Iglesias,0.7700843858954768
-Julio Sabala,Mauricio Palma,0.76337070559182
-Payahop,Rodrigo Villegas,0.7508928036109014
-Felo,Julio Sabala,0.7482860921119606
-Belén Mora,Jenny Cavallo,0.738477346030144
-Dino Gordillo,Álvaro Salas,0.7334013183928
-"Daniel Muñoz ""El Carmelo""",Payahop,0.7236837339797633
-Dinamita Show,"Jorge ""Chino"" Navarrete",0.7176794736906899
-Hermógenes Conache,Los Indolatinos,0.714831055936095
-Alex Ortiz,Luis Slimming,0.7107143263969601
-Julio Sabala,Memo Bunke y Natalia Cuevas,0.7078539069181875
-Edmundo Arrocet,George Harris,0.7046215327777515
-Dinamita Show,Álvaro Salas,0.7011446450155452
-Coco Legrand,Jani Dueñas,0.6948188549710143
-Huaso Filomeno,Hugo Varela,0.6930027919597079
-Bastián Paz,Fusión Humor,0.6908393471058227
-Fusión Humor,Ruperto,0.6896836152454661
-Mauricio Palma,Payahop,0.6894094308852826
-Edmundo Arrocet,Ricardo Meruane,0.6858483115706834
-Lucho Miranda,Pamela Leiva,0.6783477549362612
-"Daniel Muñoz ""El Carmelo""",Gloria Benavides,0.677385740974679
-Gloria Benavides,Millenium Show,0.6771855434930174
-Alejandra Azcárate,"Daniela ""Chiqui"" Aguayo",0.6767354098778553
-Fabrizio Copano,Huaso Filomeno,0.6742426927372018
-"Daniela ""Chiqui"" Aguayo",Zip-Zup,0.6718309964070712
-Diego Urrutia,Rudy Rey,0.6693566531993167
-Felipe Avello,Pamela Leiva,0.6642044912217345
-Gloria Benavides,Stefan Kramer,0.6634538809164973
-"Daniel Muñoz ""El Carmelo""",Millenium Show,0.662888261453236
-Julio Sabala,Payahop,0.6609956299528015
-Dinamita Show,Pancho del Sur,0.6609633251894109
-Pedro Ruminot,Rodrigo González,0.6565404688569911
-Edo Caroe,Fabrizio Copano,0.6545517448650802
-Mauricio Palma,Rudy Rey,0.6524559468331957
-Jorge Alís,Pedro Ruminot,0.6515566202000659
-Alison Mandel,Pam Pam,0.6504658462274929
-Dino Gordillo,Óscar Gangas,0.6501560459964142
-Bastián Paz,Jani Dueñas,0.6473294911543592
-Ruperto,Stefan Kramer,0.6437216953022143
-Felo,Natalia Cuevas,0.6426791840657051
-Edo Caroe,Rodrigo González,0.6399797772518077
-Palta Meléndez,Álvaro Salas,0.6390480106655154
-Gloria Benavides,Payahop,0.6383823446516087
+Fabrizio Copano,Pedro Ruminot,0.9497716072470915
+Edo Caroe,Pedro Ruminot,0.9331297425996907
+Pedro Ruminot,Sergio Freire,0.9290607672668024
+Edo Caroe,Fabrizio Copano,0.9230272364173607
+Fabrizio Copano,Sergio Freire,0.9027162042832931
+Edo Caroe,Sergio Freire,0.8974371896310376
+Hermógenes Conache,Pedro Ruminot,0.8790371075753468
+Arturo Ruiz-Tagle,Pedro Ruminot,0.864458600224566
+Alejandra Azcárate,Jenny Cavallo,0.8515829087948761
+Hermógenes Conache,Juan Pablo López,0.8471961466776464
+Arturo Ruiz-Tagle,Edo Caroe,0.8340877943447885
+Arturo Ruiz-Tagle,Álvaro Salas,0.8332636378953862
+Jorge Alís,Pedro Ruminot,0.8328043962264399
+George Harris,Hermógenes Conache,0.8317434387179045
+George Harris,Pedro Ruminot,0.8301880446081163
+Arturo Ruiz-Tagle,Sergio Freire,0.8281011999369557
+Edo Caroe,Rodrigo González,0.826887156771695
+Arturo Ruiz-Tagle,Fabrizio Copano,0.8239279024253026
+Bastián Paz,Javiera Contador,0.8233116577066318
+Hermógenes Conache,Jorge Alís,0.822917859176602
+Belén Mora,Jenny Cavallo,0.8210238763927458
+Luis Slimming,Sergio Freire,0.8172067851353894
+Edo Caroe,Hermógenes Conache,0.8159825507307841
+Coco Legrand,"Juan Luis ""Jajá"" Calderón",0.810131054082667
+Luis Slimming,Pedro Ruminot,0.8089887411934775
+Coco Legrand,Ricardo Meruane,0.8086715891929227
+Bombo Fica,Jorge Alís,0.8079798690251683
+Arturo Ruiz-Tagle,Luis Slimming,0.8076218280068116
+Palta Meléndez,Álvaro Salas,0.807265477373298
+Fabrizio Copano,Hermógenes Conache,0.8053386059483044
+Pedro Ruminot,Rodrigo González,0.8039579023483289
+Jorge Alís,Óscar Gangas,0.8033829420739358
+George Harris,Óscar Gangas,0.8031482828373004
+Dino Gordillo,Javiera Contador,0.8014455502313421
+Fabrizio Copano,Rodrigo González,0.7988977357417536
+Edo Caroe,Jorge Alís,0.7987629213665791
+Arturo Ruiz-Tagle,Hermógenes Conache,0.7962850996289722
+Arturo Ruiz-Tagle,Dino Gordillo,0.7947749786672013
+Javiera Contador,Jenny Cavallo,0.7936123837651325
+Arturo Ruiz-Tagle,Jorge Alís,0.7928414142392798
+Alejandra Azcárate,Javiera Contador,0.7925240256277285
+Jorge Alís,Sergio Freire,0.7878237461105705
+Juan Pablo López,Pedro Ruminot,0.7876556058276315
+Luis Slimming,Álvaro Salas,0.7843839766169454
+Edo Caroe,Álvaro Salas,0.7834784184695618
+Dino Gordillo,Hugo Goodman,0.7824963449984432
+Pedro Ruminot,Álvaro Salas,0.7813125262384137
+Diego Urrutia,Julio Sabala,0.7800094299893762
+Dino Gordillo,Edo Caroe,0.7781004423933404
+Javiera Contador,Sarah Sanders,0.7779853687673142

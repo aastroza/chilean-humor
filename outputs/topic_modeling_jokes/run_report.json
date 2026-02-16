@@ -12,9 +12,9 @@
     "min_text_tokens": 2,
     "language": "multilingual",
     "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-    "use_jina_embeddings": true,
-    "jina_provider": "api",
-    "jina_model_name": "jina-embeddings-v4",
+    "use_jina_embeddings": false,
+    "jina_provider": "local",
+    "jina_model_name": "jinaai/jina-embeddings-v4",
     "jina_task": "text-matching",
     "jina_truncate_dim": 128,
     "jina_batch_size": 16,
@@ -43,12 +43,12 @@
     ],
     "ctfidf_reduce_frequent_words": true,
     "ctfidf_bm25_weighting": true,
-    "umap_n_neighbors": 15,
+    "umap_n_neighbors": 20,
     "umap_n_components": 10,
     "umap_min_dist": 0.0,
     "umap_metric": "cosine",
     "hdbscan_min_cluster_size": 22,
-    "hdbscan_min_samples": 6,
+    "hdbscan_min_samples": 1,
     "hdbscan_metric": "euclidean",
     "hdbscan_cluster_selection_method": "eom",
     "global_tuning": true,
@@ -78,10 +78,10 @@
     }
   },
   "params": {
-    "embedding_model_name": "jina-embeddings-v4",
-    "use_jina_embeddings": true,
+    "embedding_model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "use_jina_embeddings": false,
     "umap": {
-      "n_neighbors": 15,
+      "n_neighbors": 20,
       "n_components": 10,
       "min_dist": 0.0,
       "metric": "cosine",
@@ -89,7 +89,7 @@
     },
     "hdbscan": {
       "min_cluster_size": 22,
-      "min_samples": 6,
+      "min_samples": 1,
       "metric": "euclidean",
       "cluster_selection_method": "eom"
     },
@@ -113,15 +113,15 @@
     "skipped_numeric_noise": 0,
     "skipped_invalid_date": 0
   },
-  "num_topics_found": 32,
+  "num_topics_found": 38,
   "num_documents_modeled": 4242,
   "diagnostics": {
     "n_docs": 4242,
-    "outlier_rate_initial": 0.52993870815653,
+    "outlier_rate_initial": 0.37505893446487504,
     "outlier_rate_final": 0.0,
-    "n_topics_final": 32,
-    "median_topic_size": 101.0,
-    "p90_topic_size": 244.8
+    "n_topics_final": 38,
+    "median_topic_size": 83.5,
+    "p90_topic_size": 196.10000000000016
   },
   "warnings": [],
   "artifacts": {
@@ -148,8 +148,8 @@
     "topics_over_time_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling_jokes\\figures\\topics_over_time_top_n.png",
     "selected_topics_html": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling_jokes\\figures\\topics_over_time_selected.html",
     "selected_topics_png": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling_jokes\\figures\\topics_over_time_selected.png",
-    "jina_embeddings_cache": "C:\\Users\\Alonso\\Dropbox\\personal\\repos\\chilean-humor\\outputs\\topic_modeling_jokes\\embeddings_cache\\123f35a84c3454c9ff592b2061d5b89f4e33aee3eed96e75e192d80e4a9d42de.npy",
-    "jina_embeddings_loaded_from_cache": false,
+    "jina_embeddings_cache": null,
+    "jina_embeddings_loaded_from_cache": null,
     "model_dir": null
   }
 }
