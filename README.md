@@ -4,7 +4,7 @@ Tracking the history of Chilean humor.
 
 You can visit the previous version of this project (2024) [here](/backup/).
 
-**The raw dataset is available on Hugging Face: [astroza/chilean-humor-raw-transcripts](https://huggingface.co/datasets/astroza/chilean-humor-raw-transcripts).**
+**The raw dataset is available on Hugging Face: [astroza/chilean-humor-raw-transcripts](https://huggingface.co/datasets/astroza/chilean-humor-raw-transcripts). The processed version of the dataset is available at: [astroza/chilean-humor-jokes](https://huggingface.co/datasets/astroza/chilean-humor-jokes)**
 
 ## Data
 
